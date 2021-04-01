@@ -1,98 +1,192 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import React from 'react';
+import PropTypes from 'prop-types'
+import { Link, graphql, StaticQuery } from 'gatsby';
+import './navbar.css';
+import logo from '../img/logo.png';
+import { BsArrowRight } from 'react-icons/bs';
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
-    }
-  }
+class Navbar extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			active: false,
+			navBarActiveClass: '',
+			activeMenu: 0,
+			subMenuActive: false,
+			navBarSubMenuActiveClass: '',
+			defaultMenuActive: false,
+			defaultMenuActiveClass: '',
+			subMenuActive: false,
+			subMenuActiveClass: ''
+		};
+	}
 
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
-  }
+	toggleHamburger = () => {
+		this.setState(
+			{
+				active: !this.state.active
+			},
+			() => {
+				this.state.active
+					? this.setState({
+						navBarActiveClass: 'is-active'
+					})
+					: this.setState({
+						navBarActiveClass: ''
+					});
+			}
+		);
+	};
 
-  render() {
-    return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    )
-  }
+	defaultMenu = () => {
+		this.setState(
+			{
+				defaultMenuActive: !this.state.defaultMenuActive
+			},
+			() => {
+				this.state.defaultMenuActive
+					? this.setState({
+						defaultMenuActiveClass: 'active'
+					})
+					: this.setState({
+						defaultMenuActiveClass: ''
+					});
+			}
+		);
+	};
+
+	toggleSubMenu = () => {
+		this.setState(
+			{
+				subMenuActive: !this.state.subMenuActive
+			},
+			() => {
+				this.state.subMenuActive
+					? this.setState({
+						subMenuActiveClass: 'active'
+					})
+					: this.setState({
+						subMenuActiveClass: ''
+					});
+			}
+		);
+	};
+
+	onMouseOver = (index) => {
+		this.setState({
+			activeMenu: index
+		});
+	};
+
+	render() {
+		const { data } = this.props;
+		const { edges: posts } = data.allMarkdownRemark;
+		const { activeMenu } = this.state;
+		return (
+			<nav className='navbar' role='navigation' aria-label='main-navigation'>
+				<div className='container'>
+					<div className='navbar-brand'>
+						<Link to='/' className='logo' title='Logo'>
+							<img src={logo} alt='Kaldi' style={{ width: '88px' }} />
+						</Link>
+						<div
+							className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+							data-target='navMob'
+							onClick={() => this.toggleHamburger()}>
+							<span />
+							<span />
+							<span />
+						</div>
+					</div>
+					<div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
+						<div className="navbar-start">
+							<ul className="navbar-nav">
+								<li className="navbar-item dropdown">
+									<Link to="/service" className="navbar-link">Services & Consulting</Link>
+									<span
+										onClick={() => this.defaultMenu()}
+										className={`toggle ${this.state.defaultMenuActiveClass}`}
+									>
+									</span>
+									<div className={`main-sub-menu ${this.state.defaultMenuActiveClass}`}>
+										<ul className="default-active">
+											{posts.map(({ node: post }, index) => (
+												<li onMouseOver={() => this.onMouseOver(index)} key={post.id} className={`${activeMenu === index ? 'active' : ''}`}>
+													<Link to={post.fields.slug} className="navbar-link">
+														{post.frontmatter.title}
+														<BsArrowRight className='sub-icon' />
+													</Link>
+													<span
+														onClick={() => this.toggleSubMenu()}
+														className={`toggle ${this.state.subMenuActiveClass}`}
+													>
+													</span>
+													<ul className={`sub-menu ${this.state.subMenuActiveClass}`}>
+														{post.frontmatter.page.map((heading, index) => (
+															<li key={post.heading}>
+																<Link to={`${post.fields.slug.slice(0, -1)}#${index}`} className="navbar-link">
+																	{heading.heading}
+																</Link>
+															</li>
+														))}
+													</ul>
+												</li>
+											))}
+										</ul>
+									</div>
+								</li>
+								<li className="navbar-item">
+									<Link to="/workflowpost" className="navbar-link">Workflow</Link>
+								</li>
+								<li className="navbar-item">
+									<Link to="/survey" className="navbar-link">Survey Form</Link>
+								</li>
+								<li className="navbar-item">
+									<Link to="/scenario" className="navbar-link">Scenario</Link>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+		);
+	}
 }
 
-export default Navbar
+Navbar.propTypes = {
+	data: PropTypes.shape({
+		allMarkdownRemark: PropTypes.shape({
+			edges: PropTypes.array,
+		}),
+	}),
+}
+
+export default () => (
+	<StaticQuery
+		query={graphql`
+			query NavbarQuery {
+				allMarkdownRemark(
+					sort: { order: DESC, fields: [frontmatter___date] }
+					filter: { frontmatter: { templateKey: { eq: "service-post" } } }
+				) {
+					edges {
+						node {
+							excerpt(pruneLength: 400)
+							id
+							fields {
+								slug
+							}
+							frontmatter {
+								title
+								page {
+									heading
+								}
+							}
+						}
+					}
+				}
+			}
+		`}
+		render={(data, count) => <Navbar data={data} count={count} />}
+	/>
+)

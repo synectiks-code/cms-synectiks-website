@@ -8,6 +8,7 @@ export const IndexPageTemplate = ({
   title,
 }) => (
   <div>
+
     <div
       style={{
         display: 'flex',
