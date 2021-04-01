@@ -13,6 +13,114 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "scenario"
+    label: "Scenario"
+    folder: "src/pages/scenario"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "scenario-post",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: Actors List,
+          name: scenarios,
+          widget: list,
+          fields:
+            [
+              { label: Image, name: image, widget: image },
+              { label: Name, name: name, widget: text },
+              {
+                label: Use Cases,
+                name: subItems,
+                widget: list,
+                fields:
+                  [
+                    { label: Image, name: image, widget: image },
+                    { label: Name, name: name, widget: text },  
+                    {
+                      label: Use Case Slider,
+                      name: useCaseSlider,
+                      widget: list,
+                      fields:
+                        [
+                          { label: Image, name: image, widget: image },
+                          { label: Name, name: name, widget: text },
+                          { label: Text, name: text, widget: text },                   
+                        ]
+                    }                 
+                  ]
+              }
+            ]
+        }
+      - {
+          label: Slider,
+          name: slider,
+          widget: list,
+          fields:
+            [
+              { label: Image, name: image, widget: image },
+              { label: Name, name: name, widget: text },
+              { label: Text, name: text, widget: text },
+              {
+                label: More Details,
+                name: moreDetails,
+                widget: object,
+                fields:
+                  [
+                    { label: More Details Name, name: moreDetailsName, widget: text },
+                    { label: More Details Text, name: moreDetailsText, widget: text },
+                    { 
+                      label: More Details Image, 
+                      name: moreDetailsImage, 
+                      widget: list,
+                      fields:
+                        [
+                          { label: Image, name: image, widget: image },
+                        ], 
+                    },                    
+                  ],
+              }
+            ],
+        }
+  - name: "service"
+    label: "Service"
+    folder: "src/pages/service"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "service-post",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - {
+          label: Page,
+          name: page,
+          widget: list,
+          fields:
+            [
+              { label: Heading, name: heading, widget: string },
+              { label: Description, name: description, widget: text },
+            ],
+        }
+  - name: "workflowpost"
+    label: "Workflow Post"
+    folder: "src/pages/workflowpost"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "workflow-page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Workflow JSON", name: "workflowjson", widget: "object", fields: [{label: Data, name: data, widget: text}]}
   - name: "pages"
     label: "Pages"
     files:
@@ -20,12 +128,16 @@ collections:
         label: "Landing Page"
         name: "index"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "index-page",
+            }
+          - { label: Title, name: title, widget: string }
+      - file: "src/pages/survey/index.md"
+        label: "Survey"
+        name: "survey"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "survey-page"}
+          - {label: "Survey JSON", name: "surveyjson", widget: "object", fields: [{label: Data, name: data, widget: text}]}
