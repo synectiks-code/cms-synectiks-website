@@ -2,12 +2,7 @@
 templateKey: service-post
 featuredimage: /img/apple-touch-icon.png
 featuredpost: true
-title: Analytics
 date: 2021-02-23T12:38:01.441Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by
-  coffee tasters, has been revised for the first time this year.The Coffee
-  Taster’s Flavor Wheel, the official resource used by coffee tasters, has been
-  revised for the first time this year.The Coffee Taster’s Flavor Wheel
 page:
   - heading: Product One
     description: >-
@@ -95,7 +90,6 @@ page:
 
 
       Recently, JavaScript's popularity has expanded even further through the successful Node.js platform—the most popular cross-platform JavaScript runtime environment outside the browser. Node.js - built using Chrome's V8 JavaScript Engine - allows developers to use JavaScript as a scripting language to automate things on a computer and build fully functional HTTP and Web Sockets servers.
-
 testimonials:
   - quote: Testimonial One
     author: The Coffee Taster’s Flavor Wheel, the official resource used by coffee
@@ -112,5 +106,13 @@ testimonials:
   - quote: Testimonial Three
     author: This Testimonial is added after adding sliding functionality to Pages
       which will be created based on testimonials.
+title: Analytics
+description: The Coffee Taster’s Flavor Wheel, the official resource used by
+  coffee tasters, has been revised for the first time this year.The Coffee
+  Taster’s Flavor Wheel, the official resource used by coffee tasters, has been
+  revised for the first time this year.The Coffee Taster’s Flavor Wheel
+category:
+  - service
+  - service1
 ---
 My New Service
