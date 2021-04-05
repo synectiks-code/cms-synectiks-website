@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby';
+import { kebabCase } from 'lodash'
 import './navbar.css';
 import logo from '../img/logo.png';
-import { BsArrowRight } from 'react-icons/bs';
+import { BsArrowRight, BsChevronUp } from 'react-icons/bs';
 
 class Navbar extends React.Component {
 	constructor(props) {
@@ -11,6 +12,7 @@ class Navbar extends React.Component {
 		this.state = {
 			active: false,
 			navBarActiveClass: '',
+			mainMenuActiveIndex: -1,
 			activeMenu: 0,
 			subMenuActive: false,
 			navBarSubMenuActiveClass: '',
@@ -78,10 +80,69 @@ class Navbar extends React.Component {
 		});
 	};
 
+	setMainMenuActive = (index) => {
+		this.setState({
+			mainMenuActiveIndex: index
+		});
+	};
+
+	renderCategories = (mainCategory, posts) => {
+		const retData = [];
+		const dataStr = {};
+		if (posts && posts.length > 0) {
+			const length = posts.length;
+			for (let i = 0; i < length; i++) {
+				const post = posts[i].node;
+				const categories = post.frontmatter.category;
+				if (categories && categories.length > 0 && categories[0] === mainCategory) {
+					let subCategory = categories[1];
+					dataStr[subCategory] = dataStr[subCategory] || [];
+					dataStr[subCategory].push({
+						slug: post.fields.slug,
+						title: post.frontmatter.title
+					});
+				}
+			}
+			const keys = Object.keys(dataStr);
+			for (let i = 0; i < keys.length; i++) {
+				const subCategory = keys[i];
+				const pages = dataStr[keys[i]];
+				const sideJSX = <>
+					<Link to={`/category/${kebabCase(subCategory)}`} className="navbar-link">
+						{subCategory}
+						<BsArrowRight className='sub-icon' />
+					</Link>
+					<span className={`toggle ${this.state.subMenuActiveClass}`}></span>
+				</>;
+				const rightSideJSX = [];
+				for (let j = 0; j < pages.length; j++) {
+					const page = pages[j];
+					rightSideJSX.push(
+						<li key={page.slug}>
+							<Link to={page.slug} className="navbar-link">
+								{page.title}
+							</Link>
+						</li>
+					);
+				}
+				retData.push(
+					<li key={subCategory} onMouseOver={() => this.onMouseOver(i)}
+						className={`${this.state.activeMenu === i ? 'active' : ''}`}>
+						{sideJSX}
+						<ul className={`sub-menu ${this.state.subMenuActiveClass}`}>
+							{rightSideJSX}
+						</ul>
+					</li>
+				);
+			}
+		}
+		return retData;
+	};
+
 	render() {
 		const { data } = this.props;
 		const { edges: posts } = data.allMarkdownRemark;
-		const { activeMenu } = this.state;
+		const { mainMenuActiveIndex } = this.state;
 		return (
 			<nav className='navbar' role='navigation' aria-label='main-navigation'>
 				<div className='container'>
@@ -101,8 +162,9 @@ class Navbar extends React.Component {
 					<div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
 						<div className="navbar-start">
 							<ul className="navbar-nav">
-								<li className="navbar-item dropdown">
-									<Link to="/service" className="navbar-link">Services & Consulting</Link>
+								<li className={`navbar-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`}
+									onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
+									<Link className="navbar-link">Services & Consulting</Link>
 									<span
 										onClick={() => this.defaultMenu()}
 										className={`toggle ${this.state.defaultMenuActiveClass}`}
@@ -110,29 +172,28 @@ class Navbar extends React.Component {
 									</span>
 									<div className={`main-sub-menu ${this.state.defaultMenuActiveClass}`}>
 										<ul className="default-active">
-											{posts.map(({ node: post }, index) => (
-												<li onMouseOver={() => this.onMouseOver(index)} key={post.id} className={`${activeMenu === index ? 'active' : ''}`}>
-													<Link to={post.fields.slug} className="navbar-link">
-														{post.frontmatter.title}
-														<BsArrowRight className='sub-icon' />
-													</Link>
-													<span
-														onClick={() => this.toggleSubMenu()}
-														className={`toggle ${this.state.subMenuActiveClass}`}
-													>
-													</span>
-													<ul className={`sub-menu ${this.state.subMenuActiveClass}`}>
-														{post.frontmatter.page.map((heading, index) => (
-															<li key={post.heading}>
-																<Link to={`${post.fields.slug.slice(0, -1)}#${index}`} className="navbar-link">
-																	{heading.heading}
-																</Link>
-															</li>
-														))}
-													</ul>
-												</li>
-											))}
+											{this.renderCategories("service", posts)}
 										</ul>
+										<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
+											<BsChevronUp className='sub-icon' />
+										</button>
+									</div>
+								</li>
+								<li className={`navbar-item dropdown ${mainMenuActiveIndex === 1 ? 'active' : ''}`}
+									onMouseOver={() => this.setMainMenuActive(1)} onMouseOut={() => this.setMainMenuActive(-1)}>
+									<Link className="navbar-link">Product & Solutions</Link>
+									<span
+										onClick={() => this.defaultMenu()}
+										className={`toggle ${this.state.defaultMenuActiveClass}`}
+									>
+									</span>
+									<div className={`main-sub-menu ${this.state.defaultMenuActiveClass}`}>
+										<ul className="default-active">
+											{this.renderCategories("product", posts)}
+										</ul>
+										<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
+											<BsChevronUp className='sub-icon' />
+										</button>
 									</div>
 								</li>
 								<li className="navbar-item">
@@ -180,7 +241,8 @@ export default () => (
 								title
 								page {
 									heading
-								}
+								},
+								category
 							}
 						}
 					}

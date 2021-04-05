@@ -19,7 +19,7 @@ export default class ServiceIndexPage extends React.Component {
 							color: 'white',
 							padding: '1rem'
 						}}>
-						Latest Stories
+						Services & Consulting
 					</h1>
 				</div>
 				<section className='section'>
