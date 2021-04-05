@@ -98,7 +98,6 @@ ServicePostTemplate.propTypes = {
 	content: PropTypes.node.isRequired,
 	contentComponent: PropTypes.func,
 	description: PropTypes.string,
-	testimonials: PropTypes.array,
 	title: PropTypes.string,
 	helmet: PropTypes.object,
 	page: PropTypes.arrayOf(
@@ -118,7 +117,6 @@ const ServicePost = ({ data }) => {
 				content={post.html}
 				contentComponent={HTMLContent}
 				description={post.frontmatter.description}
-				testimonials={post.frontmatter.testimonials}
 				page={post.frontmatter.page}
 				helmet={
 					<Helmet titleTemplate='%s | Service'>
