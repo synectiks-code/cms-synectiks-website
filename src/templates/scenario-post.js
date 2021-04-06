@@ -100,6 +100,8 @@ export const scenarioPageQuery = graphql`
                 ...GatsbyImageSharpFluid
               }
             }
+            extension
+            publicURL
           }
           name
           subItems {
@@ -109,6 +111,8 @@ export const scenarioPageQuery = graphql`
                   ...GatsbyImageSharpFluid
                 }
               }
+              extension
+              publicURL
             }
             name
             useCaseSlider {
@@ -118,6 +122,8 @@ export const scenarioPageQuery = graphql`
                     ...GatsbyImageSharpFluid
                   }
                 }
+                extension
+                publicURL
               }
               name
               text
@@ -131,6 +137,8 @@ export const scenarioPageQuery = graphql`
                 ...GatsbyImageSharpFluid
               }
             }
+            extension
+            publicURL
           }
           name
           text
@@ -144,6 +152,8 @@ export const scenarioPageQuery = graphql`
                     ...GatsbyImageSharpFluid
                   }
                 }
+                extension
+                publicURL
               }
             }
           }

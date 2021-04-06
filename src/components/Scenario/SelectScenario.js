@@ -33,7 +33,7 @@ const SelectScenario = ({ scenarios, onClickUseCase, onClickCloseScenario }) => 
                   <div className={`item ${selectedScenario === scenario ? 'active' : ''}`} onClick={() => onClickSubSelectScenario(scenario)}>
                     <div className="image">
                       <img
-                        src={scenario.image && scenario.image.childImageSharp ? scenario.image.childImageSharp.fluid.src : scenario.image}
+                        src={scenario.image.publicURL}
                         alt={scenario.name}
                         title={scenario.name}
                         width="60"
@@ -56,7 +56,7 @@ const SelectScenario = ({ scenarios, onClickUseCase, onClickCloseScenario }) => 
                     <div className="item" onClick={() => { onClickUseCase(item) }}>
                       <div className="image">
                         <img
-                          src={item.image && item.image.childImageSharp ? item.image.childImageSharp.fluid.src : item.image}
+                          src={item.image.publicURL}
                           alt={item.name}
                           title={item.name}
                           width="60"
