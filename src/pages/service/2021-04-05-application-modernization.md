@@ -2,7 +2,7 @@
 templateKey: service-post
 featuredimage: /img/apple-touch-icon.png
 featuredpost: true
-title: Application Modernization
+title: DevSecOps Assement
 date: 2021-04-05T17:26:46.476Z
 description: The Coffee Taster’s Flavor Wheel, the official resource used by
   coffee tasters, has been revised for the first time this year.The Coffee

@@ -46,10 +46,14 @@ span.Collapsible__trigger.is-open {
     #navMenu {
         display: block;
     }
-
-    .navbar-brand .logo {
-        padding: 0.9rem 0.75rem;
+   .flex-menu {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding-left: 3rem;
     }
+
+    
 
     .navbar-nav .navbar-item {
         display: inline-block;

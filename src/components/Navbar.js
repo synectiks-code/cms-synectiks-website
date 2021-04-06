@@ -145,7 +145,7 @@ class Navbar extends React.Component {
 		const { mainMenuActiveIndex } = this.state;
 		return (
 			<nav className='navbar' role='navigation' aria-label='main-navigation'>
-				<div className='container'>
+				   <div className='flex-menu'>
 					<div className='navbar-brand'>
 						<Link to='/' className='logo' title='Logo'>
 							<img src={logo} alt='Kaldi' style={{ width: '88px' }} />
@@ -162,6 +162,23 @@ class Navbar extends React.Component {
 					<div id="navMenu" className={`navbar-menu ${this.state.navBarActiveClass}`}>
 						<div className="navbar-start">
 							<ul className="navbar-nav">
+<li className={`navbar-item dropdown ${mainMenuActiveIndex === 1 ? 'active' : ''}`}
+									onMouseOver={() => this.setMainMenuActive(1)} onMouseOut={() => this.setMainMenuActive(-1)}>
+									<Link className="navbar-link">Product & Solutions</Link>
+									<span
+										onClick={() => this.defaultMenu()}
+										className={`toggle ${this.state.defaultMenuActiveClass}`}
+									>
+									</span>
+									<div className={`main-sub-menu ${this.state.defaultMenuActiveClass}`}>
+										<ul className="default-active">
+											{this.renderCategories("product", posts)}
+										</ul>
+										<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
+											<BsChevronUp className='sub-icon' />
+										</button>
+									</div>
+								</li>
 								<li className={`navbar-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`}
 									onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
 									<Link className="navbar-link">Services & Consulting</Link>
@@ -179,23 +196,7 @@ class Navbar extends React.Component {
 										</button>
 									</div>
 								</li>
-								<li className={`navbar-item dropdown ${mainMenuActiveIndex === 1 ? 'active' : ''}`}
-									onMouseOver={() => this.setMainMenuActive(1)} onMouseOut={() => this.setMainMenuActive(-1)}>
-									<Link className="navbar-link">Product & Solutions</Link>
-									<span
-										onClick={() => this.defaultMenu()}
-										className={`toggle ${this.state.defaultMenuActiveClass}`}
-									>
-									</span>
-									<div className={`main-sub-menu ${this.state.defaultMenuActiveClass}`}>
-										<ul className="default-active">
-											{this.renderCategories("product", posts)}
-										</ul>
-										<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
-											<BsChevronUp className='sub-icon' />
-										</button>
-									</div>
-								</li>
+								
 								<li className="navbar-item">
 									<Link to="/workflowpost" className="navbar-link">Workflow</Link>
 								</li>
@@ -208,7 +209,7 @@ class Navbar extends React.Component {
 							</ul>
 						</div>
 					</div>
-				</div>
+				 </div>
 			</nav>
 		);
 	}
