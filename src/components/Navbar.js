@@ -145,7 +145,7 @@ class Navbar extends React.Component {
 		const { mainMenuActiveIndex } = this.state;
 		return (
 			<nav className='navbar' role='navigation' aria-label='main-navigation'>
-				 <div className='<div className='flex-menu'>'>
+				   <div className='flex-menu'>
 					<div className='navbar-brand'>
 						<Link to='/' className='logo' title='Logo'>
 							<img src={logo} alt='Kaldi' style={{ width: '88px' }} />
