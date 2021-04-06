@@ -47,5 +47,5 @@ page:
       because they thought we had scrubbed fox imagery from our browser.
 category:
   - service
-  - Assement
+  - Assesment
 ---
