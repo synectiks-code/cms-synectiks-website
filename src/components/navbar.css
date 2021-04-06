@@ -46,6 +46,12 @@ span.Collapsible__trigger.is-open {
     #navMenu {
         display: block;
     }
+   .flex-menu {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding-left: 3rem;
+    }
 
     
 
