@@ -144,8 +144,8 @@ class Navbar extends React.Component {
 		const { edges: posts } = data.allMarkdownRemark;
 		const { mainMenuActiveIndex } = this.state;
 		return (
-			<nav className='navbar container' role='navigation' aria-label='main-navigation'>
-				 
+			<nav className='navbar' role='navigation' aria-label='main-navigation'>
+				 <div className='container-fluid px-6'>
 					<div className='navbar-brand'>
 						<Link to='/' className='logo' title='Logo'>
 							<img src={logo} alt='Kaldi' style={{ width: '88px' }} />
@@ -209,7 +209,7 @@ class Navbar extends React.Component {
 							</ul>
 						</div>
 					</div>
-				 
+				 </div>
 			</nav>
 		);
 	}
