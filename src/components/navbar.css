@@ -47,9 +47,7 @@ span.Collapsible__trigger.is-open {
         display: block;
     }
 
-    .navbar-brand .logo {
-        padding: 0.9rem 0.75rem;
-    }
+    
 
     .navbar-nav .navbar-item {
         display: inline-block;
