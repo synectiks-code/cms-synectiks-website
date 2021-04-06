@@ -2,7 +2,7 @@
 templateKey: service-post
 featuredimage: /img/apple-touch-icon.png
 featuredpost: true
-title: Cloud Migration Assement
+title: Cloud Migration Assesment
 date: 2021-04-05T17:23:30.160Z
 description: The Coffee Taster’s Flavor Wheel, the official resource used by
   coffee tasters, has been revised for the first time this year.The Coffee
@@ -47,5 +47,5 @@ page:
       because they thought we had scrubbed fox imagery from our browser.
 category:
   - service
-  - Assement
+  - Assesment
 ---
