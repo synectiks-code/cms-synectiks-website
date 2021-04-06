@@ -38,7 +38,7 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
       <CustomGallery layoutRef={layoutRef} ui={PhotoswipeUIDefault}>
         {slider.map((sliderContent, index) => (
           <article key={v4()} className={`slider-content ${currentSlide === index ? 'active' : ''}`}>
-            <Scrollbars>
+            {/* <Scrollbars> */}
               <div className="item-image">
                 <Item
                   original={sliderContent.image && sliderContent.image.childImageSharp ? sliderContent.image.childImageSharp.fluid.src : sliderContent.image}
@@ -61,15 +61,15 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                 </Item>
               </div>
               <div className="item-content">
-                <div className="columns is-multiline">
-                  <div className="column is-10">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                <div style={{display: "flex", alignItems: "center"}}>
+                  <div style={{padding: "0px"}} className="column is-10">
+                    <h3 className="has-text-weight-semibold">
                       {sliderContent.name}
                     </h3>
                   </div>
                   {
                     showMoreDetailsButton &&
-                    <div className="column is-2">
+                    <div style={{padding: "0px"}} className="column is-2">
                       <button className="button is-link float-right more-details-btn" onClick={onClickMoreDetails}>More details</button>
                       {showMoreDetails &&
                         <div
@@ -117,15 +117,15 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                     </div>
                   }
                 </div>
-                <div className="columns is-multiline">
-                  <div className="column is-12">
+                <div className="">
+                  <div className="">
                     <p>
                       {sliderContent.text}
                     </p>
                   </div>
                 </div>
               </div>
-            </Scrollbars>
+            {/* </Scrollbars> */}
           </article>
         ))}
         <ul className="pager">
