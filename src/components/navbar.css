@@ -48,7 +48,7 @@ span.Collapsible__trigger.is-open {
 }
 
 
-@media(min-width: 786px) {
+@media(min-width: 1024px) {
     .navbar.desktop {
         display: block;
     }
@@ -252,7 +252,7 @@ span.Collapsible__trigger.is-open {
 
 }
 
-@media(max-width: 786px) {
+@media(max-width: 1023px) {
     .navbar.desktop {
         display: none;
     }
@@ -434,5 +434,13 @@ span.Collapsible__trigger.is-open {
         display: block;
     }
 
+    .mobile .navbar-nav .navbar-item .default-active span {
+        top: 0;
+    }
+}
 
+@media (max-width: 568px) {
+    .navbar.mobile .navbar-menu {
+        width: 85%;
+    }
 }
