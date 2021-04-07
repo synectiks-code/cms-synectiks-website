@@ -12,7 +12,7 @@ scenarios:
             name: test1
             text: test1
 slider:
-  - image: /img/giphy.gif
+  - image: /img/asuretify-logo.svg
     name: s1
     text: dsfsaf sdfsadf
     moreDetails:
