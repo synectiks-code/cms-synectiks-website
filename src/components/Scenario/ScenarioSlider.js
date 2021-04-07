@@ -41,8 +41,8 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
             {/* <Scrollbars> */}
               <div className="item-image">
                 <Item
-                  original={sliderContent.image.publicURL}
-                  thumbnail={sliderContent.image.publicURL}
+                  original={sliderContent.image.publicURL ? sliderContent.image.publicURL : sliderContent.image}
+                  thumbnail={sliderContent.image.publicURL ? sliderContent.image.publicURL : sliderContent.image}
                   width="1920"
                   height="1280"
                 >
@@ -52,7 +52,7 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                         <AiOutlineFullscreen />
                       </button>
                       <img
-                        src={sliderContent.image.publicURL}
+                        src={sliderContent.image.publicURL ? sliderContent.image.publicURL : sliderContent.image}
                         alt={sliderContent.name}
                         title={sliderContent.name}
                       />
@@ -75,7 +75,7 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                         <div
                           className="more-details-content"
                           style={{
-                            backgroundImage: `url(${sliderContent.image.publicURL})`,
+                            backgroundImage: `url(${sliderContent.image.publicURL ? sliderContent.image.publicURL : sliderContent.image})`,
                           }}
                         >
                           <Scrollbars>
@@ -98,7 +98,7 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                                       sliderContent.moreDetails.moreDetailsImage.map((image, index) =>
                                         <div key={v4()} className="image">
                                           <img
-                                            src={image.image.publicURL}
+                                            src={image.image.publicURL ? image.image.publicURL : image.image}
                                             alt={sliderContent.moreDetails.moreDetailsName}
                                             title={sliderContent.moreDetails.moreDetailsName}
                                             width="300"
