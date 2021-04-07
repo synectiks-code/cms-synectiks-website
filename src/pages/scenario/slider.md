@@ -20,4 +20,10 @@ slider:
       moreDetailsText: dsfdsaf
       moreDetailsImage:
         - image: /img/blog-index.jpg
+  - image: /img/screenshot_1-1-.svg
+    name: s2
+    text: wwwweee
+    moreDetails:
+      moreDetailsName: www
+      moreDetailsText: wweffggggg
 ---
