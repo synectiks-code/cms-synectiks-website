@@ -20,7 +20,7 @@ slider:
       moreDetailsText: dsfdsaf
       moreDetailsImage:
         - image: /img/blog-index.jpg
-  - image: /img/screenshot_1-1-.svg
+  - image: /img/screen2.svg
     name: s2
     text: wwwweee
     moreDetails:
