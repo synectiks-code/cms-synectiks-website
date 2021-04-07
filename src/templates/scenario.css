@@ -70,7 +70,7 @@ body {
 
 .scenario-slider-container .slider-content .item-image img {
   cursor: pointer;
-  max-width: 720px;
+  width: 720px;
   height: calc(100% - 70px);
 }
 
