@@ -51,6 +51,7 @@ span.Collapsible__trigger.is-open {
 @media(min-width: 1024px) {
     .navbar.desktop {
         display: block;
+        border-bottom: 1px solid #f9f3f3;
     }
 
     .navbar.mobile {
@@ -84,8 +85,8 @@ span.Collapsible__trigger.is-open {
     }
 
     .desktop .navbar-nav .navbar-item .navbar-link:hover {
-        color: rgb(255, 68, 0);
-        background-color: transparent;
+        color: #0062ff;
+        background-color: transparent !important;
     }
 
     .desktop .navbar-nav .navbar-item .navbar-link:not(.is-arrowless):after {
@@ -97,7 +98,7 @@ span.Collapsible__trigger.is-open {
         content: "";
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
-        background-color: rgb(255, 68, 0);
+        background-color: #0062ff;
         bottom: -12px;
         height: 4px;
         left: 0;
@@ -120,8 +121,8 @@ span.Collapsible__trigger.is-open {
         border-radius: 2px;
         border-right: 0;
         border-top: 0;
-        border-color: rgb(255, 68, 0);
-        margin-top: -0.275em;
+        border-color: #323232;
+        margin-top: -0.325em;
         right: 1.125em;
         content: " ";
         display: block;
@@ -134,8 +135,13 @@ span.Collapsible__trigger.is-open {
         width: 0.625em;
     }
 
+    .desktop .navbar-nav .navbar-item.dropdown:hover>.navbar-link::after,
+    .desktop .navbar-nav .navbar-item.dropdown>.navbar-link:hover::after {
+        border-color: #0062ff;
+    }
+
     .desktop .navbar-nav .navbar-item.dropdown:hover>.navbar-link {
-        color: rgb(255, 68, 0);
+        color: #0062ff;
     }
 
     .desktop .navbar-nav .navbar-item.dropdown .main-sub-menu {
@@ -169,7 +175,7 @@ span.Collapsible__trigger.is-open {
     .desktop .main-sub-menu .btn-close {
         z-index: 10;
         position: absolute;
-        bottom: 15px;
+        bottom: 30px;
         left: 48%;
         width: 36px;
         height: 36px;
@@ -181,7 +187,7 @@ span.Collapsible__trigger.is-open {
         background-color: transparent;
     }
 
-    .desktop .default-active {
+    .desktop .navbar-nav .navbar-item .default-active {
         position: static;
         left: 0;
         display: flex;
@@ -194,26 +200,37 @@ span.Collapsible__trigger.is-open {
         z-index: 0;
     }
 
-    .desktop .default-active>li {
+    .desktop .navbar-nav .navbar-item .default-active>li {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .desktop .default-active>li>a {
+    .desktop .navbar-nav .navbar-item .default-active>li>a {
         display: block;
         padding: 0.5rem 1rem;
         margin-bottom: .5rem;
     }
 
-    .desktop .default-active>li:hover>a,
-    .desktop .default-active>li>a:hover {
-        background-color: #f0f0f0 !important;
+    .desktop .navbar-nav .navbar-item .default-active>li.active>a,
+    .desktop .navbar-nav .navbar-item .default-active>li:hover>a,
+    .desktop .navbar-nav .navbar-item .default-active>li>a:hover {
+        background-color: #0062ff !important;
+        color: #ffffff !important;
+    }
+
+    .desktop .navbar-nav .navbar-item .default-active>li>a.current-page {
+        color: #ffffff !important;
+        background-color: #0062ff !important;
+        border: #ffffff solid 1px !important;
+        outline: #0062ff solid 1px !important;
     }
 
     .desktop .default-active>li>a>.sub-icon {
         float: right;
         opacity: 0;
-        margin-top: 5px;
+        margin-top: 0px;
+        width: 24px;
+        font-size: 24px;
     }
 
     .desktop .default-active>li>a:hover>.sub-icon {
@@ -225,7 +242,7 @@ span.Collapsible__trigger.is-open {
         display: block;
     }
 
-    .desktop .sub-menu {
+    .desktop .navbar-nav .navbar-item .sub-menu {
         position: absolute;
         left: 22%;
         top: 0;
@@ -239,15 +256,20 @@ span.Collapsible__trigger.is-open {
         display: none;
     }
 
-    .desktop .sub-menu li {
+    .desktop .navbar-nav .navbar-item .sub-menu li {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .desktop .sub-menu li a {
+    .desktop .navbar-nav .navbar-item .sub-menu li a {
         display: block;
         padding: 0.5rem 1rem;
         margin-bottom: .5rem;
+        color: #0062ff;
+    }
+
+    .desktop .navbar-nav .navbar-item .sub-menu li a:hover {
+        text-decoration: underline;
     }
 
 }
@@ -306,7 +328,7 @@ span.Collapsible__trigger.is-open {
         width: 50%;
         height: calc(100% - 0px);
         padding-top: 0;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         overflow-y: auto;
         display: block;
         opacity: 0;
@@ -338,13 +360,23 @@ span.Collapsible__trigger.is-open {
         position: absolute;
         width: 2.25rem;
         margin-left: auto;
-        background-color: rgba(0, 0, 0, 0.05);
+        background-color: transparent;
         text-align: center;
         line-height: 28px;
         font-size: 32px;
         font-weight: 200;
-
     }
+
+    .mobile .navbar-nav .navbar-item span.active {
+        color: #ffffff;
+    }
+
+    .mobile .navbar-nav .navbar-item span.main-menu {
+        width: 92.5%;
+        text-align: right;
+        padding-right: 10px;
+    }
+
 
     .mobile .navbar-nav .navbar-item span::before {
         content: "+";
@@ -358,9 +390,24 @@ span.Collapsible__trigger.is-open {
         color: #212529;
     }
 
-    .mobile .navbar-nav .navbar-item .navbar-link:hover {
-        color: rgb(255, 68, 0);
-        background-color: transparent;
+    .mobile .navbar-nav>.navbar-item.dropdown.active>.navbar-link {
+        color: rgb(255, 255, 255);
+        background-color: #0062ff;
+    }
+
+    .mobile .default-active>.sub-navbar-item.active>.navbar-link {
+        color: rgb(255, 255, 255);
+        background-color: #0062ff;
+    }
+
+    .mobile .navbar-nav .navbar-item .navbar-link.current-page {
+        color: #ffffff !important;
+        background-color: #0062ff !important;
+        border: #ffffff solid 1px !important;
+        outline: #0062ff solid 1px !important;
+    }
+    .mobile .navbar-nav .navbar-item .navbar-link.current-page + span.toggle {
+        color: #ffffff;
     }
 
     .mobile .navbar-nav .navbar-item .navbar-link:after {
@@ -435,12 +482,16 @@ span.Collapsible__trigger.is-open {
     }
 
     .mobile .navbar-nav .navbar-item .default-active span {
-        top: 0;
+        top: 3px;
+    }
+
+    .mobile .navbar-menu .navbar-start {
+        border-top: 2px solid #5a5a5a;
     }
 }
 
 @media (max-width: 568px) {
     .navbar.mobile .navbar-menu {
-        width: 85%;
+        width: 100%;
     }
 }
