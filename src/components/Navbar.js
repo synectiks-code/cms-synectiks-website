@@ -14,8 +14,22 @@ class Navbar extends React.Component {
 			mainMenuActiveIndex: -1,
 			activeMenu: 0,
 			mobileMenuActiveStatus: [false, false],
-			mobileSubMenuActiveStatus: []
+			mobileSubMenuActiveStatus: [],
+			currentPath: ''
 		};
+	}
+
+	setCurrentPage = () => {
+		if (typeof (window) !== 'undefined') {
+			const location = window.location;
+			this.setState({
+				currentPath: location.pathname
+			});
+		}
+	};
+
+	componentDidMount() {
+		this.setCurrentPage();
 	}
 
 	toggleHamburger = () => {
@@ -61,6 +75,7 @@ class Navbar extends React.Component {
 	renderCategoriesDesktop = (mainCategory, posts) => {
 		const retData = [];
 		const dataStr = {};
+		const { currentPath } = this.state;
 		if (posts && posts.length > 0) {
 			const length = posts.length;
 			for (let i = 0; i < length; i++) {
@@ -80,7 +95,7 @@ class Navbar extends React.Component {
 				const subCategory = keys[i];
 				const pages = dataStr[keys[i]];
 				const sideJSX = <>
-					<Link to={`/category/${kebabCase(subCategory)}`} className="navbar-link">
+					<Link to={`/category/${kebabCase(subCategory)}`} className={`navbar-link ${currentPath === `/category/${kebabCase(subCategory)}` ? 'current-page' : ''}`}>
 						{subCategory}
 						<BsArrowRight className='sub-icon' />
 					</Link>
@@ -113,7 +128,7 @@ class Navbar extends React.Component {
 	renderCategoriesMobile = (mainCategory, posts) => {
 		const retData = [];
 		const dataStr = {};
-		const { mobileSubMenuActiveStatus } = this.state;
+		const { mobileSubMenuActiveStatus, currentPath } = this.state;
 		if (posts && posts.length > 0) {
 			const length = posts.length;
 			for (let i = 0; i < length; i++) {
@@ -133,7 +148,7 @@ class Navbar extends React.Component {
 				const subCategory = keys[i];
 				const pages = dataStr[keys[i]];
 				const sideJSX = <>
-					<Link to={`/category/${kebabCase(subCategory)}`} className="navbar-link">
+					<Link to={`/category/${kebabCase(subCategory)}`} className={`navbar-link ${currentPath === `/category/${kebabCase(subCategory)}` ? 'current-page' : ''}`}>
 						{subCategory}
 						<BsArrowRight className='sub-icon' />
 					</Link>
@@ -154,7 +169,7 @@ class Navbar extends React.Component {
 					);
 				}
 				retData.push(
-					<li key={subCategory}>
+					<li key={subCategory} className={`sub-navbar-item ${mobileSubMenuActiveStatus[i] ? 'active' : ''}`}>
 						{sideJSX}
 						<ul className={`sub-menu ${mobileSubMenuActiveStatus[i] ? 'active' : ''}`}>
 							{rightSideJSX}
@@ -247,11 +262,11 @@ class Navbar extends React.Component {
 							</div>
 							<div className="navbar-start">
 								<ul className="navbar-nav">
-									<li className={`navbar-item dropdown`}>
+									<li className={`navbar-item dropdown ${mobileMenuActiveStatus[0] ? 'active' : ''}`}>
 										<Link className="navbar-link">Product & Solutions</Link>
 										<span
 											onClick={() => this.setMobileMenuActiveStatus(0)}
-											className={`toggle ${mobileMenuActiveStatus[0] ? 'active' : ''}`}
+											className={`toggle main-menu ${mobileMenuActiveStatus[0] ? 'active' : ''}`}
 										>
 										</span>
 										<div className={`main-sub-menu ${mobileMenuActiveStatus[0] ? 'active' : 'hide'}`}>
@@ -260,11 +275,11 @@ class Navbar extends React.Component {
 											</ul>
 										</div>
 									</li>
-									<li className={`navbar-item dropdown`}>
+									<li className={`navbar-item dropdown ${mobileMenuActiveStatus[1] ? 'active' : ''}`}>
 										<Link className="navbar-link">Services & Consulting</Link>
 										<span
 											onClick={() => this.setMobileMenuActiveStatus(1)}
-											className={`toggle ${mobileMenuActiveStatus[1] ? 'active' : ''}`}
+											className={`toggle main-menu ${mobileMenuActiveStatus[1] ? 'active' : ''}`}
 										>
 										</span>
 										<div className={`main-sub-menu ${mobileMenuActiveStatus[1] ? 'active' : 'hide'}`}>

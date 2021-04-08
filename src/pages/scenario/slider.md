@@ -12,7 +12,7 @@ scenarios:
             name: test1
             text: test1
 slider:
-  - image: /img/giphy.gif
+  - image: /img/1dashboard.svg
     name: s1
     text: dsfsaf sdfsadf
     moreDetails:
@@ -20,4 +20,10 @@ slider:
       moreDetailsText: dsfdsaf
       moreDetailsImage:
         - image: /img/blog-index.jpg
+  - image: /img/screen2.svg
+    name: s2
+    text: wwwweee
+    moreDetails:
+      moreDetailsName: www
+      moreDetailsText: wweffggggg
 ---
