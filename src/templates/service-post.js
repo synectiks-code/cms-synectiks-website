@@ -54,7 +54,7 @@ export const ServicePostTemplate = ({ content, contentComponent, page, helmet })
 									</button>
 								))}
 							</div>
-							<div style={{ marginTop: '20px' }}>
+							<div>
 								<Carousel
 									afterSlide={(slideIndex) => setCurrentSlide(slideIndex)}
 									slideIndex={currentSlide}
