@@ -121,7 +121,14 @@
 .section#top{
 	padding:0rem 1.5rem;
 }
-
+.btn-stack {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 2px;
+	position: relative;
+	top: 0rem;
+}
 	.scrollBtn {
 		position: absolute;
 		top: 130vh;
@@ -135,7 +142,7 @@
 	}
 
 	.mybtnactive {
-		padding: 10px;
+		padding: 2px;
 		width: auto;
 		font-size: 12px;
 	}
