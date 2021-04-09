@@ -139,12 +139,16 @@
 		width: auto;
 		font-size: 12px;
 		padding: 10px;
+		display: flex;
+    align-items: center;
 	}
 
 	.mybtnactive {
 		padding: 2px;
 		width: auto;
 		font-size: 12px;
+		display: flex;
+    align-items: center;
 	}
 
 	.slider-control-bottomcenter {
