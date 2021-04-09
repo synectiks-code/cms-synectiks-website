@@ -94,67 +94,27 @@ export const scenarioPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         scenarios {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 60, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            extension
-            publicURL
-          }
+          img 
           name
           subItems {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 60, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-              extension
-              publicURL
-            }
+            img 
             name
             useCaseSlider {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 2048, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                extension
-                publicURL
-              }
+              img
               name
               text
             }
           }
         }
         slider {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-            extension
-            publicURL
-          }
+          img
           name
           text
           moreDetails {
             moreDetailsName
             moreDetailsText
             moreDetailsImage {
-              image {
-                childImageSharp {
-                  fluid(maxWidth: 2048, quality: 100) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-                extension
-                publicURL
-              }
+              img
             }
           }
         }

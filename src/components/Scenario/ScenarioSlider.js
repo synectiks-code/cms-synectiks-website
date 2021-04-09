@@ -41,8 +41,8 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
             {/* <Scrollbars> */}
               <div className="item-image">
                 <Item
-                  original={sliderContent.image.publicURL}
-                  thumbnail={sliderContent.image.publicURL}
+                  original={sliderContent.img}
+                  thumbnail={sliderContent.img}
                   width="1920"
                   height="1280"
                 >
@@ -52,7 +52,7 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                         <AiOutlineFullscreen />
                       </button>
                       <img
-                        src={sliderContent.image.publicURL}
+                        src={sliderContent.img}
                         alt={sliderContent.name}
                         title={sliderContent.name}
                       />
@@ -75,7 +75,7 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                         <div
                           className="more-details-content"
                           style={{
-                            backgroundImage: `url(${sliderContent.image.publicURL})`,
+                            backgroundImage: `url(${sliderContent.img})`,
                           }}
                         >
                           <Scrollbars>
@@ -95,10 +95,10 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                                   </div>
                                   <div className="column is-4">
                                     {
-                                      sliderContent.moreDetails.moreDetailsImage.map((image, index) =>
+                                      sliderContent.moreDetails.moreDetailsImage.map((img, index) =>
                                         <div key={v4()} className="image">
                                           <img
-                                            src={image.image.publicURL}
+                                            src={img.img}
                                             alt={sliderContent.moreDetails.moreDetailsName}
                                             title={sliderContent.moreDetails.moreDetailsName}
                                             width="300"
@@ -154,7 +154,7 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
 ScenarioSlider.propTypes = {
   slider: PropTypes.arrayOf(
     PropTypes.shape({
-      image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+      img: PropTypes.string,
       name: PropTypes.string,
       text: PropTypes.string,
       moreDetails: PropTypes.arrayOf(
@@ -163,7 +163,7 @@ ScenarioSlider.propTypes = {
           moreDetailsText: PropTypes.string,
           moreDetailsImage: PropTypes.arrayOf(
             PropTypes.shape({
-              image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+              img: PropTypes.string,
             })
           ),
         })

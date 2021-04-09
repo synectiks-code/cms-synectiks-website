@@ -32,7 +32,7 @@ collections:
           widget: list,
           fields:
             [
-              { label: Image, name: image, widget: image },
+              { label: Image, name: img, widget: text },
               { label: Name, name: name, widget: text },
               {
                 label: Use Cases,
@@ -40,7 +40,7 @@ collections:
                 widget: list,
                 fields:
                   [
-                    { label: Image, name: image, widget: image },
+                    { label: Image, name: img, widget: text },
                     { label: Name, name: name, widget: text },  
                     {
                       label: Use Case Slider,
@@ -48,7 +48,7 @@ collections:
                       widget: list,
                       fields:
                         [
-                          { label: Image, name: image, widget: image },
+                          { label: Image, name: img, widget: text },
                           { label: Name, name: name, widget: text },
                           { label: Text, name: text, widget: text },                   
                         ]
@@ -63,7 +63,7 @@ collections:
           widget: list,
           fields:
             [
-              { label: Image, name: image, widget: image },
+              { label: Image, name: img, widget: text },
               { label: Name, name: name, widget: text },
               { label: Text, name: text, widget: text },
               {
@@ -80,7 +80,7 @@ collections:
                       widget: list,
                       fields:
                         [
-                          { label: Image, name: image, widget: image },
+                          { label: Image, name: img, widget: text },
                         ], 
                     },                    
                   ],
