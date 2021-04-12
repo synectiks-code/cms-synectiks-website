@@ -26,4 +26,6 @@ slider:
     moreDetails:
       moreDetailsName: www
       moreDetailsText: wweffggggg
+      moreDetailsImage:
+        - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
 ---
