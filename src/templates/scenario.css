@@ -56,7 +56,7 @@ body {
 .scenario-slider-container .slider-content .item-image {
   height: calc(100% - 85px);
   width: 100%;
-  padding: 0px 10%;
+  padding: 50px 100px;
   position: fixed;
   text-align: center;
 }
@@ -69,12 +69,14 @@ body {
 }
 
 .scenario-slider-container .slider-content .item-image .item-image-div {
-  width: 100%;
   height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.scenario-slider-container .slider-content .item-image .item-image-div {
+  height: inherit;
+  max-width: 100%;
 }
 
 .scenario-slider-container .slider-content .item-content {

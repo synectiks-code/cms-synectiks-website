@@ -51,12 +51,12 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                     <button className="fullscreen">
                       <AiOutlineFullscreen />
                     </button>
-                    <div className="item-image-div" style={{backgroundImage: `url(${sliderContent.img})`}}>
-                      {/* <img
+                    <div className="item-image-div">
+                      <img
                         src={sliderContent.img}
                         alt={sliderContent.name}
                         title={sliderContent.name}
-                      /> */}
+                      />
                     </div>
                   </div>
                 )}
