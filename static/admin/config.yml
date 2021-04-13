@@ -11,16 +11,6 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-media_library:
-  name: cloudinary
-  config:
-    cloud_name: papu
-    api_key: gCnVUy2-lWSZ_-PyxywjiFgMDck
-    default_transformations:
-      - - fetch_format: auto
-          width: 160
-          quality: auto
-          crop: scale
 
 collections:
   - name: "scenario"
