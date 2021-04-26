@@ -34,6 +34,11 @@ page:
       Firefox Nightly logo appeared first on Mozilla Hacks - the Web developer
       blog.
 
+
+      ![REQU](/img/1-requistioner.jpg "REQU")
+
+
+
       JavaScript (or "JS") is a programming language used most often for dynamic client-side scripts on webpages, but it is also often used on the server-side, using a runtime such as Node.js.
 
       JavaScript should not be confused with the Java programming language. Although "Java" and "JavaScript" are trademarks (or registered trademarks) of Oracle in the U.S. and other countries, the two programming languages are significantly different in their syntax, semantics, and use cases.
