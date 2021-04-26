@@ -4,10 +4,14 @@ featuredimage: /img/apple-touch-icon.png
 featuredpost: true
 title: Hybrid Cloud
 date: 2021-04-05T17:17:16.223Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by
-  coffee tasters, has been revised for the first time this year.The Coffee
-  Taster’s Flavor Wheel, the official resource used by coffee tasters, has been
-  revised for the first time this year.The Coffee Taster’s Flavor Wheel
+description: >-
+  The Coffee Taster’s Flavor Wheel, the official resource used by coffee
+  tasters, has been revised for the first time this year.The Coffee Taster’s
+  Flavor Wheel, the official resource used by coffee tasters, has been revised
+  for the first time this year.The Coffee Taster’s Flavor
+
+
+  ![example](/img/01tenderer-dashboard.jpg "example")
 page:
   - heading: Key Features
     description: >-
