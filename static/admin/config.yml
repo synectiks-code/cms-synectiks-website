@@ -13,19 +13,19 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "scenario"
-    label: "Scenario"
-    folder: "src/pages/scenario"
+  - name: 'scenario'
+    label: 'Scenario'
+    folder: 'src/pages/scenario'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
       - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "scenario-post",
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'scenario-post',
         }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: 'Title', name: 'title', widget: 'string' }
       - {
           label: Actors List,
           name: scenarios,
@@ -41,7 +41,7 @@ collections:
                 fields:
                   [
                     { label: Image, name: img, widget: text },
-                    { label: Name, name: name, widget: text },  
+                    { label: Name, name: name, widget: text },
                     {
                       label: Use Case Slider,
                       name: useCaseSlider,
@@ -50,12 +50,12 @@ collections:
                         [
                           { label: Image, name: img, widget: text },
                           { label: Name, name: name, widget: text },
-                          { label: Text, name: text, widget: text },                   
-                        ]
-                    }                 
-                  ]
-              }
-            ]
+                          { label: Text, name: text, widget: text },
+                        ],
+                    },
+                  ],
+              },
+            ],
         }
       - {
           label: Slider,
@@ -72,36 +72,41 @@ collections:
                 widget: object,
                 fields:
                   [
-                    { label: More Details Name, name: moreDetailsName, widget: text },
-                    { label: More Details Text, name: moreDetailsText, widget: text },
-                    { 
-                      label: More Details Image, 
-                      name: moreDetailsImage, 
+                    {
+                      label: More Details Name,
+                      name: moreDetailsName,
+                      widget: text,
+                    },
+                    {
+                      label: More Details Text,
+                      name: moreDetailsText,
+                      widget: text,
+                    },
+                    {
+                      label: More Details Image,
+                      name: moreDetailsImage,
                       widget: list,
-                      fields:
-                        [
-                          { label: Image, name: img, widget: text },
-                        ], 
-                    },                    
+                      fields: [{ label: Image, name: img, widget: text }],
+                    },
                   ],
-              }
+              },
             ],
         }
-  - name: "service"
-    label: "Service"
-    folder: "src/pages/service"
+  - name: 'service'
+    label: 'Service'
+    folder: 'src/pages/service'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "service-post",
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'service-post',
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
       - {
           label: Page,
           name: page,
@@ -109,36 +114,56 @@ collections:
           fields:
             [
               { label: Heading, name: heading, widget: string },
-              { label: Description, name: description, widget: text },
+              { label: Description, name: description, widget: 'markdown' },
             ],
         }
-      - { label: "Category", name: "category", widget: "list" }  
-  - name: "workflowpost"
-    label: "Workflow Post"
-    folder: "src/pages/workflowpost"
+      - { label: 'Category', name: 'category', widget: 'list' }
+  - name: 'workflowpost'
+    label: 'Workflow Post'
+    folder: 'src/pages/workflowpost'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "workflow-page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Workflow JSON", name: "workflowjson", widget: "object", fields: [{label: Data, name: data, widget: text}]}
-  - name: "pages"
-    label: "Pages"
+      - {
+          label: 'Template Key',
+          name: 'templateKey',
+          widget: 'hidden',
+          default: 'workflow-page',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Workflow JSON',
+          name: 'workflowjson',
+          widget: 'object',
+          fields: [{ label: Data, name: data, widget: text }],
+        }
+  - name: 'pages'
+    label: 'Pages'
     files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
+      - file: 'src/pages/index.md'
+        label: 'Landing Page'
+        name: 'index'
         fields:
           - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "index-page",
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'index-page',
             }
           - { label: Title, name: title, widget: string }
-      - file: "src/pages/survey/index.md"
-        label: "Survey"
-        name: "survey"
+      - file: 'src/pages/survey/index.md'
+        label: 'Survey'
+        name: 'survey'
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "survey-page"}
-          - {label: "Survey JSON", name: "surveyjson", widget: "object", fields: [{label: Data, name: data, widget: text}]}
+          - {
+              label: 'Template Key',
+              name: 'templateKey',
+              widget: 'hidden',
+              default: 'survey-page',
+            }
+          - {
+              label: 'Survey JSON',
+              name: 'surveyjson',
+              widget: 'object',
+              fields: [{ label: Data, name: data, widget: text }],
+            }
