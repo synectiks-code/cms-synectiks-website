@@ -10,13 +10,13 @@ description: The Coffee Taster’s Flavor Wheel, the official resource used by
   revised for the first time this year.The Coffee Taster’s Flavor Wheel
 page:
   - heading: Why Us
-    description: ' <div class=""> <div class=""> <img
+    description: '  <div class=""> <div class=""> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619540106/hybrid-cloud/mt_f8axo7.png"
-      alt="" /> <p class="text-center"> Our open product based solutioning
-      model, help you innovate and transform with speed and quality. We go
-      beyond creating a strategy: Synectiks helps you plan it, do it, run it and
-      manage it. Synectiks Xformation Platform allows to quickly build and
-      deliver and orchestrate hybrid cloud services, at-scale, repeatable
+      alt="" class="w-100" /> <p class="text-center"> Our open product based
+      solutioning model, help you innovate and transform with speed and quality.
+      We go beyond creating a strategy: Synectiks helps you plan it, do it, run
+      it and manage it. Synectiks Xformation Platform allows to quickly build
+      and deliver and orchestrate hybrid cloud services, at-scale, repeatable
       offerings and solutions that help to drive your Hybrid Cloud journey @50%
       time & cost. Xformation is a single interface and platform to manage all
       your workloads distributed across multiple clouds and boundaries within a
@@ -24,28 +24,25 @@ page:
       using CloudOps delivery enabled with DevSecOps capabilities and extreme
       automation. </p> <h5 class="text-center mt-md-4"> Top 12 Reasons to select
       Synectiks as your Hybrid Cloud Partner: </h5> </div> <div class="my-2
-      my-md-4"> <div class="row"> <div class="col-sm-4 col-md-4 text-center
-      d-flex align-items-center flex-column" > <div class="d-flex
-      align-items-center flex-column"> <img
+      my-md-4"> <div class="row"> <div class="col-sm-4 col-md-4 text-center">
+      <div class="d-flex"> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png"
       alt="Experience" class="w-25 m-0" /> <h5 class="my-2
-      my-md-3">Experience</h5> </div> <p class="text-left">10+ Large Scale
-      Hybrid Cloud Transformation</p> </div> <div class="col-sm-4 col-md-4
-      text-center d-flex align-items-center flex-column" > <div class="d-flex
-      align-items-center flex-column"> <img
+      my-md-3">Experience</h5> <p class="text-left"> 10+ Large Scale Hybrid
+      Cloud Transformation </p> </div> </div> <div class="col-sm-4 col-md-4
+      text-center"> <div class=" "> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png"
       alt="Expertise" class="w-25 m-0" /> <h5 class="my-2
-      my-md-4">Expertise</h5> </div> <p class="text-left"> Experience Team with
-      a proven track record of CloudOps delivery enabled with DevSecOps
-      Capabilities </p> </div> <div class="col-sm-4 col-md-4 text-center d-flex
-      align-items-center flex-column" > <div class="d-flex align-items-center
-      flex-column"> <img
+      my-md-4">Expertise</h5> <p class="text-left"> Experience Team with a
+      proven track record of CloudOps delivery enabled with DevSecOps
+      Capabilities </p> </div> </div> <div class="col-sm-4 col-md-4
+      text-center"> <div class=" "> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619520407/hybrid-cloud/Time_Money_p750gs.png"
       alt="Time &amp; Money" class="w-25 m-0" /> <h5 class="my-2 my-md-3">Time
-      &amp; Money</h5> </div> <p class="text-left"> Our open Product Driven
-      Delivery Model allows customers to quickly build, deliver and orchestrate
-      cross cloud services @50% time &amp; cost. </p> </div> </div> </div> <div>
-      <div class="row"> <div class="col-sm-4 col-md-4 text-center d-flex
+      &amp; Money</h5> <p class="text-left"> Our open Product Driven Delivery
+      Model allows customers to quickly build, deliver and orchestrate cross
+      cloud services @50% time &amp; cost. </p> </div> </div> </div> </div>
+      <div> <div class="row"> <div class="col-sm-4 col-md-4 text-center d-flex
       align-items-center flex-column" > <div class="d-flex align-items-center
       flex-column"> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png"
