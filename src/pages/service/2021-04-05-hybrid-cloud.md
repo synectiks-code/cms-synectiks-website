@@ -248,10 +248,11 @@ page:
       src="https://res.cloudinary.com/papu/image/upload/v1619547929/hybrid-cloud/circle_lowedd.png"
       alt="" /> </div> </div>'
   - heading: Resources
-    description: The internet was set on fire (pun intended) this week, by what I'm
-      calling 'fox gate', and chances are you might have seen a meme or two
-      about the Firefox logo. Many people were pulling up for a battle royale
-      because they thought we had scrubbed fox imagery from our browser.
+    description: ' <div> <img
+      src="https://res.cloudinary.com/papu/image/upload/v1619548116/hybrid-cloud/resource_zvi9tl.png"
+      alt="" /> <img
+      src="https://res.cloudinary.com/papu/image/upload/v1619548121/hybrid-cloud/mostly_lifvgh.png"
+      alt="" /> </div>'
 category:
   - product
   - Cloud Computing
