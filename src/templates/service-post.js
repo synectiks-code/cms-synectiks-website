@@ -48,7 +48,7 @@ export const ServicePostTemplate = ({ contentComponent, page, helmet }) => {
     <React.Fragment>
       <section className='section' id='top'>
         {helmet || ''}
-        <div className='container content'>
+        <div className='container content p-0'>
           <div className='columns'>
             <div className='column is-12'>
               <div className='btn-stack'>
