@@ -97,7 +97,7 @@ page:
       src="https://res.cloudinary.com/papu/image/upload/v1619520604/hybrid-cloud/Long_Term_Retention_sy3krr.png"
       alt="Long Term Retention" class="m-0" style="width: 25%" /> <h5
       class="my-2 my-md-4">Long Term Retention</h5> <p class="text-left">100%
-      Customer Retention Rate.</p> </div> </div> </div> <p class="text-center">
+      Customer Retention Rate.</p> </div> </div> </div> <p class="text-left">
       Finally, we help you run it all at a lower cost using CloudOps delivery
       enabled with DevSecOps capabilities and extreme automation from our
       Synectiks Xformation platform driven services delivery model. Xformation
