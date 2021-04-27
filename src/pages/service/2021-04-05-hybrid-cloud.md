@@ -144,12 +144,11 @@ page:
       provision the aws environment, and assist with the security verification
       of the aws environment </p> </div>'
   - heading: Getting Started
-    description: ' <div class="px-3"> <div> <h5 class="ft">Key Strategic
-      Drivers</h5> <p class="text-left"> As companies embrace hybrid Cloud, they
-      must address both technology and the human side of change. There are
-      several key actions to take: </p> </div> <div class="row my-3"
-      style="margin: 5% 0"> <div class="d-flex flex-column flex-md-row
-      align-items-center"> <img
+    description: '<div class="px-3"> <div> <h5 class="ft">Key Strategic Drivers</h5>
+      <p class="text-left"> As companies embrace hybrid Cloud, they must address
+      both technology and the human side of change. There are several key
+      actions to take: </p> </div> <div class="row my-3" style="margin: 5% 0">
+      <div class="d-flex flex-column flex-md-row align-items-center"> <img
       src="https://synectiks.com/static/Embrace%20Cultural%20Changes-4677fc37081e929fd8f73ae7d03ae3bb.png"
       alt="Embrace Cultural Changes" class="mr-5" style="width: 8%; margin: 0
       3%" /> <div class="px-2 px-md-0"> <h5>Embrace Cultural Changes</h5> <p
@@ -211,10 +210,10 @@ page:
       IT services. The only way to accomplish this is to adopt hybrid IT and
       demonstrate to business units that IT can support the pace and scale that
       the business requires. </p> </div> </div> </div> <div> <h4
-      class="text-center"> Synectiks can enable your enterprise journey to
-      hybrid IT, regardless of your starting point. </h4> </div> <div class="row
-      my-2 my-md-5"> <div class="d-flex flex-column flex-md-row
-      align-items-center"> <img
+      class="text-center" style="margin: 3% 0"> Synectiks can enable your
+      enterprise journey to hybrid IT, regardless of your starting point. </h4>
+      </div> <div class="row my-2 my-md-5"> <div class="d-flex flex-column
+      flex-md-row align-items-center"> <img
       src="https://synectiks.com/static/Discovery&amp;Assessment-de7493f009ed096094ab1bd87a09b497.png"
       alt="Discovery &amp; Assessment" class="mr-0 mr-md-5 mt-n3" style="width:
       10%; margin: 0 3%" /> <div class="px-2 px-md-0"> <h5>Discovery &amp;
