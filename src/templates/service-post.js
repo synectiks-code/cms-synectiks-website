@@ -84,11 +84,11 @@ export const ServicePostTemplate = ({ contentComponent, page, helmet }) => {
                   {page.map((pageContent) => (
                     <div key={v4()}>
                       {/* <div className='page-heading'> */}
-                      <div className=''>
+                      {/* <div className=''>
                         <h3 className='has-text-centered has-text-weight-semibold is-size-2'>
                           {pageContent.heading}
                         </h3>
-                      </div>
+                      </div> */}
                       <PostContent
                         className='page-content'
                         content={toHTML(pageContent.description)}
