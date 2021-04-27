@@ -21,14 +21,7 @@ page:
 
       JavaScript (or "JS") is a programming language used most often for dynamic client-side scripts on webpages, but it is also often used on the server-side, using a runtime such as Node.js.
   - heading: Why Us
-    description: |-
-      ```html
-       <p style="color:blue;font-size:46px;" markdown="1">
-            I'm a big, blue, <strong>strong</strong> paragraph
-          </p>
-      ```
-
-      <h1 style='color: "blue"'>Hi This is H One Tag</h1>
+    description: "<h1 style='color: \"blue\"'>Hi This is H One Tag</h1>"
   - heading: Our Aproach
     description: The internet was set on fire (pun intended) this week, by what I'm
       calling 'fox gate', and chances are you might have seen a meme or two
