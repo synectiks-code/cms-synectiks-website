@@ -111,8 +111,11 @@ page:
       Synectiks. That’s transformation Delivered in open product based
       solutioning model. </p> </div> </div>'
   - heading: Our Approach
-    description: ' <div style=" display: flex; justify-content: center; align-items:
-      center; width: 100vw; " > <div style="width: 70vw"> <p> we recommend
+    description: '  <div class="row"> <div class="col-md-6"> <p class="text-left">
+      The first step is for CIOs to connect with the business to establish clear
+      lines of communication and to set common goals. Within the IT
+      organization, CIOs must set policies that identify the need to prepare for
+      hybrid cloud as a priority for overall IT strategies. Then we recommend
       assessing the company’s applications and IT estate and creating a roadmap
       to guide the journey to optimal hybrid cloud. This roadmap should compare
       current and future run costs to create a business case for change; assess
@@ -123,25 +126,23 @@ page:
       happen. Getting there will require transforming and migrating
       applications, integrating and orchestrating environments, automating and
       monitoring business services, enabling digital processes, and integrating
-      data and security. </p> </div> <div style="width: 30vw"> <img
+      data and security. </p> </div> <div class="col-md-6"> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619529699/hybrid-cloud/Hybrid_Cloud_ipu3ze.jpg"
-      alt="" style="width: 100%" /> </div> </div> <div style=" display: flex;
-      flex-direction: column; text-align: center; margin: 2.5rem 0rem; " > <img
+      alt="Key Strategic Drivers" class="w-50 my-2 my-md-0" /> </div> </div>
+      <div> <div class="my-3"> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619529953/hybrid-cloud/synectiks-hybriod-cloud-platform_ol2xwj.png"
-      alt="" style="width: 100%" /> <h3>Synectiks Hybrid Cloud Platform</h3>
-      </div> <div style=" display: flex; flex-direction: column; text-align:
-      center; margin: 2.5rem 0rem; " > <img
+      alt="" /> <h3>Synectiks hybriod cloud platform</h3> </div> <hr /> <div
+      class="my-3"> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619529953/hybrid-cloud/synectiks-hybriod-cloud-software_rp6p5t.png"
-      alt="" style="width: 100%" /> <h3>Synectiks Hybrid Cloud Software</h3>
-      </div> <div style=" display: flex; flex-direction: column; text-align:
-      center; margin: 2.5rem 0rem; " > <img
+      alt="" /> <h3>Synectiks hybriod cloud Software</h3> </div> <hr /> <div
+      class="my-3"> <img
       src="https://res.cloudinary.com/papu/image/upload/v1619529953/hybrid-cloud/synectiks-hybriod-cloud-services_t1ijkp.png"
-      alt="" style="width: 100%" /> <h3>Synectiks Hybrid Cloud Services</h3>
-      </div> <div> <p> The SYNECTIKS Cloud security service is designed to
-      secure identified Customer workloads in the aws cloud. Synectiks will work
-      in conjunction with Customer to validate a security plan for the
-      identified workloads, provision the aws environment, and assist with the
-      security verification of the aws environment. </p> </div>'
+      alt="" /> <h3>Synectiks hybriod cloud Service</h3> </div> <hr /> <p> The
+      SYNECTIKS Cloud security service is designed to secure identified Customer
+      workloads in the aws cloud. Synectiks will work in conjunction with
+      Customer to validate a security plan for the identified workloads,
+      provision the aws environment, and assist with the security verification
+      of the aws environment </p> </div>'
   - heading: Getting Started
     description: The internet was set on fire (pun intended) this week, by what I'm
       calling 'fox gate', and chances are you might have seen a meme or two
