@@ -144,10 +144,10 @@ page:
       provision the aws environment, and assist with the security verification
       of the aws environment </p> </div>'
   - heading: Getting Started
-    description: '  <div class="px-3"> <div> <h5 class="ft">Key Strategic
+    description: ' <div class="px-3"> <div> <h5 class="ft">Key Strategic
       Drivers</h5> <p class="text-left"> As companies embrace hybrid Cloud, they
       must address both technology and the human side of change. There are
-      several key actions to take: </p> </div> <div class="row"> <div
+      several key actions to take: </p> </div> <div class="row my-3"> <div
       class="d-flex flex-column flex-md-row align-items-center"> <img
       src="https://synectiks.com/static/Embrace%20Cultural%20Changes-4677fc37081e929fd8f73ae7d03ae3bb.png"
       alt="Embrace Cultural Changes" class="mr-5" style="width: 8%; margin: 0
@@ -159,8 +159,8 @@ page:
       methodologies so that they can build, deploy and scale applications across
       multiple infrastructure environments using Agile and DevOps processes.
       Most importantly companies need to foster a culture of learning at scale.
-      </p> </div> </div> </div> <div class="row"> <div class="d-flex flex-column
-      flex-md-row align-items-center mt-0 mt-md-3" > <img
+      </p> </div> </div> </div> <div class="row my-3"> <div class="d-flex
+      flex-column flex-md-row align-items-center mt-0 mt-md-3" > <img
       src="https://synectiks.com/static/Revamp change
       management-8a115f79d985cc7c10cba2f8b5d95d41.png" alt="Revamp Change
       Management" class="mr-5" style="width: 8%; margin: 0 3%" /> <div
@@ -170,8 +170,9 @@ page:
       appropriate in a cloud environment. Companies should revamp their change
       management systems to allow changes to happen quickly and, using automated
       workflows, to reduce manual intervention. </p> </div> </div> </div> <div
-      class="row"> <div class="d-flex flex-column flex-md-row align-items-center
-      mt-0 mt-md-3" > <img src="https://synectiks.com/static/Integrate cloud
+      class="row my-3"> <div class="d-flex flex-column flex-md-row
+      align-items-center mt-0 mt-md-3" > <img
+      src="https://synectiks.com/static/Integrate cloud
       operations-5776ee1d910883382a36bbb44872bb82.png" alt="Integrate Cloud
       Operations" class="mr-5" style="width: 8%; margin: 0 3%" /> <div
       class="px-2 px-md-0"> <h5>Integrate Cloud Operations</h5> <p
@@ -182,7 +183,7 @@ page:
       rapid response to events, incidents and requests. Adding DevOps to the mix
       then utilizes automation, integration and organizational change to enable
       more frequent enhancements that result in higher quality software. </p>
-      </div> </div> </div> <div class="row"> <div class="d-flex flex-column
+      </div> </div> </div> <div class="row my-3"> <div class="d-flex flex-column
       flex-md-row align-items-center mt-0 mt-md-3" > <img
       src="https://synectiks.com/static/Automatesupport-7a4793746c8806e6d91b2ce229686c38.png"
       alt="Automate support" class="mr-5" style="width: 8%; margin: 0 3%" />
@@ -219,7 +220,7 @@ page:
       business case and prioritized recommendations by workload or accelerate
       efforts already underway. Our recommendations reflect deep industry
       knowledge and contextual knowledge about your business. </p> </div> </div>
-      </div> <div class="row"> <div class="d-flex flex-column flex-md-row
+      </div> <div class="row my-3"> <div class="d-flex flex-column flex-md-row
       align-items-center"> <img src="https://synectiks.com/static/Transformation
       Services-5744e6b200932478941b668e9ddf153d.png" alt="Transformation
       Services" class="mr-md-5 mr-0 mt-n3" style="width: 10%; margin: 0 3%" />
