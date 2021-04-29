@@ -24,25 +24,13 @@ import Resources from '../components/Service/Resources';
 
 
 
-export const ServicePostTemplate = ({ contentComponent, page, helmet, whyus, aproach, gettingstarted }) => {
-  const PostContent = contentComponent || Content;
-  // const [ currentSlide, setCurrentSlide ] = useState(0);
+export const ServicePostTemplate = ({ contentComponent, helmet, whyus, aproach, gettingstarted }) => {
   let slideIndex = typeof window !== 'undefined' ? window.location.hash : '';
   slideIndex = parseInt(slideIndex.replace('#', ''));
   if (isNaN(slideIndex)) {
     slideIndex = 0;
   }
-  if (typeof window !== 'undefined') {
-    window.onhashchange = () => {
-      let slideIndex =
-        typeof window !== 'undefined' ? window.location.hash : '';
-      slideIndex = parseInt(slideIndex.replace('#', ''));
-      if (isNaN(slideIndex)) {
-        slideIndex = 0;
-      }
-      setCurrentSlide(slideIndex);
-    };
-  }
+  const pages = ["Why Us", "Our Approach", "Getting Started", "Resources"];
   const [currentSlide, setCurrentSlide] = useState(slideIndex);
   return (
     <React.Fragment>
@@ -52,7 +40,7 @@ export const ServicePostTemplate = ({ contentComponent, page, helmet, whyus, apr
           <div className='columns'>
             <div className='column is-12'>
               <div className='btn-stack'>
-                {page.map((pageContent, index) => (
+                {pages.map((pageContent, index) => (
                   <button
                     key={v4()}
                     className={`${currentSlide === index ? 'mybtnactive' : 'mybtn'
@@ -61,7 +49,7 @@ export const ServicePostTemplate = ({ contentComponent, page, helmet, whyus, apr
                     <span className='btn-arr-down'>
                       <BsArrowDown />
                     </span>
-                    {pageContent.heading}
+                    {pageContent}
                   </button>
                 ))}
               </div>
@@ -110,12 +98,6 @@ ServicePostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  page: PropTypes.arrayOf(
-    PropTypes.shape({
-      heading: PropTypes.string,
-      description: PropTypes.string,
-    })
-  ),
   whyus: PropTypes.object,
   aproach: PropTypes.arrayOf(
     PropTypes.shape({
@@ -134,7 +116,6 @@ const ServicePost = ({ data }) => {
       <ServicePostTemplate
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        page={post.frontmatter.page}
         helmet={
           <Helmet titleTemplate='%s | Service'>
             <title>{`${post.frontmatter.title}`}</title>
@@ -193,10 +174,6 @@ export const pageQuery = graphql`
             text
             description
           }
-        }
-        page {
-          description
-          heading
         }
       }
     }
