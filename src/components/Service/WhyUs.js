@@ -26,6 +26,7 @@ const WhyUs = ({ data }) => {
     return null;
   }
   return (
+    data ? 
     <div className="whyus-container">
       <div className="text-center whyus-banner-content">
         <img src={data.img} alt="" />
@@ -40,7 +41,8 @@ const WhyUs = ({ data }) => {
       <div className="whyus-bottom-text">
         <p>{data.conclusion}</p>
       </div>
-    </div>
+    </div> :
+    <div>No data</div>
   );
 };
 

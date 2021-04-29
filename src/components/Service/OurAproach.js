@@ -4,6 +4,7 @@ import { v4 } from 'uuid';
 
 const OurAproach = ({ data }) => {
     return (
+        data ? 
         <div className="aproach-container">
             <div className="aproach-service-container">
                 {
@@ -28,7 +29,8 @@ const OurAproach = ({ data }) => {
             {/* <div className="aproach-bottom-text">
                 <p> The SYNECTIKS Cloud security service is designed to secure identified Customer workloads in the aws cloud. Synectiks will work in conjunction with Customer to validate a security plan for the identified workloads, provision the aws environment, and assist with the security verification of the aws environment </p>
             </div> */}
-        </div>
+        </div> : 
+        <div>no data</div>
     );
 };
 

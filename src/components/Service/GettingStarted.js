@@ -4,6 +4,7 @@ import { v4 } from 'uuid';
 
 const GettingStarted = ({ data }) => {
     return (
+        data ? 
         <div className="getting-container">
             <div className="getting-heading-content">
                 <h5>{data.actiontext}</h5>
@@ -28,7 +29,8 @@ const GettingStarted = ({ data }) => {
                     )
                 })}
             </div>
-        </div>
+        </div> : 
+        <div>No data</div>
     );
 };
 

@@ -160,16 +160,6 @@ collections:
               },
             ]
         }  
-      - {
-          label: Page,
-          name: page,
-          widget: list,
-          fields:
-            [
-              { label: Heading, name: heading, widget: string },
-              { label: Description, name: description, widget: 'markdown' },
-            ],
-        }
       - { label: 'Category', name: 'category', widget: 'list' }
   - name: 'workflowpost'
     label: 'Workflow Post'
