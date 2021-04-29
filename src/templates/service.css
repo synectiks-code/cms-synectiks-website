@@ -184,3 +184,113 @@
 	cursor: pointer;
 }
 }
+
+.whyus-container .whyus-banner-content{
+	padding-top: 30px;
+}
+.whyus-container .whyus-banner-content img {
+	width: 100%;
+}
+.whyus-container .whyus-banner-content p {
+	padding-top: 20px;
+}
+.whyus-container .whyus-service-container h2 {
+	font-size: 22px;
+	line-height: 28px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.whyus-container .whyus-service-container .service-box {
+	display: block;
+	padding-bottom: 20px;
+}
+.whyus-container .whyus-service-container .service-box .image{
+	display: inline-block;
+	width: 25%;
+	padding-bottom: 10px;
+}
+.whyus-container .whyus-service-container .service-box h5{
+	font-size: 16px;
+	line-height: 22px;
+	padding-bottom: 10px;
+	display: block;
+}
+.whyus-container .whyus-bottom-text {
+	padding-bottom: 30px;	
+}
+.aproach-container .aproach-banner-content {
+	padding-top: 30px;
+}
+.aproach-container .aproach-service-container{
+	display: block;
+	margin-bottom: 40px;
+}
+.aproach-container .aproach-service-container .service {
+	display: block;
+	width: 100%;
+	margin-top: 40px;
+	
+}
+.aproach-container .aproach-service-container .service .row{
+	-webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+	-webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.aproach-container .aproach-service-container .service .image {
+	width: 100%;
+}
+
+.aproach-container .aproach-bottom-text {
+	padding-bottom: 30px;	
+}
+
+@media (min-width: 992px) {
+	.aproach-container .aproach-service-container .service .order{
+		order: 2;
+	}
+}
+@media (max-width: 767px) {
+.aproach-container .aproach-service-container .service p{
+	padding-top: 20px;
+}
+}
+
+
+.getting-container .getting-heading-content{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.getting-container .getting-heading-content h5{
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 0;
+}
+
+.getting-container .getting-service-container .service{
+	padding-bottom: 40px;
+}
+.getting-container .getting-service-container .service .image{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+.getting-container .getting-service-container .service .image img{
+	max-width: 75%;
+}
+
+.getting-container .getting-service-container .service h5{
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 0;
+	font-weight: 600;
+}
+.resources-container .image{
+	padding-top: 30px;
+	width: 58%;
+	display: block;
+}

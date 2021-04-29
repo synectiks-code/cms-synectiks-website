@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {} from 'react-router-dom';
+import { } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { kebabCase } from 'lodash';
 import { Helmet } from 'react-helmet';
@@ -17,13 +17,14 @@ import { v4 } from 'uuid';
 import './service.css';
 import ScrollTop from '../components/ScrollTop';
 import ScrollBottom from '../components/ScrollBottom';
-import remark from 'remark';
-import remarkHTML from 'remark-html';
+import WhyUs from '../components/Service/WhyUs';
+import OurAproach from '../components/Service/OurAproach';
+import GettingStarted from '../components/Service/GettingStarted';
+import Resources from '../components/Service/Resources';
 
-const toHTML = (value) =>
-  remark().use(remarkHTML).processSync(value).toString();
 
-export const ServicePostTemplate = ({ contentComponent, page, helmet }) => {
+
+export const ServicePostTemplate = ({ contentComponent, page, helmet, whyus, aproach, gettingstarted }) => {
   const PostContent = contentComponent || Content;
   // const [ currentSlide, setCurrentSlide ] = useState(0);
   let slideIndex = typeof window !== 'undefined' ? window.location.hash : '';
@@ -33,7 +34,6 @@ export const ServicePostTemplate = ({ contentComponent, page, helmet }) => {
   }
   if (typeof window !== 'undefined') {
     window.onhashchange = () => {
-      console.log('ha ha');
       let slideIndex =
         typeof window !== 'undefined' ? window.location.hash : '';
       slideIndex = parseInt(slideIndex.replace('#', ''));
@@ -55,9 +55,8 @@ export const ServicePostTemplate = ({ contentComponent, page, helmet }) => {
                 {page.map((pageContent, index) => (
                   <button
                     key={v4()}
-                    className={`${
-                      currentSlide === index ? 'mybtnactive' : 'mybtn'
-                    }`}
+                    className={`${currentSlide === index ? 'mybtnactive' : 'mybtn'
+                      }`}
                     onClick={() => setCurrentSlide(index)}>
                     <span className='btn-arr-down'>
                       <BsArrowDown />
@@ -81,20 +80,18 @@ export const ServicePostTemplate = ({ contentComponent, page, helmet }) => {
                       <AiOutlineRight />
                     </button>
                   )}>
-                  {page.map((pageContent) => (
-                    <div key={v4()}>
-                      {/* <div className='page-heading'> */}
-                      {/* <div className=''>
-                        <h3 className='has-text-centered has-text-weight-semibold is-size-2'>
-                          {pageContent.heading}
-                        </h3>
-                      </div> */}
-                      <PostContent
-                        className='page-content'
-                        content={toHTML(pageContent.description)}
-                      />
-                    </div>
-                  ))}
+                  <div>
+                    <WhyUs data={whyus} />
+                  </div>
+                  <div>
+                    <OurAproach data={aproach} />
+                  </div>
+                  <div>
+                    <GettingStarted data={gettingstarted} />
+                  </div>
+                  <div>
+                    <Resources />
+                  </div>
                 </Carousel>
                 <ScrollBottom showBelow={100} />
               </div>
@@ -119,6 +116,14 @@ ServicePostTemplate.propTypes = {
       description: PropTypes.string,
     })
   ),
+  whyus: PropTypes.object,
+  aproach: PropTypes.arrayOf(
+    PropTypes.shape({
+      img: PropTypes.string,
+      description: PropTypes.string
+    })
+  ),
+  gettingstarted: PropTypes.object,
 };
 
 const ServicePost = ({ data }) => {
@@ -140,6 +145,9 @@ const ServicePost = ({ data }) => {
           </Helmet>
         }
         title={post.frontmatter.title}
+        whyus={post.frontmatter.whyus}
+        aproach={post.frontmatter.aproach}
+        gettingstarted={post.frontmatter.gettingstarted}
       />
     </Layout>
   );
@@ -162,6 +170,30 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        whyus {
+          img
+          description
+          reasonstext
+          reasons {
+            img
+            text
+            description
+          }
+          conclusion
+        }
+        aproach {
+          img,
+          description
+        }
+        gettingstarted {
+          actiontext,
+          description,
+          actions {
+            img
+            text
+            description
+          }
+        }
         page {
           description
           heading
