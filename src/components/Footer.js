@@ -6,7 +6,7 @@ import logo from '../img/footer-logo.png';
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="position-relative d-flex flex-nowrap justify-content-center text-center py-5 w-100 footer">
+      <footer className="d-flex flex-nowrap justify-content-center text-center py-5 w-100 footer">
         <ul className="nav">
           <li className="nav-item">
             <span className="d-inline-block">©</span> <Link to="/"><img src={logo} alt="Synectiks logo" /></Link>

@@ -12,7 +12,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <>
       <div className="d-block w-100 position-absolute top-bg"></div>
-      <div className="d-block w-100 px-5 wrapper-view">
+      <div className="position-relative d-block w-100 px-5 wrapper-view">
         <div className="container-fluid">
           <Helmet>
             <html lang="en" />
@@ -55,7 +55,7 @@ const TemplateWrapper = ({ children }) => {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
           </Helmet>
           <Navbar />
-          <main className="position-relative d-block w-100 main-container">{children}</main>
+          <main className="d-block w-100 main-container">{children}</main>
           <Footer />
         </div>
       </div>

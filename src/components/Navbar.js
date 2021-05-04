@@ -186,7 +186,7 @@ class Navbar extends React.Component {
 		const { edges: posts } = data.allMarkdownRemark;
 		const { mainMenuActiveIndex, active, mobileSubMenuIndex, mobileMenuActiveStatus } = this.state;
 		return (
-			<header className="position-relative d-flex flex-nowrap justify-content-between py-4 w-100 header">
+			<header className="d-flex flex-nowrap justify-content-between py-4 w-100 header">
 				<Link to='/' className='mx-lg-5 mx-3'>
 					<img src={logo} alt="Synectiks logo" />
 				</Link>
