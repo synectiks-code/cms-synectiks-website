@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import ScenarioSlider from '../components/Scenario/ScenarioSlider'
 import SelectScenario from '../components/Scenario/SelectScenario'
 import { AiFillCloseCircle } from "react-icons/ai";
-import './scenario.css'
+import '../css/scenario.css'
 
 export const ScenarioPageTemplate = ({
   scenarios,

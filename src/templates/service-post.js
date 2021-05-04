@@ -1,20 +1,16 @@
 import React, { useState } from 'react';
-import { } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import { kebabCase } from 'lodash';
 import { Helmet } from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
 import Carousel from 'nuka-carousel';
 import {
   AiOutlineLeft,
   AiOutlineRight,
-  AiOutlineArrowDown,
 } from 'react-icons/ai';
 import { BsArrowDown } from 'react-icons/bs';
 import { v4 } from 'uuid';
-import './service.css';
+import '../css/service.css';
 import ScrollTop from '../components/ScrollTop';
 import ScrollBottom from '../components/ScrollBottom';
 import WhyUs from '../components/Service/WhyUs';
@@ -24,78 +20,61 @@ import Resources from '../components/Service/Resources';
 
 
 
-export const ServicePostTemplate = ({ contentComponent, helmet, whyus, aproach, gettingstarted }) => {
-  let slideIndex = typeof window !== 'undefined' ? window.location.hash : '';
-  slideIndex = parseInt(slideIndex.replace('#', ''));
-  if (isNaN(slideIndex)) {
-    slideIndex = 0;
-  }
+export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonname, bannerimage, helmet, whyus, aproach, gettingstarted }) => {
   const pages = ["Why Us", "Our Approach", "Getting Started", "Resources"];
-  const [currentSlide, setCurrentSlide] = useState(slideIndex);
+  const [currentSlide, setCurrentSlide] = useState(0);
   return (
     <React.Fragment>
-      <section className='section' id='top'>
-        {helmet || ''}
-        <div className='container content p-0'>
-          <div className='columns'>
-            <div className='column is-12'>
-              <div className='btn-stack'>
-                {pages.map((pageContent, index) => (
-                  <button
-                    key={v4()}
-                    className={`${currentSlide === index ? 'mybtnactive' : 'mybtn'
-                      }`}
-                    onClick={() => setCurrentSlide(index)}>
-                    <span className='btn-arr-down'>
-                      <BsArrowDown />
-                    </span>
-                    {pageContent}
-                  </button>
-                ))}
-              </div>
-              <div>
-                <Carousel
-                  afterSlide={(slideIndex) => setCurrentSlide(slideIndex)}
-                  slideIndex={currentSlide}
-                  rendertopCenterControls={true}
-                  renderCenterLeftControls={({ previousSlide }) => (
-                    <button onClick={previousSlide} className='nabtn-left'>
-                      <AiOutlineLeft />
-                    </button>
-                  )}
-                  renderCenterRightControls={({ nextSlide }) => (
-                    <button onClick={nextSlide} className='nabtn-right'>
-                      <AiOutlineRight />
-                    </button>
-                  )}>
-                  <div>
-                    <WhyUs data={whyus} />
-                  </div>
-                  <div>
-                    <OurAproach data={aproach} />
-                  </div>
-                  <div>
-                    <GettingStarted data={gettingstarted} />
-                  </div>
-                  <div>
-                    <Resources />
-                  </div>
-                </Carousel>
-                <ScrollBottom showBelow={100} />
-              </div>
+      {helmet || ''}
+      <div className="service-contaienr">
+        <div className="d-flex w-100 flex-wrap align-items-center justify-content-between pb-5 banner-container">
+          <div className="d-inline-block banner-left">
+            <div className="d-block banner-img"><img src={bannerimage} alt="" /></div>
+            <div className="d-inline-block text-center mx-lg-5 mx-2 p-4 banner-text">
+              {bannerdescription}
+            </div>
+          </div>
+          <div className="d-inline-block text-center banner-right">
+            <div className="d-block banner-icon-img"><img src={bannericon} alt="" /></div>
+            <div className="d-block banner-heading">{bannericonname}</div>
+          </div>
+        </div>
+        <div className="d-block tab-container">
+          <div className="d-block py-4 px-lg-5 px-3 tabs">
+            <ul className="nav nav-tabs w-100 justify-content-between">
+              {pages.map((pageContent, index) => (
+                <li className="nav-item">
+                  <button onClick={() => setCurrentSlide(index)} className={`${currentSlide === index ? 'active' : ''} nav-link`} >{pageContent}<i className="fa fa-arrow-down"></i></button>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="tab-content position-relative">
+            <div className={`tab-pane fade ${currentSlide === 0 ? 'active show': ''}`}>
+              <WhyUs data={whyus} />
+            </div>
+            <div className={`tab-pane fade ${currentSlide === 1 ? 'active show': ''}`}>
+              <OurAproach data={aproach} />
+            </div>
+            <div className={`tab-pane fade ${currentSlide === 2 ? 'active show': ''}`}>
+              <GettingStarted data={gettingstarted} />
+            </div>
+            <div className={`tab-pane fade ${currentSlide === 3 ? 'active show': ''}`}>
+              <Resources />
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <ScrollTop showAbove={50} />
     </React.Fragment>
   );
 };
 
 ServicePostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
+  bannerdescription: PropTypes.string,
+  bannerimage: PropTypes.string,
+  bannericon: PropTypes.string,
+  bannericonname: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
   whyus: PropTypes.object,
@@ -114,14 +93,16 @@ const ServicePost = ({ data }) => {
   return (
     <Layout>
       <ServicePostTemplate
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
+        bannerdescription={post.frontmatter.bannerdescription}
+        bannerimage={post.frontmatter.bannerimage}
+        bannericon={post.frontmatter.bannericon}
+        bannericonname={post.frontmatter.bannericonname}
         helmet={
           <Helmet titleTemplate='%s | Service'>
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name='description'
-              content={`${post.frontmatter.description}`}
+              content={`${post.frontmatter.bannerdescription}`}
             />
           </Helmet>
         }
@@ -144,23 +125,28 @@ export default ServicePost;
 
 export const pageQuery = graphql`
   query ServicePostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
+          markdownRemark(id: {eq: $id }) {
+          id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+          date(formatString: "MMMM DD, YYYY")
         title
-        description
+        bannerimage
+        bannerdescription
+        bannericon
+        bannericonname
         whyus {
           img
           description
+          productdescription
           reasonstext
           reasons {
-            img
+          img
             text
             description
           }
           conclusion
+          conclusionimg
         }
         aproach {
           img,
@@ -170,7 +156,7 @@ export const pageQuery = graphql`
           actiontext,
           description,
           actions {
-            img
+          img
             text
             description
           }

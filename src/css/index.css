@@ -1,0 +1,132 @@
+body {
+    background-color: #202b38 !important;
+}
+
+.top-bg {
+    background-color: #384cd8;
+    height: 385px;
+    top: 0;
+}
+
+/********************** Header ******************************/
+
+.header .nav .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header .nav .nav-item a {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header .nav .nav-item a i {
+    font-size: 12px;
+    vertical-align: middle;
+    padding-left: 3px;
+}
+
+.header .nav .nav-item.dropdown .main-sub-menu {
+    opacity: 0;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-top: 1px solid #f9f3f3;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.header .nav .nav-item.dropdown .main-sub-menu::before {
+    border-top: 1px solid #f9f3f3;
+}
+
+.header .nav .nav-item.dropdown.active .main-sub-menu {
+    opacity: 1;
+    height: 90vh;
+}
+
+.header .nav .nav-item.dropdown .main-sub-menu .btn-close {
+    z-index: 10;
+    position: absolute;
+    bottom: 30px;
+    left: 48%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    color: rgb(33, 37, 41);
+    font-size: 32px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.header .nav .nav-item .default-active {
+    position: static;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background: #f9f3f3;
+    padding: 20px 0;
+    width: 22%;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+.header .nav .nav-item .default-active>li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header .nav .nav-item .default-active>li>a {
+    display: block;
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+}
+
+.header .nav .nav-item .navbar-link {
+    color: #212529;
+    padding-right: .75rem;
+}
+
+/************************ Footer **********************/
+
+.footer .nav .nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer .nav .nav-item span {
+    vertical-align: middle;
+    font-size: 16px;
+    margin-top: -3px;
+    margin-right: 5px;
+}
+
+.footer .nav .nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/************************** Main container **************************/
+
+.main-container {
+    min-height: 350px;
+    background-color: #202b38;
+    box-shadow: 0px 4px 2px 3px rgb(0 0 0 / 50%);
+    -webkit-box-shadow: 0px 4px 2px 3px rgb(0 0 0 / 50%);
+    -moz-box-shadow: 0px 4px 2px 3px rgba(0,0,0,0.5);
+}

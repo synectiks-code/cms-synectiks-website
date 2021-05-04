@@ -186,123 +186,54 @@ class Navbar extends React.Component {
 		const { edges: posts } = data.allMarkdownRemark;
 		const { mainMenuActiveIndex, active, mobileSubMenuIndex, mobileMenuActiveStatus } = this.state;
 		return (
-			<>
-				<nav className='navbar desktop' role='navigation' aria-label='main-navigation'>
-					<div className='flex-menu'>
-						<div className='navbar-brand'>
-							<Link to='/' className='logo' title='Logo'>
-								<img src={logo} alt='Kaldi' style={{ width: '120px' }} />
-							</Link>
+			<header className="position-relative d-flex flex-nowrap justify-content-between py-4 w-100 header">
+				<Link to='/' className='mx-lg-5 mx-3'>
+					<img src={logo} alt="Synectiks logo" />
+				</Link>
+				<ul className="nav nav-pills mx-lg-5 mx-3">
+					<li className={`nav-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
+						<a href="#">Product &amp; Solutions <i className="fas fa-chevron-down"></i></a>
+						<div className={`main-sub-menu`}>
+							<ul className="default-active">
+								{this.renderCategoriesDesktop("product", posts)}
+							</ul>
+							<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
+								<BsChevronUp className='sub-icon' />
+							</button>
 						</div>
-						<div id="navMenu" className={`navbar-menu`}>
-							<div className="navbar-start">
-								<ul className="navbar-nav">
-									<li className={`navbar-item dropdown ${mainMenuActiveIndex === 1 ? 'active' : ''}`}
-										onMouseOver={() => this.setMainMenuActive(1)} onMouseOut={() => this.setMainMenuActive(-1)}>
-										<Link className="navbar-link">Product & Solutions</Link>
-										<div className={`main-sub-menu`}>
-											<ul className="default-active">
-												{this.renderCategoriesDesktop("product", posts)}
-											</ul>
-											<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
-												<BsChevronUp className='sub-icon' />
-											</button>
-										</div>
-									</li>
-									<li className={`navbar-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`}
-										onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
-										<Link className="navbar-link">Services & Consulting</Link>
-										<div className={`main-sub-menu`}>
-											<ul className="default-active">
-												{this.renderCategoriesDesktop("service", posts)}
-											</ul>
-											<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
-												<BsChevronUp className='sub-icon' />
-											</button>
-										</div>
-									</li>
-									<li className="navbar-item">
-										<Link to="/workflowpost" className="navbar-link">Workflow</Link>
-									</li>
-									<li className="navbar-item">
-										<Link to="/survey" className="navbar-link">Survey Form</Link>
-									</li>
-									<li className="navbar-item">
-										<Link to="/scenario" className="navbar-link">Scenario</Link>
-									</li>
-								</ul>
+					</li>
+					<li className={`nav-item dropdown ${mainMenuActiveIndex === 1 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(1)} onMouseOut={() => this.setMainMenuActive(-1)}>
+						<a href="#">Services &amp; Consulting <i className="fas fa-chevron-down"></i></a>
+						<div className={`main-sub-menu`}>
+							<ul className="default-active">
+								{this.renderCategoriesDesktop("service", posts)}
+							</ul>
+							<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
+								<BsChevronUp className='sub-icon' />
+							</button>
+						</div>
+					</li>
+					<li className="nav-item">
+						<Link to="/workflowpost">Workflow</Link>
+					</li>
+					<li className="nav-item">
+						<Link to="/survey">Survey Form</Link>
+					</li>
+					<li className="nav-item">
+						<a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fas fa-search"></i></a>
+					</li>
+				</ul>
+				<div className="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+					<div className="modal-dialog modal-dialog-centered search-modal">
+						<div className="modal-content">
+							<div className="modal-header">
+								<input type="text" placeholder="Search..." className="form-control" />
+								<button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 							</div>
 						</div>
 					</div>
-				</nav>
-				<nav className='navbar mobile' role='navigation' aria-label='main-navigation'>
-					<div className='flex-menu'>
-						<div className='navbar-brand'>
-							<Link to='/' className='logo' title='Logo'>
-								<img src={logo} alt='Kaldi' style={{ width: '120px' }} />
-							</Link>
-							<div
-								className={`navbar-burger burger ${active ? 'is-active' : ''}`}
-								data-target='navMob'
-								onClick={() => this.toggleHamburger()}>
-								<span />
-								<span />
-								<span />
-							</div>
-						</div>
-						<div className={`navbar-bg ${active ? 'is-active' : ''}`}></div>
-						<div id="navMenu" className={`navbar-menu ${active ? 'is-active' : ''}`}>
-							<div
-								className={`navbar-burger burger ${active ? 'is-active' : ''}`}
-								data-target='navMob'
-								onClick={() => this.toggleHamburger()}>
-								<span />
-								<span />
-								<span />
-							</div>
-							<div className="navbar-start">
-								<ul className="navbar-nav">
-									<li className={`navbar-item dropdown ${mobileMenuActiveStatus[0] ? 'active' : ''}`}>
-										<Link className="navbar-link">Product & Solutions</Link>
-										<span
-											onClick={() => this.setMobileMenuActiveStatus(0)}
-											className={`toggle main-menu ${mobileMenuActiveStatus[0] ? 'active' : ''}`}
-										>
-										</span>
-										<div className={`main-sub-menu ${mobileMenuActiveStatus[0] ? 'active' : 'hide'}`}>
-											<ul className="default-active">
-												{this.renderCategoriesMobile("product", posts)}
-											</ul>
-										</div>
-									</li>
-									<li className={`navbar-item dropdown ${mobileMenuActiveStatus[1] ? 'active' : ''}`}>
-										<Link className="navbar-link">Services & Consulting</Link>
-										<span
-											onClick={() => this.setMobileMenuActiveStatus(1)}
-											className={`toggle main-menu ${mobileMenuActiveStatus[1] ? 'active' : ''}`}
-										>
-										</span>
-										<div className={`main-sub-menu ${mobileMenuActiveStatus[1] ? 'active' : 'hide'}`}>
-											<ul className="default-active">
-												{this.renderCategoriesMobile("service", posts)}
-											</ul>
-										</div>
-									</li>
-									<li className="navbar-item">
-										<Link to="/workflowpost" className="navbar-link">Workflow</Link>
-									</li>
-									<li className="navbar-item">
-										<Link to="/survey" className="navbar-link">Survey Form</Link>
-									</li>
-									<li className="navbar-item">
-										<Link to="/scenario" className="navbar-link">Scenario</Link>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</nav>
-			</>
+				</div>
+			</header>
 		);
 	}
 }
