@@ -78,12 +78,7 @@ ServicePostTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.object,
   whyus: PropTypes.object,
-  aproach: PropTypes.arrayOf(
-    PropTypes.shape({
-      img: PropTypes.string,
-      description: PropTypes.string
-    })
-  ),
+  aproach: PropTypes.object,
   gettingstarted: PropTypes.object,
 };
 
@@ -141,7 +136,7 @@ export const pageQuery = graphql`
           productdescription
           reasonstext
           reasons {
-          img
+            img
             text
             description
           }
@@ -150,13 +145,18 @@ export const pageQuery = graphql`
         }
         aproach {
           img,
-          description
+          description,
+          actions {
+            img,
+            heading,
+            text
+          }
         }
         gettingstarted {
           actiontext,
           description,
           actions {
-          img
+            img
             text
             description
           }

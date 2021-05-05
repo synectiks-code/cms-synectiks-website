@@ -4,33 +4,41 @@ import { v4 } from 'uuid';
 
 const OurAproach = ({ data }) => {
     return (
-        data ? 
-        <div className="aproach-container">
-            <div className="aproach-service-container">
-                {
-                    data.map((item) => {
-                        return (
-                            <div key={v4()} className="service">
-                                <div className="row flex-column align-items-center">
-                                    <div className="col-md-6">
-                                        <div className="image">
-                                            <img src={item.img} />
+        data ?
+            <div className="aproach-container">
+                <div className="d-block w-100 py-4 px-lg-5 px-3 header-container tab-background">
+                    <div class="d-block w-100 pb-5 px-lg-5 px-2">
+                        <p class="text-center mb-5">
+                            <img src={data.img} />
+                        </p>
+                        <p>{data.description}</p>
+                    </div>
+                </div>
+                <div class="d-block w-100 py-5 px-lg-5 px-3 actions-container tab-background-dark">
+                    {
+                        data.actions.map((item) => {
+                            return (
+                                <div key={v4()} class="d-block w-100 pb-5 px-lg-5 px-2">
+                                    <div className="row align-items-center justify-content-between">
+                                        <div className="col-md-7 col-12">
+                                            <div className="d-block image">
+                                                <img src={item.img} />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 col-12">
+                                            <div class="d-block content">
+                                                <span class="d-block">{item.heading}</span>
+                                                <p>{item.text}</p>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="col-md-6">
-                                        <p>{item.description}</p>
-                                    </div>
                                 </div>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-            {/* <div className="aproach-bottom-text">
-                <p> The SYNECTIKS Cloud security service is designed to secure identified Customer workloads in the aws cloud. Synectiks will work in conjunction with Customer to validate a security plan for the identified workloads, provision the aws environment, and assist with the security verification of the aws environment </p>
-            </div> */}
-        </div> : 
-        <div>no data</div>
+                            )
+                        })
+                    }
+                </div>
+            </div> :
+            <div>no data</div>
     );
 };
 

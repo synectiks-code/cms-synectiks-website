@@ -346,6 +346,7 @@
 
 .service-contaienr .tab-container .tabs {
     background-color: #d2d4e0;
+    margin-bottom: 0;
 }
 
 .service-contaienr .tab-container .nav-tabs {
@@ -411,4 +412,32 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+}
+
+.service-contaienr .tab-container .aproach-container .header-container strong{
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700; 
+    padding-bottom: 2px;
+    display: block;
+}
+.service-contaienr .tab-container .aproach-container .header-container p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400; 
+}
+.service-contaienr .tab-container .aproach-container .actions-container .content span{
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.service-contaienr .tab-container .aproach-container .actions-container .content p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
 }
