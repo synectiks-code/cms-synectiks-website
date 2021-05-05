@@ -1,3 +1,9 @@
+.auto-height-img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
 .home-container .background {
     background-color: #d2d4e0;
 }
@@ -9,7 +15,8 @@
 .home-container .banner-container .banner-left {
     width: 53%;
 }
-.home-container .banner-container .banner-content h2{
+
+.home-container .banner-container .banner-content h2 {
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 600;
@@ -17,11 +24,13 @@
     line-height: 48px;
     margin-bottom: 20px;
 }
-.home-container .banner-container .banner-content p{
+
+.home-container .banner-container .banner-content p {
     color: #ffffff;
     margin-bottom: 45px;
 }
-.home-container .banner-container .banner-content .banner-btns .btn{
+
+.home-container .banner-container .banner-content .banner-btns .btn {
     color: #ffffff;
     background-color: #384CD8;
     border-radius: 0px;
@@ -31,10 +40,12 @@
     padding-right: 20px;
     box-shadow: none;
 }
-.home-container .banner-container .banner-content .banner-btns .btn:focus{
+
+.home-container .banner-container .banner-content .banner-btns .btn:focus {
     box-shadow: none;
 }
-.home-container .banner-container .banner-content .banner-btns .btn.watch-demo{
+
+.home-container .banner-container .banner-content .banner-btns .btn.watch-demo {
     background-color: #202b38;
     border-color: #ffffff;
 }
@@ -42,43 +53,49 @@
 .home-container .banner-container .banner-right {
     width: 47%;
 }
-.home-container .banner-services .service{
+
+.home-container .banner-services .service {
     margin-bottom: 25px;
 }
-.home-container .banner-services .service .image{
-    box-shadow: 0px 4px 0px 0px rgba(56,76,216,1);
-    -webkit-box-shadow: 0px 4px 0px 0px rgba(56,76,216,1);
-    -moz-box-shadow: 0px 4px 0px 0px rgba(56,76,216,1);
+
+.home-container .banner-services .service .image {
+    box-shadow: 0px 4px 0px 0px rgba(56, 76, 216, 1);
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(56, 76, 216, 1);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(56, 76, 216, 1);
     background-color: #ffffff;
     margin-bottom: 10px;
     height: 130px;
     width: 130px;
     overflow: hidden;
 }
-.home-container .banner-services .service .text{
+
+.home-container .banner-services .service .text {
     color: #ffffff;
     width: 80%;
 }
 
-.home-container .platform-container h2{
+.home-container .platform-container h2 {
     color: #202B38;
     text-transform: uppercase;
     font-size: 36px;
     line-height: 42px;
     font-weight: 600;
 }
-.home-container .platform-container .platform-content .image-box{
-    box-shadow: 15px 15px 35px 0px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 15px 15px 35px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: 15px 15px 35px 0px rgba(0,0,0,0.2);
+
+.home-container .platform-container .platform-content .image-box {
+    box-shadow: 15px 15px 35px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 15px 15px 35px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 15px 15px 35px 0px rgba(0, 0, 0, 0.2);
 }
-.home-container .platform-container .platform-content .image-box .image{
+
+.home-container .platform-container .platform-content .image-box .image {
     background-color: #ffffff;
-    box-shadow: 7px 7px 0px 0px rgba(0,0,0,1);
-    -webkit-box-shadow: 7px 7px 0px 0px rgba(0,0,0,1);
-    -moz-box-shadow: 7px 7px 0px 0px rgba(0,0,0,1);
+    box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
 }
-.home-container .platform-container .platform-content .platform-button .btn{
+
+.home-container .platform-container .platform-content .platform-button .btn {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 24px;
@@ -86,16 +103,18 @@
     color: #ffffff;
     border-radius: 0;
     background-color: #384CD8;
-    box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
-    -webkit-box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
 }
-.home-container .platform-container .platform-content .platform-button .btn:focus{
-    box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
-    -webkit-box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
-    -moz-box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+
+.home-container .platform-container .platform-content .platform-button .btn:focus {
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
 }
-.home-container .platform-container .platform-content .platform-button i.fa-angle-double-right{
+
+.home-container .platform-container .platform-content .platform-button i.fa-angle-double-right {
     color: #384CD8;
     font-size: 48px;
     line-height: 50px;
@@ -104,7 +123,8 @@
     margin-left: 10px;
     margin-top: 5px;
 }
-.home-container .platform-container .platform-content .platform-button i.fa-angle-double-left{
+
+.home-container .platform-container .platform-content .platform-button i.fa-angle-double-left {
     color: #384CD8;
     font-size: 48px;
     line-height: 50px;
@@ -113,44 +133,51 @@
     margin-right: 10px;
     margin-top: 5px;
 }
-.home-container .platform-container .platform-services .service{
+
+.home-container .platform-container .platform-services .service {
     margin-bottom: 30px;
 }
-.home-container .platform-container .platform-services .service .image{
+
+.home-container .platform-container .platform-services .service .image {
     box-shadow: 0px 4px 0px 0px rgb(56 76 216);
     -webkit-box-shadow: 0px 4px 0px 0px rgb(56 76 216);
-    -moz-box-shadow: 0px 4px 0px 0px rgba(56,76,216,1);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(56, 76, 216, 1);
     background-color: #ffffff;
     margin-bottom: 10px;
     height: 130px;
     width: 130px;
     overflow: hidden;
 }
-.home-container .platform-container .platform-services .service .name{
+
+.home-container .platform-container .platform-services .service .name {
     margin-top: 5px;
     color: #000000;
     font-size: 18px;
     font-weight: 600;
 }
 
-.home-container .solutions-container h2{
+.home-container .solutions-container h2 {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 36px;
     line-height: 42px;
     font-weight: 600;
 }
-.home-container .solutions-container .solution-box{
+
+.home-container .solutions-container .solution-box {
     margin-bottom: 30px;
     min-height: 300px;
 }
-.home-container .solutions-container .solution-box .icon-img{
+
+.home-container .solutions-container .solution-box .icon-img {
     padding-bottom: 5px;
 }
-.home-container .solutions-container .solution-box .icon-img img{
+
+.home-container .solutions-container .solution-box .icon-img img {
     max-width: 100px;
 }
-.home-container .solutions-container .solution-box .name{
+
+.home-container .solutions-container .solution-box .name {
     color: #384CD8;
     font-size: 22px;
     line-height: 28px;
@@ -158,85 +185,98 @@
     text-transform: uppercase;
     padding-bottom: 10px;
 }
-.home-container .solutions-container .solution-box .sub-heading{
+
+.home-container .solutions-container .solution-box .sub-heading {
     font-size: 15px;
     line-height: 20px;
     color: #000000;
     padding-bottom: 15px;
 }
-.home-container .solutions-container .solution-box .solutions-service ul{
+
+.home-container .solutions-container .solution-box .solutions-service ul {
     list-style: none;
     padding-left: 0;
     margin-left: 0;
     margin-bottom: 0;
 }
-.home-container .solutions-container .solution-box .solutions-service ul li{
+
+.home-container .solutions-container .solution-box .solutions-service ul li {
     display: block;
     font-size: 14px;
     line-height: 20px;
     color: #000000;
     padding-bottom: 5px;
 }
-.home-container .solutions-container .solution-box .solutions-service ul li i{
+
+.home-container .solutions-container .solution-box .solutions-service ul li i {
     padding-right: 5px;
 }
-.home-container .primary-goals .content h3{
+
+.home-container .primary-goals .content h3 {
     color: #ffffff;
     font-size: 32px;
     line-height: 40px;
     font-weight: 400;
 }
-.home-container .primary-goals .content p{
+
+.home-container .primary-goals .content p {
     color: #ffffff;
     font-size: 20px;
     line-height: 32px;
     font-weight: 400;
     margin-top: 30px;
 }
+
 .home-container .primary-goals .primary-goals-services .service {
     margin-bottom: 30px;
 }
-.home-container .primary-goals .primary-goals-services .service .image{
+
+.home-container .primary-goals .primary-goals-services .service .image {
     box-shadow: 0px 4px 0px 0px rgb(56 76 216);
     -webkit-box-shadow: 0px 4px 0px 0px rgb(56 76 216);
-    -moz-box-shadow: 0px 4px 0px 0px rgba(56,76,216,1);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(56, 76, 216, 1);
     background-color: #ffffff;
     margin-bottom: 10px;
     height: 130px;
     width: 130px;
     overflow: hidden;
 }
-.home-container .primary-goals .primary-goals-services .service .name{
+
+.home-container .primary-goals .primary-goals-services .service .name {
     color: #ffffff;
     font-size: 15px;
     line-height: 22px;
     padding-top: 10px;
 }
 
-.home-container .partners-container h2{
-    color: rgba(0,0,0,0.8);
+.home-container .partners-container h2 {
+    color: rgba(0, 0, 0, 0.8);
     text-transform: uppercase;
     font-size: 36px;
     line-height: 42px;
     font-weight: 700;
 }
-.home-container .partners-slider .success-heading{
+
+.home-container .partners-slider .success-heading {
     font-size: 36px;
     line-height: 44px;
     color: #000000;
     font-weight: 600;
 }
-.home-container .partners-slider .success-link a{
+
+.home-container .partners-slider .success-link a {
     font-size: 18px;
     line-height: 24px;
     color: #384CD8;
     font-weight: 500;
     text-decoration: none;
 }
-.home-container .partners-slider .indicators{
+
+.home-container .partners-slider .indicators {
     position: relative;
 }
-.home-container .partners-slider .indicators::after{
+
+.home-container .partners-slider .indicators::after {
     content: "";
     border-bottom: 3px solid #384CD8;
     position: absolute;
@@ -244,7 +284,8 @@
     left: 15%;
     width: 70%;
 }
-.home-container .partners-slider .indicators span{
+
+.home-container .partners-slider .indicators span {
     font-size: 24px;
     line-height: 30px;
     font-weight: 600;
@@ -252,10 +293,12 @@
     display: inline-block;
     vertical-align: middle;
 }
-.home-container .partners-slider .indicators span:last-child{
+
+.home-container .partners-slider .indicators span:last-child {
     float: right;
 }
-.home-container .partners-slider .success-button button{
+
+.home-container .partners-slider .success-button button {
     background: #ffffff;
     border: 1px solid #707070;
     color: #384CD8;
@@ -265,21 +308,24 @@
     margin: 0 15px;
     border-radius: 50%;
 }
-.home-container .partners-slider .item .card .caption h5{
+
+.home-container .partners-slider .item .card .caption h5 {
     font-size: 20px;
     line-height: 32px;
     color: #000000;
     font-weight: 700;
     margin-bottom: 0;
 }
-.home-container .partners-slider .item .card .caption p{
+
+.home-container .partners-slider .item .card .caption p {
     font-size: 16px;
     line-height: 22px;
     color: #000000;
     font-weight: 500;
     min-height: 45px;
 }
-.home-container .partners-slider .item .card .caption .btn{
+
+.home-container .partners-slider .item .card .caption .btn {
     border: none;
     background: none;
     color: #384CD8;
@@ -289,21 +335,25 @@
     padding: 0;
     box-shadow: none;
 }
-.home-container .partners-slider .item .card .caption .btn i{
+
+.home-container .partners-slider .item .card .caption .btn i {
     vertical-align: middle;
 }
-.home-container .application-box{
+
+.home-container .application-box {
     background-color: #384CD8;
     border: 1px solid #707070;
 }
-.home-container .application-box h3{
+
+.home-container .application-box h3 {
     color: #ffffff;
     font-size: 36px;
     line-height: 44px;
     font-weight: 500;
     margin-right: 45px;
 }
-.home-container .application-box .touch-btn{
+
+.home-container .application-box .touch-btn {
     background-color: #ffffff;
     font-size: 24px;
     line-height: 44px;

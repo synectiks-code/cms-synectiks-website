@@ -133,6 +133,7 @@ body {
     height: 100%;
     padding: 20px 0;
     display: none;
+    list-style: none;
 }
 .header .default-active li.active .sub-menu {
     opacity: 1;

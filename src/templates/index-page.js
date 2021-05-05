@@ -4,17 +4,24 @@ import { graphql } from 'gatsby'
 import { v4 } from 'uuid';
 import Layout from '../components/Layout'
 import '../css/home.css';
+import remark from 'remark';
+import remarkHTML from 'remark-html';
+const toHTML = (value) =>
+  remark().use(remarkHTML).processSync(value).toString();
 
 export const IndexPageTemplate = ({
   bannercontent,
-  usecases
+  usecases,
+  solutions,
+  goals,
+  partners
 }) => (
   <div className="home-container">
     <div className="d-flex w-100 flex-wrap align-items-center justify-content-between px-5 py-4 dark-background banner-container">
       <div class="d-inline-block banner-left">
         <div class="d-block py-5 banner-content">
           <h2>{bannercontent.title}</h2>
-          <p>{bannercontent.text}</p>
+          <p dangerouslySetInnerHTML={{ __html: toHTML(bannercontent.text) }} />
           <div class="d-flex banner-btns">
             <a href="#" class="btn for-free">Try Synectiks For Free</a>
             <a href="#" class="btn watch-demo">Watch Demo</a>
@@ -24,17 +31,15 @@ export const IndexPageTemplate = ({
       <div class="d-inline-block text-center banner-right">
         <div class="d-block pt-4 banner-services">
           <div class="row">
-            {bannercontent.service.map((service) => (
+            {bannercontent.service && bannercontent.service.map((service) => (
               <div key={v4()} class="col-md-6 col-12">
                 <div class="d-block w-100 text-center service">
                   <div class="d-inline-block rounded-circle image">
                     <div class="d-flex align-items-center justify-content-center w-100 h-100">
-                      <img src={service.img} alt={service.name} />
+                      <img className="auto-height-img" src={service.img} />
                     </div>
                   </div>
-                  <div class="d-inline-block text">
-                    {service.name}
-                  </div>
+                  <div class="d-inline-block text" dangerouslySetInnerHTML={{ __html: toHTML(service.name) }} />
                 </div>
               </div>
             ))}
@@ -49,7 +54,7 @@ export const IndexPageTemplate = ({
           <div className="col-md-5 col-12">
             <div className="d-block px-lg-5 text-center platform-content">
               <div className="d-block mb-4 image-box">
-                <div className="image"><img src={usecases.cioimage} alt="" /></div>
+                <div className="image"><img className="auto-height-img" src={usecases.cioimage} alt="" /></div>
               </div>
               <div className="d-block platform-button">
                 <button className="btn">For CIO / CTO</button>
@@ -60,15 +65,15 @@ export const IndexPageTemplate = ({
           <div className="col-md-7 col-12">
             <div className="d-block platform-services">
               <div className="row">
-                {usecases.cioservice.map((cioservice) => (
+                {usecases.ciousecases && usecases.ciousecases.map((usecase) => (
                   <div key={v4()} className="col-md-6 col-12">
                     <div className="d-block text-center service">
                       <div className="d-inline-block rounded-circle image">
                         <div className="d-flex w-100 h-100 align-items-center justify-content-center">
-                          <img src={cioservice.img} alt="" />
+                          <img className="auto-height-img" src={usecase.img} alt="" />
                         </div>
                       </div>
-                      <div className="d-block name">{cioservice.name}</div>
+                      <div className="d-block name">{usecase.name}</div>
                     </div>
                   </div>
                 ))}
@@ -82,15 +87,15 @@ export const IndexPageTemplate = ({
           <div className="col-md-7 col-12">
             <div className="d-block platform-services">
               <div className="row">
-                {usecases.teamservice.map((teamservice) => (
+                {usecases.teamusecases && usecases.teamusecases.map((usecase) => (
                   <div key={v4()} className="col-md-6 col-12">
                     <div className="d-block text-center service">
                       <div className="d-inline-block rounded-circle image">
                         <div className="d-flex w-100 h-100 align-items-center justify-content-center">
-                          <img src={teamservice.img} alt="" />
+                          <img className="auto-height-img" src={usecase.img} alt="" />
                         </div>
                       </div>
-                      <div className="d-block name">{teamservice.name}</div>
+                      <div className="d-block name">{usecase.name}</div>
                     </div>
                   </div>
                 ))}
@@ -100,7 +105,7 @@ export const IndexPageTemplate = ({
           <div className="col-md-5 col-12">
             <div className="d-block px-lg-5 text-center platform-content">
               <div className="d-block mb-4 image-box">
-                <div className="image"><img src={usecases.cioimage} alt="" /></div>
+                <div className="image"><img className="auto-height-img" src={usecases.teamimage} alt="" /></div>
               </div>
               <div className="d-block platform-button">
                 <i className="fa fa-angle-double-left"></i>
@@ -115,83 +120,29 @@ export const IndexPageTemplate = ({
       <h2 className="d-block text-center py-5">Solutions</h2>
       <div className="d-block px-lg-5">
         <div className="row">
-          <div className="col-md-4 col-12">
-            <div className="d-block bg-white p-4 rounded solution-box">
-              <div className="d-block text-center icon-img"><img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" /></div>
-              <div className="d-block text-center name">AGGREGATE</div>
-              <div className="d-block text-center sub-heading">Hardware Agnostic Infrastructure</div>
-              <div className="d-block solutions-service">
-                <ul>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Software Defined Infrastructure</spna>
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Multicloud Hybrid Provisioning Templates</spna>
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Resource Pooling Across Clouds</spna>
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Container / Serverless Ecosystem</spna>
-                  </li>
-                </ul>
+          {
+            solutions && solutions.map((solution) =>
+              <div className="col-md-4 col-12" key={v4()}>
+                <div className="d-block bg-white p-4 rounded solution-box">
+                  <div className="d-block text-center icon-img"><img src={solution.img} alt="" /></div>
+                  <div className="d-block text-center name">{solution.name}</div>
+                  <div className="d-block text-center sub-heading" dangerouslySetInnerHTML={{ __html: toHTML(solution.description) }} />
+                  <div className="d-block solutions-service">
+                    <ul>
+                      {
+                        solution.checklist && solution.checklist.map((check) => (
+                          <li key={v4()}>
+                            <i className="fa fa-check"></i>
+                            <span>{check.check}</span>
+                          </li>
+                        ))
+                      }
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="col-md-4 col-12">
-            <div className="d-block bg-white p-4 rounded solution-box">
-              <div className="d-block text-center icon-img"><img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" /></div>
-              <div className="d-block text-center name">EXTEND</div>
-              <div className="d-block text-center sub-heading">Blueprint Based Development</div>
-              <div className="d-block solutions-service">
-                <ul>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Reusable Application Blocks</spna>
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Prebuilt ISV Solutions</spna>
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Prebuilt CI /CD Blueprints</spna>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 col-12">
-            <div className="d-block bg-white p-4 rounded solution-box">
-              <div className="d-block text-center icon-img"><img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" /></div>
-              <div className="d-block text-center name">AUTOMATE</div>
-              <div className="d-block text-center sub-heading">Operation Automations</div>
-              <div className="d-block solutions-service">
-                <ul>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Realtime Monitoring</spna>
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Infrastructure Validation</spna>
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Audit and Compliance</spna>
-                  </li>
-                  <li>
-                    <i className="fa fa-check"></i>
-                    <spna>Cost Optimization</spna>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+            )
+          }
         </div>
       </div>
       <h2 className="d-block text-center py-5">Xformation primary goals</h2>
@@ -199,57 +150,27 @@ export const IndexPageTemplate = ({
         <div className="row align-items-center justify-content-center">
           <div className="col-md-6 col-12">
             <div className="d-block content">
-              <h3>
-                Xformation is a platform that provides peace of mind, governance, efficiency and control of multi-cloud environments.
-              </h3>
-              <p>
-                Xformation helps you to migrate and modernize your legacy business, take advantage of cloud and microservice architecture and thereby accelerate your transformation journey @50% time & cost.
-              </p>
+              <h3>{goals.heading}</h3>
+              <p dangerouslySetInnerHTML={{ __html: toHTML(goals.description) }} />
             </div>
           </div>
           <div className="col-md-6 col-12">
             <div className="d-block primary-goals-services">
               <div className="row align-items-center justify-content-center">
-                <div className="col-md-6 col-12">
-                  <div className="d-block text-center service">
-                    <div className="d-inline-block rounded-circle image">
-                      <div className="d-flex w-100 h-100 align-items-center justify-content-center">
-                        <img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" />
+                {
+                  goals.goalslist && goals.goalslist.map((goal) => (
+                    <div key={v4()} className="col-md-6 col-12">
+                      <div className="d-block text-center service">
+                        <div className="d-inline-block rounded-circle image">
+                          <div className="d-flex w-100 h-100 align-items-center justify-content-center">
+                            <img className="auto-height-img" src={goal.img} alt="" />
+                          </div>
+                        </div>
+                        <div className="d-block name">{goal.name}</div>
                       </div>
                     </div>
-                    <div className="d-block name">Accelerated Cloud Adoption</div>
-                  </div>
-                </div>
-                <div className="col-md-6 col-12">
-                  <div className="d-block text-center service">
-                    <div className="d-inline-block rounded-circle image">
-                      <div className="d-flex w-100 h-100 align-items-center justify-content-center">
-                        <img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" />
-                      </div>
-                    </div>
-                    <div className="d-block name">Multi-Cloud Container Orchestration</div>
-                  </div>
-                </div>
-                <div className="col-md-6 col-12">
-                  <div className="d-block text-center service">
-                    <div className="d-inline-block rounded-circle image">
-                      <div className="d-flex w-100 h-100 align-items-center justify-content-center">
-                        <img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" />
-                      </div>
-                    </div>
-                    <div className="d-block name">App-Centric Optimization</div>
-                  </div>
-                </div>
-                <div className="col-md-6 col-12">
-                  <div className="d-block text-center service">
-                    <div className="d-inline-block rounded-circle image">
-                      <div className="d-flex w-100 h-100 align-items-center justify-content-center">
-                        <img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" />
-                      </div>
-                    </div>
-                    <div className="d-block name">Continuous Delivery Complaince Automation</div>
-                  </div>
-                </div>
+                  ))
+                }
               </div>
             </div>
           </div>
@@ -260,18 +181,13 @@ export const IndexPageTemplate = ({
       <h2 className="d-block text-center pb-5 pt-4">Our Partners</h2>
       <div className="d-block rounded mx-lg-5 mb-md-5 text-center partners">
         <div className="row align-items-center justify-content-center">
-          <div className="col-md-3 col-12">
-            <a href="#"><img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" /></a>
-          </div>
-          <div className="col-md-3 col-12">
-            <a href="#"><img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" /></a>
-          </div>
-          <div className="col-md-3 col-12">
-            <a href="#"><img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" /></a>
-          </div>
-          <div className="col-md-3 col-12">
-            <a href="#"><img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" /></a>
-          </div>
+          {
+            partners && partners.map((partner) => (
+              <div key={v4()} className="col-md-3 col-12">
+                <img className="auto-height-img" src={partner.img} alt="" />
+              </div>
+            ))
+          }
         </div>
       </div>
       <div className="d-block mx-lg-5 py-lg-5 partners-slider">
@@ -323,39 +239,44 @@ export const IndexPageTemplate = ({
         </div>
       </div>
       <div className="d-block mx-lg-5 py-lg-5">
-          <div className="d-block mx-lg-5">
-            <div className="d-flex align-items-center justify-content-center px-lg-5 py-lg-3 application-box">
-              <h3>Modernize Your Infra & Application</h3>
-              <a href="#" className="btn touch-btn">Get In Touch!</a>
-            </div>
+        <div className="d-block mx-lg-5">
+          <div className="d-flex align-items-center justify-content-center px-lg-5 py-lg-3 application-box">
+            <h3>Modernize Your Infra & Application</h3>
+            <a href="#" className="btn touch-btn">Get In Touch!</a>
           </div>
+        </div>
       </div>
     </div>
   </div>
 )
 
 IndexPageTemplate.propTypes = {
-        bannercontent: PropTypes.object,
-  usecases: PropTypes.object
+  bannercontent: PropTypes.object,
+  usecases: PropTypes.object,
+  solutions: PropTypes.object,
+  partners: PropTypes.object,
 }
 
-const IndexPage = ({data}) => {
-  const {frontmatter} = data.markdownRemark
+const IndexPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-        <IndexPageTemplate
-          bannercontent={frontmatter.bannercontent}
-          usecases={frontmatter.usecases}
-        />
-      </Layout>
+      <IndexPageTemplate
+        bannercontent={frontmatter.bannercontent}
+        usecases={frontmatter.usecases}
+        solutions={frontmatter.solutions}
+        goals={frontmatter.goals}
+        partners={frontmatter.partners}
+      />
+    </Layout>
   )
 }
 
 IndexPage.propTypes = {
-        data: PropTypes.shape({
-        markdownRemark: PropTypes.shape({
-        frontmatter: PropTypes.object,
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
     }),
   }),
 }
@@ -364,27 +285,47 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-        markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
-        frontmatter {
+      markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
+      frontmatter {
         bannercontent {
-        title,
-        text,
-        service {
-        img,
-        name
-      }
+          title,
+          text,
+          service {
+            img,
+            name
+          }
         }
         usecases {
-        heading,
-        cioimage
-          cioservice {
-        img,
-        name
-      }
-          teamservice {
-        img,
-        name
-      }
+          heading,
+          cioimage
+          teamimage
+          ciousecases {
+            img,
+            name
+          }
+          teamusecases {
+            img,
+            name
+          }
+        }
+        solutions {
+          img,
+          name
+          description
+          checklist {
+            check
+          }
+        }
+        goals {
+          heading,
+          description
+          goalslist {
+            img,
+            name
+          }
+        }
+        partners {
+          img
         }
       }
     }
