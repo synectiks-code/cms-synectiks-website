@@ -210,7 +210,56 @@ collections:
               widget: 'hidden',
               default: 'index-page',
             }
-          - { label: Title, name: title, widget: string }
+          - {
+              label: 'Banner Content',
+              name: 'bannercontent',
+              widget: 'object',
+              fields:
+                [
+                  { label: title, name: Text, widget: text },
+                  { label: text, name: Text, widget: text },
+                  {
+                    label: 'service',
+                    name: 'Service',
+                    widget: 'object',
+                    fields:
+                      [
+                        { label: img, name: Image, widget: text },
+                        { label: name, name: Name, widget: text },
+                      ]
+                  }
+                ]
+            }
+          - {
+              label: 'Usecases',
+              name: 'usecases',
+              widget: 'object',
+              fields:
+                [
+                  { label: heading, name: Text, widget: text },
+                  { label: cioimage, name: Image, widget: text },
+                  {
+                    label: 'cioservice',
+                    name: 'Cio Service',
+                    widget: 'object',
+                    fields:
+                      [
+                        { label: img, name: Image, widget: text },
+                        { label: name, name: Name, widget: text },
+                      ]
+                  },
+                  {
+                    label: 'teamservice',
+                    name: 'Team Service',
+                    widget: 'object',
+                    fields:
+                      [
+                        { label: img, name: Image, widget: text },
+                        { label: name, name: Name, widget: text },
+                      ]
+                  }
+                ]
+            }
       - file: 'src/pages/survey/index.md'
         label: 'Survey'
         name: 'survey'
