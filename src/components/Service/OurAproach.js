@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
+import remark from 'remark';
+import remarkHTML from 'remark-html';
+import { HTMLContent } from './Content';
+const toHTML = (value) =>
+    remark().use(remarkHTML).processSync(value).toString();
 
 const OurAproach = ({ data }) => {
     return (
@@ -11,7 +16,9 @@ const OurAproach = ({ data }) => {
                         <p class="text-center mb-5">
                             <img src={data.img} />
                         </p>
-                        <p>{data.description}</p>
+                        <p>
+                            <HTMLContent content={toHTML(data.description)} />
+                        </p>
                     </div>
                 </div>
                 <div class="d-block w-100 py-5 px-lg-5 px-3 actions-container tab-background-dark">
@@ -28,7 +35,9 @@ const OurAproach = ({ data }) => {
                                         <div class="col-md-5 col-12">
                                             <div class="d-block content">
                                                 <span class="d-block">{item.heading}</span>
-                                                <p>{item.text}</p>
+                                                <p>
+                                                    <HTMLContent content={toHTML(item.text)} />
+                                                </p>
                                             </div>
                                         </div>
                                     </div>

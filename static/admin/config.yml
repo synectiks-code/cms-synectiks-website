@@ -106,6 +106,10 @@ collections:
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Banner Image', name: 'bannerimage', widget: 'string' }
+      - { label: 'Banner Description', name: 'bannerdescription', widget: 'markdown' }
+      - { label: 'Banncer Icon Image', name: 'bannericon', widget: 'string' }
+      - { label: 'Banner Icon Name', name: 'bannericonname', widget: 'string' }
       - {
           label: 'Why Us',
           name: 'whyus',
@@ -114,6 +118,7 @@ collections:
             [
               { label: Image, name: img, widget: string },
               { label: Description, name: description, widget: markdown },
+              { label: Product Description, name: productdescription, widget: markdown },
               { label: Reasons Header, name: reasonstext, widget: markdown },
               {
                 label: Reasons,
@@ -121,22 +126,34 @@ collections:
                 widget: list,
                 fields:
                   [
-                    { label: Image, name: img, widget: text },
-                    { label: Text, name: text, widget: text },
+                    { label: Image, name: img, widget: string },
+                    { label: Text, name: text, widget: string },
                     { label: Description, name: description, widget: markdown },
                   ],
               },
               { label: Conclusion, name: conclusion, widget: markdown },
+              { label: Conclusion Image, name: conclusionimg, widget: string },
             ]
         }
       - {
           label: 'Aproach',
           name: 'aproach',
-          widget: 'list',
+          widget: 'object',
           fields:
             [
-              { label: Image, name: img, widget: string },
-              { label: Description, name: description, widget: markdown },
+              { label: Banner Image, name: img, widget: string },
+              { label: Banner Description, name: description, widget: markdown },
+              {
+                label: Actions,
+                name: actions,
+                widget: list,
+                fields:
+                  [
+                    { label: Image, name: img, widget: string },
+                    { label: Heading, name: heading, widget: string },
+                    { label: Description, name: text, widget: markdown },
+                  ],
+              },
             ]
         }
       - {

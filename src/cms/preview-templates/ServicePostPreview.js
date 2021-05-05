@@ -1,18 +1,28 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ServicePostTemplate } from '../../templates/service-post'
+import { ServicePostTemplate } from '../../templates/service-post';
+import Layout from './Layout';
 
 const ServicePostPreview = ({ entry, widgetFor, getAsset }) => {
-  const entryPage = entry.getIn(['data', 'page'])
-  const page = entryPage ? entryPage.toJS() : []
-  // const entryTestimonials = entry.getIn(['data', 'testimonials'])
-  // const testimonials = entryTestimonials ? entryTestimonials.toJS() : []
+  let whyUs = entry.getIn(['data', 'whyus']);
+  whyUs = whyUs ? whyUs.toJS() : null;
+  let aproach = entry.getIn(['data', 'aproach']);
+  aproach = aproach ? aproach.toJS() : null;
+  let gettingstarted = entry.getIn(['data', 'gettingstarted']);
+  gettingstarted = gettingstarted ? gettingstarted.toJS() : null;
   return (
-    <ServicePostTemplate
-      title={entry.getIn(['data', 'title'])}
-      description={entry.getIn(['data', 'description'])}
-      page={page}
-    />
+    <Layout>
+      <ServicePostTemplate
+        title={entry.getIn(['data', 'title'])}
+        bannerdescription={entry.getIn(['data', 'bannerdescription'])}
+        bannerimage={entry.getIn(['data', 'bannerimage'])}
+        bannericon={entry.getIn(['data', 'bannericon'])}
+        bannericonname={entry.getIn(['data', 'bannericonname'])}
+        whyus={whyUs}
+        aproach={aproach}
+        gettingstarted={gettingstarted}
+      />
+    </Layout>
   )
 }
 

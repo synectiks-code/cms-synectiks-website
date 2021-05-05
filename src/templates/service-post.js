@@ -3,21 +3,17 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Carousel from 'nuka-carousel';
-import {
-  AiOutlineLeft,
-  AiOutlineRight,
-} from 'react-icons/ai';
-import { BsArrowDown } from 'react-icons/bs';
-import { v4 } from 'uuid';
 import '../css/service.css';
 import ScrollTop from '../components/ScrollTop';
-import ScrollBottom from '../components/ScrollBottom';
 import WhyUs from '../components/Service/WhyUs';
 import OurAproach from '../components/Service/OurAproach';
 import GettingStarted from '../components/Service/GettingStarted';
 import Resources from '../components/Service/Resources';
-
+import remark from 'remark';
+import remarkHTML from 'remark-html';
+import { HTMLContent } from '../components/Content';
+const toHTML = (value) =>
+  remark().use(remarkHTML).processSync(value).toString();
 
 
 export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonname, bannerimage, helmet, whyus, aproach, gettingstarted }) => {
@@ -31,7 +27,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
           <div className="d-inline-block banner-left">
             <div className="d-block banner-img"><img src={bannerimage} alt="" /></div>
             <div className="d-inline-block text-center mx-lg-5 mx-2 p-4 banner-text">
-              {bannerdescription}
+              <HTMLContent content={toHTML(bannerdescription)} />
             </div>
           </div>
           <div className="d-inline-block text-center banner-right">
@@ -50,16 +46,16 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
             </ul>
           </div>
           <div className="tab-content position-relative">
-            <div className={`tab-pane fade ${currentSlide === 0 ? 'active show': ''}`}>
+            <div className={`tab-pane fade ${currentSlide === 0 ? 'active show' : ''}`}>
               <WhyUs data={whyus} />
             </div>
-            <div className={`tab-pane fade ${currentSlide === 1 ? 'active show': ''}`}>
+            <div className={`tab-pane fade ${currentSlide === 1 ? 'active show' : ''}`}>
               <OurAproach data={aproach} />
             </div>
-            <div className={`tab-pane fade ${currentSlide === 2 ? 'active show': ''}`}>
+            <div className={`tab-pane fade ${currentSlide === 2 ? 'active show' : ''}`}>
               <GettingStarted data={gettingstarted} />
             </div>
-            <div className={`tab-pane fade ${currentSlide === 3 ? 'active show': ''}`}>
+            <div className={`tab-pane fade ${currentSlide === 3 ? 'active show' : ''}`}>
               <Resources />
             </div>
           </div>
