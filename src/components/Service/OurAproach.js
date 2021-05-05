@@ -25,19 +25,17 @@ const OurAproach = ({ data }) => {
                     {
                         data.actions.map((item) => {
                             return (
-                                <div key={v4()} class="d-block w-100 pb-5 px-lg-5 px-2">
-                                    <div className="row align-items-center justify-content-between">
-                                        <div className="col-md-7 col-12">
-                                            <div className="d-block image">
+                                <div key={v4()} class="d-block w-100 py-lg-5 px-lg-5 px-2">
+                                    <div className="row align-items-center justify-content-center">
+                                        <div className="col-md-6 col-12">
+                                            <div className="d-block banner-image">
                                                 <img src={item.img} />
                                             </div>
                                         </div>
                                         <div class="col-md-5 col-12">
                                             <div class="d-block content">
                                                 <span class="d-block">{item.heading}</span>
-                                                <p>
-                                                    <HTMLContent content={toHTML(item.text)} />
-                                                </p>
+                                                <HTMLContent content={toHTML(item.text)} />
                                             </div>
                                         </div>
                                     </div>

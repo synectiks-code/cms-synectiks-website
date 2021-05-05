@@ -46,6 +46,12 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
             </ul>
           </div>
           <div className="tab-content position-relative">
+            <button class="btn tabs-arrow-left">
+              <i class="fa fa-long-arrow-alt-left"></i>
+            </button>
+            <button class="btn tabs-arrow-right">
+              <i class="fa fa-long-arrow-alt-right"></i>
+            </button>
             <div className={`tab-pane fade ${currentSlide === 0 ? 'active show' : ''}`}>
               <WhyUs data={whyus} />
             </div>
