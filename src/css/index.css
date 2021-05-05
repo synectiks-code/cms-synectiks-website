@@ -1,3 +1,4 @@
+
 body {
     background-color: #202b38 !important;
 }
@@ -150,6 +151,54 @@ body {
 .header .nav .main-sub-menu .sub-menu li a:hover {
     text-decoration: underline;
     background-color: transparent;
+}
+
+
+/************************ Search Modal **********************/
+.search-modal .modal-content{
+    background: none;
+    box-shadow: none;
+    border: none;
+    overflow: visible;
+}
+.search-modal .modal-header{
+    padding: 0;
+    border-bottom: 0;
+}
+.search-modal .modal-header .form-control{
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 66px;
+    padding: 5px 15px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+.search-modal .modal-header .form-control::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.search-modal .modal-header .form-control:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.search-modal .modal-header .form-control::placeholder {
+    color: #ffffff;
+}
+.search-modal .modal-header .btn-close{
+    font-size: 20px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-left: 20px;
+    background-image: url(../img/close.png);
+    opacity: 1;
+}
+.search-modal .modal-header .btn-close:focus{
+    box-shadow: none;
 }
 
 

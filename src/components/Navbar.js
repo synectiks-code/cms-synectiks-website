@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby';
 import { kebabCase } from 'lodash'
+import './navbar.css';
 import logo from '../img/logo.png';
 import { BsArrowRight, BsChevronUp } from 'react-icons/bs';
 
@@ -190,38 +191,39 @@ class Navbar extends React.Component {
 					<img src={logo} alt="Synectiks logo" />
 				</Link>
 				<ul className="nav nav-pills mx-lg-5 mx-3">
-					<li className={`nav-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
-						<a href="#">Product &amp; Solutions <i className="fas fa-chevron-down"></i></a>
-						<div className={`main-sub-menu`}>
-							<ul className="default-active">
-								{this.renderCategoriesDesktop("product", posts)}
-							</ul>
-							<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
-								<BsChevronUp className='sub-icon' />
-							</button>
-						</div>
-					</li>
-					<li className={`nav-item dropdown ${mainMenuActiveIndex === 1 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(1)} onMouseOut={() => this.setMainMenuActive(-1)}>
-						<a href="#">Services &amp; Consulting <i className="fas fa-chevron-down"></i></a>
-						<div className={`main-sub-menu`}>
-							<ul className="default-active">
-								{this.renderCategoriesDesktop("service", posts)}
-							</ul>
-							<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
-								<BsChevronUp className='sub-icon' />
-							</button>
-						</div>
-					</li>
-					<li className="nav-item">
-						<Link to="/workflowpost">Workflow</Link>
-					</li>
-					<li className="nav-item">
-						<Link to="/survey">Survey Form</Link>
-					</li>
-					<li className="nav-item">
-						<a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fas fa-search"></i></a>
-					</li>
-				</ul>
+						<li className={`nav-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
+							<a href="#">Product &amp; Solutions <i className="fas fa-chevron-down"></i></a>
+							<div className={`main-sub-menu`}>
+								<ul className="default-active">
+									{this.renderCategoriesDesktop("product", posts)}
+								</ul>
+								<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
+									<BsChevronUp className='sub-icon' />
+								</button>
+							</div>
+						</li>
+						<li className={`nav-item dropdown ${mainMenuActiveIndex === 1 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(1)} onMouseOut={() => this.setMainMenuActive(-1)}>
+							<a href="#">Services &amp; Consulting <i className="fas fa-chevron-down"></i></a>
+							<div className={`main-sub-menu`}>
+								<ul className="default-active">
+									{this.renderCategoriesDesktop("service", posts)}
+								</ul>
+								<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
+									<BsChevronUp className='sub-icon' />
+								</button>
+							</div>
+						</li>
+						<li className="nav-item">
+							<Link to="/workflowpost">Workflow</Link>
+						</li>
+						<li className="nav-item">
+							<Link to="/survey">Survey Form</Link>
+						</li>
+						<li className="nav-item">
+							<a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fas fa-search"></i></a>
+						</li>
+					</ul>
+				
 				<div className="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
 					<div className="modal-dialog modal-dialog-centered search-modal">
 						<div className="modal-content">
