@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
 import remark from 'remark';
 import remarkHTML from 'remark-html';
-import { HTMLContent } from './Content';
+import { HTMLContent } from '../Content';
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
