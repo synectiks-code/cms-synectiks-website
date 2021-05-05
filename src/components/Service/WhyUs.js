@@ -40,7 +40,7 @@ const WhyUs = ({ data }) => {
                 </div>
               </div>
               <div className="col-md-6 col-sm-12">
-                <HTMLContent content={toHTML(data.description)} />
+                <HTMLContent className="d-block w-100 content" content={toHTML(data.description)} />
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const WhyUs = ({ data }) => {
         </div>
         <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
           <div className="d-block w-100 px-lg-5 px-2">
-            <h2 className="d-block pt-4 pb-5 reason-header">]
+            <h2 className="d-block pt-4 pb-5 reason-header">
               <HTMLContent content={toHTML(data.reasonstext)} />
             </h2>
             <div className="row">
