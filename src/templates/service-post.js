@@ -5,6 +5,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import '../css/service.css';
 import ScrollTop from '../components/ScrollTop';
+import ScrollBottom from '../components/ScrollBottom';
 import WhyUs from '../components/Service/WhyUs';
 import OurAproach from '../components/Service/OurAproach';
 import GettingStarted from '../components/Service/GettingStarted';
@@ -79,6 +80,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
         </div>
       </div>
       <ScrollTop showAbove={50} />
+      <ScrollBottom showBelow={50} />
     </React.Fragment>
   );
 };
