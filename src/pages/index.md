@@ -77,10 +77,10 @@ goals:
     - img: https://res.cloudinary.com/papu/image/upload/v1620231220/new-design/home-page/Icons/Continious_Delivery_compliance_Automation_poxyww.svg
       name: Continuous Delivery Complaince Automation
 partners:
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+  - img: https://res.cloudinary.com/papu/image/upload/v1620307696/new-design/home-page/Images/azure-logo_wea8nr.png
+  - img: https://res.cloudinary.com/papu/image/upload/v1620307696/new-design/home-page/Images/google-cloud-logo_xcxemr.png
+  - img: https://res.cloudinary.com/papu/image/upload/v1620307696/new-design/home-page/Images/aws-logo_sjv1o1.png
+  - img: https://res.cloudinary.com/papu/image/upload/v1620307696/new-design/home-page/Images/acronis-logo_ndhzls.png
 successstories:
   - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_SoftwareDefinedTransformation-03250f0e4ba38735d6e41abaa9d0fb54_s6lngd.jpg
     heading: Software Defined Transformation
