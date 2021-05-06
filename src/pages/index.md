@@ -81,4 +81,29 @@ partners:
   - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
   - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
   - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+successstories:
+  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+    heading: Realtime Monitoring
+    description: Highly Scalable Extremely Customizable Realtime monitoring platform
+    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+    heading: Realtime Monitoring
+    description: Highly Scalable Extremely Customizable Realtime monitoring platform
+    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+    heading: Realtime Monitoring
+    description: Highly Scalable Extremely Customizable Realtime monitoring platform
+    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+    heading: Realtime Monitoring
+    description: Highly Scalable Extremely Customizable Realtime monitoring platform
+    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+    heading: Realtime Monitoring
+    description: Highly Scalable Extremely Customizable Realtime monitoring platform
+    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+    heading: Realtime Monitoring
+    description: Highly Scalable Extremely Customizable Realtime monitoring platform
+    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
 ---

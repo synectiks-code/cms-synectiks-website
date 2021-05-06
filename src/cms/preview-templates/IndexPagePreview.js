@@ -14,6 +14,7 @@ const IndexPagePreview = ({ entry }) => {
           solutions={data.solutions}
           goals={data.goals}
           partners={data.partners}
+          successstories={data.successstories}
         />
       </Layout>
     )
