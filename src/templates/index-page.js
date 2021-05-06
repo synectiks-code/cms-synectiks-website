@@ -254,6 +254,7 @@ export class IndexPageTemplate extends React.Component {
                 </div>
                 <div className="d-block mb-3 indicators">
                   <span>01</span>
+                  <span className="line"><span style={{ width: `${(currentSlide + numberOfSlides) * 100 / totalSlides}%` }}></span></span>
                   <span>{totalSlides > 9 ? totalSlides : '0' + totalSlides}</span>
                 </div>
                 <div className="d-block text-center mb-5 mb-lg-0 success-button">
