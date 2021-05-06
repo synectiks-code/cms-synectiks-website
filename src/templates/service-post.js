@@ -19,6 +19,11 @@ const toHTML = (value) =>
 export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonname, bannerimage, helmet, whyus, aproach, gettingstarted }) => {
   const pages = ["Why Us", "Our Approach", "Getting Started", "Resources"];
   const [currentSlide, setCurrentSlide] = useState(0);
+  function updateCurrentSlide(factor){
+    if(currentSlide + factor >= 0 && currentSlide + factor <= 3){
+      setCurrentSlide(currentSlide + factor);
+    }
+  }
   return (
     <React.Fragment>
       {helmet || ''}
@@ -46,12 +51,18 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
             </ul>
           </div>
           <div className="tab-content position-relative">
-            <button class="btn tabs-arrow-left">
-              <i class="fa fa-long-arrow-alt-left"></i>
-            </button>
-            <button class="btn tabs-arrow-right">
-              <i class="fa fa-long-arrow-alt-right"></i>
-            </button>
+            {
+              currentSlide !== 0 &&
+              <button onClick={()=>updateCurrentSlide(-1)} class="btn tabs-arrow-left">
+                <i class="fa fa-long-arrow-alt-left"></i>
+              </button>
+            }
+            {
+              currentSlide !== 3 &&
+              <button onClick={()=>updateCurrentSlide(1)} class="btn tabs-arrow-right">
+                <i class="fa fa-long-arrow-alt-right"></i>
+              </button>
+            }
             <div className={`tab-pane fade ${currentSlide === 0 ? 'active show' : ''}`}>
               <WhyUs data={whyus} />
             </div>
