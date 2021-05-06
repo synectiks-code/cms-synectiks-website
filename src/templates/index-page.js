@@ -17,7 +17,8 @@ export class IndexPageTemplate extends React.Component {
     this.state = {
       numberOfSlides: 2,
       currentSlide: 0,
-      totalSlides: 0
+      totalSlides: 0,
+      partnersToShow: 4
     };
   }
 
@@ -38,15 +39,23 @@ export class IndexPageTemplate extends React.Component {
   }
 
   updateNumberOfSlides = () => {
-    if (window.innerWidth <= 800) {
-      this.setState({
-        numberOfSlides: 1
-      });
+    let numberOfSlides = 1;
+    let partnersToShow = 2;
+    if(window.innerWidth <= 470){
+      partnersToShow = 1;
+    } else if(window.innerWidth > 470 && window.innerWidth <= 700){
+      partnersToShow = 2;
+    } else if(window.innerWidth > 700 && window.innerWidth <= 900){
+      partnersToShow = 3;
+      numberOfSlides = 2;
     } else {
-      this.setState({
-        numberOfSlides: 2
-      });
+      partnersToShow = 4;
+      numberOfSlides = 2;
     }
+    this.setState({
+      numberOfSlides,
+      partnersToShow
+    });
   }
 
   updateCurrentSlide = (factor) => {
@@ -67,7 +76,7 @@ export class IndexPageTemplate extends React.Component {
 
   render() {
     const { bannercontent, usecases, solutions, goals, partners, successstories } = this.props;
-    const { numberOfSlides, currentSlide, totalSlides } = this.state;
+    const { numberOfSlides, currentSlide, totalSlides, partnersToShow } = this.state;
     return (
       <div className="home-container">
         <div className="d-flex w-100 flex-wrap align-items-center justify-content-between px-md-5 px-3 py-lg-4 dark-background banner-container">
@@ -234,15 +243,15 @@ export class IndexPageTemplate extends React.Component {
           <h2 className="d-block text-center pb-5 pt-4">Our Partners</h2>
           <div className="d-block mx-md-5 mx-3 mb-5 text-center partners">
             <div className="row align-items-center justify-content-center">
-              {
-                partners && partners.map((partner) => (
-                  <div key={v4()} className="col-md-3 col-sm-6 col-12">
-                    <div className="partners-logo">
-                      <img className="auto-height-img" src={partner.img} alt="" />
+              <Carousel wrapAround={true} autoplayInterval={1000} autoplay={true} slidesToShow={partnersToShow} withoutControls={true}>
+                {
+                  partners && partners.map((partner) => (
+                    <div key={v4()} className="d-block text-center partners-logo">
+                      <img src={partner.img} alt="" />
                     </div>
-                  </div>
-                ))
-              }
+                  ))
+                }
+              </Carousel>
             </div>
           </div>
           <div className="d-block mx-md-5 mx-3 py-md-5 partners-slider">
