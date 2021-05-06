@@ -82,28 +82,29 @@ partners:
   - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
   - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
 successstories:
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_SoftwareDefinedTransformation-03250f0e4ba38735d6e41abaa9d0fb54_s6lngd.jpg
+    heading: Software Defined Transformation
+    description: AWS Cloud migration for a large motor industry.
+    link: https://www.synectiks.com/software-defined/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305229/new-design/home-page/Images/CS_Realtime_Monitoring-a62dd5ec305368a459643e196697ffb4_iii8hi.jpg
     heading: Realtime Monitoring
-    description: Highly Scalable Extremely Customizable Realtime monitoring platform
-    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-    heading: Realtime Monitoring
-    description: Highly Scalable Extremely Customizable Realtime monitoring platform
-    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-    heading: Realtime Monitoring
-    description: Highly Scalable Extremely Customizable Realtime monitoring platform
-    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-    heading: Realtime Monitoring
-    description: Highly Scalable Extremely Customizable Realtime monitoring platform
-    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-    heading: Realtime Monitoring
-    description: Highly Scalable Extremely Customizable Realtime monitoring platform
-    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-  - img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
-    heading: Realtime Monitoring
-    description: Highly Scalable Extremely Customizable Realtime monitoring platform
-    link: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+    description: Highly Scalable extremely customizable realtime monitoring platform.
+    link: https://www.synectiks.com/realtime/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_Software_Migration-709c30afb47703d839efb79aeae490da_aqdslm.jpg
+    heading: Storage Migration
+    description: Petabytes of storage migration for a large financial company with
+      zero down time.
+    link: https://www.synectiks.com/storage-migration/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_NetworkDesign-6707341964238c8c2a188a6be01b676a_qla9mk.jpg
+    heading: Network Design
+    description: Complete network Backbone design with highest security for retail.
+    link: https://www.synectiks.com/network-design/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_StorageTier-103b26051fde75aa4b9b9d5a8a303058_z5sl7u.jpg
+    heading: Storage Tier
+    description: Moving Bigdata workloads to aggregated platform for a large telco.
+    link: https://www.synectiks.com/storage-tier/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305229/new-design/home-page/Images/CS_DisasterRecovery-f0018cb2716204dce78323c6d403060b_z5fw5g.jpg
+    heading: Disaster Recovery
+    description: Lightweight disaster recovery platform for indian Defense.
+    link: https://www.synectiks.com/disaster-recovery/index.html
 ---
