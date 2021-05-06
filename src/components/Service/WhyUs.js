@@ -12,7 +12,7 @@ const WhyUs = ({ data }) => {
     if (reasons && reasons.length > 0) {
       return reasons.map((reason) => {
         return (
-          <div key={v4()} className="col-md-4 col-12 reason-box">
+          <div key={v4()} className="col-md-4 col-sm-6 col-12 reason-box">
             <div className="pb-5">
               <div className="d-block reason-image">
                 <img src={reason.img} />

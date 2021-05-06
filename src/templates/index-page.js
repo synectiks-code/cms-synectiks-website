@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
         <div class="d-block pt-lg-4 pb-lg-0 pb-3 banner-services">
           <div class="row">
             {bannercontent.service && bannercontent.service.map((service) => (
-              <div key={v4()} class="col-md-6 col-12">
+              <div key={v4()} class="col-md-6 col-sm-6 col-12">
                 <div class="d-block w-100 text-center service">
                   <div class="d-inline-block rounded-circle image">
                     <div class="d-flex align-items-center justify-content-center w-100 h-100">
@@ -66,7 +66,7 @@ export const IndexPageTemplate = ({
             <div className="d-block platform-services">
               <div className="row">
                 {usecases.ciousecases && usecases.ciousecases.map((usecase) => (
-                  <div key={v4()} className="col-md-6 col-12">
+                  <div key={v4()} className="col-md-6 col-sm-6 col-12">
                     <div className="d-block text-center service">
                       <div className="d-inline-block rounded-circle image">
                         <div className="d-flex w-100 h-100 align-items-center justify-content-center">
@@ -88,7 +88,7 @@ export const IndexPageTemplate = ({
             <div className="d-block platform-services">
               <div className="row">
                 {usecases.teamusecases && usecases.teamusecases.map((usecase) => (
-                  <div key={v4()} className="col-md-6 col-12">
+                  <div key={v4()} className="col-md-6 col-sm-6 col-12">
                     <div className="d-block text-center service">
                       <div className="d-inline-block rounded-circle image">
                         <div className="d-flex w-100 h-100 align-items-center justify-content-center">
@@ -122,8 +122,8 @@ export const IndexPageTemplate = ({
         <div className="row">
           {
             solutions && solutions.map((solution) =>
-              <div className="col-lg-4 col-12" key={v4()}>
-                <div className="d-block bg-white p-4 rounded solution-box">
+              <div className="col-md-4 col-12" key={v4()}>
+                <div className="d-block bg-white p-4 rounded h-md-100 solution-box">
                   <div className="d-block text-center icon-img"><img src={solution.img} alt="" /></div>
                   <div className="d-block text-center name">{solution.name}</div>
                   <div className="d-block text-center sub-heading" dangerouslySetInnerHTML={{ __html: toHTML(solution.description) }} />
@@ -159,7 +159,7 @@ export const IndexPageTemplate = ({
               <div className="row align-items-center justify-content-center">
                 {
                   goals.goalslist && goals.goalslist.map((goal) => (
-                    <div key={v4()} className="col-md-6 col-12">
+                    <div key={v4()} className="col-md-6 col-sm-6 col-12">
                       <div className="d-block text-center service">
                         <div className="d-inline-block rounded-circle image">
                           <div className="d-flex w-100 h-100 align-items-center justify-content-center">
@@ -183,7 +183,7 @@ export const IndexPageTemplate = ({
         <div className="row align-items-center justify-content-center">
           {
             partners && partners.map((partner) => (
-              <div key={v4()} className="col-md-3 col-12">
+              <div key={v4()} className="col-md-3 col-sm-6 col-12">
                 <div className="partners-logo">
                   <img className="auto-height-img" src={partner.img} alt="" />
                 </div>
@@ -192,7 +192,7 @@ export const IndexPageTemplate = ({
           }
         </div>
       </div>
-      <div className="d-block mx-md-5 mx-3 py-5 partners-slider">
+      <div className="d-block mx-md-5 mx-3 py-md-5 partners-slider">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-3 col-12">
             <div className="d-block mb-3 success-heading">Success Stories</div>
@@ -215,7 +215,7 @@ export const IndexPageTemplate = ({
           <div className="col-lg-9 col-12">
             <div className="item">
               <div className="row">
-                <div className="col-md-6 col-12">
+                <div className="col-md-6 col-sm-6 col-12">
                   <div className="card">
                     <img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" />
                     <div className="d-block px-3 py-4 caption">
@@ -225,7 +225,7 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 col-12">
+                <div className="col-md-6 col-sm-6 col-12">
                   <div className="card">
                     <img src="https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg" alt="" />
                     <div className="d-block px-3 py-4 caption">
@@ -240,7 +240,7 @@ export const IndexPageTemplate = ({
           </div>
         </div>
       </div>
-      <div className="d-block mx-md-5 mx-3 py-lg-5">
+      <div className="d-block mx-md-5 mx-3 py-5">
         <div className="d-block mx-lg-5">
           <div className="d-flex align-items-center justify-content-center px-md-5 px-3 py-3 application-box">
             <h3>Modernize Your Infra & Application</h3>

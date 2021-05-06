@@ -1,3 +1,7 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
 .service-contaienr .banner-container .banner-left {
     width: 53%;
 }
@@ -7,6 +11,9 @@
     color: #ffffff;
     font-size: 22px;
     line-height: 36px;
+}
+.service-contaienr .banner-container .banner-left .banner-text p{
+    margin-bottom: 0;
 }
 
 .service-contaienr .banner-container .banner-left .banner-text strong {
@@ -166,6 +173,10 @@
 .service-contaienr .tab-container .finally-help-container .image{
     text-align: right;
 }
+.service-contaienr .tab-container .finally-help-container .image img{
+    max-width: 100%;
+    height: auto;
+}
 
 .service-contaienr .tab-container .aproach-container .header-container strong{
     color: #000000;
@@ -193,4 +204,37 @@
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+    .service-contaienr .banner-container .banner-left,
+    .service-contaienr .banner-container .banner-right{
+        width: 100%;
+    }
+    .service-contaienr .banner-container .banner-left .banner-img img{
+        width: 100%;
+    }
+    .service-contaienr .banner-container .banner-right .banner-heading{
+        margin: 30px 5% 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .service-contaienr .banner-container .banner-left .banner-text{
+        width: 95%;
+    }
+    .service-contaienr .banner-container .banner-right .banner-heading{
+        font-size: 38px;
+    }
+    .service-contaienr .tab-container .nav-tabs .nav-item{
+        width: 100%;
+        text-align: center;
+    }
+    .service-contaienr .tab-container .nav-tabs .nav-link{
+        display: inline-block;
+    }
+    .service-contaienr .hybrid-cloud-container .hybrid-cloud-image{
+        margin-bottom: 30px;
+    }
 }

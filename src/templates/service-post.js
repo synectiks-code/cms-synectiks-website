@@ -26,7 +26,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
         <div className="d-flex w-100 flex-wrap align-items-center justify-content-between pb-5 banner-container">
           <div className="d-inline-block banner-left">
             <div className="d-block banner-img"><img src={bannerimage} alt="" /></div>
-            <div className="d-inline-block text-center mx-lg-5 mx-2 p-4 banner-text">
+            <div className="d-inline-block text-center mx-lg-5 mx-2 mb-lg-0 mb-3 p-4 banner-text">
               <HTMLContent content={toHTML(bannerdescription)} />
             </div>
           </div>

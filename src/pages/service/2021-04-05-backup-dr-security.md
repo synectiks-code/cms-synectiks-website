@@ -4,7 +4,7 @@ title: Backup & DR & Security
 date: 2021-04-05T17:19:16.948Z
 bannerimage: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
 bannerdescription: Our open product based solutioning model, help
-  you **innovate** and **transform** with **speed** and **quality.**
+  you **innovate** and **transform**  with **speed** and **quality.**
 bannericon: https://res.cloudinary.com/papu/image/upload/v1620120968/new-design/hybrid-cloud/banner-icon-img_zau5bm.png
 bannericonname: SYNECTIKS HYBRID CLOUD
 whyus:
