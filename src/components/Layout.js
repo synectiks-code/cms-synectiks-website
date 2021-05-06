@@ -11,7 +11,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <>
       <div className="d-block w-100 position-absolute top-bg"></div>
-      <div className="position-relative d-block w-100 px-5 wrapper-view">
+      <div className="position-relative d-block w-100 px-lg-5 wrapper-view">
         <div className="container-fluid">
           <Helmet>
             <html lang="en" />
