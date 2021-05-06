@@ -317,10 +317,10 @@ collections:
               widget: 'list',
               fields:
                 [
-                  { label: Image, name: img, widget: string }]
-                  { label: Heading, name: heading, widget: string }
-                  { label: Description, name: description, widget: string }
-                  { label: Link, name: link, widget: string }
+                  { label: Image, name: img, widget: string },
+                  { label: Heading, name: heading, widget: string },
+                  { label: Description, name: description, widget: string },
+                  { label: Link, name: link, widget: string },
                 ]
             }
       - file: 'src/pages/survey/index.md'
