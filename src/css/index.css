@@ -38,6 +38,16 @@ body {
     vertical-align: middle;
     padding-left: 3px;
 }
+@media (min-width: 992px) {
+    .nav-search{
+        padding-right: 3rem;
+        padding-left: 15px;
+    } 
+}
+.nav-search i{
+    font-size: 12px;
+    color: #ffffff;
+}
 
 .header .nav .nav-item.dropdown .main-sub-menu {
     opacity: 0;
@@ -160,6 +170,155 @@ body {
     text-decoration: underline;
     background-color: transparent;
 }
+
+@media (max-width: 992px) {
+    .nav-search{
+        padding: 0 15px;
+    } 
+    .nav-search i{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .mobile-menu .navbar-toggler{
+        color: #ffffff;
+        font-size: 18px;
+        padding: 0 15px;
+        line-height: 24px;
+    }
+    .mobile-menu .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .mobile-menu .navbar-collapse{
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .7);
+    }
+    .mobile-menu .navbar-collapse .navbar-close{
+        background-color: #ffffff;
+        border: none;
+        border-bottom: 1px solid #dddddd;
+        border-radius: 0;
+        text-align: right;
+        color: #212529;
+        width: 94%;
+        float: right;
+        padding: 10px 15px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .mobile-menu .navbar-collapse .navbar-nav{
+        background-color: #ffffff;
+        width: 94%;
+        height: calc(100% - 45px);
+        float: right;
+        padding-left: 15px;
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        overflow-y: auto;
+    }
+    .mobile-menu .navbar-collapse .navbar-nav .navbar-item {
+        position: relative;
+    }
+    .mobile-menu .navbar-collapse .navbar-nav .navbar-item span {
+        color: #4a4a4a;
+        cursor: pointer;
+        display: inline-block;
+        height: 2.25rem;
+        top: 4px;
+        right: 0px;
+        z-index: 1;
+        position: absolute;
+        width: 2.25rem;
+        margin-left: auto;
+        background-color: transparent;
+        text-align: center;
+        line-height: 28px;
+        font-size: 32px;
+        font-weight: 200;
+    }
+
+    .mobile-menu .navbar-collapse .navbar-nav .navbar-item span::before {
+        content: "+";
+    }
+
+    .mobile-menu .navbar-collapse .navbar-nav .navbar-item span.active::before {
+        content: "-";
+    }
+
+    .mobile-menu .navbar-collapse .navbar-nav .navbar-item .navbar-link {
+        color: #212529;
+        text-decoration: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+    }
+
+    .mobile-menu .navbar-collapse .main-sub-menu {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: none;
+        border: none;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        padding: 0;
+        -webkit-transition: all .5s ease-out;
+        transition: all .5s ease-out;
+        transform: rotateX(90deg);
+        transform-origin: top;
+    }
+
+    .mobile-menu .navbar-collapse .main-sub-menu.active {
+        padding: 0rem 0rem 0rem;
+        height: auto;
+        overflow: visible;
+        opacity: 1;
+        transform: rotateX(0deg);
+        transform-origin: top;
+    }
+    .mobile-menu .navbar-collapse .main-sub-menu .default-active{
+        padding-left: 0;
+        list-style: none;
+    }
+    .mobile-menu .navbar-collapse .main-sub-menu .default-active li{
+        padding-left: 15px;
+        padding-right: 15px;
+        position: relative;
+    }
+    .mobile-menu .navbar-collapse .main-sub-menu .default-active li span{
+        right: 15px;
+    }
+
+    .mobile-menu .navbar-collapse .sub-menu {
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        padding: 0;
+        -webkit-transition: all .5s ease-out;
+        transition: all .5s ease-out;
+        transform: rotateX(90deg);
+        transform-origin: top;
+    }
+    .mobile-menu .navbar-collapse .sub-menu.active {
+        padding: 0 15px;
+        margin-bottom: 0rem;
+        height: auto;
+        overflow: visible;
+        opacity: 1;
+        transform: rotateX(0deg);
+        transform-origin: top;
+        list-style: none;
+    }
+
+}
+
 
 
 /************************ Search Modal **********************/

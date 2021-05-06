@@ -149,7 +149,7 @@ class Navbar extends React.Component {
 				const sideJSX = <>
 					<Link to={`/category/${kebabCase(subCategory)}`} className={`navbar-link ${currentPath === `/category/${kebabCase(subCategory)}` ? 'current-page' : ''}`}>
 						{subCategory}
-						<BsArrowRight className='sub-icon' />
+						{/* <BsArrowRight className='sub-icon' /> */}
 					</Link>
 					<span
 						onClick={() => this.setMobileSubMenuActiveStats(i)}
@@ -186,10 +186,12 @@ class Navbar extends React.Component {
 		const { mainMenuActiveIndex, active, mobileSubMenuIndex, mobileMenuActiveStatus } = this.state;
 		return (
 			<header className="d-flex flex-nowrap justify-content-between py-4 w-100 header">
-				<Link to='/' className='mx-lg-5 mx-3'>
+				<Link to='/' className='mx-lg-5 mx-3 flex-grow-1'>
 					<img src={logo} alt="Synectiks logo" />
 				</Link>
-				<ul className="nav nav-pills mx-lg-5 mx-3">
+
+				<div className="d-none d-lg-block">
+					<ul className="nav nav-pills">
 						<li className={`nav-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
 							<a href="#">Product &amp; Solutions <i className="fas fa-chevron-down"></i></a>
 							<div className={`main-sub-menu`}>
@@ -218,11 +220,59 @@ class Navbar extends React.Component {
 						<li className="nav-item">
 							<Link to="/survey">Survey Form</Link>
 						</li>
-						<li className="nav-item">
-							<a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fas fa-search"></i></a>
-						</li>
 					</ul>
-				
+				</div>
+				<div className="nav-search">
+					<a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fas fa-search"></i></a>
+				</div>
+				<nav class="d-block d-lg-none mobile-menu">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="fa fa-bars"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<button class="navbar-toggler navbar-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="fa fa-times"></span>
+						</button>
+						<ul className="navbar-nav">
+							<li className={`navbar-item dropdown`}>
+								<Link className="navbar-link">Product & Solutions</Link>
+								<span
+									onClick={() => this.setMobileMenuActiveStatus(0)}
+									className={`toggle ${mobileMenuActiveStatus[0] ? 'active' : ''}`}
+								>
+								</span>
+								<div className={`main-sub-menu ${mobileMenuActiveStatus[0] ? 'active' : ''}`}>
+									<ul className="default-active">
+										{this.renderCategoriesMobile("product", posts)}
+									</ul>
+								</div>
+							</li>
+							<li className={`navbar-item dropdown`}>
+								<Link className="navbar-link">Services & Consulting</Link>
+								<span
+									onClick={() => this.setMobileMenuActiveStatus(1)}
+									className={`toggle ${mobileMenuActiveStatus[1] ? 'active' : ''}`}
+								>
+								</span>
+								<div className={`main-sub-menu ${mobileMenuActiveStatus[1] ? 'active' : ''}`}>
+									<ul className="default-active">
+										{this.renderCategoriesMobile("service", posts)}
+									</ul>
+								</div>
+							</li>
+							<li className="navbar-item">
+								<Link to="/workflowpost" className="navbar-link">Workflow</Link>
+							</li>
+							<li className="navbar-item">
+								<Link to="/survey" className="navbar-link">Survey Form</Link>
+							</li>
+							<li className="navbar-item">
+								<Link to="/scenario" className="navbar-link">Scenario</Link>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
 				<div className="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
 					<div className="modal-dialog modal-dialog-centered search-modal">
 						<div className="modal-content">

@@ -395,4 +395,7 @@
     .home-container .partners-container .partners-logo{
         margin-bottom: 20px;
     }
+    .home-container .solutions-container .solution-box .solutions-service ul li{
+        text-align: center;
+    }
 }
