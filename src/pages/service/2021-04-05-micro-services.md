@@ -18,7 +18,7 @@ whyus:
     # Solution 
 
 
-    Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment
+    Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment.
   productdescription: >-
     **Our open product based solutioning model, help you innovate and transform
     with speed and quality.**
