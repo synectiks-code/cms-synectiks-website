@@ -1,36 +1,38 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
-
+import remark from 'remark';
+import remarkHTML from 'remark-html';
+const toHTML = (value) =>
+    remark().use(remarkHTML).processSync(value).toString();
 const GettingStarted = ({ data }) => {
     return (
-        data ? 
-        <div className="getting-container">
-            <div className="getting-heading-content">
-                <h5>{data.actiontext}</h5>
-                <p>{data.description}</p>
-            </div>
-            <div className="getting-service-container">
-                {data.actions.map((action) => {
-                    return (
-                        <div key={v4()} className="service">
-                            <div className="row flex-column align-items-center">
-                                <div className="col-md-2">
-                                    <div className="image">
-                                        <img src={action.img} />
+        data ?
+            <div className="getting-container">
+                <div className="d-block w-100 getting-service-container">
+                    <div className="d-block w-100">
+                        {data.actions.map((action, index) => {
+                            return (
+                                <div key={v4()} className={`d-block w-100 py-5 px-lg-5 px-3 service ${index%2 === 0 ? 'tab-background': 'tab-dark-background'}`}>
+                                    <div className="d-block w-100 py-5 px-lg-5 px-2">
+                                        <div className="d-block text-center w-100 pb-4 service-image">
+                                            <img src={action.img} />
+                                        </div>
+                                        <div className="d-block service-description" dangerouslySetInnerHTML={{ __html: toHTML(action.description) }} />
                                     </div>
                                 </div>
-                                <div className="col-md-10">
-                                    <h5>{action.text}</h5>
-                                    <p>{action.description}</p>
-                                </div>
-                            </div>
-                        </div>
-                    )
-                })}
-            </div>
-        </div> : 
-        <div>No data</div>
+                            )
+                        })}
+                    </div>
+                </div>
+                <div className="d-block w-100 py-5 px-lg-5 px-3 tab-dark-background getting-testimonial-container">
+                    <div className="d-block w-100 px-lg-5 px-2">
+                        <div className="d-block w-100 pt-5 testimonial-icon">❛❛</div>
+                        <div className="d-block w-100 px-5 pb-5 testimonial" dangerouslySetInnerHTML={{ __html: toHTML(data.testimonial) }} />
+                    </div>
+                </div>
+            </div> :
+            <div>No data</div>
     );
 };
 

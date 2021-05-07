@@ -87,9 +87,9 @@ img{
 }
 
 .service-contaienr .tab-container .tabs-arrow-left{
-    position: absolute;
-    left: 15px;
-    top: 250px;
+    position: fixed;
+    left: 60px;
+    top: 48%;
     color: #000000;
     font-size: 36px;
     box-shadow: none;
@@ -99,9 +99,9 @@ img{
 }
 
 .service-contaienr .tab-container .tabs-arrow-right{
-    position: absolute;
-    right: 15px;
-    top: 250px;
+    position: fixed;
+    right: 60px;
+    top: 48%;
     color: #000000;
     font-size: 36px;
     box-shadow: none;
@@ -205,6 +205,154 @@ img{
     font-size: 1rem;
     line-height: 1.5;
 }
+
+.service-contaienr .tab-container .getting-service-container .actiontext p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.service-contaienr .tab-container .getting-service-container .service .service-description p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.service-contaienr .tab-container .getting-service-container .tab-dark-background,
+.service-contaienr .tab-container .getting-service-container .tab-dark-background p {
+    color: #ffffff !important;
+}
+.service-contaienr .tab-container .getting-testimonial-container .testimonial-icon{
+    color: #ffffff;
+    font-size: 100px;
+    line-height: 60px;
+    margin-bottom: -30px;
+    margin-left: 0;
+}
+.service-contaienr .tab-container .getting-testimonial-container .testimonial{
+    margin-left: 20px;
+}
+.service-contaienr .tab-container .getting-testimonial-container .testimonial p{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.service-contaienr .tab-container .resources-container .partners-slider .success-heading {
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+    font-weight: 600;
+}
+.service-contaienr .tab-container .resources-container .partners-slider .success-link a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #384CD8;
+    font-weight: 500;
+    text-decoration: none;
+}
+.service-contaienr .tab-container .resources-container .partners-slider .indicators {
+    position: relative;
+}
+.service-contaienr .tab-container .resources-container .partners-slider .indicators span {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+}
+.service-contaienr .tab-container .resources-container .partners-slider .indicators span:last-child {
+    float: right;
+}
+
+.service-contaienr .tab-container .resources-container .partners-slider .indicators span.line {
+    background-color: #ffffff;
+    height: 3px;
+    width: calc(100% - 70px);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.service-contaienr .tab-container .resources-container .partners-slider .indicators span.line span {
+    background-color: #384CD8;
+    height: 100%;
+    float: left;
+    transition: width 0.4s ease-in-out 0s;
+}
+
+.service-contaienr .tab-container .resources-container .partners-slider .success-button button {
+    background: #ffffff;
+    border: 1px solid #707070;
+    color: #384CD8;
+    font-size: 40px;
+    line-height: 28px;
+    padding: 0;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+.service-contaienr .tab-container .resources-container .partners-slider .success-button button.disabled {
+    cursor: default;
+    color: #a7acd0;
+}
+
+.service-contaienr .tab-container .resources-container .partners-slider .card .caption .heading{
+    width: 100%;
+    display: flex;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+
+.service-contaienr .tab-container .resources-container .partners-slider .card .caption .heading h5 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.service-contaienr .tab-container .resources-container .partners-slider .card .caption .description{
+    width: 100%;
+    display: flex;
+    min-height: 66px;
+    margin-bottom: 30px;
+}
+.service-contaienr .tab-container .resources-container .partners-slider .card .caption .description p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.service-contaienr .tab-container .resources-container .partners-slider .card .caption .btn {
+    border: none;
+    background: none;
+    color: #384CD8;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 0;
+    box-shadow: none;
+}
+
+.service-contaienr .tab-container .resources-container .partners-slider .card .caption .btn i {
+    vertical-align: middle;
+}
+
+
 
 @media (max-width: 992px) {
     .service-contaienr .banner-container .banner-left,

@@ -168,13 +168,17 @@ export const pageQuery = graphql`
           }
         }
         gettingstarted {
-          actiontext,
-          description,
           actions {
             img
-            text
             description
           }
+          testimonial
+        }
+        resources {
+          img,
+          heading,
+          description,
+          link
         }
       }
     }

@@ -162,8 +162,6 @@ collections:
           widget: 'object',
           fields:
             [
-              { label: Header, name: actiontext, widget: string },
-              { label: Description, name: description, widget: string },
               {
                 label: Actions,
                 name: actions,
@@ -171,10 +169,10 @@ collections:
                 fields:
                   [
                     { label: Image, name: img, widget: text },
-                    { label: Text, name: text, widget: text },
                     { label: Description, name: description, widget: markdown },
                   ],
               },
+              { label: Testimonial, name: testimonial, widget: string }
             ]
         }  
       - { label: 'Category', name: 'category', widget: 'list' }

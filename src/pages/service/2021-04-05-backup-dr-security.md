@@ -105,40 +105,65 @@ aproach:
 
         \r\n"
 gettingstarted:
-  actiontext: Key strategic drivers
-  description: As companies embrace hybrid Cloud, they must address both
-    technology and the human side of change. There are several key actions to
-    take
   actions:
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
+    - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
+      description: >-
+        ### Embrace Cultural Changes
+        
+
+        As the organization start embracing hybrid cloud and take benefits of Serverless, PaaS, IoT and edge computing, so the workforce should become more integrated, multifunctional, flexible and agile. Existing and new IT stuffs must adept cloud technologies, agile methodologies so that they can build, deploy and scale applications across multiple infrastructure environments using Agile and DevOps processes. Most importantly companies need to foster a culture of learning at scale.
+    - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
+      description: >-
+        ### Revamp Change Management
+        
+        The existing governance processes, gates and approval procedures designed for traditional legacy IT environments are no longer appropriate in a cloud environment. Companies should revamp their change management systems to allow changes to happen quickly and, using automated workflows, to reduce manual intervention.
+    - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
+      description: >-
+        ### Integrate Cloud Operations
+        
+        As organizations move workloads to the cloud, the IT operations function should adapt to manage both on-premises and cloud-based applications. This new model, called CloudOps, can provide continuous integrated operations in a multi-cloud environment to enable rapid response to events, incidents and requests. Adding DevOps to the mix then utilizes automation, integration and organizational change to enable more frequent enhancements that result in higher quality software.
+    - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
+      description: >- 
+        ### Automate support
+        
+        To the extent possible, automate IT support functions. For example, the traditional trouble ticket system can be manually intensive and inefficient. Automation can improve service and free up IT personnel for higher-level activities. Longer term, companies will be able to deploy machine learning and AI to take log data from cloud-based systems and automatically take actions to resolve or even prevent incidents. The idea is to learn once, fix with code and share learnings to improve code over time and scale knowledge."
+    - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
+      description: >-
+        ### Manage “Shadow IT”
+        
+        Business units are often acquiring the cloud services they need because IT moves too slowly. At some point, those services must be integrated back into the traditional IT environment for operational and security reasons through a services governance model that encompasses hybrid IT elements. In addition, it’s important for CIOs to have a handle on what the enterprise is spending on IT services. The only way to accomplish this is to adopt hybrid IT and demonstrate to business units that IT can support the pace and scale that the business requires."         
+  testimonial: >-
+    "Synectiks managed services helped us to consolidate our entire business from 4 different DC’s to a hybrid cloud that is fully software defined and microservices based ensuring our scalability and performance SLA."
+
+    
+    ---- Top 2 Motor Industry (Did complete software defined transformation Modernization)
 category:
   - product
   - IT Infrastructure
+resources:
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_SoftwareDefinedTransformation-03250f0e4ba38735d6e41abaa9d0fb54_s6lngd.jpg
+    heading: Software Defined Transformation
+    description: AWS Cloud migration for a large motor industry.
+    link: https://www.synectiks.com/software-defined/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305229/new-design/home-page/Images/CS_Realtime_Monitoring-a62dd5ec305368a459643e196697ffb4_iii8hi.jpg
+    heading: Realtime Monitoring
+    description: Highly Scalable extremely customizable realtime monitoring platform.
+    link: https://www.synectiks.com/realtime/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_Software_Migration-709c30afb47703d839efb79aeae490da_aqdslm.jpg
+    heading: Storage Migration
+    description: Petabytes of storage migration for a large financial company with
+      zero down time.
+    link: https://www.synectiks.com/storage-migration/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_NetworkDesign-6707341964238c8c2a188a6be01b676a_qla9mk.jpg
+    heading: Network Design
+    description: Complete network Backbone design with highest security for retail.
+    link: https://www.synectiks.com/network-design/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_StorageTier-103b26051fde75aa4b9b9d5a8a303058_z5sl7u.jpg
+    heading: Storage Tier
+    description: Moving Bigdata workloads to aggregated platform for a large telco.
+    link: https://www.synectiks.com/storage-tier/index.html
+  - img: https://res.cloudinary.com/papu/image/upload/v1620305229/new-design/home-page/Images/CS_DisasterRecovery-f0018cb2716204dce78323c6d403060b_z5fw5g.jpg
+    heading: Disaster Recovery
+    description: Lightweight disaster recovery platform for indian Defense.
+    link: https://www.synectiks.com/disaster-recovery/index.html
 ---
