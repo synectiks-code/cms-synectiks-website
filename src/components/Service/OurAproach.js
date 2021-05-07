@@ -23,16 +23,16 @@ const OurAproach = ({ data }) => {
                 </div>
                 <div class="d-block w-100 py-5 px-lg-5 px-3 actions-container tab-background-dark">
                     {
-                        data.actions.map((item) => {
+                        data.actions.map((item, index) => {
                             return (
-                                <div key={v4()} class="d-block w-100 py-lg-5 px-lg-5 px-2">
+                                <div key={v4()} class="d-block w-100 py-5 px-lg-5 px-2">
                                     <div className="row align-items-center justify-content-center">
-                                        <div className="col-md-6 col-12">
-                                            <div className="d-block banner-image">
+                                        <div className={index % 2 ? 'col-md-5 col-12 order-md-last' : 'col-md-6 col-12 order-md-first'}>
+                                            <div className="d-block mb-4 banner-image">
                                                 <img src={item.img} />
                                             </div>
                                         </div>
-                                        <div class="col-md-5 col-12">
+                                        <div class={index % 2 ? 'col-md-6 col-12' : 'col-md-5 col-12'}>
                                             <div class="d-block content">
                                                 <span class="d-block">{item.heading}</span>
                                                 <HTMLContent content={toHTML(item.text)} />

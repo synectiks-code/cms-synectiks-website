@@ -292,8 +292,12 @@ export class IndexPageTemplate extends React.Component {
                             <div className="card">
                               <img src={story.img} alt="" />
                               <div className="d-block px-3 py-4 caption">
-                                <h5>{story.heading}</h5>
-                                <p>{story.description}</p>
+                                <div className="heading">
+                                    <h5>{story.heading}</h5>
+                                </div>
+                                <div className="description">
+                                    <p>{story.description}</p>
+                                </div>
                                 <a target="_blank" href={story.link} className="btn">Read More <i className="fa fa-long-arrow-alt-right"></i></a>
                               </div>
                             </div>
