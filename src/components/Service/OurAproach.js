@@ -12,8 +12,8 @@ const OurAproach = ({ data }) => {
         data ?
             <div className="aproach-container">
                 <div className="d-block w-100 py-4 px-lg-5 px-3 header-container tab-background">
-                    <div class="d-block w-100 pb-5 px-lg-5 px-2">
-                        <p class="text-center mb-5">
+                    <div className="d-block w-100 pb-5 px-lg-5 px-2">
+                        <p className="text-center mb-5">
                             <img src={data.img} />
                         </p>
                         <p>
@@ -21,20 +21,20 @@ const OurAproach = ({ data }) => {
                         </p>
                     </div>
                 </div>
-                <div class="d-block w-100 py-5 px-lg-5 px-3 actions-container tab-background-dark">
+                <div className="d-block w-100 py-5 px-lg-5 px-3 actions-container tab-background-dark">
                     {
                         data.actions.map((item, index) => {
                             return (
-                                <div key={v4()} class="d-block w-100 py-5 px-lg-5 px-2">
+                                <div key={v4()} className="d-block w-100 py-5 px-lg-5 px-2">
                                     <div className="row align-items-center justify-content-center">
                                         <div className={index % 2 ? 'col-md-5 col-12 order-md-last' : 'col-md-6 col-12 order-md-first'}>
                                             <div className="d-block mb-4 banner-image">
                                                 <img src={item.img} />
                                             </div>
                                         </div>
-                                        <div class={index % 2 ? 'col-md-6 col-12' : 'col-md-5 col-12'}>
-                                            <div class="d-block content">
-                                                <span class="d-block">{item.heading}</span>
+                                        <div className={index % 2 ? 'col-md-6 col-12' : 'col-md-5 col-12'}>
+                                            <div className="d-block content">
+                                                <span className="d-block">{item.heading}</span>
                                                 <HTMLContent content={toHTML(item.text)} />
                                             </div>
                                         </div>

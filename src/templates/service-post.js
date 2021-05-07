@@ -54,14 +54,14 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
           <div className="tab-content position-relative">
             {
               currentSlide !== 0 &&
-              <button onClick={()=>updateCurrentSlide(-1)} class="btn tabs-arrow-left">
-                <i class="fa fa-long-arrow-alt-left"></i>
+              <button onClick={()=>updateCurrentSlide(-1)} className="btn tabs-arrow-left">
+                <i className="fa fa-long-arrow-alt-left"></i>
               </button>
             }
             {
               currentSlide !== 3 &&
-              <button onClick={()=>updateCurrentSlide(1)} class="btn tabs-arrow-right">
-                <i class="fa fa-long-arrow-alt-right"></i>
+              <button onClick={()=>updateCurrentSlide(1)} className="btn tabs-arrow-right">
+                <i className="fa fa-long-arrow-alt-right"></i>
               </button>
             }
             <div className={`tab-pane fade ${currentSlide === 0 ? 'active show' : ''}`}>

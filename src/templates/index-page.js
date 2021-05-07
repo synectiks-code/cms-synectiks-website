@@ -19,7 +19,8 @@ export class IndexPageTemplate extends React.Component {
       currentSlide: 0,
       totalSlides: 0,
       partnersToShow: 4,
-      autoPlayPartners: false
+      autoPlayPartners: false,
+      totalPartners: 0
     };
   }
 
@@ -31,6 +32,11 @@ export class IndexPageTemplate extends React.Component {
     if (this.props.successstories) {
       this.setState({
         totalSlides: this.props.successstories.length
+      });
+    }
+    if(this.props.partners){
+      this.setState({
+        autoPlayPartners: this.props.partners.length > 4
       });
     }
   }
@@ -45,23 +51,19 @@ export class IndexPageTemplate extends React.Component {
     let autoPlay = true;
     if(window.innerWidth <= 470){
       partnersToShow = 1;
-      autoPlay = true;
     } else if(window.innerWidth > 470 && window.innerWidth <= 700){
       partnersToShow = 2;
-      autoPlay = true;
     } else if(window.innerWidth > 700 && window.innerWidth <= 900){
       partnersToShow = 3;
       numberOfSlides = 2;
-      autoPlay = true;
     } else {
       partnersToShow = 4;
       numberOfSlides = 2;
-      autoPlay = false;
     }
     this.setState({
       numberOfSlides,
       partnersToShow,
-      autoPlayPartners: autoPlay
+      autoPlayPartners: this.props.partners.length > partnersToShow
     });
   }
 
@@ -87,28 +89,28 @@ export class IndexPageTemplate extends React.Component {
     return (
       <div className="home-container">
         <div className="d-flex w-100 flex-wrap align-items-center justify-content-between px-md-5 px-3 py-lg-4 dark-background banner-container">
-          <div class="d-inline-block banner-left">
-            <div class="d-block py-5 banner-content">
+          <div className="d-inline-block banner-left">
+            <div className="d-block py-5 banner-content">
               <h2>{bannercontent.title}</h2>
               <div dangerouslySetInnerHTML={{ __html: toHTML(bannercontent.text) }} />
-              <div class="d-flex banner-btns">
-                <a href="#" class="btn for-free">Try Synectiks For Free</a>
-                <a href="#" class="btn watch-demo">Watch Demo</a>
+              <div className="d-flex banner-btns">
+                <a href="#" className="btn for-free">Try Synectiks For Free</a>
+                <a href="#" className="btn watch-demo">Watch Demo</a>
               </div>
             </div>
           </div>
-          <div class="d-inline-block text-center banner-right">
-            <div class="d-block pt-lg-4 pb-lg-0 pb-3 banner-services">
-              <div class="row">
+          <div className="d-inline-block text-center banner-right">
+            <div className="d-block pt-lg-4 pb-lg-0 pb-3 banner-services">
+              <div className="row">
                 {bannercontent.service && bannercontent.service.map((service) => (
-                  <div key={v4()} class="col-md-6 col-sm-6 col-12">
-                    <div class="d-block w-100 text-center service">
-                      <div class="d-inline-block rounded-circle image">
-                        <div class="d-flex align-items-center justify-content-center w-100 h-100">
+                  <div key={v4()} className="col-md-6 col-sm-6 col-12">
+                    <div className="d-block w-100 text-center service">
+                      <div className="d-inline-block rounded-circle image">
+                        <div className="d-flex align-items-center justify-content-center w-100 h-100">
                           <img className="auto-height-img" src={service.img} />
                         </div>
                       </div>
-                      <div class="d-inline-block text" dangerouslySetInnerHTML={{ __html: toHTML(service.name) }} />
+                      <div className="d-inline-block text" dangerouslySetInnerHTML={{ __html: toHTML(service.name) }} />
                     </div>
                   </div>
                 ))}

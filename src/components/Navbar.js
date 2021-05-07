@@ -225,13 +225,13 @@ class Navbar extends React.Component {
 				<div className="nav-search">
 					<a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fas fa-search"></i></a>
 				</div>
-				<nav class="d-block d-lg-none mobile-menu">
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="fa fa-bars"></span>
+				<nav className="d-block d-lg-none mobile-menu">
+					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span className="fa fa-bars"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<button class="navbar-toggler navbar-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="fa fa-times"></span>
+					<div className="collapse navbar-collapse" id="navbarNav">
+						<button className="navbar-toggler navbar-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span className="fa fa-times"></span>
 						</button>
 						<ul className="navbar-nav">
 							<li className={`navbar-item dropdown`}>

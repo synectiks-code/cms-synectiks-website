@@ -64,7 +64,7 @@ const WhyUs = ({ data }) => {
           <div className="d-block w-100 py-4 px-lg-5 px-2">
             <div className="row align-items-center justify-content-between">
               <div className="col-md-6 col-12">
-                <div class="content">
+                <div className="content">
                   <HTMLContent content={toHTML(data.conclusion)} />
                 </div>
               </div>
