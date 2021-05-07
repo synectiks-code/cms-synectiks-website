@@ -18,7 +18,8 @@ export class IndexPageTemplate extends React.Component {
       numberOfSlides: 2,
       currentSlide: 0,
       totalSlides: 0,
-      partnersToShow: 4
+      partnersToShow: 4,
+      autoPlayPartners: false
     };
   }
 
@@ -41,20 +42,26 @@ export class IndexPageTemplate extends React.Component {
   updateNumberOfSlides = () => {
     let numberOfSlides = 1;
     let partnersToShow = 2;
+    let autoPlay = true;
     if(window.innerWidth <= 470){
       partnersToShow = 1;
+      autoPlay = true;
     } else if(window.innerWidth > 470 && window.innerWidth <= 700){
       partnersToShow = 2;
+      autoPlay = true;
     } else if(window.innerWidth > 700 && window.innerWidth <= 900){
       partnersToShow = 3;
       numberOfSlides = 2;
+      autoPlay = true;
     } else {
       partnersToShow = 4;
       numberOfSlides = 2;
+      autoPlay = false;
     }
     this.setState({
       numberOfSlides,
-      partnersToShow
+      partnersToShow,
+      autoPlayPartners: autoPlay
     });
   }
 
@@ -76,7 +83,7 @@ export class IndexPageTemplate extends React.Component {
 
   render() {
     const { bannercontent, usecases, solutions, goals, partners, successstories } = this.props;
-    const { numberOfSlides, currentSlide, totalSlides, partnersToShow } = this.state;
+    const { numberOfSlides, currentSlide, totalSlides, partnersToShow, autoPlayPartners } = this.state;
     return (
       <div className="home-container">
         <div className="d-flex w-100 flex-wrap align-items-center justify-content-between px-md-5 px-3 py-lg-4 dark-background banner-container">
@@ -243,7 +250,7 @@ export class IndexPageTemplate extends React.Component {
           <h2 className="d-block text-center pb-5 pt-4">Our Partners</h2>
           <div className="d-block mx-md-5 mx-3 mb-5 text-center partners">
             <div className="row align-items-center justify-content-center">
-              <Carousel wrapAround={true} autoplayInterval={1000} autoplay={true} slidesToShow={partnersToShow} withoutControls={true}>
+              <Carousel wrapAround={true} autoplayInterval={1000} autoplay={autoPlayPartners} slidesToShow={partnersToShow} withoutControls={true}>
                 {
                   partners && partners.map((partner) => (
                     <div key={v4()} className="d-block text-center partners-logo">
