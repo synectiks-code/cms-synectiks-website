@@ -23,27 +23,17 @@ whyus:
     Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment
   reasonstext: Top 12 Reasons to select Synectiks as your Hybrid Cloud Partner
   reasons:
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1620288122/hybrid-cloud/whyus/Experience_dkyq9q.svg
       text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
+      description: 10+ Large Scale Hybrid Cloud Transformation
+    - description: Experience Team with a proven track record of CloudOps delivery
+        enabled with DevSecOps Capabilities
+      img: https://res.cloudinary.com/papu/image/upload/v1620288124/hybrid-cloud/whyus/Expertise_gzz3o9.svg
+      text: Expertise
+    - img: https://res.cloudinary.com/papu/image/upload/v1620288126/hybrid-cloud/whyus/time_and_money_aixfz8.svg
+      text: Time & Money
+      description: Our open Product Driven Delivery Model allows customers to quickly
+        build, deliver and orchestrate cross cloud services @50% time & cost.
   conclusion: The Coffee Taster’s Flavor Wheel, the official resource used by
     coffee tasters, has been revised for the first time this year.The Coffee
     Taster’s Flavor Wheel, the official resource used by coffee tasters, has
