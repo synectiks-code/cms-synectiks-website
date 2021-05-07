@@ -11,7 +11,7 @@ const GettingStarted = ({ data }) => {
             <div className="getting-container">
                 <div className="d-block w-100 getting-service-container">
                     <div className="d-block w-100">
-                        {data.actions.map((action, index) => {
+                        {data.actions && data.actions.map((action, index) => {
                             return (
                                 <div key={v4()} className={`d-block w-100 py-5 px-lg-5 px-3 service ${index%2 === 0 ? 'tab-background': 'tab-dark-background'}`}>
                                     <div className="d-block w-100 py-5 px-lg-5 px-2">
