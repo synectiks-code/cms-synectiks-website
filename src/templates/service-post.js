@@ -37,7 +37,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
             </div>
           </div>
           <div className="d-inline-block text-center banner-right">
-            <div className="d-block banner-icon-img"><img src={bannericon} alt="" className="w-25 text-white"/></div>
+            <div className="d-block banner-icon-img"><img src={bannericon} alt="" /></div>
             <div className="d-block banner-heading">{bannericonname}</div>
           </div>
         </div>
