@@ -122,15 +122,15 @@ page:
       because they thought we had scrubbed fox imagery from our browser.
 bannericonname: Synectiks Hybrid Cloud
 aproach:
-  img: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
-  description: Description
+  img: " "
+  description: DEscription
 description: The Coffee Taster’s Flavor Wheel, the official resource used by
   coffee tasters, has been revised for the first time this year.The Coffee
   Taster’s Flavor Wheel, the official resource used by coffee tasters, has been
   revised for the first time this year.The Coffee Taster’s Flavor Wheel
 gettingstarted:
-  actiontext: Header
-  description: Header
+  actiontext: " "
+  description: " "
 category:
   - product
   - Cloud Computing
