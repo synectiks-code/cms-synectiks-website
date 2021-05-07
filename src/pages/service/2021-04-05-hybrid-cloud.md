@@ -15,6 +15,12 @@ whyus:
 
 
     Right Technology / People / Process to implement Hybrid IT Strategy that scale across Clouds and offers maximum Security. Innovation Speed at Optimal economics.
+
+
+    # Solution 
+
+
+    Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment
   reasonstext: Top 12 Reasons to select Synectiks as your Hybrid Cloud Partner
   reasons:
     - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
@@ -43,10 +49,11 @@ whyus:
     Taster’s Flavor Wheel, the official resource used by coffee tasters, has
     been revised for the first time this year.The Coffee Taster’s Flavor Wheel
   productdescription: >-
-    #  Solution 
+    #### **Our open product based solutioning model, help you innovate and
+    transform with speed and quality.** 
 
 
-    Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment
+    We go beyond creating a strategy: Synectiks helps you plan it, do it, run it and manage it. Synectiks Xformation Platform allows to quickly build and deliver and orchestrate hybrid cloud services, at-scale, repeatable offerings and solutions that help to drive your Hybrid Cloud journey @50% time & cost. Xformation is a single interface and platform to manage all your workloads distributed across multiple clouds and boundaries within a single control plane. Finally, we help you run it all at a lower cost using CloudOps delivery enabled with DevSecOps capabilities and extreme automation.
   conclusionimg: Our open product based solutioning model, help you innovate and
     transform with speed and quality.
 featuredimage: /img/apple-touch-icon.png
