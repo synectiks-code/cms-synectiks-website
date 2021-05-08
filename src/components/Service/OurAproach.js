@@ -11,16 +11,19 @@ const OurAproach = ({ data }) => {
     return (
         data ?
             <div className="aproach-container">
-                <div className="d-block w-100 py-4 px-lg-5 px-3 header-container tab-background">
-                    <div className="d-block w-100 pb-5 px-lg-5 px-2">
-                        <p className="text-center mb-5">
-                            <img src={data.img} />
-                        </p>
-                        <p>
-                            <HTMLContent content={toHTML(data.description)} />
-                        </p>
+                {
+                    data.description && data.img &&
+                    <div className="d-block w-100 py-4 px-lg-5 px-3 header-container tab-background">
+                        <div className="d-block w-100 pb-5 px-lg-5 px-2">
+                            <p className="text-center mb-5">
+                                <img src={data.img} />
+                            </p>
+                            <p>
+                                <HTMLContent content={toHTML(data.description)} />
+                            </p>
+                        </div>
                     </div>
-                </div>
+                }
                 <div className="d-block w-100 py-5 px-lg-5 px-3 actions-container tab-background-dark">
                     {
                         data.actions && data.actions.map((item, index) => {

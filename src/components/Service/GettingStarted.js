@@ -13,7 +13,7 @@ const GettingStarted = ({ data }) => {
                     <div className="d-block w-100">
                         {data.actions && data.actions.map((action, index) => {
                             return (
-                                <div key={v4()} className={`d-block w-100 py-5 px-lg-5 px-3 service ${index%2 === 0 ? 'tab-background': 'tab-dark-background'}`}>
+                                <div key={v4()} className={`d-block w-100 py-5 px-lg-5 px-3 service ${index % 2 === 0 ? 'tab-background' : 'tab-dark-background'}`}>
                                     <div className="d-block w-100 py-5 px-lg-5 px-2">
                                         <div className="d-block text-center w-100 pb-4 service-image">
                                             <img src={action.img} />
@@ -25,12 +25,15 @@ const GettingStarted = ({ data }) => {
                         })}
                     </div>
                 </div>
-                <div className="d-block w-100 py-5 px-lg-5 px-3 tab-dark-background getting-testimonial-container">
-                    <div className="d-block w-100 px-lg-5 px-2">
-                        <div className="d-block w-100 pt-5 testimonial-icon">❛❛</div>
-                        <div className="d-block w-100 px-5 pb-5 testimonial" dangerouslySetInnerHTML={{ __html: toHTML(data.testimonial) }} />
+                {
+                    data.testimonial &&
+                    <div className="d-block w-100 py-5 px-lg-5 px-3 tab-dark-background getting-testimonial-container">
+                        <div className="d-block w-100 px-lg-5 px-2">
+                            <div className="d-block w-100 pt-5 testimonial-icon">❛❛</div>
+                            <div className="d-block w-100 px-5 pb-5 testimonial" dangerouslySetInnerHTML={{ __html: toHTML(data.testimonial) }} />
+                        </div>
                     </div>
-                </div>
+                }
             </div> :
             <div>No data</div>
     );
