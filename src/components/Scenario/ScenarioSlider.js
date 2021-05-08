@@ -63,67 +63,71 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
               </Item>
             </div>
             <div className="item-content">
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <div style={{ padding: "0px" }} className="column is-10">
-                  <h3 className="has-text-weight-semibold">
-                    {sliderContent.name}
-                  </h3>
-                </div>
-                {
-                  showMoreDetailsButton &&
-                  <div style={{ padding: "0px" }} className="column is-2">
-                    <button className="button is-link float-right more-details-btn" onClick={onClickMoreDetails}>More details</button>
-                    {showMoreDetails &&
-                      <div
-                        className="more-details-content"
-                        style={{
-                          backgroundImage: `url(${sliderContent.img})`,
-                        }}
-                      >
-                        <Scrollbars>
-                          <div className="details-content-inner">
-                            <button className="close-btn" onClick={onClickMoreDetailsclose}>
-                              <AiFillCloseCircle />
-                            </button>
-                            <div className="container">
-                              <div className="columns is-multiline">
-                                <div className="column is-8">
-                                  <h3 className="has-text-weight-semibold is-size-2">
-                                    {sliderContent.moreDetails.moreDetailsName}
-                                  </h3>
-                                  <p>
-                                    {sliderContent.moreDetails.moreDetailsText}
-                                  </p>
-                                </div>
-                                <div className="column is-4">
-                                  {
-                                    sliderContent.moreDetails.moreDetailsImage.map((img, index) =>
-                                      <div key={v4()} className="image">
-                                        <img
-                                          src={img.img}
-                                          alt={sliderContent.moreDetails.moreDetailsName}
-                                          title={sliderContent.moreDetails.moreDetailsName}
-                                          width="300"
-                                          height="200"
-                                        />
-                                      </div>
-                                    )
-                                  }
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-md-10 col-12">
+                    <h3 className="has-text-weight-semibold">
+                      {sliderContent.name}
+                    </h3>
+                  </div>
+                  {
+                    showMoreDetailsButton &&
+                    <div className="col-md-2 col-12">
+                      <button style={{ marginTop: '7px' }} className="button is-link float-right more-details-btn" onClick={onClickMoreDetails}>More details</button>
+                      {showMoreDetails &&
+                        <div
+                          className="more-details-content"
+                          style={{
+                            backgroundImage: `url(${sliderContent.img})`,
+                          }}
+                        >
+                          <Scrollbars>
+                            <div className="details-content-inner">
+                              <button className="close-btn" onClick={onClickMoreDetailsclose}>
+                                <AiFillCloseCircle />
+                              </button>
+                              <div className="container">
+                                <div className="row">
+                                  <div className="col-md-8 col-12">
+                                    <h3 className="has-text-weight-semibold is-size-2">
+                                      {sliderContent.moreDetails.moreDetailsName}
+                                    </h3>
+                                    <p>
+                                      {sliderContent.moreDetails.moreDetailsText}
+                                    </p>
+                                  </div>
+                                  <div className="col-md-4 col-12">
+                                    {
+                                      sliderContent.moreDetails.moreDetailsImage && sliderContent.moreDetails.moreDetailsImage.map((img, index) =>
+                                        <div key={v4()} className="image">
+                                          <img
+                                            src={img.img}
+                                            alt={sliderContent.moreDetails.moreDetailsName}
+                                            title={sliderContent.moreDetails.moreDetailsName}
+                                            width="300"
+                                            height="200"
+                                          />
+                                        </div>
+                                      )
+                                    }
+                                  </div>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        </Scrollbars>
-                      </div>
-                    }
-                  </div>
-                }
+                          </Scrollbars>
+                        </div>
+                      }
+                    </div>
+                  }
+                </div>
               </div>
-              <div className="">
-                <div className="">
-                  <p>
-                    {sliderContent.text}
-                  </p>
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-12">
+                    <p>
+                      {sliderContent.text}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

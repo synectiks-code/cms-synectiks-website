@@ -220,6 +220,9 @@ class Navbar extends React.Component {
 						<li className="nav-item">
 							<Link to="/survey">Survey Form</Link>
 						</li>
+						<li className="nav-item">
+							<Link to="/scenario/1">Scenario</Link>
+						</li>
 					</ul>
 				</div>
 				<div className="nav-search">
@@ -267,7 +270,7 @@ class Navbar extends React.Component {
 								<Link to="/survey" className="navbar-link">Survey Form</Link>
 							</li>
 							<li className="navbar-item">
-								<Link to="/scenario" className="navbar-link">Scenario</Link>
+								<Link to="/scenario/1" className="navbar-link">Scenario</Link>
 							</li>
 						</ul>
 					</div>
