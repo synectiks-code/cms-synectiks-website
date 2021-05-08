@@ -111,13 +111,24 @@ class Resources extends React.Component {
         const { blogSlideIndex, whitePaperSlideIndex, caseStudiesSlideIndex } = this.state;
         const { data } = this.props;
         return (
-            <div className="d-block w-100 tab-background resources-container">
-                {data.blogs && data.blogs.length > 0 && this.renderSlider("Blogs", "These are the blogs", data.blogs, currentSlide => this.afterSlide(currentSlide, "blogSlideIndex"), blogSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "blogSlideIndex"))}
-                {data.blogs && data.blogs.length > 0 && this.renderSlider("White paper", "These are the white papers", data.whitepapers, currentSlide => this.afterSlide(currentSlide, "whitePaperSlideIndex"), whitePaperSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "whitePaperSlideIndex"))}
-                {data.blogs && data.blogs.length > 0 && this.renderSlider("Case studies", "These are the case studies", data.casestudies, currentSlide => this.afterSlide(currentSlide, "caseStudiesSlideIndex"), caseStudiesSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "caseStudiesSlideIndex"))}
-            </div>
-        );
+            {
+                data?
+                    <div className = "d-block w-100 tab-background resources-container">
+                        {
+                    data.blogs && data.blogs.length > 0 &&
+                    this.renderSlider("Blogs", "These are the blogs", data.blogs, currentSlide => this.afterSlide(currentSlide, "blogSlideIndex"), blogSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "blogSlideIndex"))
+                }
+                        {
+            data.blogs && data.blogs.length > 0 && this.renderSlider("White paper", "These are the white papers", data.whitepapers, currentSlide => this.afterSlide(currentSlide, "whitePaperSlideIndex"), whitePaperSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "whitePaperSlideIndex"))
+        }
+        {
+            data.blogs && data.blogs.length > 0 && this.renderSlider("Case studies", "These are the case studies", data.casestudies, currentSlide => this.afterSlide(currentSlide, "caseStudiesSlideIndex"), caseStudiesSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "caseStudiesSlideIndex"))
+        }
+                        </div > :
+        <div>No Data</div>
     }
+        );
+}
 }
 
 export default Resources
