@@ -6,6 +6,7 @@ bannerimage: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design
 bannerdescription: Our open product based solutioning model, help you innovate
   and transform with speed and quality.
 bannericon: https://res.cloudinary.com/papu/image/upload/v1620120968/new-design/hybrid-cloud/banner-icon-img_zau5bm.png
+bannericonname: Synectiks Hybrid Cloud
 whyus:
   img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
   description: >-
@@ -81,6 +82,9 @@ whyus:
 
     Xformation is a single interface and platform to manage all your workloads distributed across multiple clouds and boundaries within a single control plane.
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
+  show: false
+resources:
+  show: false
 featuredimage: /img/apple-touch-icon.png
 featuredpost: true
 page:
@@ -120,10 +124,10 @@ page:
       calling 'fox gate', and chances are you might have seen a meme or two
       about the Firefox logo. Many people were pulling up for a battle royale
       because they thought we had scrubbed fox imagery from our browser.
-bannericonname: Synectiks Hybrid Cloud
 aproach:
   img: " "
-  description: DEscription
+  description: Test
+  show: false
 description: The Coffee Taster’s Flavor Wheel, the official resource used by
   coffee tasters, has been revised for the first time this year.The Coffee
   Taster’s Flavor Wheel, the official resource used by coffee tasters, has been
@@ -131,6 +135,8 @@ description: The Coffee Taster’s Flavor Wheel, the official resource used by
 gettingstarted:
   actiontext: " "
   description: " "
+  show: false
+  testimonial: test
 category:
   - product
   - Cloud Computing
