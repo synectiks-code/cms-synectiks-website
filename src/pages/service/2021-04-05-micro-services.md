@@ -9,23 +9,12 @@ bannericon: https://res.cloudinary.com/papu/image/upload/v1620120968/new-design/
 bannericonname: Synectiks Hybrid Cloud
 whyus:
   img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
-  description: >-
-    # **Need** 
-
-
-    Right Technology / People / Process to implement Hybrid IT Strategy that scale across Clouds and offers maximum Security. Innovation Speed at Optimal economics. 
-
-
-    # Solution 
-
-
-    Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment.
+  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
   productdescription: >-
     **Our open product based solutioning model, help you innovate and transform
     with speed and quality.**
 
      We go beyond creating a strategy: Synectiks helps you plan it, do it, run it and manage it. Synectiks Xformation Platform allows to quickly build and deliver and orchestrate hybrid cloud services, at-scale, repeatable offerings and solutions that help to drive your Hybrid Cloud journey @50% time & cost. Xformation is a single interface and platform to manage all your workloads distributed across multiple clouds and boundaries within a single control plane. Finally, we help you run it all at a lower cost using CloudOps delivery enabled with DevSecOps capabilities and extreme automation.
-  reasonstext: "Top 12 Reasons to select Synectiks as your Hybrid Cloud Partner:"
   reasons:
     - description: 10+ Large Scale Hybrid Cloud Transformation
       text: Experience
@@ -73,6 +62,20 @@ whyus:
     - description: 100% Customer Retention Rate.
       img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/long-term-retention_nm2mea.jpg
       text: Long Term Retention
+  showblock: true
+  reasonstext: "Top 12 Reasons to select Synectiks as your Hybrid Cloud Partner:"
+  description: >-
+    # **Need** 
+
+
+    Right Technology / People / Process to implement Hybrid IT Strategy that scale across Clouds and offers maximum Security. Innovation Speed at Optimal economics. 
+
+
+    # Solution 
+
+
+    Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment.
+  show: false
   conclusion: >-
     Finally, we help you run it all at a lower cost using CloudOps delivery
     enabled with DevSecOps capabilities and extreme automation from our
@@ -81,8 +84,6 @@ whyus:
      Xformation Platform allows to quickly build and deliver and orchestrate cross cloud services, at-scale, repeatable offerings and solutions that help to drive your Hybrid Cloud journey @50% time & cost. 
 
     Xformation is a single interface and platform to manage all your workloads distributed across multiple clouds and boundaries within a single control plane.
-  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
-  show: false
 resources:
   show: false
 featuredimage: /img/apple-touch-icon.png
