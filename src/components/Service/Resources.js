@@ -64,7 +64,7 @@ class Resources extends React.Component {
                                 <Carousel afterSlide={afterSlide} slideIndex={currentSlide} scrollMode="remainder" withoutControls={true} slidesToShow={numberOfSlides} slidesToScroll={1}>
                                     {
                                         sliderData.map((slide) => (
-                                            <div className="col-12 p-0">
+                                            <div className="col-12">
                                                 <div className="card">
                                                     <img src={slide.img} alt="" />
                                                     <div className="d-block px-3 py-4 caption">
