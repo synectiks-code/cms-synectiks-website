@@ -116,6 +116,7 @@ collections:
           widget: 'object',
           fields:
             [
+              {label: "Show Why us", name: "showblock", widget: "boolean", default: true},
               { label: Image, name: img, widget: string },
               { label: Description, name: description, widget: markdown },
               { label: Product Description, name: productdescription, widget: markdown },
@@ -141,6 +142,7 @@ collections:
           widget: 'object',
           fields:
             [
+              {label: "Show Aproach", name: "showblock", widget: "boolean", default: true},
               { label: Banner Image, name: img, widget: string },
               { label: Banner Description, name: description, widget: markdown },
               {
@@ -162,6 +164,7 @@ collections:
           widget: 'object',
           fields:
             [
+              {label: "Show Getting started", name: "showblock", widget: "boolean", default: true},
               {
                 label: Actions,
                 name: actions,
@@ -181,6 +184,7 @@ collections:
           widget: 'object',
           fields: 
             [
+              {label: "Show Resources", name: "showblock", widget: "boolean", default: true},
               {
                 label: 'Blogs',
                 name: 'blogs',

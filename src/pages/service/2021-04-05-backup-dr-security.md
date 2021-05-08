@@ -8,6 +8,7 @@ bannerdescription: Our open product based solutioning model, help
 bannericon: https://res.cloudinary.com/papu/image/upload/v1620120968/new-design/hybrid-cloud/banner-icon-img_zau5bm.png
 bannericonname: SYNECTIKS HYBRID CLOUD
 whyus:
+  showblock: true
   img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
   description: >-
     ## NEED
@@ -83,6 +84,7 @@ whyus:
     Xformation is a single interface and platform to manage all your workloads distributed across multiple clouds and boundaries within a single control plane.
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
 aproach:
+  showblock: true
   img: https://res.cloudinary.com/papu/image/upload/v1620215087/new-design/hybrid-cloud/our-approach-img_vqrjlg.jpg
   description: "The new generation of hybrid cloud enables you to build and manage
     across any cloud with a common platform, allowing you to skill once, build
@@ -105,6 +107,7 @@ aproach:
 
         \r\n"
 gettingstarted:
+  showblock: true
   actions:
     - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
       description: >-
@@ -138,6 +141,7 @@ gettingstarted:
     
     ---- Top 2 Motor Industry (Did complete software defined transformation Modernization)
 resources:
+  showblock: true
   blogs:
     - img: https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_SoftwareDefinedTransformation-03250f0e4ba38735d6e41abaa9d0fb54_s6lngd.jpg
       heading: Software Defined Transformation

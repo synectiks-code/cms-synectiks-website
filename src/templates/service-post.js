@@ -18,12 +18,63 @@ const toHTML = (value) =>
 
 
 export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonname, bannerimage, helmet, whyus, aproach, gettingstarted, resources }) => {
-  const pages = ["Why Us", "Our Approach", "Getting Started", "Resources"];
+  // const pages = ["Why Us", "Our Approach", "Getting Started", "Resources"];
+  const pages = [{
+    name: "Why Us",
+    component: <WhyUs data={whyus} />,
+    show: whyus.showblock
+  }, {
+    name: "Our Approach",
+    component: <OurAproach data={aproach} />,
+    show: aproach.showblock
+  }, {
+    name: "Getting Started",
+    component: <GettingStarted data={gettingstarted} />,
+    show: gettingstarted.showblock
+  }, {
+    name: "Resources",
+    component: <Resources data={resources} />,
+    show: resources.showblock
+  }];
+  let totalShownSlides = 0;
   const [currentSlide, setCurrentSlide] = useState(0);
   function updateCurrentSlide(factor) {
-    if (currentSlide + factor >= 0 && currentSlide + factor <= 3) {
+    if (currentSlide + factor >= 0 && currentSlide + factor <= (totalShownSlides - 1)) {
       setCurrentSlide(currentSlide + factor);
     }
+  }
+  function renderTab(pages) {
+    const retData = [];
+    let index = 0;
+    for (let i = 0; i < pages.length; i++) {
+      if (pages[i].show) {
+        let l = index;
+        retData.push(
+          <li className="nav-item">
+            <button onClick={() => { setCurrentSlide(l) }} className={`${currentSlide === index ? 'active' : ''} nav-link`} >{pages[i].name}<i className="fa fa-arrow-down"></i></button>
+          </li>
+        );
+        index += 1;
+      }
+    }
+    totalShownSlides = index;
+    return retData;
+  }
+  function renderTabContent(pages) {
+    const retData = [];
+    let index = 0;
+    for (let i = 0; i < pages.length; i++) {
+      if (pages[i].show) {
+        let l = index;
+        retData.push(
+          <div className={`tab-pane fade ${currentSlide === l ? 'active show' : ''}`}>
+            {pages[i].component}
+          </div>
+        );
+        index += 1;
+      }
+    }
+    return retData;
   }
   return (
     <React.Fragment>
@@ -44,11 +95,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
         <div className="d-block tab-container">
           <div className="d-block py-4 px-lg-5 px-3 tabs">
             <ul className="nav nav-tabs w-100 justify-content-between">
-              {pages.map((pageContent, index) => (
-                <li className="nav-item">
-                  <button onClick={() => setCurrentSlide(index)} className={`${currentSlide === index ? 'active' : ''} nav-link`} >{pageContent}<i className="fa fa-arrow-down"></i></button>
-                </li>
-              ))}
+              {renderTab(pages)}
             </ul>
           </div>
           <div className="tab-content position-relative">
@@ -59,23 +106,12 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
               </button>
             }
             {
-              currentSlide !== 3 &&
+              currentSlide !== totalShownSlides - 1 &&
               <button onClick={() => updateCurrentSlide(1)} className="btn tabs-arrow-right">
                 <i className="fa fa-long-arrow-alt-right"></i>
               </button>
             }
-            <div className={`tab-pane fade ${currentSlide === 0 ? 'active show' : ''}`}>
-              <WhyUs data={whyus} />
-            </div>
-            <div className={`tab-pane fade ${currentSlide === 1 ? 'active show' : ''}`}>
-              <OurAproach data={aproach} />
-            </div>
-            <div className={`tab-pane fade ${currentSlide === 2 ? 'active show' : ''}`}>
-              <GettingStarted data={gettingstarted} />
-            </div>
-            <div className={`tab-pane fade ${currentSlide === 3 ? 'active show' : ''}`}>
-              <Resources data={resources} />
-            </div>
+            {renderTabContent(pages)}
           </div>
         </div>
       </div>
@@ -148,6 +184,7 @@ export const pageQuery = graphql`
         bannericon
         bannericonname
         whyus {
+          showblock
           img
           description
           productdescription
@@ -161,15 +198,17 @@ export const pageQuery = graphql`
           conclusionimg
         }
         aproach {
-          img,
-          description,
+          showblock
+          img
+          description
           actions {
-            img,
-            heading,
+            img
+            heading
             text
           }
         }
         gettingstarted {
+          showblock
           actions {
             img
             description
@@ -177,22 +216,23 @@ export const pageQuery = graphql`
           testimonial
         }
         resources {
+          showblock
           blogs{
-            img,
-            heading,
-            description,
+            img
+            heading
+            description
             link
           }
           whitepapers{
-            img,
-            heading,
-            description,
+            img
+            heading
+            description
             link
           }
           casestudies{
-            img,
-            heading,
-            description,
+            img
+            heading
+            description
             link
           }
         }
