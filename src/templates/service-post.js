@@ -22,19 +22,19 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
   const pages = [{
     name: "Why Us",
     component: <WhyUs data={whyus} />,
-    show: whyus.showblock
+    show: whyus ? whyus.showblock : true
   }, {
     name: "Our Approach",
     component: <OurAproach data={aproach} />,
-    show: aproach.showblock
+    show: aproach ? aproach.showblock : true
   }, {
     name: "Getting Started",
     component: <GettingStarted data={gettingstarted} />,
-    show: gettingstarted.showblock
+    show: gettingstarted ? gettingstarted.showblock : true
   }, {
     name: "Resources",
     component: <Resources data={resources} />,
-    show: resources.showblock
+    show: resources ? resources.showblock : true
   }];
   let totalShownSlides = 0;
   const [currentSlide, setCurrentSlide] = useState(0);
