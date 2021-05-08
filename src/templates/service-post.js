@@ -92,7 +92,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
             <div className="d-inline-block banner-heading">{bannericonname}</div>
           </div>
         </div>
-        <div className="d-inline-block tab-container">
+        <div className="d-block tab-container">
           <div className="d-block py-4 px-lg-5 px-3 tabs">
             <ul className="nav nav-tabs w-100 justify-content-between">
               {renderTab(pages)}
