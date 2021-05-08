@@ -118,7 +118,7 @@ class Resources extends React.Component {
     renderWhitePaperSlider = (data) => {
         const { whitePaperSlideIndex } = this.state;
         if (data.whitepapers && data.whitepapers.length > 0) {
-            return return this.renderSlider("White paper", "These are the white papers", data.whitepapers, currentSlide => this.afterSlide(currentSlide, "whitePaperSlideIndex"), whitePaperSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "whitePaperSlideIndex"));
+            return this.renderSlider("White paper", "These are the white papers", data.whitepapers, currentSlide => this.afterSlide(currentSlide, "whitePaperSlideIndex"), whitePaperSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "whitePaperSlideIndex"));
         }
         return <div>No white paper data</div>;
     };
