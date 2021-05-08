@@ -17,11 +17,11 @@ const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
 
-export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonname, bannerimage, helmet, whyus, aproach, gettingstarted }) => {
+export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonname, bannerimage, helmet, whyus, aproach, gettingstarted, resources }) => {
   const pages = ["Why Us", "Our Approach", "Getting Started", "Resources"];
   const [currentSlide, setCurrentSlide] = useState(0);
-  function updateCurrentSlide(factor){
-    if(currentSlide + factor >= 0 && currentSlide + factor <= 3){
+  function updateCurrentSlide(factor) {
+    if (currentSlide + factor >= 0 && currentSlide + factor <= 3) {
       setCurrentSlide(currentSlide + factor);
     }
   }
@@ -54,13 +54,13 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
           <div className="tab-content position-relative">
             {
               currentSlide !== 0 &&
-              <button onClick={()=>updateCurrentSlide(-1)} className="btn tabs-arrow-left">
+              <button onClick={() => updateCurrentSlide(-1)} className="btn tabs-arrow-left">
                 <i className="fa fa-long-arrow-alt-left"></i>
               </button>
             }
             {
               currentSlide !== 3 &&
-              <button onClick={()=>updateCurrentSlide(1)} className="btn tabs-arrow-right">
+              <button onClick={() => updateCurrentSlide(1)} className="btn tabs-arrow-right">
                 <i className="fa fa-long-arrow-alt-right"></i>
               </button>
             }
@@ -74,7 +74,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
               <GettingStarted data={gettingstarted} />
             </div>
             <div className={`tab-pane fade ${currentSlide === 3 ? 'active show' : ''}`}>
-              <Resources />
+              <Resources data={resources} />
             </div>
           </div>
         </div>
@@ -95,6 +95,7 @@ ServicePostTemplate.propTypes = {
   whyus: PropTypes.object,
   aproach: PropTypes.object,
   gettingstarted: PropTypes.object,
+  resources: PropTypes.object
 };
 
 const ServicePost = ({ data }) => {
@@ -120,6 +121,7 @@ const ServicePost = ({ data }) => {
         whyus={post.frontmatter.whyus}
         aproach={post.frontmatter.aproach}
         gettingstarted={post.frontmatter.gettingstarted}
+        resources={post.frontmatter.resources}
       />
     </Layout>
   );
@@ -175,10 +177,24 @@ export const pageQuery = graphql`
           testimonial
         }
         resources {
-          img,
-          heading,
-          description,
-          link
+          blogs{
+            img,
+            heading,
+            description,
+            link
+          }
+          whitepapers{
+            img,
+            heading,
+            description,
+            link
+          }
+          casestudies{
+            img,
+            heading,
+            description,
+            link
+          }
         }
       }
     }

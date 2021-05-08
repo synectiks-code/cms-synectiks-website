@@ -10,6 +10,8 @@ const ServicePostPreview = ({ entry, widgetFor, getAsset }) => {
   aproach = aproach ? aproach.toJS() : null;
   let gettingstarted = entry.getIn(['data', 'gettingstarted']);
   gettingstarted = gettingstarted ? gettingstarted.toJS() : null;
+  let resources = entry.getIn(['data', 'resources']);
+  resources = resources ? resources.toJS() : null;
   return (
     <Layout>
       <ServicePostTemplate
@@ -21,6 +23,7 @@ const ServicePostPreview = ({ entry, widgetFor, getAsset }) => {
         whyus={whyUs}
         aproach={aproach}
         gettingstarted={gettingstarted}
+        resources={resources}
       />
     </Layout>
   )

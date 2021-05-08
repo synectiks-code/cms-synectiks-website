@@ -174,6 +174,50 @@ collections:
               },
               { label: Testimonial, name: testimonial, widget: string }
             ]
+        }
+      - {
+          label: 'Resources',
+          name: 'resources',
+          widget: 'object',
+          fields: 
+            [
+              {
+                label: 'Blogs',
+                name: 'blogs',
+                widget: 'list',
+                fields:
+                  [
+                    { label: Image, name: img, widget: string },
+                    { label: Heading, name: heading, widget: string },
+                    { label: Description, name: description, widget: string },
+                    { label: Link, name: link, widget: string },
+                  ]
+              },
+              {
+                label: 'White papers',
+                name: 'whitepapers',
+                widget: 'list',
+                fields:
+                  [
+                    { label: Image, name: img, widget: string },
+                    { label: Heading, name: heading, widget: string },
+                    { label: Description, name: description, widget: string },
+                    { label: Link, name: link, widget: string },
+                  ]
+              },
+              {
+                label: 'Case studies',
+                name: 'casestudies',
+                widget: 'list',
+                fields:
+                  [
+                    { label: Image, name: img, widget: string },
+                    { label: Heading, name: heading, widget: string },
+                    { label: Description, name: description, widget: string },
+                    { label: Link, name: link, widget: string },
+                  ]
+              }
+            ]
         }  
       - { label: 'Category', name: 'category', widget: 'list' }
   - name: 'workflowpost'
