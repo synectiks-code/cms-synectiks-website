@@ -107,28 +107,43 @@ class Resources extends React.Component {
         }
     }
 
+    renderBlogSlider = (data) => {
+        const { blogSlideIndex } = this.state;
+        if (data.blogs && data.blogs.length > 0) {
+            return this.renderSlider("Blogs", "These are the blogs", data.blogs, currentSlide => this.afterSlide(currentSlide, "blogSlideIndex"), blogSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "blogSlideIndex"));
+        }
+        return <div>No blog data</div>;
+    };
+
+    renderWhitePaperSlider = (data) => {
+        const { whitePaperSlideIndex } = this.state;
+        if (data.whitepapers && data.whitepapers.length > 0) {
+            return return this.renderSlider("White paper", "These are the white papers", data.whitepapers, currentSlide => this.afterSlide(currentSlide, "whitePaperSlideIndex"), whitePaperSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "whitePaperSlideIndex"));
+        }
+        return <div>No white paper data</div>;
+    };
+
+    renderCaseStudiesSlider = (data) => {
+        const { caseStudiesSlideIndex } = this.state;
+        if (data.casestudies && data.casestudies.length > 0) {
+            return this.renderSlider("Case studies", "These are the case studies", data.casestudies, currentSlide => this.afterSlide(currentSlide, "caseStudiesSlideIndex"), caseStudiesSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "caseStudiesSlideIndex"))
+        }
+        return <div>No case studies data</div>;
+    };
+
     render() {
         const { blogSlideIndex, whitePaperSlideIndex, caseStudiesSlideIndex } = this.state;
         const { data } = this.props;
         return (
-            {
-                data?
-                    <div className = "d-block w-100 tab-background resources-container">
-                        {
-                    data.blogs && data.blogs.length > 0 &&
-                    this.renderSlider("Blogs", "These are the blogs", data.blogs, currentSlide => this.afterSlide(currentSlide, "blogSlideIndex"), blogSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "blogSlideIndex"))
-                }
-                        {
-            data.blogs && data.blogs.length > 0 && this.renderSlider("White paper", "These are the white papers", data.whitepapers, currentSlide => this.afterSlide(currentSlide, "whitePaperSlideIndex"), whitePaperSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "whitePaperSlideIndex"))
-        }
-        {
-            data.blogs && data.blogs.length > 0 && this.renderSlider("Case studies", "These are the case studies", data.casestudies, currentSlide => this.afterSlide(currentSlide, "caseStudiesSlideIndex"), caseStudiesSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "caseStudiesSlideIndex"))
-        }
-                        </div > :
-        <div>No Data</div>
-    }
+            data ?
+                <div className="d-block w-100 tab-background resources-container">
+                    {this.renderBlogSlider(data)}
+                    {this.renderWhitePaperSlider(data)}
+                    {this.renderCaseStudiesSlider(data)}
+                </div > :
+                <div>No Data</div>
         );
-}
+    }
 }
 
 export default Resources
