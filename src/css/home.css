@@ -386,12 +386,17 @@
 
 .home-container .application-box .touch-btn {
     background-color: #ffffff;
+    border: 1px solid #ffffff;
     font-size: 24px;
     line-height: 44px;
     font-weight: 400;
     border-radius: 0;
     padding: 0 10px;
     box-shadow: none;
+}
+.home-container .application-box .touch-btn:hover {
+    background-color: #384CD8;
+    color: #ffffff;
 }
 
 @media (max-width: 1150px) {
