@@ -23,7 +23,7 @@ const OurAproach = ({ data }) => {
                 </div>
                 <div className="d-block w-100 py-5 px-lg-5 px-3 actions-container tab-background-dark">
                     {
-                        data.actions.map((item, index) => {
+                        data.actions && data.actions.map((item, index) => {
                             return (
                                 <div key={v4()} className="d-block w-100 py-5 px-lg-5 px-2">
                                     <div className="row align-items-center justify-content-center">
