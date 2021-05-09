@@ -11,6 +11,7 @@ export default function HTML(props) {
           name='viewport'
           content='width=device-width, initial-scale=1, shrink-to-fit=no'
         />
+        <meta name='referrer' content='no-referrer-when-downgrade'></meta>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
