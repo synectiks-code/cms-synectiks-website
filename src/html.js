@@ -21,7 +21,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -35,7 +35,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
         `,
           }}
-        />
+        /> */}
       </body>
     </html>
   );
