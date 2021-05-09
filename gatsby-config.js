@@ -65,13 +65,13 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-tawk.to`,
-      options: {
-        tawkId: '6097f6a6b1d5182476b72ad8',
-        // get this from the tawk script widget
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-tawk.to`,
+    //   options: {
+    //     tawkId: '6097f6a6b1d5182476b72ad8',
+    //     // get this from the tawk script widget
+    //   },
+    // },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
