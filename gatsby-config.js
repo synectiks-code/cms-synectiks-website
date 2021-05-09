@@ -53,8 +53,8 @@ module.exports = {
           {
             resolve: 'gatsby-plugin-sass',
             options: {
-              indentedSyntax: true
-            }
+              indentedSyntax: true,
+            },
           },
           {
             resolve: 'gatsby-remark-copy-linked-files',
@@ -63,6 +63,13 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-tawk.to`,
+      options: {
+        tawkId: '6097f6a6b1d5182476b72ad8',
+        // get this from the tawk script widget
       },
     },
     {
@@ -80,4 +87,4 @@ module.exports = {
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
-}
+};
