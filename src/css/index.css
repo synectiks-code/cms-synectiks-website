@@ -19,15 +19,26 @@ body {
 /********************** Header ******************************/
 
 .header .nav .nav-item {
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
     position: static;
 }
 
-.header .nav .nav-item a {
+.header .nav > .nav-item > a {
     font-size: 14px;
     color: #ffffff;
     text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.header .nav > .nav-item:hover > a,
+.header .nav > .nav-item > a:hover {
+    background-color: #ffffff;
+    color: #384cd8;
 }
 .header .nav .nav-item a::after {
     display: none;
@@ -51,7 +62,7 @@ body {
 
 .header .nav .nav-item.dropdown .main-sub-menu {
     opacity: 0;
-    top: 74px;
+    top: 68px;
     left: 0;
     width: 100%;
     height: 0;
@@ -92,6 +103,9 @@ body {
     box-shadow: none;
     background: none;
 }
+.header .nav .nav-item.dropdown .main-sub-menu .btn-close:hover {
+    color: #384cd8;
+}
 
 .header .nav .nav-item .default-active {
     position: static;
@@ -115,11 +129,12 @@ body {
     display: block;
     padding: .5rem 1rem;
     margin-bottom: .5rem;
+    text-decoration: none;
     
 }
 .header .nav .nav-item .default-active>li.active>a,
 .header .nav .nav-item .default-active>li>a:hover{
-    background-color: #0062ff;
+    background-color: #384cd8;
     color: #fff;
 }
 .header .nav .nav-item .default-active>li>a>.sub-icon {
@@ -137,6 +152,7 @@ body {
 .header .nav .nav-item .navbar-link {
     color: #212529;
     padding-right: .75rem;
+    
 }
 
 .header .nav .main-sub-menu .sub-menu {
@@ -164,7 +180,8 @@ body {
     display: block;
     padding: 0.5rem 1rem;
     margin-bottom: .5rem;
-    color: #0062ff;
+    color: #384cd8;
+    text-decoration: none;
 }
 .header .nav .main-sub-menu .sub-menu li a:hover {
     text-decoration: underline;
@@ -197,6 +214,11 @@ body {
         height: 100%;
         background-color: rgba(0, 0, 0, .7);
     }
+    .mobile-menu .navbar-collapse.collapsing{
+        height: 0;
+        transition: none;
+    }
+
     .mobile-menu .navbar-collapse .navbar-close{
         background-color: #ffffff;
         border: none;
@@ -214,32 +236,38 @@ body {
         background-color: #ffffff;
         width: 100%;
         height: calc(100% - 45px);
-        float: right;
-        padding-left: 15px;
-        padding-left: 15px;
-        padding-top: 15px;
-        padding-bottom: 15px;
         overflow-y: auto;
     }
     .mobile-menu .navbar-collapse .navbar-nav .navbar-item {
         position: relative;
+        border-bottom: 1px solid #dddddd;
     }
+    .mobile-menu .navbar-collapse .navbar-nav .navbar-item a{
+        padding-right: 15px;
+        padding-left: 15px;
+        display: block;
+    }
+
     .mobile-menu .navbar-collapse .navbar-nav .navbar-item span {
-        color: #4a4a4a;
+        width: 100%;
         cursor: pointer;
-        display: inline-block;
-        height: 2.25rem;
-        top: 4px;
+        top: 2px;
         right: 0px;
         z-index: 1;
         position: absolute;
-        width: 2.25rem;
-        margin-left: auto;
-        background-color: transparent;
+        text-align: right;
+        
+    }
+    .mobile-menu .navbar-collapse .navbar-nav .navbar-item span::before {
+        background-color: #384cd8;
         text-align: center;
-        line-height: 28px;
+        line-height: 34px;
         font-size: 32px;
-        font-weight: 200;
+        font-weight: 300;
+        width: 40px;
+        height: 40px;
+        color: #ffffff;
+        display: inline-block;
     }
 
     .mobile-menu .navbar-collapse .navbar-nav .navbar-item span::before {
@@ -251,11 +279,12 @@ body {
     }
 
     .mobile-menu .navbar-collapse .navbar-nav .navbar-item .navbar-link {
-        color: #212529;
+        color: #384cd8;
         text-decoration: none;
         padding-top: 10px;
         padding-bottom: 10px;
         display: block;
+        font-weight: 600;
     }
 
     .mobile-menu .navbar-collapse .main-sub-menu {
@@ -288,12 +317,25 @@ body {
         list-style: none;
     }
     .mobile-menu .navbar-collapse .main-sub-menu .default-active li{
-        padding-left: 15px;
-        padding-right: 15px;
         position: relative;
+        border-bottom: 1px solid #dddddd;
     }
-    .mobile-menu .navbar-collapse .main-sub-menu .default-active li span{
-        right: 15px;
+    .mobile-menu .navbar-collapse .main-sub-menu .default-active li:last-child{
+        border: none;
+    }
+    .mobile-menu .navbar-collapse .main-sub-menu .default-active li a{
+        font-weight: 500!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        color: #212529!important;
+    }
+    .mobile-menu .navbar-collapse .main-sub-menu .sub-menu li{
+        border: none;
+    }
+    .mobile-menu .navbar-collapse .main-sub-menu .sub-menu li a{
+        font-weight: 400!important;
+        padding-left: 45px!important;
+        padding-right: 45px!important;
     }
 
     .mobile-menu .navbar-collapse .sub-menu {
@@ -307,7 +349,7 @@ body {
         transform-origin: top;
     }
     .mobile-menu .navbar-collapse .sub-menu.active {
-        padding: 0 15px;
+        padding: 0px;
         margin-bottom: 0rem;
         height: auto;
         overflow: visible;
