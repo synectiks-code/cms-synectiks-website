@@ -13,7 +13,7 @@ class Navbar extends React.Component {
 			mainMenuActiveIndex: -1,
 			activeMenu: 0,
 			mobileMenuActiveStatus: [false, false],
-			mobileSubMenuActiveStatus: [],
+			mobileSubMenuActiveStatus: [[],[]],
 			currentPath: ''
 		};
 	}
@@ -43,9 +43,9 @@ class Navbar extends React.Component {
 		});
 	};
 
-	setMobileSubMenuActiveStats = (index) => {
+	setMobileSubMenuActiveStats = (menuIndex, index) => {
 		const { mobileSubMenuActiveStatus } = this.state;
-		mobileSubMenuActiveStatus[index] = !mobileSubMenuActiveStatus[index];
+		mobileSubMenuActiveStatus[menuIndex][index] = !mobileSubMenuActiveStatus[menuIndex][index];
 		this.setState({
 			mobileSubMenuActiveStatus
 		});
@@ -124,7 +124,7 @@ class Navbar extends React.Component {
 		return retData;
 	};
 
-	renderCategoriesMobile = (mainCategory, posts) => {
+	renderCategoriesMobile = (mainCategory, posts, menuIndex) => {
 		const retData = [];
 		const dataStr = {};
 		const { mobileSubMenuActiveStatus, currentPath } = this.state;
@@ -152,8 +152,8 @@ class Navbar extends React.Component {
 						{/* <BsArrowRight className='sub-icon' /> */}
 					</Link>
 					<span
-						onClick={() => this.setMobileSubMenuActiveStats(i)}
-						className={`toggle ${mobileSubMenuActiveStatus[i] ? 'active' : ''}`}
+						onClick={() => this.setMobileSubMenuActiveStats(menuIndex, i)}
+						className={`toggle ${mobileSubMenuActiveStatus[menuIndex][i] ? 'active' : ''}`}
 					></span>
 				</>;
 				const rightSideJSX = [];
@@ -168,9 +168,9 @@ class Navbar extends React.Component {
 					);
 				}
 				retData.push(
-					<li key={subCategory} className={`sub-navbar-item ${mobileSubMenuActiveStatus[i] ? 'active' : ''}`}>
+					<li key={subCategory} className={`sub-navbar-item ${mobileSubMenuActiveStatus[menuIndex][i] ? 'active' : ''}`}>
 						{sideJSX}
-						<ul className={`sub-menu ${mobileSubMenuActiveStatus[i] ? 'active' : ''}`}>
+						<ul className={`sub-menu ${mobileSubMenuActiveStatus[menuIndex][i] ? 'active' : ''}`}>
 							{rightSideJSX}
 						</ul>
 					</li>
@@ -229,11 +229,11 @@ class Navbar extends React.Component {
 					<a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fas fa-search"></i></a>
 				</div>
 				<nav className="d-block d-lg-none mobile-menu">
-					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
 						<span className="fa fa-bars"></span>
 					</button>
 					<div className="collapse navbar-collapse" id="navbarNav">
-						<button className="navbar-toggler navbar-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<button className="navbar-toggler navbar-close" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
 							<span className="fa fa-times"></span>
 						</button>
 						<ul className="navbar-nav">
@@ -246,7 +246,7 @@ class Navbar extends React.Component {
 								</span>
 								<div className={`main-sub-menu ${mobileMenuActiveStatus[0] ? 'active' : ''}`}>
 									<ul className="default-active">
-										{this.renderCategoriesMobile("product", posts)}
+										{this.renderCategoriesMobile("product", posts, 0)}
 									</ul>
 								</div>
 							</li>
@@ -259,7 +259,7 @@ class Navbar extends React.Component {
 								</span>
 								<div className={`main-sub-menu ${mobileMenuActiveStatus[1] ? 'active' : ''}`}>
 									<ul className="default-active">
-										{this.renderCategoriesMobile("service", posts)}
+										{this.renderCategoriesMobile("service", posts, 1)}
 									</ul>
 								</div>
 							</li>
