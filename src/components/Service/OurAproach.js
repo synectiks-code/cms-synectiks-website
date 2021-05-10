@@ -52,8 +52,4 @@ const OurAproach = ({ data }) => {
     );
 };
 
-OurAproach.propTypes = {
-    data: PropTypes.array
-}
-
 export default OurAproach

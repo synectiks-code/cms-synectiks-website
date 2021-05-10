@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from 'nuka-carousel';
+import { v4 } from 'uuid';
 
 class Resources extends React.Component {
     constructor(props) {
@@ -64,7 +65,7 @@ class Resources extends React.Component {
                                 <Carousel afterSlide={afterSlide} slideIndex={currentSlide} scrollMode="remainder" withoutControls={true} slidesToShow={numberOfSlides} slidesToScroll={1}>
                                     {
                                         sliderData.map((slide) => (
-                                            <div className="col-12">
+                                            <div key={v4()} className="col-12">
                                                 <div className="card">
                                                     <img src={slide.img} alt="" />
                                                     <div className="d-block px-3 py-4 caption">

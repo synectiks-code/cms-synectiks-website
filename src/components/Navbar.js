@@ -276,7 +276,7 @@ class Navbar extends React.Component {
 					</div>
 				</nav>
 
-				<div className="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+				<div className="modal fade" id="searchModal" tabIndex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
 					<div className="modal-dialog modal-dialog-centered search-modal">
 						<div className="modal-content">
 							<div className="modal-header">

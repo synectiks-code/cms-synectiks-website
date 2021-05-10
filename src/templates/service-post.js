@@ -13,6 +13,7 @@ import Resources from '../components/Service/Resources';
 import remark from 'remark';
 import remarkHTML from 'remark-html';
 import { HTMLContent } from '../components/Content';
+import { v4 } from 'uuid';
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
@@ -50,7 +51,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
       if (pages[i].show) {
         let l = index;
         retData.push(
-          <li className="nav-item">
+          <li key={v4()} className="nav-item">
             <button onClick={() => { setCurrentSlide(l) }} className={`${currentSlide === index ? 'active' : ''} nav-link`} >{pages[i].name}<i className="fa fa-arrow-down"></i></button>
           </li>
         );
@@ -67,7 +68,7 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
       if (pages[i].show) {
         let l = index;
         retData.push(
-          <div className={`tab-pane fade ${currentSlide === l ? 'active show' : ''}`}>
+          <div key={v4()} className={`tab-pane fade ${currentSlide === l ? 'active show' : ''}`}>
             {pages[i].component}
           </div>
         );
