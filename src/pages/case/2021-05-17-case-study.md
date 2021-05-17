@@ -13,10 +13,41 @@ bannerdescription: >-2
 
 
   Daimler Trucks NA put application developers in the driver’s seat by using a DevOps model and IBM® UrbanCode® Deploy software to manage application delivery, speeding application deployment and improving quality and control.
-description: ok
+description: Daimler Trucks NA put application developers in the driver’s seat
+  by using a DevOps model and IBM® UrbanCode® Deploy software
 featuredpost: false
 featuredimage: /img/1-requistioner.jpg
 tags:
   - casestudy
 ---
-Description body
+<!--StartFragment-->
+
+## Business challenge
+
+Daimler Trucks North America needed to replace its fragmented and slow application development and deployment process to meet the ever-increasing demand for IT applications.
+
+## Transformation
+
+Daimler Trucks NA implemented IBM UrbanCode Deploy software to support a DevOps application delivery model. Developers manage their applications from coding to automated deployment and rollback.
+
+## Results
+
+#### 3,000 hours saved
+
+by putting application deployment and revisions into developers’ hands
+
+#### ≈94% faster
+
+application delivery with automated deployment
+
+#### Improves
+
+application quality and governance
+
+## Business challenge story
+
+### Meeting business demand
+
+As with most organizations today, the IT Services team at Daimler Trucks NA faced an ever-increasing demand for new applications to support the business. The department set a long-term objective to find the tools and talent to automate as many software delivery processes as possible. One area ripe for innovation and automation was application deployment.
+
+<!--EndFragment-->
