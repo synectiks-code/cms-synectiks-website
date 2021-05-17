@@ -2,11 +2,11 @@
 templateKey: service-post
 title: Micro Services
 date: 2021-04-05T17:15:45.495Z
-bannerimage: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
+bannerimage: https://res.cloudinary.com/papu/image/upload/v1621284743/MicroServices/Microservices_Header_yqd8eu.jpg
 bannerdescription: Our open product based solutioning model, help you innovate
   and transform with speed and quality.
-bannericon: https://res.cloudinary.com/papu/image/upload/v1620120968/new-design/hybrid-cloud/banner-icon-img_zau5bm.png
-bannericonname: Synectiks Hybrid Cloud
+bannericon: https://res.cloudinary.com/papu/image/upload/v1621284865/MicroServices/Microservices_Icon_tztcnt.svg
+bannericonname: Micro Services
 whyus:
   img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
