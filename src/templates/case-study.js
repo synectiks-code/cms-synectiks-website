@@ -5,8 +5,13 @@ import { Helmet } from 'react-helmet';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
-
+import remark from 'remark';
+import remarkHTML from 'remark-html';
+const toHTML = (value) =>
+  remark().use(remarkHTML).processSync(value).toString();
 export const CasePostTemplate = ({
+  bannerdescription,
+  bannerimage,
   content,
   contentComponent,
   description,
@@ -21,6 +26,14 @@ export const CasePostTemplate = ({
       className='section'
       style={{ backgroundColor: '#fff', color: '#000' }}>
       {helmet || ''}
+      <div className='d-flex align-items-center p-5'>
+        <div className='w-50 banner-text'>
+          <HTMLContent content={toHTML(bannerdescription)} />
+        </div>
+        <div className='w-50 banner-img'>
+          <img src={bannerimage} alt='' />
+        </div>
+      </div>
       <div className='container content'>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
@@ -64,6 +77,8 @@ const CasePost = ({ data }) => {
       <CasePostTemplate
         content={post.html}
         contentComponent={HTMLContent}
+        bannerdescription={post.frontmatter.bannerdescription}
+        bannerimage={post.frontmatter.bannerimage}
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate='%s | Case'>
@@ -96,6 +111,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        bannerdescription
+        bannerimage
         title
         description
         tags

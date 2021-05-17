@@ -17,30 +17,47 @@ import { v4 } from 'uuid';
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
-
-export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonname, bannerimage, helmet, whyus, aproach, gettingstarted, resources }) => {
+export const ServicePostTemplate = ({
+  bannerdescription,
+  bannericon,
+  bannericonname,
+  bannerimage,
+  helmet,
+  whyus,
+  aproach,
+  gettingstarted,
+  resources,
+}) => {
   // const pages = ["Why Us", "Our Approach", "Getting Started", "Resources"];
-  const pages = [{
-    name: "Why Us",
-    component: <WhyUs data={whyus} />,
-    show: whyus ? whyus.showblock : true
-  }, {
-    name: "Our Approach",
-    component: <OurAproach data={aproach} />,
-    show: aproach ? aproach.showblock : true
-  }, {
-    name: "Getting Started",
-    component: <GettingStarted data={gettingstarted} />,
-    show: gettingstarted ? gettingstarted.showblock : true
-  }, {
-    name: "Resources",
-    component: <Resources data={resources} />,
-    show: resources ? resources.showblock : true
-  }];
+  const pages = [
+    {
+      name: 'Why Us',
+      component: <WhyUs data={whyus} />,
+      show: whyus ? whyus.showblock : true,
+    },
+    {
+      name: 'Our Approach',
+      component: <OurAproach data={aproach} />,
+      show: aproach ? aproach.showblock : true,
+    },
+    {
+      name: 'Getting Started',
+      component: <GettingStarted data={gettingstarted} />,
+      show: gettingstarted ? gettingstarted.showblock : true,
+    },
+    {
+      name: 'Resources',
+      component: <Resources data={resources} />,
+      show: resources ? resources.showblock : true,
+    },
+  ];
   let totalShownSlides = 0;
   const [currentSlide, setCurrentSlide] = useState(0);
   function updateCurrentSlide(factor) {
-    if (currentSlide + factor >= 0 && currentSlide + factor <= (totalShownSlides - 1)) {
+    if (
+      currentSlide + factor >= 0 &&
+      currentSlide + factor <= totalShownSlides - 1
+    ) {
       setCurrentSlide(currentSlide + factor);
     }
   }
@@ -51,8 +68,15 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
       if (pages[i].show) {
         let l = index;
         retData.push(
-          <li key={v4()} className="nav-item">
-            <button onClick={() => { setCurrentSlide(l) }} className={`${currentSlide === index ? 'active' : ''} nav-link`} >{pages[i].name}<i className="fa fa-arrow-down"></i></button>
+          <li key={v4()} className='nav-item'>
+            <button
+              onClick={() => {
+                setCurrentSlide(l);
+              }}
+              className={`${currentSlide === index ? 'active' : ''} nav-link`}>
+              {pages[i].name}
+              <i className='fa fa-arrow-down'></i>
+            </button>
           </li>
         );
         index += 1;
@@ -68,7 +92,11 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
       if (pages[i].show) {
         let l = index;
         retData.push(
-          <div key={v4()} className={`tab-pane fade ${currentSlide === l ? 'active show' : ''}`}>
+          <div
+            key={v4()}
+            className={`tab-pane fade ${
+              currentSlide === l ? 'active show' : ''
+            }`}>
             {pages[i].component}
           </div>
         );
@@ -80,38 +108,46 @@ export const ServicePostTemplate = ({ bannerdescription, bannericon, bannericonn
   return (
     <React.Fragment>
       {helmet || ''}
-      <div className="service-contaienr">
-        <div className="d-flex w-100 flex-wrap align-items-center justify-content-between pb-5 banner-container">
-          <div className="d-inline-block banner-left">
-            <div className="d-block banner-img"><img src={bannerimage} alt="" /></div>
-            <div className="d-inline-block text-center mx-lg-3 mx-2 mb-lg-0 p-3 banner-text">
+      <div className='service-contaienr'>
+        <div className='d-flex w-100 flex-wrap align-items-center justify-content-between pb-5 banner-container'>
+          <div className='d-inline-block banner-left'>
+            <div className='d-block banner-img'>
+              <img src={bannerimage} alt='' />
+            </div>
+            <div className='d-inline-block text-center mx-lg-3 mx-2 mb-lg-0 p-3 banner-text'>
               <HTMLContent content={toHTML(bannerdescription)} />
             </div>
           </div>
-          <div className="d-inline-block text-center banner-right">
-            <div className="d-inline-block banner-icon-img"><img src={bannericon} alt="" /></div>
-            <div className="d-inline-block banner-heading">{bannericonname}</div>
+          <div className='d-inline-block text-center banner-right'>
+            <div className='d-inline-block banner-icon-img'>
+              <img src={bannericon} alt='' />
+            </div>
+            <div className='d-inline-block banner-heading'>
+              {bannericonname}
+            </div>
           </div>
         </div>
-        <div className="d-block tab-container">
-          <div className="d-block py-4 px-lg-5 px-3 tabs">
-            <ul className="nav nav-tabs w-100 justify-content-between">
+        <div className='d-block tab-container'>
+          <div className='d-block py-4 px-lg-5 px-3 tabs'>
+            <ul className='nav nav-tabs w-100 justify-content-between'>
               {renderTab(pages)}
             </ul>
           </div>
-          <div className="tab-content position-relative">
-            {
-              currentSlide !== 0 &&
-              <button onClick={() => updateCurrentSlide(-1)} className="btn tabs-arrow-left">
-                <i className="fa fa-long-arrow-alt-left"></i>
+          <div className='tab-content position-relative'>
+            {currentSlide !== 0 && (
+              <button
+                onClick={() => updateCurrentSlide(-1)}
+                className='btn tabs-arrow-left'>
+                <i className='fa fa-long-arrow-alt-left'></i>
               </button>
-            }
-            {
-              currentSlide !== totalShownSlides - 1 &&
-              <button onClick={() => updateCurrentSlide(1)} className="btn tabs-arrow-right">
-                <i className="fa fa-long-arrow-alt-right"></i>
+            )}
+            {currentSlide !== totalShownSlides - 1 && (
+              <button
+                onClick={() => updateCurrentSlide(1)}
+                className='btn tabs-arrow-right'>
+                <i className='fa fa-long-arrow-alt-right'></i>
               </button>
-            }
+            )}
             {renderTabContent(pages)}
           </div>
         </div>
@@ -132,7 +168,7 @@ ServicePostTemplate.propTypes = {
   whyus: PropTypes.object,
   aproach: PropTypes.object,
   gettingstarted: PropTypes.object,
-  resources: PropTypes.object
+  resources: PropTypes.object,
 };
 
 const ServicePost = ({ data }) => {
@@ -174,11 +210,11 @@ export default ServicePost;
 
 export const pageQuery = graphql`
   query ServicePostByID($id: String!) {
-          markdownRemark(id: {eq: $id }) {
-          id
+    markdownRemark(id: { eq: $id }) {
+      id
       html
       frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM DD, YYYY")
         title
         bannerimage
         bannerdescription
@@ -218,19 +254,19 @@ export const pageQuery = graphql`
         }
         resources {
           showblock
-          blogs{
+          blogs {
             img
             heading
             description
             link
           }
-          whitepapers{
+          whitepapers {
             img
             heading
             description
             link
           }
-          casestudies{
+          casestudies {
             img
             heading
             description

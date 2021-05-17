@@ -1,5 +1,5 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 import { ServicePostTemplate } from '../../templates/service-post';
 import Layout from './Layout';
 
@@ -26,8 +26,8 @@ const ServicePostPreview = ({ entry, widgetFor, getAsset }) => {
         resources={resources}
       />
     </Layout>
-  )
-}
+  );
+};
 
 ServicePostPreview.propTypes = {
   entry: PropTypes.shape({
@@ -35,6 +35,6 @@ ServicePostPreview.propTypes = {
   }),
   widgetFor: PropTypes.func,
   getAsset: PropTypes.func,
-}
+};
 
-export default ServicePostPreview
+export default ServicePostPreview;
