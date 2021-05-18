@@ -7,9 +7,13 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import remark from 'remark';
 import remarkHTML from 'remark-html';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 export const CasePostTemplate = ({
+  backimage,
+  featuredimage,
   bannerdescription,
   bannerimage,
   content,
@@ -26,14 +30,31 @@ export const CasePostTemplate = ({
       className='section'
       style={{ backgroundColor: '#fff', color: '#000' }}>
       {helmet || ''}
+      <div
+        style={{
+          backgroundImage: `url(${
+            featuredimage ? (
+              <div className='featured-thumbnail'>
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: featuredimage,
+                    alt: `featured image thumbnail for post ${title}`,
+                  }}
+                />
+              </div>
+            ) : null
+          })`,
+        }}></div>
       <div className='d-flex align-items-center p-5'>
         <div className='w-50 banner-text'>
           <HTMLContent content={toHTML(bannerdescription)} />
         </div>
         <div className='w-50 banner-img'>
           <img src={bannerimage} alt='' />
+          {/* <img src={backimage} alt='' /> */}
         </div>
       </div>
+
       <div className='container content'>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
@@ -77,6 +98,7 @@ const CasePost = ({ data }) => {
       <CasePostTemplate
         content={post.html}
         contentComponent={HTMLContent}
+        // backimage={post.frontmatter.backimage}
         bannerdescription={post.frontmatter.bannerdescription}
         bannerimage={post.frontmatter.bannerimage}
         description={post.frontmatter.description}
@@ -111,11 +133,19 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        # backimage
         bannerdescription
         bannerimage
         title
         description
         tags
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 120, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
