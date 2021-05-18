@@ -16,7 +16,7 @@ bannerdescription: >-2
 description: Daimler Trucks NA put application developers in the driver’s seat
   by using a DevOps model and IBM® UrbanCode® Deploy software
 featuredpost: false
-featuredimage: /img/1-requistioner.jpg
+featuredimage: /img/10-bid-submission.jpg
 tags:
   - casestudy
 ---
