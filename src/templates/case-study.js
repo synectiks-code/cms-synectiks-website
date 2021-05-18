@@ -44,7 +44,10 @@ export const CasePostTemplate = ({
               </div>
             ) : null
           })`,
-        }}></div>
+          height: 400,
+          backgroundRepeat: 'none',
+        }}
+      />
       <div className='d-flex align-items-center p-5'>
         <div className='w-50 banner-text'>
           <HTMLContent content={toHTML(bannerdescription)} />
@@ -99,6 +102,7 @@ const CasePost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         // backimage={post.frontmatter.backimage}
+        featuredimage={post.frontmatter.featuredimage}
         bannerdescription={post.frontmatter.bannerdescription}
         bannerimage={post.frontmatter.bannerimage}
         description={post.frontmatter.description}
