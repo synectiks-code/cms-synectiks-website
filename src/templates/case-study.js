@@ -30,24 +30,6 @@ export const CasePostTemplate = ({
       className='section'
       style={{ backgroundColor: '#fff', color: '#000' }}>
       {helmet || ''}
-      <div
-        style={{
-          backgroundImage: `url(${
-            featuredimage ? (
-              <div className='featured-thumbnail'>
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: featuredimage,
-                    alt: `featured image thumbnail for post ${title}`,
-                  }}
-                />
-              </div>
-            ) : null
-          })`,
-          height: 400,
-          backgroundRepeat: 'none',
-        }}
-      />
       <div className='d-flex align-items-center p-5'>
         <div className='w-50 banner-text'>
           <HTMLContent content={toHTML(bannerdescription)} />
@@ -57,7 +39,6 @@ export const CasePostTemplate = ({
           {/* <img src={backimage} alt='' /> */}
         </div>
       </div>
-
       <div className='container content'>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
@@ -102,7 +83,6 @@ const CasePost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         // backimage={post.frontmatter.backimage}
-        featuredimage={post.frontmatter.featuredimage}
         bannerdescription={post.frontmatter.bannerdescription}
         bannerimage={post.frontmatter.bannerimage}
         description={post.frontmatter.description}

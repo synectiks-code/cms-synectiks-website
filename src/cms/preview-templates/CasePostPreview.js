@@ -7,7 +7,6 @@ const CasePostPreview = ({ entry, widgetFor }) => {
   return (
     <CasePostTemplate
       content={widgetFor('body')}
-      backimage={entry.getIn(['data', 'backimage'])}
       bannerdescription={entry.getIn(['data', 'bannerdescription'])}
       bannerimage={entry.getIn(['data', 'bannerimage'])}
       description={entry.getIn(['data', 'description'])}
