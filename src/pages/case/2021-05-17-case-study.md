@@ -29,6 +29,15 @@ reports:
 
 
       Daimler Trucks NA implemented IBM UrbanCode Deploy software to support a DevOps application delivery model. Developers manage their applications from coding to automated deployment and rollback.
+  - text: Column Two
+    description: >-
+      ## **Transformation**
+
+
+      Daimler Trucks NA implemented IBM UrbanCode Deploy software to support a DevOps application delivery model. Developers manage their applications from coding to automated deployment and rollback.
+
+
+      ## **Results**
 featuredpost: true
 featuredimage: /img/01tenderer-dashboard.jpg
 tags:
