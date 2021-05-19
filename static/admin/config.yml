@@ -435,7 +435,7 @@ collections:
           widget: 'datetime',
           required: false,
         }
-      # - { label: 'Background Image', name: 'backimage', widget: 'string' }
+      - { label: 'Banner Icon', name: 'backimage', widget: 'string' }
       - {
           label: 'Banner Image',
           name: 'bannerimage',
@@ -453,6 +453,16 @@ collections:
           name: 'description',
           widget: 'text',
           required: false,
+        }
+      - {
+          label: Reports,
+          name: reports,
+          widget: list,
+          fields:
+            [
+              { label: Text, name: text, widget: string },
+              { label: Description, name: description, widget: markdown },
+            ],
         }
       - {
           label: 'Featured Post',

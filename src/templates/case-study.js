@@ -12,8 +12,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 export const CasePostTemplate = ({
-  backimage,
-  featuredimage,
+  reports,
   bannerdescription,
   bannerimage,
   content,
@@ -46,6 +45,7 @@ export const CasePostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
+            <div>{reports}</div>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -82,6 +82,7 @@ const CasePost = ({ data }) => {
       <CasePostTemplate
         content={post.html}
         contentComponent={HTMLContent}
+        reports={post.reports}
         // backimage={post.frontmatter.backimage}
         bannerdescription={post.frontmatter.bannerdescription}
         bannerimage={post.frontmatter.bannerimage}
@@ -121,6 +122,10 @@ export const pageQuery = graphql`
         bannerdescription
         bannerimage
         title
+        reports {
+          text
+          description
+        }
         description
         tags
         featuredimage {
