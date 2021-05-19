@@ -7,7 +7,8 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import remark from 'remark';
 import remarkHTML from 'remark-html';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import { v4 } from 'uuid';
+import Reports from '../components/Reports';
 
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
@@ -45,7 +46,7 @@ export const CasePostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
-            <div>{reports}</div>
+            <Reports reports={reports} />
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -70,6 +71,7 @@ CasePostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
+  reports: PropTypes.array,
   title: PropTypes.string,
   helmet: PropTypes.object,
 };
@@ -82,7 +84,7 @@ const CasePost = ({ data }) => {
       <CasePostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        reports={post.reports}
+        reports={post.frontmatter.reports}
         // backimage={post.frontmatter.backimage}
         bannerdescription={post.frontmatter.bannerdescription}
         bannerimage={post.frontmatter.bannerimage}
@@ -117,15 +119,14 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        # backimage
+        reports {
+          description
+          text
+        }
+        date(formatString: "MMMM DD, YYYY") # backimage
         bannerdescription
         bannerimage
         title
-        reports {
-          text
-          description
-        }
         description
         tags
         featuredimage {
