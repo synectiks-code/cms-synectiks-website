@@ -65,16 +65,30 @@ whyus:
   showblock: true
   reasonstext: "Top 12 Reasons to select Synectiks as your Hybrid Cloud Partner:"
   description: >-
-    # **Need micro**
+    # **Need**
 
 
-    Right Technology / People / Process to implement Hybrid IT Strategy that scale across Clouds and offers maximum Security. Innovation Speed at Optimal economics. 
+
+
+    * Minimal Code Change Approach
+
+    * Accelerate associated changes in Infra / Process Layer
+
+    * Simple Upskilling
 
 
     # Solution
 
 
-    Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment.
+
+
+    * App blocks reduce 50% coding Effort
+
+    * Prebuilt Blueprints for associated Infra / Process
+
+    * Standardized Assets for E2E delivery (refactor, DevOps Workflow, Automation)
+
+    * Availability of Specialized resource Pool contributing in Open Product driven transformation
   show: false
   conclusion: >-
     Finally, we help you run it all at a lower cost using CloudOps delivery
