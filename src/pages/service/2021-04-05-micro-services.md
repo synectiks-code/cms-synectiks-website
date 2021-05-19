@@ -5,7 +5,7 @@ date: 2021-04-05T17:15:45.495Z
 bannerimage: https://res.cloudinary.com/papu/image/upload/v1621284743/MicroServices/Microservices_Header_yqd8eu.jpg
 bannerdescription: Our open product based solutioning model, help you innovate
   and transform with speed and quality.
-bannericon: https://res.cloudinary.com/papu/image/upload/v1621285131/MicroServices/Microservices_Icon_sfxonw.svg
+bannericon: https://res.cloudinary.com/papu/image/upload/v1621412132/MicroServices/Microservices_Icon_pj0zfn.svg
 bannericonname: Micro Services
 whyus:
   img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
@@ -65,16 +65,30 @@ whyus:
   showblock: true
   reasonstext: "Top 12 Reasons to select Synectiks as your Hybrid Cloud Partner:"
   description: >-
-    # **Need micro**
+    # **Need**
 
 
-    Right Technology / People / Process to implement Hybrid IT Strategy that scale across Clouds and offers maximum Security. Innovation Speed at Optimal economics. 
+
+
+    * Minimal Code Change Approach
+
+    * Accelerate associated changes in Infra / Process Layer
+
+    * Simple Upskilling
 
 
     # Solution
 
 
-    Prebuilt Multi-Cloud hybrid Provisioning templates helps Customers to quickly Build. Deliver and Orchestrate cross Cloud Services @50% Time & Cost. Existing Automation capabilities to Automate Infrastructure, Operations, Security in Hybrid IT environment.
+
+
+    * App blocks reduce 50% coding Effort
+
+    * Prebuilt Blueprints for associated Infra / Process
+
+    * Standardized Assets for E2E delivery (refactor, DevOps Workflow, Automation)
+
+    * Availability of Specialized resource Pool contributing in Open Product driven transformation
   show: false
   conclusion: >-
     Finally, we help you run it all at a lower cost using CloudOps delivery
