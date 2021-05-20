@@ -19,16 +19,16 @@ description: Daimler Trucks NA put application developers in the driver’s seat
 reports:
   - text: Report One
     description: >-
-      ## Business challenge
+      ### **Rpoert One**
 
 
-      Daimler Trucks North America needed to replace its fragmented and slow application development and deployment process.
+      Daimler the trcks of North America needed to replace its fragmentd and slow applicaiion process to meet.
   - text: Report Two
     description: >-
-      ## Business challenge
+      ## Report Two
 
 
-      Daimler Trucks North America needed to replace its fragmented and slow application development and deployment process.
+      By Puttind application development and revision into developnebts hands and design the application of design to ease of use for user experience.
   - text: Report Three
     description: >-
       ## Business challenge
@@ -36,17 +36,17 @@ reports:
 
       Daimler Trucks North America needed to replace its fragmented and slow application development and deployment process.
   - description: >-
-      ## Business challenge
+      ## Report Three
 
 
-      Daimler Trucks North America needed to replace its fragmented and slow application development and deployment process.
+      3000 words are saved into it by results of its working dilemma of crafting the looks for web design and web applications of transformation
     text: Report Four
   - text: Report Five
     description: >-
-      ## Business challenge
+      ## Report Five
 
 
-      Daimler Trucks North America needed to replace its fragmented and slow application development and deployment process.
+      Dailmer trucks were used in fast and furius for meet the speed demands in IBM unoversity to correct the wrong sentenced written by mistake.
 featuredpost: true
 featuredimage: /img/01tenderer-dashboard.jpg
 tags:
