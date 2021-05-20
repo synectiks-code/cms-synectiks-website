@@ -45,14 +45,16 @@ tags:
 ---
 <!--StartFragment-->
 
-##### Challenges
+#### <h3 class='text-primary'>Challenges</h3>
 
-**Scalability**: This was the primary and pertinent challenge of Large Motor Company as their applications were not horizontally scalable due to which their applications, faced many performance issues.\
-**Reliability**: They had difficulty in confronting hardware downtime, unplanned outages have directly impacted software downtime and baffled their IT operations, applications and data.\
-**Vendor Dependency**: They were running licensed products for HA clustering, system monitoring and security. Most of the products were licensed.\
-**Traditional IT infrastructure**: With traditional Infrastructure, it is not only difficult to manage a data center but also hard to improve costs in maintaining the physical resources. The Large Motor company was not using more than 10% of their physical resources.
+**<h4 class='text-primary'>Scalability</h4>**: This was the primary and pertinent challenge of Large Motor Company as their applications were not horizontally scalable due to which their applications, faced many performance issues.\
+**<h4 class='text-primary'>Reliability</h4>**: They had difficulty in confronting hardware downtime, unplanned outages have directly impacted software downtime and baffled their IT operations, applications and data.\
+**<h4 class='text-primary'>Vendor Dependency</h4>**: They were running licensed products for HA clustering, system monitoring and security. Most of the products were licensed.\
+**<h4 class='text-primary'>Traditional IT infrastructure</h4>**: With traditional Infrastructure, it is not only difficult to manage a data center but also hard to improve costs in maintaining the physical resources. The Large Motor company was not using more than 10% of their physical resources.
 
-##### Solutions
+<br/>
+
+##### **<h4 class='text-primary'>**Solutions</h4>
 
 * We remodeled their legacy IT infrastructure into an entirely software-defined architecture.
 * Entire operations effort have been shortened and condensed to maintain the four data centers.
@@ -63,15 +65,21 @@ tags:
 * We reduced high CAPEX and OPEX and made them achieve more with less IT budget.
 * We offered a complete license agnostic solution.
 
-##### Synectiks providing a customized solution and targeting the pain points of Large Motor Systems.
+  <br/>
+
+##### <h4 class='text-danger'>Synectiks providing a customized solution and targeting the pain points of Large Motor Systems.</h4>
 
 When Large Motor Company approached Synectiks, they were handling multiple tasks with traditional infrastructure model. They have reached a point on the edge where they can no longer withstand the outage issues that rippled their business to two folds and finally resulted in high potential cost for their business. Initially, Large Motor Company’s infrastructure was not tailored as per their requirements that resulted in maintaining huge operations effort to manage their data centers. They were expecting quick and accurate releases to meet their growing business needs. With almost high CAPEX and OPEX, their IT budget was already skyrocketing and was going beyond their expectations. Their primary focus areas were on scalability, agility and reliability issues. Once fixed, they can outperform in their core areas and compete in their line of business for better business prospects.
 
-##### How did Synectiks Consolidate, Validate and Outline the issues of Large Motor Systems?
+<br/>
+
+##### <h4 class='text-danger'>How did Synectiks Consolidate, Validate and Outline the issues of Large Motor Systems?</h4>
 
 We believe in harvesting information as much as possible that will yield a better solution. That is exactly what we did with Large Motor Company. Upon analyzing their queries on a broader spectrum, we did a quick 360° audit on their existing infrastructure and harvested some vital insights on key improvement areas and a plan for any migration path and risks involved in the following process. We conducted multiple PoC’S with Large Motor Company to channel a solid understanding of the technologies and modernize their IT infrastructure. By translating the entire hardware infrastructure into a few lines of software code, we crafted a backbone infrastructure effortlessly. Also, we refactored monolith applications to multiple microservices and established a complete application lifecycle management and operation support system to maintain their business operations. Ultimately, by achieving the required data security, governance and compliance requirements in the cloud.
 
-##### OUTCOME
+<br/>
+
+##### <h4 class='text-primary'>OUTCOME</h4>
 
 The entire business system is now managed by few resources reducing CAPEX by 80% and OPEX by 70%. Large Motor Company’s legacy infrastructure is entirely a new transformed software-defined infrastructure. As we promised, they achieved scalability, reliability, security, agility and operation SLA’s. The entire infrastructure is maintained with the code that we created and tailored as per their business requests. Large Motor Company achieved elasticity to create, modify, shrink and remove infrastructure needs dynamically in no time. For a successful delivery pipeline, our DevOps automation helps them to manage the lifecycle of multiple microservices through the automated platform. To achieve continuous delivery, we release quality codes every hour.
 
