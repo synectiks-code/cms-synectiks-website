@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { v4 } from 'uuid';
 
 const Reports = ({ reports }) => (
-  <div>
+  <div className=' d-flex flex-nowrap'>
     {reports.map((report) => (
-      <article key={v4()} className='message'>
+      <article key={v4()} className='p-2'>
         <div className='message-body'>
           {report.text}
           {report.description}
