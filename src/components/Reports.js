@@ -8,11 +8,21 @@ const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
 const Reports = ({ reports }) => (
-  <div className=' d-flex flex-nowrap'>
+  <div
+    className=' d-flex flex-nowrap my-3 my-lg-5 p-3'
+    style={{ backgroundColor: '#FDFBFB' }}>
     {reports.map((report) => (
-      <article key={v4()} className='p-2' style={{ flex: 1 }}>
+      <article
+        key={v4()}
+        style={{
+          flex: 1,
+          backgroundColor: '#F7F5F5',
+          borderLeft: '2px solid rgba(0,0,0,0.7)',
+          marginRight: '2%',
+          padding: '2% 0% 2% 3%',
+        }}>
         <div className='message-body'>
-          <h3>{report.text}</h3>
+          <h4 className='text-primary'>{report.text}</h4>
           <HTMLContent content={toHTML(report.description)} />
         </div>
       </article>
