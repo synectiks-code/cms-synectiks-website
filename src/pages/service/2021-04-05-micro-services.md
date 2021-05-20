@@ -5,65 +5,62 @@ date: 2021-04-05T17:15:45.495Z
 bannerimage: https://res.cloudinary.com/papu/image/upload/v1621284743/MicroServices/Microservices_Header_yqd8eu.jpg
 bannerdescription: Our open product based solutioning model, help you innovate
   and transform with speed and quality.
-bannericon: https://res.cloudinary.com/papu/image/upload/v1621412132/MicroServices/Microservices_Icon_pj0zfn.svg
+bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: Micro Services
 whyus:
   img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
-  productdescription: >-
-    **Our open product based solutioning model, help you innovate and transform
-    with speed and quality.**
-
-     We go beyond creating a strategy: Synectiks helps you plan it, do it, run it and manage it. Synectiks Xformation Platform allows to quickly build and deliver and orchestrate hybrid cloud services, at-scale, repeatable offerings and solutions that help to drive your Hybrid Cloud journey @50% time & cost. Xformation is a single interface and platform to manage all your workloads distributed across multiple clouds and boundaries within a single control plane. Finally, we help you run it all at a lower cost using CloudOps delivery enabled with DevSecOps capabilities and extreme automation.
+  productdescription: Synectiks Xformation Platform delivers readymade App Blocks
+    and Automation bots that allows to quickly build and deliver microservices
+    based application and services, at-scale, repeatable offerings and solutions
+    that help to drive your Application Transformation journey @50% time & cost.
+    A typical large transformation project can take a year-long effort and often
+    do not yield results. We recommend taking bottom - up approach, take a small
+    piece of functionality, and develop the services and foundation for it
+    rapidly by using existing application blocks and automation framework. You
+    would minimize your risks by investing a small time & money and continue to
+    do so when you see a significant ROI. The key aspect is time. The advantage
+    of making us your microservices partner is, our open-source contribution so
+    that customer can use our component framework for development velocity.
   reasons:
-    - description: 10+ Large Scale Hybrid Cloud Transformation
+    - description: Large Scale modernization and consolidation experience
       text: Experience
       img: https://res.cloudinary.com/papu/image/upload/v1620121016/new-design/hybrid-cloud/experience_xgb6fu.jpg
-    - description: Experience Team with a proven track record of CloudOps delivery
-        enabled with DevSecOps Capabilities
+    - description: App blocks and Automation Bots available in Xformation platform
+        accelerate application modernization effort by 50%
       img: https://res.cloudinary.com/papu/image/upload/v1620121016/new-design/hybrid-cloud/expertise_rrxipa.jpg
-      text: Expertise
-    - description: Our open Product Driven Delivery Model allows customers to quickly
-        build, deliver and orchestrate cross cloud services @50% time & cost.
-      text: Time & Money
+      text: Artifacts
+    - description: Quick Discovery / Assessment and application modernization and
+        migration plan built in weeks, not months.
+      text: Advisory
       img: https://res.cloudinary.com/papu/image/upload/v1620121015/new-design/hybrid-cloud/time-money_ixetxx.jpg
-    - description: Single point of contact for Application Migration, Transformation
-        and Integration to cloud-native Apps services.
-      text: E2E Solution
+    - description: You will get E2E expertise for new application development or
+        refactoring existing product under a single Roof.
+      text: E2E Expertise
       img: https://res.cloudinary.com/papu/image/upload/v1620121043/new-design/hybrid-cloud/e2e-solution_pl64jw.jpg
-    - description: Xformation is a single interface and platform to manage all your
-        workloads distributed across multiple clouds and boundaries within a
-        single control plane.
+    - description: Our open product-based solution delivery approach reduces 50% time
+        & money from any managed services partner.
       img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/single-control-pane_znkvet.jpg
-      text: Single Cloud Pane
-    - description: Our compliance and security assessment tools make sure your hybrid
-        cloud journey meets your business compliance.
+      text: Economics
+    - description: Use our deep expertise on cloud-native services especially
+        container ecosystem, a serverless ecosystem to deliver services to
+        consumer at optimal speed and economies.
       img: https://res.cloudinary.com/papu/image/upload/v1620121045/new-design/hybrid-cloud/compliance-security_ysw8nm.jpg
-      text: Compliance & Security
+      text: Innovations
     - img: https://res.cloudinary.com/papu/image/upload/v1620222870/new-design/hybrid-cloud/extreme-automation_yk9gzn.jpg
-      description: Use our existing automation capabilities to automate
-        infrastructure, operations, security in hybrid IT environment.
-      text: Extreme Automation
-    - description: Our advanced partnership with major public cloud providers help you
-        to get support at every stage.
+      description: Deliver applications seamlessly across clouds and geographies using
+        existing delivery blueprints ensuring optimal quality and resilience.
+      text: Continuous Delivery
+    - description: Avail our built in application security blueprints right from the
+        start to deliver application that adheres your enterprise security &
+        compliance guidelines.
       img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/public-cloud-partnership_qmst7o.jpg
-      text: Public Cloud Partnership
-    - description: Avail the opportunity to quickly create a demo hybrid cloud setup
-        in our existing hybrid IT environment and testify to you key business
-        use cases.
-      text: Demo Environment
+      text: Security & Compliance
+    - description: Our every engagement is focused on empowerment, not dependency.
+      text: Engagement
       img: https://res.cloudinary.com/papu/image/upload/v1620121043/new-design/hybrid-cloud/demo-environment_jx5des.jpg
-    - description: We do optimal resource pooling from multiple clouds.
-      text: Optimization Service
-      img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/optimization-service_qyylkr.jpg
-    - description: Our every engagement focused on empowerment – not dependency
-      img: https://res.cloudinary.com/papu/image/upload/v1620121043/new-design/hybrid-cloud/engagement-model_wfxnsk.jpg
-      text: Engagement Modal
-    - description: 100% Customer Retention Rate.
-      img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/long-term-retention_nm2mea.jpg
-      text: Long Term Retention
   showblock: true
-  reasonstext: "Top 12 Reasons to select Synectiks as your Hybrid Cloud Partner:"
+  reasonstext: "Top 9 Reasons to select Synectiks as your Micro Services Partner:"
   description: >-
     # **Need**
 
