@@ -5,16 +5,23 @@ date: 2021-04-05T17:15:45.495Z
 bannerimage: https://res.cloudinary.com/papu/image/upload/v1621284743/MicroServices/Microservices_Header_yqd8eu.jpg
 bannerdescription: Our open product based solutioning model, help you innovate
   and transform with speed and quality.
-bannericon: https://res.cloudinary.com/papu/image/upload/v1621412132/MicroServices/Microservices_Icon_pj0zfn.svg
+bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: Micro Services
 whyus:
   img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
-  productdescription: >-
-    **Our open product based solutioning model, help you innovate and transform
-    with speed and quality.**
-
-     We go beyond creating a strategy: Synectiks helps you plan it, do it, run it and manage it. Synectiks Xformation Platform allows to quickly build and deliver and orchestrate hybrid cloud services, at-scale, repeatable offerings and solutions that help to drive your Hybrid Cloud journey @50% time & cost. Xformation is a single interface and platform to manage all your workloads distributed across multiple clouds and boundaries within a single control plane. Finally, we help you run it all at a lower cost using CloudOps delivery enabled with DevSecOps capabilities and extreme automation.
+  productdescription: Synectiks Xformation Platform delivers readymade App Blocks
+    and Automation bots that allows to quickly build and deliver microservices
+    based application and services, at-scale, repeatable offerings and solutions
+    that help to drive your Application Transformation journey @50% time & cost.
+    A typical large transformation project can take a year-long effort and often
+    do not yield results. We recommend taking bottom - up approach, take a small
+    piece of functionality, and develop the services and foundation for it
+    rapidly by using existing application blocks and automation framework. You
+    would minimize your risks by investing a small time & money and continue to
+    do so when you see a significant ROI. The key aspect is time. The advantage
+    of making us your microservices partner is, our open-source contribution so
+    that customer can use our component framework for development velocity.
   reasons:
     - description: 10+ Large Scale Hybrid Cloud Transformation
       text: Experience
@@ -63,7 +70,7 @@ whyus:
       img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/long-term-retention_nm2mea.jpg
       text: Long Term Retention
   showblock: true
-  reasonstext: "Top 12 Reasons to select Synectiks as your Hybrid Cloud Partner:"
+  reasonstext: "Top 9 Reasons to select Synectiks as your Micro Services Partner:"
   description: >-
     # **Need**
 
