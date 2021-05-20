@@ -10,7 +10,7 @@ const toHTML = (value) =>
 const Reports = ({ reports }) => (
   <div className=' d-flex flex-nowrap'>
     {reports.map((report) => (
-      <article key={v4()} className='p-2'>
+      <article key={v4()} className='p-2' style={{ flex: 1 }}>
         <div className='message-body'>
           <h3>{report.text}</h3>
           <HTMLContent content={toHTML(report.description)} />

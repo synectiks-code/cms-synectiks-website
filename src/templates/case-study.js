@@ -48,7 +48,7 @@ export const CasePostTemplate = ({
           </div>
         </div>
       </div>
-      <div className='container content'>
+      <div className='container content p-2 py-lg-5'>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
             <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
@@ -57,7 +57,7 @@ export const CasePostTemplate = ({
             <p>{description}</p>
             <Reports reports={reports} />
             <PostContent content={content} />
-            {tags && tags.length ? (
+            {/* {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className='taglist'>
@@ -68,7 +68,7 @@ export const CasePostTemplate = ({
                   ))}
                 </ul>
               </div>
-            ) : null}
+            ) : null} */}
           </div>
         </div>
       </div>
