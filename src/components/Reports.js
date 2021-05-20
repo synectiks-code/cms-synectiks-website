@@ -7,8 +7,8 @@ const Reports = ({ reports }) => (
     {reports.map((report) => (
       <article key={v4()} className='p-2'>
         <div className='message-body'>
-          {report.text}
-          {report.description}
+          <h3>{report.text}</h3>
+          <p>{report.description}</p>
         </div>
       </article>
     ))}
