@@ -27,7 +27,7 @@ reports:
       <!--StartFragment-->
 
 
-      Transformation towards becoming <br/>hardware / Os / Vender / Operation </br>agnostic. Make everything software defined.
+      Transformation towards becoming  hardware / Os / Vender / Operation  agnostic. Make everything software defined.
 
 
       <!--EndFragment-->
