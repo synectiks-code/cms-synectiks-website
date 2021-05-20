@@ -3,7 +3,7 @@ templateKey: case-study
 title: Software Defined
 date: 2021-05-17T07:24:35.091Z
 backimage: https://res.cloudinary.com/papu/image/upload/v1621284743/MicroServices/Microservices_Header_yqd8eu.jpg
-bannerimage: https://res.cloudinary.com/papu/image/upload/v1618235343/step-graphic_hyyoyt.gif
+bannerimage: https://res.cloudinary.com/papu/image/upload/v1620288124/hybrid-cloud/whyus/Image_2_kgcyij.jpg
 bannerdescription: >-
   ##### Large Motor Company
 
@@ -64,8 +64,6 @@ tags:
 * We rebuilt and revamped the existing applications to meet today’s agility and scalability demands in the market.
 * We reduced high CAPEX and OPEX and made them achieve more with less IT budget.
 * We offered a complete license agnostic solution.
-
-  <br/>
 
 ##### <h4 class='text-danger'>Synectiks providing a customized solution and targeting the pain points of Large Motor Systems.</h4>
 
