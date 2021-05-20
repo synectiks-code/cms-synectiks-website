@@ -9,11 +9,11 @@ import remark from 'remark';
 import remarkHTML from 'remark-html';
 import { v4 } from 'uuid';
 import Reports from '../components/Reports';
-
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 export const CasePostTemplate = ({
   reports,
+  backimage,
   bannerdescription,
   bannerimage,
   content,
@@ -30,13 +30,22 @@ export const CasePostTemplate = ({
       className='section'
       style={{ backgroundColor: '#fff', color: '#000' }}>
       {helmet || ''}
-      <div className='d-flex align-items-center p-5'>
-        <div className='w-50 banner-text'>
-          <HTMLContent content={toHTML(bannerdescription)} />
-        </div>
-        <div className='w-50 banner-img'>
-          <img src={bannerimage} alt='' />
-          {/* <img src={backimage} alt='' /> */}
+      <div
+        style={{
+          backgroundImage: `url(${backimage})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+        }}>
+        <div
+          style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}
+          className='d-flex align-items-center p-5 position-relative'>
+          <div className='w-50 banner-text zindex-popover text-white'>
+            <HTMLContent content={toHTML(bannerdescription)} />
+          </div>
+          <div className='w-50 banner-img zindex-popover'>
+            <img src={bannerimage} alt='' />
+          </div>
         </div>
       </div>
       <div className='container content'>
@@ -85,7 +94,7 @@ const CasePost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         reports={post.frontmatter.reports}
-        // backimage={post.frontmatter.backimage}
+        backimage={post.frontmatter.backimage}
         bannerdescription={post.frontmatter.bannerdescription}
         bannerimage={post.frontmatter.bannerimage}
         description={post.frontmatter.description}
@@ -123,7 +132,8 @@ export const pageQuery = graphql`
           description
           text
         }
-        date(formatString: "MMMM DD, YYYY") # backimage
+        date(formatString: "MMMM DD, YYYY")
+        backimage
         bannerdescription
         bannerimage
         title

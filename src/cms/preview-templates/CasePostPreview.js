@@ -10,6 +10,7 @@ const CasePostPreview = ({ entry, widgetFor }) => {
       bannerdescription={entry.getIn(['data', 'bannerdescription'])}
       reports={entry.getIn(['data', 'reports'])}
       bannerimage={entry.getIn(['data', 'bannerimage'])}
+      backimage={entry.getIn(['data', 'backimage'])}
       description={entry.getIn(['data', 'description'])}
       tags={tags && tags.toJS()}
       title={entry.getIn(['data', 'title'])}
