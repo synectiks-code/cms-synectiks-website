@@ -17,7 +17,7 @@ const Reports = ({ reports }) => (
         style={{
           flex: 1,
           backgroundColor: '#F7F5F5',
-          borderLeft: '2px solid rgba(0,0,0,0.7)',
+          borderLeft: '2px solid rgba(0,0,0,0.5)',
           marginRight: '2%',
           padding: '2% 0% 2% 3%',
         }}>
