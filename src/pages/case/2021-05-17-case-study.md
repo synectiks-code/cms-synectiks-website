@@ -1,83 +1,84 @@
 ---
 templateKey: case-study
-title: Case Study
+title: Software Defined
 date: 2021-05-17T07:24:35.091Z
 backimage: https://res.cloudinary.com/papu/image/upload/v1621284743/MicroServices/Microservices_Header_yqd8eu.jpg
-bannerimage: https://res.cloudinary.com/papu/image/upload/v1618235343/step-graphic_hyyoyt.gif
-bannerdescription: >-2
-   
-
-  # Daimler Trucks North America
+bannerimage: https://res.cloudinary.com/papu/image/upload/v1620288124/hybrid-cloud/whyus/Image_2_kgcyij.jpg
+bannerdescription: >-
+  ##### Large Motor Company
 
 
-  ## Speeding application delivery by ≈94% with IBM UrbanCode Deploy software
+  <!--StartFragment-->
 
 
-  Daimler Trucks NA put application developers in the driver’s seat by using a DevOps model and IBM® UrbanCode® Deploy software to manage application delivery, speeding application deployment and improving quality and control.
-description: Daimler Trucks NA put application developers in the driver’s seat
-  by using a DevOps model and IBM® UrbanCode® Deploy software
+  The leadership took a decision to become Hardware/OS/Operation/vendor agnostic and achieve scalability and reliability across the organization. We helped them with all the technologies, training to make that happen. Our open platform helped them to become complete software defined, automate all operations. We helped them to learn to manage IT in most modern way.
+
+
+  <!--EndFragment-->
+description: >-
+  Overview
+
+  Four data centers and more than two thousand servers running 24/7, with twenty plus applications and two hundred operations team, Large Motor Company handles massive daily operations round the clock to give the best world class service to their customers.
 reports:
-  - text: Report One
+  - text: "Industry "
+    description: Automobiles
+  - text: Business Objective
     description: >-
-      ### **Rpoert One**
+      <!--StartFragment-->
 
 
-      Daimler the trcks of North America needed to replace its fragmentd and slow applicaiion process to meet.
-  - text: Report Two
-    description: >-
-      ## Report Two
+      Transformation towards becoming  hardware / Os / Vender / Operation  agnostic. Make everything software defined.
 
 
-      By Puttind application development and revision into developnebts hands and design the application of design to ease of use for user experience.
-  - text: Report Three
-    description: >-
-      ## Business challenge
+      <!--EndFragment-->
+  - text: Technologies
+    description: |-
+      <!--StartFragment-->
 
+      AWS, Infrastructure as a code, microservices, DevOps
 
-      Daimler Trucks North America needed to replace its fragmented and slow application development and deployment process.
-  - description: >-
-      ## Report Three
-
-
-      3000 words are saved into it by results of its working dilemma of crafting the looks for web design and web applications of transformation
-    text: Report Four
-  - text: Report Five
-    description: >-
-      ## Report Five
-
-
-      Dailmer trucks were used in fast and furius for meet the speed demands in IBM unoversity to correct the wrong sentenced written by mistake.
+      <!--EndFragment-->
 featuredpost: true
 featuredimage: /img/01tenderer-dashboard.jpg
 tags:
   - casestudy
 ---
- 
+<!--StartFragment-->
 
-## <h2 style="color: red">Business challenge</h2>
+#### <h3 class='text-primary'>Challenges</h3>
 
-Daimler Trucks North America needed to replace its fragmented and slow application development and deployment process to meet the ever-increasing demand for IT applications.
+**<h4 class='text-primary'>Scalability</h4>**This was the primary and pertinent challenge of Large Motor Company as their applications were not horizontally scalable due to which their applications, faced many performance issues.\
+**<h4 class='text-primary'>Reliability</h4>**They had difficulty in confronting hardware downtime, unplanned outages have directly impacted software downtime and baffled their IT operations, applications and data.\
+**<h4 class='text-primary'>Vendor Dependency</h4>**They were running licensed products for HA clustering, system monitoring and security. Most of the products were licensed.\
+**<h4 class='text-primary'>Traditional IT infrastructure</h4>**With traditional Infrastructure, it is not only difficult to manage a data center but also hard to improve costs in maintaining the physical resources. The Large Motor company was not using more than 10% of their physical resources.
 
-## <h2 style="color: red">Transformation</h2>
+<br/>
 
-Daimler Trucks NA implemented IBM UrbanCode Deploy software to support a DevOps application delivery model. Developers manage their applications from coding to automated deployment and rollback.
+##### **<h4 class='text-primary'>**Solutions</h4>
 
-## <h2 style="color: red">Results</h2>
+* We remodeled their legacy IT infrastructure into an entirely software-defined architecture.
+* Entire operations effort have been shortened and condensed to maintain the four data centers.
+* We provided a centralized source, valid data and advanced data governance technology.
+* We designed the entire application layer with statelessness, ensuring horizontal scalability, better security and visibility to the exposed API.
+* We proved our expertise once again by delivering fast and accurate releases to meet the growing business demand.
+* We rebuilt and revamped the existing applications to meet today’s agility and scalability demands in the market.
+* We reduced high CAPEX and OPEX and made them achieve more with less IT budget.
+* We offered a complete license agnostic solution.
 
-#### 3,000 hours saved
+##### <h4 class='text-danger'>Synectiks providing a customized solution and targeting the pain points of Large Motor Systems.</h4>
 
-by putting application deployment and revisions into developers’ hands
+When Large Motor Company approached Synectiks, they were handling multiple tasks with traditional infrastructure model. They have reached a point on the edge where they can no longer withstand the outage issues that rippled their business to two folds and finally resulted in high potential cost for their business. Initially, Large Motor Company’s infrastructure was not tailored as per their requirements that resulted in maintaining huge operations effort to manage their data centers. They were expecting quick and accurate releases to meet their growing business needs. With almost high CAPEX and OPEX, their IT budget was already skyrocketing and was going beyond their expectations. Their primary focus areas were on scalability, agility and reliability issues. Once fixed, they can outperform in their core areas and compete in their line of business for better business prospects.
 
-#### ≈94% faster
+<br/>
 
-application delivery with automated deployment
+##### <h4 class='text-danger'>How did Synectiks Consolidate, Validate and Outline the issues of Large Motor Systems?</h4>
 
-#### Improves
+We believe in harvesting information as much as possible that will yield a better solution. That is exactly what we did with Large Motor Company. Upon analyzing their queries on a broader spectrum, we did a quick 360° audit on their existing infrastructure and harvested some vital insights on key improvement areas and a plan for any migration path and risks involved in the following process. We conducted multiple PoC’S with Large Motor Company to channel a solid understanding of the technologies and modernize their IT infrastructure. By translating the entire hardware infrastructure into a few lines of software code, we crafted a backbone infrastructure effortlessly. Also, we refactored monolith applications to multiple microservices and established a complete application lifecycle management and operation support system to maintain their business operations. Ultimately, by achieving the required data security, governance and compliance requirements in the cloud.
 
-application quality and governance
+<br/>
 
-## Business challenge story
+##### <h4 class='text-primary'>OUTCOME</h4>
 
-### Meeting business demand
+The entire business system is now managed by few resources reducing CAPEX by 80% and OPEX by 70%. Large Motor Company’s legacy infrastructure is entirely a new transformed software-defined infrastructure. As we promised, they achieved scalability, reliability, security, agility and operation SLA’s. The entire infrastructure is maintained with the code that we created and tailored as per their business requests. Large Motor Company achieved elasticity to create, modify, shrink and remove infrastructure needs dynamically in no time. For a successful delivery pipeline, our DevOps automation helps them to manage the lifecycle of multiple microservices through the automated platform. To achieve continuous delivery, we release quality codes every hour.
 
-As with most organizations today, the IT Services team at Daimler Trucks NA faced an ever-increasing demand for new applications to support the business. The department set a long-term objective to find the tools and talent to automate as many software delivery processes as possible. One area ripe for innovation and automation was application deployment.
+<!--EndFragment-->

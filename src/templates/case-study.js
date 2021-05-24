@@ -7,12 +7,13 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import remark from 'remark';
 import remarkHTML from 'remark-html';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
-
+import { v4 } from 'uuid';
+import Reports from '../components/Reports';
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 export const CasePostTemplate = ({
   reports,
+  backimage,
   bannerdescription,
   bannerimage,
   content,
@@ -29,25 +30,34 @@ export const CasePostTemplate = ({
       className='section'
       style={{ backgroundColor: '#fff', color: '#000' }}>
       {helmet || ''}
-      <div className='d-flex align-items-center p-5'>
-        <div className='w-50 banner-text'>
-          <HTMLContent content={toHTML(bannerdescription)} />
-        </div>
-        <div className='w-50 banner-img'>
-          <img src={bannerimage} alt='' />
-          {/* <img src={backimage} alt='' /> */}
+      <div
+        style={{
+          backgroundImage: `url(${backimage})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+        }}>
+        <div
+          style={{ backgroundColor: 'rgba(0, 0, 0, 0.4)' }}
+          className='d-flex align-items-center p-5 position-relative'>
+          <div className='w-50 banner-text zindex-popover text-white'>
+            <HTMLContent content={toHTML(bannerdescription)} />
+          </div>
+          <div className='w-50 banner-img zindex-popover'>
+            <img src={bannerimage} alt='' />
+          </div>
         </div>
       </div>
-      <div className='container content'>
+      <div className='container content p-2 py-lg-5'>
         <div className='columns'>
           <div className='column is-10 is-offset-1'>
             <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
               {title}
             </h1>
             <p>{description}</p>
-            <div>{reports}</div>
+            <Reports reports={reports} />
             <PostContent content={content} />
-            {tags && tags.length ? (
+            {/* {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
                 <ul className='taglist'>
@@ -58,7 +68,7 @@ export const CasePostTemplate = ({
                   ))}
                 </ul>
               </div>
-            ) : null}
+            ) : null} */}
           </div>
         </div>
       </div>
@@ -70,6 +80,7 @@ CasePostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
+  reports: PropTypes.array,
   title: PropTypes.string,
   helmet: PropTypes.object,
 };
@@ -82,8 +93,8 @@ const CasePost = ({ data }) => {
       <CasePostTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        reports={post.reports}
-        // backimage={post.frontmatter.backimage}
+        reports={post.frontmatter.reports}
+        backimage={post.frontmatter.backimage}
         bannerdescription={post.frontmatter.bannerdescription}
         bannerimage={post.frontmatter.bannerimage}
         description={post.frontmatter.description}
@@ -117,15 +128,15 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
+        reports {
+          description
+          text
+        }
         date(formatString: "MMMM DD, YYYY")
-        # backimage
+        backimage
         bannerdescription
         bannerimage
         title
-        reports {
-          text
-          description
-        }
         description
         tags
         featuredimage {

@@ -435,7 +435,7 @@ collections:
           widget: 'datetime',
           required: false,
         }
-      - { label: 'Banner Icon', name: 'backimage', widget: 'string' }
+      - { label: 'Background Image', name: 'backimage', widget: 'string' }
       - {
           label: 'Banner Image',
           name: 'bannerimage',
@@ -457,6 +457,7 @@ collections:
       - {
           label: Reports,
           name: reports,
+          required: false,
           widget: list,
           fields:
             [
