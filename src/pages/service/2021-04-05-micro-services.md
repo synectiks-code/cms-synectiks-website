@@ -25,7 +25,7 @@ whyus:
   reasons:
     - description: Large Scale modernization and consolidation experience
       text: Experience
-      img: https://res.cloudinary.com/papu/image/upload/v1620121016/new-design/hybrid-cloud/experience_xgb6fu.jpg
+      img: https://res.cloudinary.com/papu/image/upload/v1621533208/MicroServices/Experience_ilwz2r.svg
     - description: App blocks and Automation Bots available in Xformation platform
         accelerate application modernization effort by 50%
       img: https://res.cloudinary.com/papu/image/upload/v1620121016/new-design/hybrid-cloud/expertise_rrxipa.jpg
