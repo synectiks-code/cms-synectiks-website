@@ -9,6 +9,7 @@ bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServic
 bannericonname: Micro Services
 whyus:
   img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
+  fullimg: true
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
   productdescription: Synectiks Xformation Platform delivers readymade App Blocks
     and Automation bots that allows to quickly build and deliver microservices

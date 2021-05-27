@@ -128,6 +128,7 @@ collections:
                 required: false,
               },
               { label: Image, name: img, widget: string },
+              { label: Is full image?, name: fullimg, widget: boolean, required: false, default: false },
               { label: Description, name: description, widget: markdown },
               {
                 label: Product Description,
