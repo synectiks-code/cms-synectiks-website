@@ -105,6 +105,7 @@ whyus:
     Synectiks accelerated migration and modernization services allow customer to leverage the data processing benefits of cloud sooner, providing cost-savings and solving scalability issues.
 resources:
   show: false
+  showblock: true
 featuredimage: /img/apple-touch-icon.png
 featuredpost: true
 page:
@@ -267,7 +268,77 @@ gettingstarted:
   description: " "
   show: false
   testimonial: SYNECTIKS MICROSERVICE / SOA PLATFORM
-  actions: []
+  actions:
+    - img: https://res.cloudinary.com/papu/image/upload/v1622707141/MicroServices/Monolith_to_microservices_bww9qw.png
+      description: >-
+        ﻿
+
+
+        Our application transformation services close the gap between what your current applications can do and what the cloud-native services and microservices architecture make them capable of. That could be greater efficiency, scale, performance and resilience. But it could also mean entirely new capabilities that create lasting advantage, generate value and drive better outcomes for your customers and your employees.
+
+        Synectiks has a proven approach to help you migrate, modernize, and digitally transform your business. We can help you modernize your application portfolio based on APIs, microservices, containers and DevOps for less time to market, improved user experience and optimized cost. Application Transformation Services provide customer the ability to optimize the existing application as follows:
+
+
+        * By migrating existing workloads and apps to any cloud—public or private or hybrid cloud.
+
+        * By modernizing traditional applications using containers, microservices and API enablement.
+
+        * By taking advantage of cloud-native services without having to rewrite the code.
+
+        * By doing Monolith to SOA transformation. Customers enjoy the flexibility to reuse the Synectiks Foundation Microservices components across many applications.
+
+        * By adopting the hybrid model where some workload moves to public cloud in private address space ensuring security and performance.
+
+        * By having built-in security from the start.
+
+
+
+
+        Synectiks open product driven solutions delivery approach coupled with many large scale application transformation experience delivers the speed, innovations, quality and better economics that your current business demands.
+
+
+
+
+        **Our Process**
+
+
+        ![Our Process](https://res.cloudinary.com/papu/image/upload/v1622721128/MicroServices/Our_Process_jbxzoh.png "Our Process")
+
+
+
+
+        Our approach is to use a combination of the latest industry tools, processes, experience and best practices, and provide the best solutions to our customers.
+
+
+        The teams perform a quick requirements analysis and GAP analysis to understand the current setup and provide solutions to optimize your applications, storage, databases and overall infrastructure. The very first step, discovery and assessment will give you clear insights on the improved SLA’s and cost savings. You can make informed decisions to balance workloads and optimize resources and thereby, to create a roadmap that guides the journey to Application modernization. This roadmap should map people, process, technology change requirement, consider IT policy and operating model factors; and ultimately produce clear, data-based recommendations with a proposed execution plan to enable Application Transformation. Getting there will require significant upliftment of people skills, imparting modern tools and technologies, transforming and migrating applications, integrating and orchestrating environments, automating and monitoring business services, enabling digital processes, and integrating data and security.
+
+
+
+
+        **Typical Execution Methodology**
+
+
+        ![Typical Execution Methodology](https://res.cloudinary.com/papu/image/upload/v1622721392/MicroServices/Typical_Execution_Methodology_eol6y7.png "Typical Execution Methodology")
+
+
+        Almost like a highly efficient assembly line in a manufacturing facility, each application moves through specific steps on its way to the microservices transformation. The steps include:
+
+
+        *  Discover and assess application readiness.
+
+        * Plan and prepare the application for the refactoring.
+
+        * Decide which modernization methodology is appropriate.
+
+        * Identify the best target platform in the cloud.
+
+        * Identify cloud-native services to refactor without having to rewrite the code.
+
+        * Identify Synectiks Foundation Microservices components for reuse
+          Validate the entire process by POC.
+        * Plan and Execute the process with DevSecOps approach.
+
+        * Test and validate the application prior to deployment.
   showblock: true
 category:
   - product
