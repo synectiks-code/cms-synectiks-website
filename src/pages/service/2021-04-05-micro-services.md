@@ -8,9 +8,8 @@ bannerdescription: Our open product based solutioning model, help you innovate
 bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: Micro Services
 whyus:
-  img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
-  fullimg: true
-  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1620121053/new-design/hybrid-cloud/xformation-img_bop4h8.jpg
+  img: https://res.cloudinary.com/papu/image/upload/v1622707141/MicroServices/Monolith_to_microservices_bww9qw.png
+  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1622718198/MicroServices/Synectiks_Microservices_conclusion_cwsf64.jpg
   productdescription: Synectiks Xformation Platform delivers readymade App Blocks
     and Automation bots that allows to quickly build and deliver microservices
     based application and services, at-scale, repeatable offerings and solutions
@@ -29,38 +28,39 @@ whyus:
       img: https://res.cloudinary.com/papu/image/upload/v1621533208/MicroServices/Experience_ilwz2r.svg
     - description: App blocks and Automation Bots available in Xformation platform
         accelerate application modernization effort by 50%
-      img: https://res.cloudinary.com/papu/image/upload/v1620121016/new-design/hybrid-cloud/expertise_rrxipa.jpg
+      img: https://res.cloudinary.com/papu/image/upload/v1622708127/MicroServices/Artifacts_mupk9a.svg
       text: Artifacts
     - description: Quick Discovery / Assessment and application modernization and
         migration plan built in weeks, not months.
       text: Advisory
-      img: https://res.cloudinary.com/papu/image/upload/v1620121015/new-design/hybrid-cloud/time-money_ixetxx.jpg
+      img: https://res.cloudinary.com/papu/image/upload/v1622708127/MicroServices/Advisory_fiumcz.svg
     - description: You will get E2E expertise for new application development or
         refactoring existing product under a single Roof.
       text: E2E Expertise
-      img: https://res.cloudinary.com/papu/image/upload/v1620121043/new-design/hybrid-cloud/e2e-solution_pl64jw.jpg
+      img: https://res.cloudinary.com/papu/image/upload/v1622708127/MicroServices/E2E_Expertise_i186ph.svg
     - description: Our open product-based solution delivery approach reduces 50% time
         & money from any managed services partner.
-      img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/single-control-pane_znkvet.jpg
+      img: https://res.cloudinary.com/papu/image/upload/v1622708127/MicroServices/Economics_vroeac.svg
       text: Economics
     - description: Use our deep expertise on cloud-native services especially
         container ecosystem, a serverless ecosystem to deliver services to
         consumer at optimal speed and economies.
-      img: https://res.cloudinary.com/papu/image/upload/v1620121045/new-design/hybrid-cloud/compliance-security_ysw8nm.jpg
+      img: https://res.cloudinary.com/papu/image/upload/v1622708129/MicroServices/Innovations_mllsgx.svg
       text: Innovations
-    - img: https://res.cloudinary.com/papu/image/upload/v1620222870/new-design/hybrid-cloud/extreme-automation_yk9gzn.jpg
+    - img: https://res.cloudinary.com/papu/image/upload/v1622708127/MicroServices/Continous_Delivery_s8aref.svg
       description: Deliver applications seamlessly across clouds and geographies using
         existing delivery blueprints ensuring optimal quality and resilience.
       text: Continuous Delivery
     - description: Avail our built in application security blueprints right from the
         start to deliver application that adheres your enterprise security &
         compliance guidelines.
-      img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/public-cloud-partnership_qmst7o.jpg
+      img: https://res.cloudinary.com/papu/image/upload/v1622708127/MicroServices/Security_and_Compliance_x41hbc.svg
       text: Security & Compliance
     - description: Our every engagement is focused on empowerment, not dependency.
       text: Engagement
-      img: https://res.cloudinary.com/papu/image/upload/v1620121043/new-design/hybrid-cloud/demo-environment_jx5des.jpg
+      img: https://res.cloudinary.com/papu/image/upload/v1622708129/MicroServices/Engagement_wc4iez.svg
   showblock: true
+  fullimg: true
   reasonstext: "Top 9 Reasons to select Synectiks as your Micro Services Partner:"
   description: >-
     # **Need**
@@ -89,13 +89,20 @@ whyus:
     * Availability of Specialized resource Pool contributing in Open Product driven transformation
   show: false
   conclusion: >-
-    Finally, we help you run it all at a lower cost using CloudOps delivery
-    enabled with DevSecOps capabilities and extreme automation from our
-    Synectiks Xformation platform driven services delivery model.
+    Synectiks Application transformation services provide customer the ability
+    to optimize the existing application as follows:
 
-     Xformation Platform allows to quickly build and deliver and orchestrate cross cloud services, at-scale, repeatable offerings and solutions that help to drive your Hybrid Cloud journey @50% time & cost. 
 
-    Xformation is a single interface and platform to manage all your workloads distributed across multiple clouds and boundaries within a single control plane.
+    •	By taking advantage of cloud-native services without having to rewrite the code.
+
+
+    •	By doing Monolith to SOA transformation. Customers enjoy the flexibility to reuse the Synectiks Foundation Microservices components across many applications.
+
+
+    •	By adopting the hybrid model where some workload moves to public cloud in private address space ensuring security and performance.
+
+
+    Synectiks accelerated migration and modernization services allow customer to leverage the data processing benefits of cloud sooner, providing cost-savings and solving scalability issues.
 resources:
   show: false
 featuredimage: /img/apple-touch-icon.png
@@ -141,6 +148,7 @@ aproach:
   img: " "
   description: Test
   show: false
+  showblock: true
 description: The Coffee Taster’s Flavor Wheel, the official resource used by
   coffee tasters, has been revised for the first time this year.The Coffee
   Taster’s Flavor Wheel, the official resource used by coffee tasters, has been
