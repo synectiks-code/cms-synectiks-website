@@ -38,6 +38,40 @@ reports:
       AWS, Infrastructure as a code, microservices, DevOps
 
       <!--EndFragment-->
+challenges:
+  - text: Scalability
+    description: >-
+      <!--StartFragment-->
+
+
+      This was the primary and pertinent challenge of Large Motor Company as their applications were not horizontally scalable due to which their applications, faced many performance issues.\
+
+      **<!--EndFragment-->**
+  - text: Reliability
+    description: >-
+      <!--StartFragment-->
+
+
+      They had difficulty in confronting hardware downtime, unplanned outages have directly impacted software downtime and baffled their IT operations, applications and data.\
+
+      **<!--EndFragment-->**
+  - text: Vendor Dependency
+    description: >-
+      <!--StartFragment-->
+
+
+      They were running licensed products for HA clustering, system monitoring and security. Most of the products were licensed.\
+
+      **<!--EndFragment-->**
+  - text: Traditional IT infrastructure
+    description: >-
+      <!--StartFragment-->
+
+
+      With traditional Infrastructure, it is not only difficult to manage a data center but also hard to improve costs in maintaining the physical resources. The Large Motor company was not using more than 10% of their physical resources.
+
+
+      <!--EndFragment-->
 featuredpost: true
 featuredimage: /img/01tenderer-dashboard.jpg
 tags:
