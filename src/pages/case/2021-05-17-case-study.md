@@ -79,15 +79,6 @@ tags:
 ---
 <!--StartFragment-->
 
-#### <h3 class='text-primary'>Challenges</h3>
-
-**<h4 class='text-primary'>Scalability</h4>**This was the primary and pertinent challenge of Large Motor Company as their applications were not horizontally scalable due to which their applications, faced many performance issues.\
-**<h4 class='text-primary'>Reliability</h4>**They had difficulty in confronting hardware downtime, unplanned outages have directly impacted software downtime and baffled their IT operations, applications and data.\
-**<h4 class='text-primary'>Vendor Dependency</h4>**They were running licensed products for HA clustering, system monitoring and security. Most of the products were licensed.\
-**<h4 class='text-primary'>Traditional IT infrastructure</h4>**With traditional Infrastructure, it is not only difficult to manage a data center but also hard to improve costs in maintaining the physical resources. The Large Motor company was not using more than 10% of their physical resources.
-
-<br/>
-
 ##### **<h4 class='text-primary'>**Solutions</h4>
 
 * We remodeled their legacy IT infrastructure into an entirely software-defined architecture.
