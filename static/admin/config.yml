@@ -128,7 +128,13 @@ collections:
                 required: false,
               },
               { label: Image, name: img, widget: string },
-              { label: Is full image?, name: fullimg, widget: boolean, required: false, default: false },
+              {
+                label: Is full image?,
+                name: fullimg,
+                widget: boolean,
+                required: false,
+                default: false,
+              },
               { label: Description, name: description, widget: markdown },
               {
                 label: Product Description,
@@ -458,6 +464,17 @@ collections:
       - {
           label: Reports,
           name: reports,
+          required: false,
+          widget: list,
+          fields:
+            [
+              { label: Text, name: text, widget: string },
+              { label: Description, name: description, widget: markdown },
+            ],
+        }
+      - {
+          label: Challenges,
+          name: challenges,
           required: false,
           widget: list,
           fields:

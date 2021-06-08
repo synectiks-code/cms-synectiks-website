@@ -16,7 +16,8 @@ const Reports = ({ reports }) => (
         key={v4()}
         style={{
           flex: 1,
-          backgroundColor: '#F7F5F5',
+          // backgroundColor: '#F7F5F5',
+          backgroundColor: '#EEF2F5',
           borderLeft: '2px solid rgba(0,0,0,0.5)',
           marginRight: '2%',
           padding: '2% 0% 2% 3%',

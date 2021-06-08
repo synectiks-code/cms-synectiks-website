@@ -9,9 +9,11 @@ import remark from 'remark';
 import remarkHTML from 'remark-html';
 import { v4 } from 'uuid';
 import Reports from '../components/Reports';
+import Challenges from '../components/Challenges';
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 export const CasePostTemplate = ({
+  challenges,
   reports,
   backimage,
   bannerdescription,
@@ -56,6 +58,7 @@ export const CasePostTemplate = ({
             </h1>
             <p>{description}</p>
             <Reports reports={reports} />
+            <Challenges challenges={challenges} />
             <PostContent content={content} />
             {/* {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -81,6 +84,7 @@ CasePostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   reports: PropTypes.array,
+  challenges: PropTypes.array,
   title: PropTypes.string,
   helmet: PropTypes.object,
 };
@@ -94,6 +98,7 @@ const CasePost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         reports={post.frontmatter.reports}
+        challenges={post.frontmatter.challenges}
         backimage={post.frontmatter.backimage}
         bannerdescription={post.frontmatter.bannerdescription}
         bannerimage={post.frontmatter.bannerimage}
@@ -129,6 +134,10 @@ export const pageQuery = graphql`
       html
       frontmatter {
         reports {
+          description
+          text
+        }
+        challenges {
           description
           text
         }
