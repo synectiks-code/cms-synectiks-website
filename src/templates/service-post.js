@@ -120,7 +120,7 @@ export const ServicePostTemplate = ({
           </div>
           <div className='d-inline-block text-center banner-right'>
             <div className='d-inline-block banner-icon-img'>
-              <img src={bannericon} alt='' />
+              <img src={bannericon} alt='' width="150"  height="150" />
             </div>
             <div className='d-inline-block banner-heading'>
               {bannericonname}
@@ -223,6 +223,7 @@ export const pageQuery = graphql`
         whyus {
           showblock
           img
+          fullimg
           description
           productdescription
           reasonstext
