@@ -91,33 +91,25 @@ featuredimage: /img/apple-touch-icon.png
 featuredpost: true
 bannericonname: Synectiks Hybrid Cloud
 aproach:
-  img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-  description: The Coffee Taster’s Flavor Wheel, the official resource used by
-    coffee tasters, has been revised for the first time this year.The Coffee
-    Taster’s Flavor Wheel, the official resource used by coffee tasters, has
-    been revised for the first time this year.The Coffee Taster’s Flavor Wheel
-  actions:
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      heading: Experience
-      text: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      heading: Experience
-      text: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      heading: Experience
-      text: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      heading: Experience
-      text: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      heading: Experience
-      text: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      heading: Experience
-      text: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-      heading: Experience
-      text: 10+ Large scale cloud transformation
+  img: https://res.cloudinary.com/papu/image/upload/v1622720307/MicroServices/SOA_zyaeah.png
+  description: >-
+    **SYNECTIKS HYBRID CLOUD PLATFORM**
+
+
+    The new generation of hybrid cloud enables you to build and manage across any cloud with a common platform, allowing you to skill once, build once and manage from a single pane of glass.
+
+
+
+    At Synectiks, the foundation of this approach is Xformation, a hybrid cloud container platform. With Xformation, you can develop and consume cloud services anywhere and from any cloud. It is designed to help you to quickly build any workloads, deploy and manage them anywhere.  
+
+
+
+
+    **SYNECTIKS HYBRID CLOUD SERVICES**
+
+
+    ![](https://res.cloudinary.com/papu/image/upload/v1623255207/MicroServices/Hybrid_Cloud_Services_ojuamz.png)
+  actions: []
   showblock: true
 gettingstarted:
   actiontext: Key strategic drivers
