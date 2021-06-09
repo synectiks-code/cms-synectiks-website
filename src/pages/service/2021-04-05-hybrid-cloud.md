@@ -108,7 +108,7 @@ aproach:
     **SYNECTIKS HYBRID CLOUD SERVICES**
 
 
-    ![](https://res.cloudinary.com/papu/image/upload/v1623255207/MicroServices/Hybrid_Cloud_Services_ojuamz.png)
+    ![](https://res.cloudinary.com/papu/image/upload/v1623255207/MicroServices/Hybrid_Cloud_Services_ojuamz.png "**SYNECTIKS HYBRID CLOUD PLATFORM**")
   actions: []
   showblock: true
 gettingstarted:
@@ -117,35 +117,21 @@ gettingstarted:
     technology and the human side of change. There are several key actions to
     take
   actions:
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-    - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/
-        Experience_iege6d.png
-      text: Experience
-      description: 10+ Large scale cloud transformation
-  testimonial: Test
+    - img: https://res.cloudinary.com/papu/image/upload/v1623255392/MicroServices/Getting_Started_Hybrid_Cloud_vk65be.png
+      description: >-
+        ﻿Synectiks can enable your enterprise journey to hybrid IT, regardless
+        of your starting point.
+
+
+
+
+        ![](https://res.cloudinary.com/papu/image/upload/v1623255687/MicroServices/Hybrid_cloud_getting_started_diksop.png)
+  testimonial: Synectiks managed services helped us to consolidate our entire
+    business from 4 different Dc's to a hybrid cloud that is fully software
+    defined and microservices based ensuring our scalability and performance
+    SLA  - Top 2 Motor Industry (Did complete software defined transformation
+    Modernization)
+  showblock: true
 category:
   - product
   - Cloud Computing
