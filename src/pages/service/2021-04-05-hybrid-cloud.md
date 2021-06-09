@@ -119,13 +119,27 @@ gettingstarted:
   actions:
     - img: https://res.cloudinary.com/papu/image/upload/v1623255392/MicroServices/Getting_Started_Hybrid_Cloud_vk65be.png
       description: >-
-        ﻿Synectiks can enable your enterprise journey to hybrid IT, regardless
-        of your starting point.
+        
+
+        ﻿Synectiks can enable your enterprise journey to hybrid IT, regardless of your starting point.
 
 
 
 
         ![](https://res.cloudinary.com/papu/image/upload/v1623255687/MicroServices/Hybrid_cloud_getting_started_diksop.png)
+
+
+
+
+        **Our Process**
+
+
+        ![](https://res.cloudinary.com/papu/image/upload/v1623256827/MicroServices/our_process_dttjbp.png)
+
+
+
+
+        We recommend assessing the company’s applications and IT estate and creating a roadmap to guide the journey to optimal hybrid cloud. This roadmap should compare current and future run costs to create a business case for change; assess application and workload placement and data locality options; recommend application transformation requirements; consider IT policy and operating model factors; and ultimately produce clear, data-based recommendations with a proposed execution plan to enable hybrid IT transformation to happen. Getting there will require transforming and migrating applications, integrating, and orchestrating environments, automating and monitoring business services, enabling digital processes, and integrating data and security.
   testimonial: Synectiks managed services helped us to consolidate our entire
     business from 4 different Dc's to a hybrid cloud that is fully software
     defined and microservices based ensuring our scalability and performance
