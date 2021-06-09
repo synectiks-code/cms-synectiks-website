@@ -64,10 +64,10 @@ whyus:
       text: Optimization Service
       img: https://res.cloudinary.com/papu/image/upload/v1623252722/MicroServices/Optimization_Service_vqfvpa.svg
     - description: Our every engagement focused on empowerment – not dependency
-      text: Engagement Modal
+      text: Engagement Model
       img: https://res.cloudinary.com/papu/image/upload/v1623252748/MicroServices/Engagement_Model_k6qlyg.svg
     - description: 100% Customer Retention Rate.
-      text: long Term Retention
+      text: Long Term Retention
       img: https://res.cloudinary.com/papu/image/upload/v1623252771/MicroServices/Long_Term_Retention_kc6iwq.svg
   conclusion: >-
     Finally, we help you run it all at a lower cost using CloudOps delivery
@@ -118,6 +118,7 @@ aproach:
     - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
       heading: Experience
       text: 10+ Large scale cloud transformation
+  showblock: true
 gettingstarted:
   actiontext: Key strategic drivers
   description: As companies embrace hybrid Cloud, they must address both
