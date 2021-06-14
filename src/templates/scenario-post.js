@@ -19,7 +19,6 @@ import {
   TiSocialLinkedin,
   TiSocialYoutube,
 } from 'react-icons/ti';
-import ScenarioHome from '../components/ScenarioHome.js';
 
 export const ScenarioPageTemplate = ({ scenarios, slider }) => {
   const [showSelectScenario, setShowSelectScenario] = useState(false);
