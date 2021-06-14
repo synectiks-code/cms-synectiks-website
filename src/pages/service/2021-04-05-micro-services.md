@@ -106,6 +106,11 @@ whyus:
 resources:
   show: false
   showblock: true
+  blogs:
+    - img: https://res.cloudinary.com/papu/image/upload/v1623246166/MicroServices/Hybrid_Cloud_Strategy_wvkux1.jpg
+      heading: Hybrid Cloud Strategy
+      description: A Guide to Extending and Optimizing Your Hybrid Cloud Environment
+      link: www.synectiks.com
 featuredimage: /img/apple-touch-icon.png
 featuredpost: true
 page:
