@@ -35,6 +35,7 @@ class Resources extends React.Component {
 
     renderSlider = (name, description, sliderData, afterSlide, currentSlide, updateCurrentSlide) => {
         const { numberOfSlides } = this.state;
+        let adjustedSlides = sliderData.length === 1 ? 1 : numberOfSlides;
         return (
             <div className="d-block mx-md-5 mx-3 pb-md-5 partners-slider">
                 <div className="d-block w-100 px-lg-5 px-2">
@@ -47,12 +48,12 @@ class Resources extends React.Component {
                             <div className="d-block mb-3 indicators">
                                 <span>01</span>
                                 <span className="line">
-                                    <span style={{ width: `${(currentSlide + numberOfSlides) * 100 / sliderData.length}%` }}></span>
+                                    <span style={{ width: `${(currentSlide + adjustedSlides) * 100 / sliderData.length}%` }}></span>
                                 </span>
                                 <span>{sliderData.length > 9 ? sliderData.length : `0${sliderData.length}`}</span>
                             </div>
                             <div className="d-block text-center mb-5 mb-lg-0 success-button">
-                                <button onClick={() => updateCurrentSlide(1, sliderData.length)} className={`control-prev ${currentSlide === (sliderData.length - numberOfSlides) ? 'disabled' : ''}`} type="button">
+                                <button onClick={() => updateCurrentSlide(1, sliderData.length)} className={`control-prev ${currentSlide === (sliderData.length - adjustedSlides) ? 'disabled' : ''}`} type="button">
                                     <i className="fa fa-arrow-circle-right"></i>
                                 </button>
                                 <button onClick={() => updateCurrentSlide(-1, sliderData.length)} className={`control-next ${currentSlide === 0 ? 'disabled' : ''}`} type="button">
@@ -62,7 +63,7 @@ class Resources extends React.Component {
                         </div>
                         <div className="col-lg-9 col-12">
                             <div className="row">
-                                <Carousel afterSlide={afterSlide} slideIndex={currentSlide} scrollMode="remainder" withoutControls={true} slidesToShow={numberOfSlides} slidesToScroll={1}>
+                                <Carousel afterSlide={afterSlide} slideIndex={currentSlide} scrollMode="remainder" withoutControls={true} slidesToShow={adjustedSlides} slidesToScroll={1}>
                                     {
                                         sliderData.map((slide) => (
                                             <div key={v4()} className="col-12">
@@ -113,7 +114,7 @@ class Resources extends React.Component {
         if (data.blogs && data.blogs.length > 0) {
             return this.renderSlider("Blogs", "These are the blogs", data.blogs, currentSlide => this.afterSlide(currentSlide, "blogSlideIndex"), blogSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "blogSlideIndex"));
         }
-        return <div>No blog data</div>;
+        return <div></div>;
     };
 
     renderWhitePaperSlider = (data) => {
@@ -121,7 +122,7 @@ class Resources extends React.Component {
         if (data.whitepapers && data.whitepapers.length > 0) {
             return this.renderSlider("White paper", "These are the white papers", data.whitepapers, currentSlide => this.afterSlide(currentSlide, "whitePaperSlideIndex"), whitePaperSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "whitePaperSlideIndex"));
         }
-        return <div>No white paper data</div>;
+        return <div></div>;
     };
 
     renderCaseStudiesSlider = (data) => {
@@ -129,7 +130,7 @@ class Resources extends React.Component {
         if (data.casestudies && data.casestudies.length > 0) {
             return this.renderSlider("Case studies", "These are the case studies", data.casestudies, currentSlide => this.afterSlide(currentSlide, "caseStudiesSlideIndex"), caseStudiesSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "caseStudiesSlideIndex"))
         }
-        return <div>No case studies data</div>;
+        return <div></div>;
     };
 
     render() {
@@ -142,7 +143,7 @@ class Resources extends React.Component {
                     {this.renderWhitePaperSlider(data)}
                     {this.renderCaseStudiesSlider(data)}
                 </div > :
-                <div>No Data</div>
+                <div></div>
         );
     }
 }

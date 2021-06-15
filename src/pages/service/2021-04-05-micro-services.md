@@ -66,23 +66,19 @@ whyus:
     # **Need**
 
 
+    * Minimal Code Change Approach in App refactoring
 
-
-    * Minimal Code Change Approach
-
-    * Accelerate associated changes in Infra / Process Layer
+    * Accelerate changes in Infra / Process Layer for Microservice 
 
     * Simple Upskilling
 
 
-    # Solution
+    # **Solution**
 
 
+    * App blocks reduce 50% coding Effort in refactoring
 
-
-    * App blocks reduce 50% coding Effort
-
-    * Prebuilt Blueprints for associated Infra / Process
+    * Prebuilt Blueprints for associated Infra / Process changes
 
     * Standardized Assets for E2E delivery (refactor, DevOps Workflow, Automation)
 
@@ -154,116 +150,118 @@ aproach:
   img: "
     https://res.cloudinary.com/papu/image/upload/v1622718535/MicroServices/Micr\
     oservices_Migration_ff8fsg.png"
-  description: >-
-    Microservices architecture, divides the business functionality and data that
-    is stored horizontally into cohesive verticals by implementing a specific
-    domain. At Synectiks, the foundation of this approach is Xformation, a
-    multi-cloud microservices development platform. With Xformation, you can
-    build the microservices development ecosystem and thereby adopt
-    enterprise-wide SOA architecture quickly and gain development velocity. It
-    is designed to help you to quickly build API-first design and establish
-    necessary operation ecosystem.
-
-
-
-
-    # **SYNECTIKS MICROSERVICE / SOA PLATFORM**
-
-
-    ![SYNECTIKS MICROSERVICE / SOA PLATFORM](https://res.cloudinary.com/papu/image/upload/v1622718784/MicroServices/Xformation_TAAS_rohfnu.jpg "SYNECTIKS MICROSERVICE / SOA PLATFORM")
-
-
-    With SYNECTIKS Xformation platform, companies can take advantage of an API driven cloud architecture and get going faster. The Platform helps you to
-
-
-    *  Provision highly secure application enclave across any clouds where you can develop and deliver your micro services seamlessly.
-
-    * Embrace operation automations to manage distributed clusters and business services across geographies from a single pane of glass.
-
-    * Use Tools and Utilities for you Dev / Sec  And Ops Ecosystem so that you could adopt DevSecOps, which is essential for  developing microservices
-
-    * Use available open  framework and component to develop any microservices in most predictive and deterministic manner.
-
-
-
-
-    **SYNECTIKS APP BLOCK TECHNOLOGY**
-
-
-    ![App Blocks](https://res.cloudinary.com/papu/image/upload/v1622719675/MicroServices/App_Blocks_hhbzip.png "App Blocks")
-
-
-
-
-    Synectiks is continuously developing Open frameworks and reusable cloud agnostic Application blocks that reduce at least 50% refactoring effort of existing monolith application. Our simplified approach of **Aggregate -> Extend -> Automate** helps customer to provision secure microservice building environment across any cloud and develop microservices from App Blocks in predictive and deterministic manner and establish required operations systems and processes for micro service environment in faster way. 
-
-
-    **SYNECTIKS ENTERPRISE SOA SERVICES**
-
-
-    ![SYNECTIKS ENTERPRISE SOA SERVICES](https://res.cloudinary.com/papu/image/upload/v1622719829/MicroServices/Monolith_to_Microservices_ssyxpz.jpg "SYNECTIKS ENTERPRISE SOA SERVICES")
-
-
-    Synectiks has the most qualified and experienced practitioners in the microservice approach, working across industries to redesign processes and applications to speed business transformation and enterprise-wide SOA architecture adoption. Our Modern apps practices enable organizations to unlock the insights and business value in legacy applications while lowering costs, future-proofing infrastructure and improving agility. Our open software components and frameworks dramatically shorten the time from a new idea to the secure launch of new business initiatives, allowing quick rollout of new points of differentiation for customer service, data access and customer insights. Enterprises can rapidly disrupt the competition — or rapidly respond to disruption by using the following value-added services:
-
-
-
-
-    **Legacy Application Migration**
-
-
-    ![Legacy Application Migration](https://res.cloudinary.com/papu/image/upload/v1622707141/MicroServices/Monolith_to_microservices_bww9qw.png "Legacy Application Migration")
-
-
-    Two ways to extract value from legacy apps, as below:
-
-
-
-    **Business Logic:** Creating microservices that become APIs enabling business user to assemble various functionalities and truly become an API driven organization with an API centric application architecture. This allows the organization to become a low-code organization where they 'assemble apps' rather than write apps.
-
-
-
-    **Data Lake:** Extracting the data in a Data Lake and exposing that data through analytical tools.
-
-
-
-
-    **Accelerated SOA Adoption**
-
-
-    ![Accelerated SOA Adoption](https://res.cloudinary.com/papu/image/upload/v1622720307/MicroServices/SOA_zyaeah.png "Accelerated SOA Adoption")
-
-
-    With Synectiks Xformation platform, companies can take advantage of an API-driven cloud architecture and get moving faster. Synectiks open Xformation platform offers App/ Delivery/ Automation blocks based on cloud-native services that customers can leverage, to build applications and services rapidly with adequate security and governance.
-
-
-    **Automated Application Delivery**
-
-
-    ![Automated Application Delivery](https://res.cloudinary.com/papu/image/upload/v1622720444/MicroServices/Automated_Application_Delivery_bcodph.png "Automated Application Delivery")
-
-
-    Synectiks Xformation platform comes with industry standard CI/CD blueprint infrastructure provisioning and validation, container driven services delivery across clouds, functional testing, performance testing and security testing and stagewise production deployment tasks. By truly adopting a DevOps based cultural adoption, customers can ensure their product quality, security and compliance posture is continually maintained along with the capability to rapidly deliver features and services with ever increasing security and compliance guidelines.
-
-
-    **Redevelopment – Microservices App Development**
-
-
-    ![Redevelopment – Microservices App Development](https://res.cloudinary.com/papu/image/upload/v1622720593/MicroServices/Microservices_App_Development_gz2qgi.png "Redevelopment – Microservices App Development")
-
-
-    Synectiks application development service offering allows customers to realize the real benefit of using cloud-native services and boosting innovation agility. The offering involves application redevelopment to implement use cases for batch processing, workflow processing, transient server less functionality or container based microservices. Synectiks open Xformation platform offers App/ Delivery/ Automation blocks based on cloud-native services that customers can leverage to build application and services rapidly.
-
-
-    **Fast Data / Big Data Analytics**
-
-
-    ![Fast Data / Big Data Analytics](https://res.cloudinary.com/papu/image/upload/v1622720750/MicroServices/BI_Reporting_cemsic.png "Fast Data / Big Data Analytics")
-
-
-    Synectiks analytic service offering allows customers to create data lake for their unstructured, semi structured, and structured data and derive real time visibility across their business processes by doing bigdata processing projects. Synectiks simplifies the operations complexity by running the multistage transactional services, batch workloads and streaming analytics inside a single platform. With Synectiks' deep expertise on hardware aggregations coupled with its analytics service’s offerings, customers can seamlessly run every mission critical workloads inside a single cluster platform and can truly focus on outcomes.
+  description: Microservices architecture, divides the business functionality and
+    data that is stored horizontally into cohesive verticals by implementing a
+    specific domain. At Synectiks, the foundation of this approach is
+    Xformation, a multi-cloud microservices development platform. With
+    Xformation, you can build the microservices development ecosystem and
+    thereby adopt enterprise-wide SOA architecture quickly and gain development
+    velocity. It is designed to help you to quickly build API-first design and
+    establish necessary operation ecosystem.
   show: false
   showblock: true
+  actions:
+    - issideimage: false
+      heading: SYNECTIKS MICROSERVICE / SOA PLATFORM
+      img: https://res.cloudinary.com/papu/image/upload/v1622718784/MicroServices/Xformation_TAAS_rohfnu.jpg
+      text: >-
+        With SYNECTIKS Xformation platform, companies can take advantage of an
+        API driven cloud architecture and get going faster. The Platform helps
+        you to
+
+
+        * Provision highly secure application enclave across any clouds where you can develop and deliver your micro services seamlessly.
+
+        * Embrace operation automations to manage distributed clusters and business services across geographies from a single pane of glass.
+
+        * Use Tools and Utilities for you Dev / Sec  And Ops Ecosystem so that you could adopt DevSecOps, which is essential for  developing microservices
+
+        * Use available open  framework and component to develop any microservices in most predictive and deterministic manner.
+    - issideimage: false
+      text: Synectiks is continuously developing Open frameworks and reusable cloud
+        agnostic Application blocks that reduce at least 50% refactoring effort
+        of existing monolith application. Our simplified approach of **Aggregate
+        -> Extend -> Automate** helps customer to provision secure microservice
+        building environment across any cloud and develop microservices from App
+        Blocks in predictive and deterministic manner and establish required
+        operations systems and processes for micro service environment in faster
+        way.
+      heading: SYNECTIKS APP BLOCK TECHNOLOGY
+      img: https://res.cloudinary.com/papu/image/upload/v1622719675/MicroServices/App_Blocks_hhbzip.png
+    - issideimage: false
+      heading: SYNECTIKS ENTERPRISE SOA SERVICES
+      img: https://res.cloudinary.com/papu/image/upload/v1622719829/MicroServices/Monolith_to_Microservices_ssyxpz.jpg
+      text: "Synectiks has the most qualified and experienced practitioners in the
+        microservice approach, working across industries to redesign processes
+        and applications to speed business transformation and enterprise-wide
+        SOA architecture adoption. Our Modern apps practices enable
+        organizations to unlock the insights and business value in legacy
+        applications while lowering costs, future-proofing infrastructure and
+        improving agility. Our open software components and frameworks
+        dramatically shorten the time from a new idea to the secure launch of
+        new business initiatives, allowing quick rollout of new points of
+        differentiation for customer service, data access and customer insights.
+        Enterprises can rapidly disrupt the competition — or rapidly respond to
+        disruption by using the following value-added services:"
+    - issideimage: false
+      heading: Legacy Application Migration
+      img: https://res.cloudinary.com/papu/image/upload/v1622707141/MicroServices/Monolith_to_microservices_bww9qw.png
+      text: "Two ways to extract value from legacy apps, as below:\r
+
+        \r
+
+        **Business Logic:** Creating microservices that become APIs
+        enabling business user to assemble various functionalities and truly
+        become an API driven organization with an API centric application
+        architecture. This allows the organization to become a low-code
+        organization where they 'assemble apps' rather than write apps.\r
+
+        \r
+
+        **Data Lake:** Extracting the data in a Data Lake and exposing
+        that data through analytical tools."
+    - issideimage: false
+      img: https://res.cloudinary.com/papu/image/upload/v1622720307/MicroServices/SOA_zyaeah.png
+      heading: Accelerated SOA Adoption
+      text: With Synectiks Xformation platform, companies can take advantage of an
+        API-driven cloud architecture and get moving faster. Synectiks open
+        Xformation platform offers App/ Delivery/ Automation blocks based on
+        cloud-native services that customers can leverage, to build applications
+        and services rapidly with adequate security and governance.
+    - issideimage: false
+      heading: Automated Application Delivery
+      img: https://res.cloudinary.com/papu/image/upload/v1622720444/MicroServices/Automated_Application_Delivery_bcodph.png
+      text: Synectiks Xformation platform comes with industry standard CI/CD blueprint
+        infrastructure provisioning and validation, container driven services
+        delivery across clouds, functional testing, performance testing and
+        security testing and stagewise production deployment tasks. By truly
+        adopting a DevOps based cultural adoption, customers can ensure their
+        product quality, security and compliance posture is continually
+        maintained along with the capability to rapidly deliver features and
+        services with ever increasing security and compliance guidelines.
+    - issideimage: false
+      img: https://res.cloudinary.com/papu/image/upload/v1622720593/MicroServices/Microservices_App_Development_gz2qgi.png
+      heading: Redevelopment – Microservices App Development
+      text: Synectiks application development service offering allows customers to
+        realize the real benefit of using cloud-native services and boosting
+        innovation agility. The offering involves application redevelopment to
+        implement use cases for batch processing, workflow processing, transient
+        server less functionality or container based microservices. Synectiks
+        open Xformation platform offers App/ Delivery/ Automation blocks based
+        on cloud-native services that customers can leverage to build
+        application and services rapidly.
+    - issideimage: false
+      heading: Fast Data / Big Data Analytics
+      img: https://res.cloudinary.com/papu/image/upload/v1622720750/MicroServices/BI_Reporting_cemsic.png
+      text: Synectiks analytic service offering allows customers to create data lake
+        for their unstructured, semi structured, and structured data and derive
+        real time visibility across their business processes by doing bigdata
+        processing projects. Synectiks simplifies the operations complexity by
+        running the multistage transactional services, batch workloads and
+        streaming analytics inside a single platform. With Synectiks' deep
+        expertise on hardware aggregations coupled with its analytics service’s
+        offerings, customers can seamlessly run every mission critical workloads
+        inside a single cluster platform and can truly focus on outcomes.
 description: The Coffee Taster’s Flavor Wheel, the official resource used by
   coffee tasters, has been revised for the first time this year.The Coffee
   Taster’s Flavor Wheel, the official resource used by coffee tasters, has been
@@ -275,7 +273,7 @@ gettingstarted:
   testimonial: SYNECTIKS MICROSERVICE / SOA PLATFORM
   actions:
     - img: https://res.cloudinary.com/papu/image/upload/v1622707141/MicroServices/Monolith_to_microservices_bww9qw.png
-      description: >-
+      description: >+
         ﻿
 
 
@@ -301,35 +299,25 @@ gettingstarted:
 
         Synectiks open product driven solutions delivery approach coupled with many large scale application transformation experience delivers the speed, innovations, quality and better economics that your current business demands.
 
-
-
-
-        **Our Process**
-
-
-        ![Our Process](https://res.cloudinary.com/papu/image/upload/v1622721128/MicroServices/Our_Process_jbxzoh.png "Our Process")
-
-
+    - img: https://res.cloudinary.com/papu/image/upload/v1622721128/MicroServices/Our_Process_jbxzoh.png
+      description: >-
+        <!--StartFragment-->
 
 
         Our approach is to use a combination of the latest industry tools, processes, experience and best practices, and provide the best solutions to our customers.
 
 
         The teams perform a quick requirements analysis and GAP analysis to understand the current setup and provide solutions to optimize your applications, storage, databases and overall infrastructure. The very first step, discovery and assessment will give you clear insights on the improved SLA’s and cost savings. You can make informed decisions to balance workloads and optimize resources and thereby, to create a roadmap that guides the journey to Application modernization. This roadmap should map people, process, technology change requirement, consider IT policy and operating model factors; and ultimately produce clear, data-based recommendations with a proposed execution plan to enable Application Transformation. Getting there will require significant upliftment of people skills, imparting modern tools and technologies, transforming and migrating applications, integrating and orchestrating environments, automating and monitoring business services, enabling digital processes, and integrating data and security.
-
-
-
-
-        **Typical Execution Methodology**
-
-
-        ![Typical Execution Methodology](https://res.cloudinary.com/papu/image/upload/v1622721392/MicroServices/Typical_Execution_Methodology_eol6y7.png "Typical Execution Methodology")
+      heading: Our Process
+    - img: https://res.cloudinary.com/papu/image/upload/v1622721392/MicroServices/Typical_Execution_Methodology_eol6y7.png
+      description: >-
+        <!--StartFragment-->
 
 
         Almost like a highly efficient assembly line in a manufacturing facility, each application moves through specific steps on its way to the microservices transformation. The steps include:
 
 
-        *  Discover and assess application readiness.
+        * Discover and assess application readiness.
 
         * Plan and prepare the application for the refactoring.
 
@@ -339,11 +327,15 @@ gettingstarted:
 
         * Identify cloud-native services to refactor without having to rewrite the code.
 
-        * Identify Synectiks Foundation Microservices components for reuse
-          Validate the entire process by POC.
+        * Identify Synectiks Foundation Microservices components for reuse Validate the entire process by POC.
+
         * Plan and Execute the process with DevSecOps approach.
 
         * Test and validate the application prior to deployment.
+
+
+        <!--EndFragment-->
+      heading: Execution Methodology
   showblock: true
 category:
   - product

@@ -240,6 +240,7 @@ export const pageQuery = graphql`
           img
           description
           actions {
+            issideimage
             img
             heading
             text
@@ -250,6 +251,7 @@ export const pageQuery = graphql`
           actions {
             img
             description
+            heading
           }
           testimonial
         }
