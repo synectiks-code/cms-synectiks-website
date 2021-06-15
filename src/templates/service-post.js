@@ -240,6 +240,7 @@ export const pageQuery = graphql`
           img
           description
           actions {
+            issideimage
             img
             heading
             text

@@ -30,17 +30,34 @@ const OurAproach = ({ data }) => {
                             return (
                                 <div key={v4()} className="d-block w-100 py-5 px-lg-5 px-2">
                                     <div className="row align-items-center justify-content-center">
-                                        <div className={index % 2 ? 'col-md-5 col-12 order-md-last' : 'col-md-6 col-12 order-md-first'}>
-                                            <div className="d-block mb-4 banner-image">
-                                                <img src={item.img} />
-                                            </div>
-                                        </div>
-                                        <div className={index % 2 ? 'col-md-6 col-12' : 'col-md-5 col-12'}>
-                                            <div className="d-block content">
-                                                <span className="d-block">{item.heading}</span>
-                                                <HTMLContent content={toHTML(item.text)} />
-                                            </div>
-                                        </div>
+                                        {!item.issideimage &&
+                                            <>
+                                                <div className={index % 2 ? 'col-md-12 col-12 order-md-last' : 'col-md-12 col-12 order-md-first'}>
+                                                    <div className="d-block mb-4 text-center banner-image">
+                                                        <img src={item.img} />
+                                                    </div>
+                                                </div>
+                                                <div className={index % 2 ? 'col-md-12 col-12' : 'col-md-12 col-12'}>
+                                                    <div className="d-block content">
+                                                        <span className="d-block">{item.heading}</span>
+                                                        <HTMLContent content={toHTML(item.text)} />
+                                                    </div>
+                                                </div>
+                                            </>}
+                                        {item.issideimage &&
+                                            <>
+                                                <div className={index % 2 ? 'col-md-5 col-12 order-md-last' : 'col-md-6 col-12 order-md-first'}>
+                                                    <div className="d-block mb-4 banner-image">
+                                                        <img src={item.img} />
+                                                    </div>
+                                                </div>
+                                                <div className={index % 2 ? 'col-md-6 col-12' : 'col-md-5 col-12'}>
+                                                    <div className="d-block content">
+                                                        <span className="d-block">{item.heading}</span>
+                                                        <HTMLContent content={toHTML(item.text)} />
+                                                    </div>
+                                                </div>
+                                            </>}
                                     </div>
                                 </div>
                             )
