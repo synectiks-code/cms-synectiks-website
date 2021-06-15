@@ -16,7 +16,7 @@ const GettingStarted = ({ data }) => {
                                 <div key={v4()} className={`d-block w-100 py-5 px-lg-5 px-3 service ${index % 2 === 0 ? 'tab-background' : 'tab-dark-background'}`}>
                                     <div className="d-block w-100 py-5 px-lg-5 px-2">
                                         <div className="d-block text-center w-100 pb-4 service-image">
-                                            <img src={action.img} />
+                                            <img style={{width: "100%"}} src={action.img} />
                                         </div>
                                         <div className="d-block service-description" dangerouslySetInnerHTML={{ __html: toHTML(action.description) }} />
                                     </div>
