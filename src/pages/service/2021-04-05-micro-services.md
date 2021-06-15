@@ -66,11 +66,9 @@ whyus:
     # **Need**
 
 
+    * Minimal Code Change Approach in App refactoring
 
-
-    * Minimal Code Change Approach
-
-    * Accelerate associated changes in Infra / Process Layer
+    * Accelerate changes in Infra / Process Layer for Microservice 
 
     * Simple Upskilling
 
@@ -78,11 +76,9 @@ whyus:
     # **Solution**
 
 
+    * App blocks reduce 50% coding Effort in refactoring
 
-
-    * App blocks reduce 50% coding Effort
-
-    * Prebuilt Blueprints for associated Infra / Process
+    * Prebuilt Blueprints for associated Infra / Process changes
 
     * Standardized Assets for E2E delivery (refactor, DevOps Workflow, Automation)
 
@@ -312,6 +308,7 @@ gettingstarted:
 
 
         The teams perform a quick requirements analysis and GAP analysis to understand the current setup and provide solutions to optimize your applications, storage, databases and overall infrastructure. The very first step, discovery and assessment will give you clear insights on the improved SLA’s and cost savings. You can make informed decisions to balance workloads and optimize resources and thereby, to create a roadmap that guides the journey to Application modernization. This roadmap should map people, process, technology change requirement, consider IT policy and operating model factors; and ultimately produce clear, data-based recommendations with a proposed execution plan to enable Application Transformation. Getting there will require significant upliftment of people skills, imparting modern tools and technologies, transforming and migrating applications, integrating and orchestrating environments, automating and monitoring business services, enabling digital processes, and integrating data and security.
+      heading: Our Process
     - img: https://res.cloudinary.com/papu/image/upload/v1622721392/MicroServices/Typical_Execution_Methodology_eol6y7.png
       description: >-
         <!--StartFragment-->
@@ -338,6 +335,7 @@ gettingstarted:
 
 
         <!--EndFragment-->
+      heading: Execution Methodology
   showblock: true
 category:
   - product
