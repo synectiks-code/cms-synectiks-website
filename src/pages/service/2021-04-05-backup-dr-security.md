@@ -42,30 +42,33 @@ whyus:
         build, deliver and orchestrate cross cloud services @50% time & cost.
     - img: https://res.cloudinary.com/papu/image/upload/v1620121043/new-design/hybrid-cloud/e2e-solution_pl64jw.jpg
       text: E2E Solution
-      description: Single point of contact for Application Migration, Transformation and Integration to 
-        cloud-native Apps services.
+      description: Single point of contact for Application Migration, Transformation
+        and Integration to cloud-native Apps services.
     - img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/single-control-pane_znkvet.jpg
       text: Single Control pane
-      description: Xformation is a single interface and platform to manage all your workloads distributed across multiple 
-        clouds and boundaries within a single control plane. 
+      description: Xformation is a single interface and platform to manage all your
+        workloads distributed across multiple clouds and boundaries within a
+        single control plane.
     - img: https://res.cloudinary.com/papu/image/upload/v1620121045/new-design/hybrid-cloud/compliance-security_ysw8nm.jpg
       text: Compliance & Security
-      description: Our compliance and security assessment tools make sure your hybrid cloud journey meets 
-        your business compliance. 
+      description: Our compliance and security assessment tools make sure your hybrid
+        cloud journey meets your business compliance.
     - img: https://res.cloudinary.com/papu/image/upload/v1620222870/new-design/hybrid-cloud/extreme-automation_yk9gzn.jpg
       text: Extreme Automation
-      description: Use our existing automation capabilities to automate infrastructure, operations,
-        security in hybrid IT environment.   
+      description: Use our existing automation capabilities to automate
+        infrastructure, operations, security in hybrid IT environment.
     - img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/public-cloud-partnership_qmst7o.jpg
       text: Public Cloud Partnership
-      description: Our advanced partnership with major public cloud providers help you to get support at every stage.
+      description: Our advanced partnership with major public cloud providers help you
+        to get support at every stage.
     - img: https://res.cloudinary.com/papu/image/upload/v1620121043/new-design/hybrid-cloud/demo-environment_jx5des.jpg
       text: Demo Environment
-      description: Avail the opportunity to quickly create a demo hybrid cloud setup in our existing hybrid IT environment and 
-        testify to you key business use cases.   
+      description: Avail the opportunity to quickly create a demo hybrid cloud setup
+        in our existing hybrid IT environment and testify to you key business
+        use cases.
     - img: https://res.cloudinary.com/papu/image/upload/v1620121044/new-design/hybrid-cloud/optimization-service_qyylkr.jpg
       text: Optimization Service
-      description: We do optimal resource pooling from multiple clouds.  
+      description: We do optimal resource pooling from multiple clouds.
     - img: https://res.cloudinary.com/papu/image/upload/v1620121043/new-design/hybrid-cloud/engagement-model_wfxnsk.jpg
       text: Engagement Model
       description: Our every engagement focused on empowerment – not dependency
@@ -106,39 +109,42 @@ aproach:
         speed business transformation.\r
 
         \r\n"
+      issideimage: true
 gettingstarted:
   showblock: true
   actions:
     - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
       description: >-
         ### Embrace Cultural Changes
-        
+
 
         As the organization start embracing hybrid cloud and take benefits of Serverless, PaaS, IoT and edge computing, so the workforce should become more integrated, multifunctional, flexible and agile. Existing and new IT stuffs must adept cloud technologies, agile methodologies so that they can build, deploy and scale applications across multiple infrastructure environments using Agile and DevOps processes. Most importantly companies need to foster a culture of learning at scale.
     - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
       description: >-
         ### Revamp Change Management
-        
+
         The existing governance processes, gates and approval procedures designed for traditional legacy IT environments are no longer appropriate in a cloud environment. Companies should revamp their change management systems to allow changes to happen quickly and, using automated workflows, to reduce manual intervention.
     - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
       description: >-
         ### Integrate Cloud Operations
-        
+
         As organizations move workloads to the cloud, the IT operations function should adapt to manage both on-premises and cloud-based applications. This new model, called CloudOps, can provide continuous integrated operations in a multi-cloud environment to enable rapid response to events, incidents and requests. Adding DevOps to the mix then utilizes automation, integration and organizational change to enable more frequent enhancements that result in higher quality software.
     - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
-      description: >- 
+      description: >-
         ### Automate support
-        
+
         To the extent possible, automate IT support functions. For example, the traditional trouble ticket system can be manually intensive and inefficient. Automation can improve service and free up IT personnel for higher-level activities. Longer term, companies will be able to deploy machine learning and AI to take log data from cloud-based systems and automatically take actions to resolve or even prevent incidents. The idea is to learn once, fix with code and share learnings to improve code over time and scale knowledge."
     - img: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
       description: >-
         ### Manage “Shadow IT”
-        
+
         Business units are often acquiring the cloud services they need because IT moves too slowly. At some point, those services must be integrated back into the traditional IT environment for operational and security reasons through a services governance model that encompasses hybrid IT elements. In addition, it’s important for CIOs to have a handle on what the enterprise is spending on IT services. The only way to accomplish this is to adopt hybrid IT and demonstrate to business units that IT can support the pace and scale that the business requires."         
   testimonial: >-
-    "Synectiks managed services helped us to consolidate our entire business from 4 different DC’s to a hybrid cloud that is fully software defined and microservices based ensuring our scalability and performance SLA."
+    "Synectiks managed services helped us to consolidate our entire business
+    from 4 different DC’s to a hybrid cloud that is fully software defined and
+    microservices based ensuring our scalability and performance SLA."
 
-    
+
     ---- Top 2 Motor Industry (Did complete software defined transformation Modernization)
 resources:
   showblock: true
