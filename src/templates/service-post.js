@@ -251,6 +251,7 @@ export const pageQuery = graphql`
           actions {
             img
             description
+            heading
           }
           testimonial
         }

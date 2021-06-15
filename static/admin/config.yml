@@ -212,6 +212,7 @@ collections:
                   [
                     { label: Image, name: img, widget: text },
                     { label: Description, name: description, widget: markdown },
+                    { label: Header, name: heading, widget: text, required: false },
                   ],
               },
               { label: Testimonial, name: testimonial, widget: string },
