@@ -165,6 +165,7 @@ aproach:
     necessary operation ecosystem.
 
 
+    <br/>
 
 
     # **SYNECTIKS MICROSERVICE / SOA PLATFORM**
@@ -176,7 +177,7 @@ aproach:
     With SYNECTIKS Xformation platform, companies can take advantage of an API driven cloud architecture and get going faster. The Platform helps you to
 
 
-    *  Provision highly secure application enclave across any clouds where you can develop and deliver your micro services seamlessly.
+    * Provision highly secure application enclave across any clouds where you can develop and deliver your micro services seamlessly.
 
     * Embrace operation automations to manage distributed clusters and business services across geographies from a single pane of glass.
 
@@ -185,6 +186,7 @@ aproach:
     * Use available open  framework and component to develop any microservices in most predictive and deterministic manner.
 
 
+    <br/>
 
 
     **SYNECTIKS APP BLOCK TECHNOLOGY**
@@ -193,9 +195,10 @@ aproach:
     ![App Blocks](https://res.cloudinary.com/papu/image/upload/v1622719675/MicroServices/App_Blocks_hhbzip.png "App Blocks")
 
 
-
-
     Synectiks is continuously developing Open frameworks and reusable cloud agnostic Application blocks that reduce at least 50% refactoring effort of existing monolith application. Our simplified approach of **Aggregate -> Extend -> Automate** helps customer to provision secure microservice building environment across any cloud and develop microservices from App Blocks in predictive and deterministic manner and establish required operations systems and processes for micro service environment in faster way. 
+
+
+    <br/>
 
 
     **SYNECTIKS ENTERPRISE SOA SERVICES**
@@ -207,6 +210,7 @@ aproach:
     Synectiks has the most qualified and experienced practitioners in the microservice approach, working across industries to redesign processes and applications to speed business transformation and enterprise-wide SOA architecture adoption. Our Modern apps practices enable organizations to unlock the insights and business value in legacy applications while lowering costs, future-proofing infrastructure and improving agility. Our open software components and frameworks dramatically shorten the time from a new idea to the secure launch of new business initiatives, allowing quick rollout of new points of differentiation for customer service, data access and customer insights. Enterprises can rapidly disrupt the competition — or rapidly respond to disruption by using the following value-added services:
 
 
+    <br />
 
 
     **Legacy Application Migration**
@@ -218,14 +222,10 @@ aproach:
     Two ways to extract value from legacy apps, as below:
 
 
-
     **Business Logic:** Creating microservices that become APIs enabling business user to assemble various functionalities and truly become an API driven organization with an API centric application architecture. This allows the organization to become a low-code organization where they 'assemble apps' rather than write apps.
 
 
-
     **Data Lake:** Extracting the data in a Data Lake and exposing that data through analytical tools.
-
-
 
 
     **Accelerated SOA Adoption**
@@ -275,7 +275,7 @@ gettingstarted:
   testimonial: SYNECTIKS MICROSERVICE / SOA PLATFORM
   actions:
     - img: https://res.cloudinary.com/papu/image/upload/v1622707141/MicroServices/Monolith_to_microservices_bww9qw.png
-      description: >-
+      description: >+
         ﻿
 
 
@@ -301,35 +301,24 @@ gettingstarted:
 
         Synectiks open product driven solutions delivery approach coupled with many large scale application transformation experience delivers the speed, innovations, quality and better economics that your current business demands.
 
-
-
-
-        **Our Process**
-
-
-        ![Our Process](https://res.cloudinary.com/papu/image/upload/v1622721128/MicroServices/Our_Process_jbxzoh.png "Our Process")
-
-
+    - img: https://res.cloudinary.com/papu/image/upload/v1622721128/MicroServices/Our_Process_jbxzoh.png
+      description: >-
+        <!--StartFragment-->
 
 
         Our approach is to use a combination of the latest industry tools, processes, experience and best practices, and provide the best solutions to our customers.
 
 
         The teams perform a quick requirements analysis and GAP analysis to understand the current setup and provide solutions to optimize your applications, storage, databases and overall infrastructure. The very first step, discovery and assessment will give you clear insights on the improved SLA’s and cost savings. You can make informed decisions to balance workloads and optimize resources and thereby, to create a roadmap that guides the journey to Application modernization. This roadmap should map people, process, technology change requirement, consider IT policy and operating model factors; and ultimately produce clear, data-based recommendations with a proposed execution plan to enable Application Transformation. Getting there will require significant upliftment of people skills, imparting modern tools and technologies, transforming and migrating applications, integrating and orchestrating environments, automating and monitoring business services, enabling digital processes, and integrating data and security.
-
-
-
-
-        **Typical Execution Methodology**
-
-
-        ![Typical Execution Methodology](https://res.cloudinary.com/papu/image/upload/v1622721392/MicroServices/Typical_Execution_Methodology_eol6y7.png "Typical Execution Methodology")
+    - img: https://res.cloudinary.com/papu/image/upload/v1622721392/MicroServices/Typical_Execution_Methodology_eol6y7.png
+      description: >-
+        <!--StartFragment-->
 
 
         Almost like a highly efficient assembly line in a manufacturing facility, each application moves through specific steps on its way to the microservices transformation. The steps include:
 
 
-        *  Discover and assess application readiness.
+        * Discover and assess application readiness.
 
         * Plan and prepare the application for the refactoring.
 
@@ -339,11 +328,14 @@ gettingstarted:
 
         * Identify cloud-native services to refactor without having to rewrite the code.
 
-        * Identify Synectiks Foundation Microservices components for reuse
-          Validate the entire process by POC.
+        * Identify Synectiks Foundation Microservices components for reuse Validate the entire process by POC.
+
         * Plan and Execute the process with DevSecOps approach.
 
         * Test and validate the application prior to deployment.
+
+
+        <!--EndFragment-->
   showblock: true
 category:
   - product
