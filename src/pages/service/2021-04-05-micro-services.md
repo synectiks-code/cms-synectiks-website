@@ -66,11 +66,9 @@ whyus:
     # **Need**
 
 
+    * Minimal Code Change Approach in App refactoring
 
-
-    * Minimal Code Change Approach
-
-    * Accelerate associated changes in Infra / Process Layer
+    * Accelerate changes in Infra / Process Layer for Microservice 
 
     * Simple Upskilling
 
@@ -78,11 +76,9 @@ whyus:
     # **Solution**
 
 
+    * App blocks reduce 50% coding Effort in refactoring
 
-
-    * App blocks reduce 50% coding Effort
-
-    * Prebuilt Blueprints for associated Infra / Process
+    * Prebuilt Blueprints for associated Infra / Process changes
 
     * Standardized Assets for E2E delivery (refactor, DevOps Workflow, Automation)
 
