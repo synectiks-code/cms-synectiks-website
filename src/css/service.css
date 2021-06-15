@@ -257,6 +257,14 @@ img{
     margin-bottom: 0px;
 }
 
+.service-contaienr .tab-container .getting-service-container .service .service-description ul li{
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
 .service-contaienr .tab-container .getting-service-container .tab-dark-background,
 .service-contaienr .tab-container .getting-service-container .tab-dark-background p {
     color: #ffffff !important;

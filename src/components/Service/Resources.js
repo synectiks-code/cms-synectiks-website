@@ -114,7 +114,7 @@ class Resources extends React.Component {
         if (data.blogs && data.blogs.length > 0) {
             return this.renderSlider("Blogs", "These are the blogs", data.blogs, currentSlide => this.afterSlide(currentSlide, "blogSlideIndex"), blogSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "blogSlideIndex"));
         }
-        return <div>No blog data</div>;
+        return <div></div>;
     };
 
     renderWhitePaperSlider = (data) => {
@@ -122,7 +122,7 @@ class Resources extends React.Component {
         if (data.whitepapers && data.whitepapers.length > 0) {
             return this.renderSlider("White paper", "These are the white papers", data.whitepapers, currentSlide => this.afterSlide(currentSlide, "whitePaperSlideIndex"), whitePaperSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "whitePaperSlideIndex"));
         }
-        return <div>No white paper data</div>;
+        return <div></div>;
     };
 
     renderCaseStudiesSlider = (data) => {
@@ -130,7 +130,7 @@ class Resources extends React.Component {
         if (data.casestudies && data.casestudies.length > 0) {
             return this.renderSlider("Case studies", "These are the case studies", data.casestudies, currentSlide => this.afterSlide(currentSlide, "caseStudiesSlideIndex"), caseStudiesSlideIndex, (factor, totalSlides) => this.updateCurrentSlide(factor, totalSlides, "caseStudiesSlideIndex"))
         }
-        return <div>No case studies data</div>;
+        return <div></div>;
     };
 
     render() {
@@ -143,7 +143,7 @@ class Resources extends React.Component {
                     {this.renderWhitePaperSlider(data)}
                     {this.renderCaseStudiesSlider(data)}
                 </div > :
-                <div>No Data</div>
+                <div></div>
         );
     }
 }
