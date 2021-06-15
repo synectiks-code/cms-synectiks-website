@@ -120,7 +120,7 @@ export const ServicePostTemplate = ({
           </div>
           <div className='d-inline-block text-center banner-right'>
             <div className='d-inline-block banner-icon-img'>
-              <img src={bannericon} alt='' width="150"  height="150" />
+              <img src={bannericon} alt='' width='150' height='150' />
             </div>
             <div className='d-inline-block banner-heading'>
               {bannericonname}
@@ -240,7 +240,7 @@ export const pageQuery = graphql`
           img
           description
           actions {
-            issideimage
+            # issideimage
             img
             heading
             text
@@ -251,7 +251,7 @@ export const pageQuery = graphql`
           actions {
             img
             description
-            heading
+            # heading
           }
           testimonial
         }

@@ -76,15 +76,16 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                 <div className='container-fluid'>
                   <div className='row'>
                     <div className='col-md-10 col-12'>
-                      <button
-                        className='close-more'
-                        onClick={() => setShowDetails(false)}>
-                        Close
-                      </button>
-                      <h3 className='has-text-weight-semibold'>
-                        {sliderContent.name}
-                        adding here
-                      </h3>
+                      <div className='scenario-div-btn'>
+                        <button
+                          className='close-more'
+                          onClick={() => setShowDetails(false)}>
+                          <AiFillCloseCircle />
+                        </button>
+                        <h3 className='has-text-weight-semibold'>
+                          {sliderContent.name}
+                        </h3>
+                      </div>
                     </div>
                     {showMoreDetailsButton && (
                       <div className='col-md-2 col-12'>
@@ -159,10 +160,7 @@ const ScenarioSlider = ({ slider, showMoreDetailsButton }) => {
                 <div className='container-fluid'>
                   <div className='row'>
                     <div className='col-12'>
-                      <p>
-                        {sliderContent.text}
-                        adding here Security_and_Compliance_ifdi30
-                      </p>
+                      <p>{sliderContent.text}</p>
                     </div>
                   </div>
                 </div>
