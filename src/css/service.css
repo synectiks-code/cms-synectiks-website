@@ -215,6 +215,11 @@ img{
     line-height: 28px;
     font-weight: 400; 
 }
+.service-contaienr .tab-container .aproach-container .actions-container.tab-background .content span,
+.service-contaienr .tab-container .aproach-container .actions-container.tab-background .content p,
+.service-contaienr .tab-container .aproach-container .actions-container.tab-background .content ul li{
+    color: black;
+}
 .service-contaienr .tab-container .aproach-container .actions-container .content span{
     font-size: 24px;
     line-height: 36px;
@@ -223,6 +228,13 @@ img{
     padding-bottom: 30px;
 }
 .service-contaienr .tab-container .aproach-container .actions-container .content p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.service-contaienr .tab-container .aproach-container .actions-container .content ul li{
     color: #ffffff;
     font-weight: 400;
     font-size: 1rem;
