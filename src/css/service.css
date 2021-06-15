@@ -221,23 +221,23 @@ img{
     color: black;
 }
 .service-contaienr .tab-container .aproach-container .actions-container .content span{
-    font-size: 24px;
+    font-size: 32px;
     line-height: 36px;
     color: #ffffff;
-    font-weight: 400;
     padding-bottom: 30px;
+    font-weight: bold;
 }
 .service-contaienr .tab-container .aproach-container .actions-container .content p{
     color: #ffffff;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1.5;
 }
 
 .service-contaienr .tab-container .aproach-container .actions-container .content ul li{
     color: #ffffff;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 1.5;
 }
 

@@ -16,7 +16,7 @@ const OurAproach = ({ data }) => {
                     <div className="d-block w-100 py-4 px-lg-5 px-3 header-container tab-background">
                         <div className="d-block w-100 pb-5 px-lg-5 px-2">
                             <p className="text-center mb-5">
-                                <img style={{width: "100%"}} src={data.img} />
+                                <img style={{ width: "100%" }} src={data.img} />
                             </p>
                             <p>
                                 <HTMLContent content={toHTML(data.description)} />
@@ -33,17 +33,13 @@ const OurAproach = ({ data }) => {
                                         {!item.issideimage &&
                                             <>
                                                 <div className="col-md-12 col-12">
-                                                    <div className="content">
-                                                        <span className="d-block">{item.heading}</span>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12 col-12">
                                                     <div className="d-block mb-4 text-center banner-image">
-                                                        <img style={{width: "100%"}} src={item.img} />
+                                                        <img style={{ width: "100%" }} src={item.img} />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-12 col-12">
                                                     <div className="d-block content">
+                                                        <span className="d-block">{item.heading}</span>
                                                         <HTMLContent content={toHTML(item.text)} />
                                                     </div>
                                                 </div>
