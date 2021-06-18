@@ -49,9 +49,9 @@ body {
     vertical-align: middle;
     padding-left: 3px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1280px) {
     .nav-search{
-        padding-right: 3rem;
+        padding-right: 0rem;
         padding-left: 15px;
     } 
 }

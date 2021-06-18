@@ -186,10 +186,9 @@ class Navbar extends React.Component {
 		const { mainMenuActiveIndex, active, mobileSubMenuIndex, mobileMenuActiveStatus } = this.state;
 		return (
 			<header className="d-flex flex-nowrap justify-content-between align-items-center w-100 py-4 py-lg-0 header">
-				<Link to='/' className='mx-3 mx-lg-5 flex-grow-1'>
+				<Link to='/' className='flex-grow-1'>
 					<img src={logo} alt="Synectiks logo" />
 				</Link>
-
 				<div className="d-none d-lg-block">
 					<ul className="nav nav-pills">
 						<li className={`nav-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
