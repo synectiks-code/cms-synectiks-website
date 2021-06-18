@@ -13,6 +13,8 @@ import cycle from '../img/scenario/homepage/procurement.svg';
 import analysis from '../img/scenario/homepage/analysis.svg';
 import telephone from '../img/scenario/homepage/telephone.svg';
 import logo from '../img/scenario/homepage/logo.png';
+import Login from '../components/Forms/Login';
+import Register from '../components/Forms/Register';
 import {
   TiSocialFacebook,
   TiSocialTwitter,
@@ -24,6 +26,8 @@ export const ScenarioPageTemplate = ({ scenarios, slider }) => {
   const [showSelectScenario, setShowSelectScenario] = useState(false);
   const [showUseCase, setShowUseCase] = useState(false);
   const [useCase, setUseCase] = useState(null);
+  const [showForm, setShowForm] = useState(false);
+  const [showReg, setShowReg] = useState(false);
 
   function onClickSelectScenario() {
     setShowSelectScenario(true);
@@ -66,11 +70,34 @@ export const ScenarioPageTemplate = ({ scenarios, slider }) => {
               />
             </div>
             <div className='group-btn'>
-              <button className='login'>Login</button>
-              <button className='register'>Register</button>
+              <button className='login' onClick={() => setShowForm(true)}>
+                Login
+              </button>
+              <button className='register' onClick={() => setShowReg(true)}>
+                Register
+              </button>
             </div>
           </div>
           {/* Header End */}
+          {/* <Register /> */}
+          {showForm ? (
+            <div className='form-close-btn'>
+              <button onClick={() => setShowForm(false)}>
+                <AiFillCloseCircle />
+              </button>
+              <Login />
+            </div>
+          ) : null}
+
+          {showReg ? (
+            <div className='reg-close-btn'>
+              <button onClick={() => setShowReg(false)}>
+                <AiFillCloseCircle />
+              </button>
+              <Register />
+            </div>
+          ) : null}
+
           <div className='banner-stack'>
             {/* banner Start */}
             <div className='banner'>

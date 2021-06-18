@@ -176,7 +176,7 @@ body {
   position: absolute;
   top: auto;
   bottom: 10em;
-  left: auto;
+  left: 0.4em;
   /* right: 50px; */
   cursor: pointer;
   z-index: 0;
