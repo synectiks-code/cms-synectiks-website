@@ -2,6 +2,8 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import '../../css/tabs.css';
 import { AiFillCloseCircle } from 'react-icons/ai';
+import FlavorForm from '../../components/Forms/Contact.js';
+import Privacypolicy from '../../components/Forms/Privacy.js';
 const VerticalTabs = () => {
   return (
     <div className='App'>
@@ -276,6 +278,8 @@ const VerticalTabs = () => {
           </div>
         </TabPanel>
       </Tabs>
+      <FlavorForm />
+      <Privacypolicy />
     </div>
   );
 };

@@ -3,13 +3,39 @@
 
 .App {
   font-family: 'Poppins';
-  background: #1c1d1f;
-  color: white;
+  background: #fff;
+  color: #777;
   /* height: 100vh; */
   box-sizing: border-box;
   text-align: center;
   margin-bottom: 3em;
   padding: 0em 2em 2em;
+}
+input,
+select,
+textarea {
+  border: 2px solid #e1e1e1;
+  border-radius: 6px;
+  padding: 8px 10px;
+  color: #777;
+}
+#service {
+  width: 100%;
+}
+#mobile {
+  width: 100%;
+  margin-top: 1em;
+}
+#submit-btn {
+  background-color: #384cd8;
+  color: #fff;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+label {
+  margin-bottom: 0.5em;
+  color: #425163;
+  font-weight: 600;
 }
 .App h1 {
   padding: 0.8em 0;
@@ -89,7 +115,7 @@
   grid-gap: 10px;
 }
 ul li {
-  line-height: 1.5;
+  line-height: 1.8;
   text-align: left;
 }
 .basic h3,
@@ -139,4 +165,22 @@ ul li {
     rgb(134, 196, 66) 85%
   );
   color: black;
+}
+.rIcon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+.error,
+.errormb,
+.errorc,
+.errorct,
+.errorml,
+.errorms,
+.errormss {
+  color: #f26969;
+  font-weight: bold;
+  font-size: 0.9em;
+  display: block;
+  text-align: left;
+  margin-top: 5px;
 }
