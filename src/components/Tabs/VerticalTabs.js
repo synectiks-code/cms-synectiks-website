@@ -1,10 +1,18 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import '../../css/tabs.css';
+import { AiFillCloseCircle } from 'react-icons/ai';
 const VerticalTabs = () => {
   return (
     <div className='App'>
-      <h1>Where do you find your current DevOps Maturity?</h1>
+      <div>
+        <h1>Where do you find your current DevOps Maturity?</h1>
+        <div className='tab-popup'>
+          <button>
+            <AiFillCloseCircle />
+          </button>
+        </div>
+      </div>
       <Tabs>
         <TabList>
           <Tab>
