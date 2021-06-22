@@ -278,8 +278,6 @@ const VerticalTabs = () => {
           </div>
         </TabPanel>
       </Tabs>
-      <FlavorForm />
-      <Privacypolicy />
     </div>
   );
 };

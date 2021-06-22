@@ -62,7 +62,7 @@ const FlavorForm = () => {
   };
   return (
     <>
-      <div className='py-5'>
+      <div className='p-5 bg-contact'>
         <h1 className='ch1 text-center'>Get In Touch</h1>
         <div className='cFlex text-center'>
           <span>

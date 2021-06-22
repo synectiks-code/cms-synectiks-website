@@ -11,6 +11,18 @@
   margin-bottom: 3em;
   padding: 0em 2em 2em;
 }
+.pvt-top-bg {
+  color: #ffffff;
+}
+.bg-contact {
+  background-color: #ffffff;
+}
+.pvt-bg {
+  background-color: #fff;
+  width: 90vw;
+  margin: 3em -5.5em -2.5em;
+  padding: 4em 4em 2em;
+}
 input,
 select,
 textarea {
