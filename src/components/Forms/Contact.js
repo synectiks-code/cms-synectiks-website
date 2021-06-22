@@ -105,7 +105,7 @@ const FlavorForm = () => {
           onSubmit={handleSubmit(submitForm)}
           // action="https://synectiks.com/Thankyou.html"
           // action="#"
-          className='was-validated'>
+          className='was-validated px-5'>
           <input
             type='hidden'
             name='redirect'
