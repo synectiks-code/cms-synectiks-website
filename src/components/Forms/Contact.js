@@ -6,6 +6,7 @@ import { useForm } from 'react-hook-form';
 import { AiOutlineWarning } from 'react-icons/ai';
 import { useHistory } from 'react-router-dom';
 import Helmet from 'react-helmet';
+import '../../css/tabs.css';
 
 // const schema = yup.object().shape({
 //   name: yup
