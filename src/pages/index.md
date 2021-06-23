@@ -17,8 +17,8 @@ bannercontent:
       name: Business Insights Higher Data Revenue @ lower Cost
 usecases:
   heading: One Platform Many Usecases
-  cioimage: https://res.cloudinary.com/papu/image/upload/v1620231219/new-design/home-page/Images/CIO_vs98pu.jpg
-  teamimage: https://res.cloudinary.com/papu/image/upload/v1620231230/new-design/home-page/Images/DevSecOps_Team_fc7qdt.jpg
+  cioimage: https://res.cloudinary.com/papu/image/upload/v1624456105/new-design/home-page/Images/MicrosoftTeams-image_1_fefz50.png
+  teamimage: https://res.cloudinary.com/papu/image/upload/v1624456116/new-design/home-page/Images/MicrosoftTeams-image_b65iob.png
   ciousecases:
     - img: https://res.cloudinary.com/papu/image/upload/v1620231223/new-design/home-page/Icons/Migration_and_Modernization_1_o92pia.svg
       name: Migration & Modernisation
