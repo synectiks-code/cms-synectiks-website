@@ -70,12 +70,12 @@ export const ScenarioPageTemplate = ({ scenarios, slider }) => {
               />
             </div>
             <div className='group-btn'>
-              <button className='login' onClick={() => setShowForm(true)}>
+              <a className='login' href='../components/Forms/Login.js'>
                 Login
-              </button>
-              <button className='register' onClick={() => setShowReg(true)}>
+              </a>
+              <a className='register' href='../components/Forms/Login.js'>
                 Register
-              </button>
+              </a>
             </div>
           </div>
           {/* Header End */}
@@ -102,7 +102,7 @@ export const ScenarioPageTemplate = ({ scenarios, slider }) => {
             {/* banner Start */}
             <div className='banner'>
               <div className='banner-text'>
-                <h4>Get comprehensive control and visibility</h4>
+                {/* <h4>Get comprehensive control and visibility</h4> */}
                 <p>
                   SIMPLIFIED PROCUREMENT PROCESS WITH IMPROVED USER EXPERIENCE!
                 </p>
