@@ -248,7 +248,7 @@ const index = () => {
           {/* <img src={Engagement} alt='' /> */}
           <h3>Engagement Model</h3>
           <img
-            src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,bo_10px_solid_rgb:fefefe/v1624462228/new-design/home-page/Images/engagementmodel_rervaz.png'
+            src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,bo_15px_solid_rgb:161515/v1624462228/new-design/home-page/Images/engagementmodel_rervaz.png'
             alt=''
           />
         </div>
