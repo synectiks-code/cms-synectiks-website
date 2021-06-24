@@ -35,20 +35,24 @@ const ModernizationWrapper = styled.div`
       }
     }
     .jumbo-right img {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
     }
   }
   .jumbo-bottom {
-    padding: 1em 7em;
-    color: #fff;
+    padding: 1em 7em 3em 7em;
+    color: #212529;
+    background-color: #d2d4e0;
     text-align: center;
+    margin: 3em 0em;
     h3 {
       font-size: 38px;
-      margin: 1em 0em 1em 0em;
+      margin: 0.2em 0em 1em 0em;
     }
-    .jumbo-bottom img {
+    img {
       width: 100%;
+      border: 5px solid white;
+      box-shadow: 1px 1px 10px 2px black;
     }
   }
 
@@ -70,12 +74,17 @@ const ModernizationWrapper = styled.div`
     }
   }
   .bottom {
-    padding: 1em 7em;
+    padding: 1em 7em 3em 7em;
     text-align: center;
-    color: #fff;
+    background-color: #d2d4e0;
+    color: #212529;
     h3 {
       font-size: 38px;
       margin: 0em 0em 1em 0em;
+    }
+    img {
+      border: 5px solid white;
+      box-shadow: 1px 1px 10px 2px black;
     }
   }
 `;
@@ -86,14 +95,13 @@ const index = () => {
         <div className='jumbotron'>
           <div className='jumbo-left'>
             <img
-              src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,bo_5px_solid_rgb:ffffff/v1624456455/new-design/home-page/Images/modernization_epx6qy.jpg'
+              src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,/v1624456455/new-design/home-page/Images/modernization_epx6qy.jpg'
               alt=''
             />
             <div className='jumbo-left-text'>
               <p>
-                Our open product based solutioning model help 50% gain in time &
-                effort ,to reduce your technical debt, get your apps and
-                infrastructure ready for any cloud
+                Reduce your technical debt, get your apps and infrastructure
+                ready for any cloud
               </p>
             </div>
           </div>
@@ -109,7 +117,7 @@ const index = () => {
           {/* <img src={Capabilities} alt='' /> */}
           <h3>Capabilities</h3>
           <img
-            src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,bo_10px_solid_rgb:ffffff/v1624462228/new-design/home-page/Images/capabilities_pmycpc.png'
+            src='https://res.cloudinary.com/papu/image/upload/bo_10px_solid_rgb:fff/v1624539278/new-design/home-page/Images/capabilities_eh4vwk.jpg'
             alt=''
           />
         </div>
@@ -248,7 +256,7 @@ const index = () => {
           {/* <img src={Engagement} alt='' /> */}
           <h3>Engagement Model</h3>
           <img
-            src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,bo_15px_solid_rgb:161515/v1624462228/new-design/home-page/Images/engagementmodel_rervaz.png'
+            src='https://res.cloudinary.com/papu/image/upload/v1624540148/new-design/home-page/Images/engagementmodel_sbylsq.jpg'
             alt=''
           />
         </div>
