@@ -31,11 +31,12 @@ const ModernizationWrapper = styled.div`
         font-size: 48px;
         text-align: center;
         text-transform: uppercase;
+        margin-top: 1em;
       }
     }
     .jumbo-right img {
-      width: 150px;
-      height: 150px;
+      width: 200px;
+      height: 200px;
     }
   }
   .jumbo-bottom {
