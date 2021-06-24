@@ -70,10 +70,10 @@ export const ScenarioPageTemplate = ({ scenarios, slider }) => {
               />
             </div>
             <div className='group-btn'>
-              <a className='login' href='../components/Forms/Login.js'>
+              <a className='login' href='/login'>
                 Login
               </a>
-              <a className='register' href='../components/Forms/Login.js'>
+              <a className='register' href='/register'>
                 Register
               </a>
             </div>
@@ -112,7 +112,7 @@ export const ScenarioPageTemplate = ({ scenarios, slider }) => {
                   intuitive and easy-to-use solution.
                 </h6>
                 <div className='banner-btns'>
-                  <button className='contact'>CONTACT US</button>
+                  <button className='login'>CONTACT US</button>
                   {/* Scenario Button Starts*/}
                   <div
                     className={`scenario-select-container ${
@@ -208,8 +208,8 @@ export const ScenarioPageTemplate = ({ scenarios, slider }) => {
                       </span>
                     </div>
                     <div className='second-row'>
-                      <button className='border-black'>LEARN MORE</button>
-                      <button className='register'>CONTACT US</button>
+                      <a className='border-black'>LEARN MORE</a>
+                      <a className='register'>CONTACT US</a>
                     </div>
                   </div>
                 </div>
@@ -219,7 +219,7 @@ export const ScenarioPageTemplate = ({ scenarios, slider }) => {
                   Connect with us to simplify <br />
                   your your procurement process
                 </h4>
-                <button className='footer-contact'>Contact Us</button>
+                <a className='footer-contact'>Contact Us</a>
                 <div className='telephone'>
                   <img src={telephone} alt='' />
                   +00(00) 1234567

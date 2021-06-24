@@ -1,26 +1,23 @@
 .main-background {
-  width: 80vw;
-  height: auto;
+  /* width: 100vw;
+  height: auto; */
   background-color: #ebebeb;
   padding: 4em 2.5em;
   display: grid;
   grid-template-columns: 2fr 3fr;
   margin: 0 auto;
-  position: absolute;
-  left: 0;
-  right: 0;
+
+  overflow: hidden;
 }
 .register-main-background {
-  width: 90vw;
-  height: auto;
+  /* width: 100vw;
+  height: auto; */
   background-color: #ebebeb;
   padding: 2em;
   display: grid;
   grid-template-columns: 2fr 3fr;
   margin: 0 auto;
-  position: absolute;
-  right: 0;
-  left: 0;
+  overflow: hidden;
 }
 .form-background h2 {
   color: rgba(0, 0, 0, 0.5);
@@ -127,6 +124,7 @@ input[type='submit'] {
 }
 .agreement .agree p {
   margin-left: 0.5em;
+  margin-top: 0.5em;
 }
 .form-close-btn button {
   position: absolute;
@@ -145,4 +143,12 @@ input[type='submit'] {
   font-size: 2em;
   background: transparent;
   color: red;
+}
+.login,
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
 }
