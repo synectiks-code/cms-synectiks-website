@@ -85,7 +85,7 @@ const index = () => {
         <div className='jumbotron'>
           <div className='jumbo-left'>
             <img
-              src='https://res.cloudinary.com/papu/image/upload/v1624456455/new-design/home-page/Images/modernization_epx6qy.jpg'
+              src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,bo_5px_solid_rgb:ffffff/v1624456455/new-design/home-page/Images/modernization_epx6qy.jpg'
               alt=''
             />
             <div className='jumbo-left-text'>
@@ -108,7 +108,7 @@ const index = () => {
           {/* <img src={Capabilities} alt='' /> */}
           <h3>Capabilities</h3>
           <img
-            src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff/v1624462228/new-design/home-page/Images/capabilities_pmycpc.png'
+            src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,bo_10px_solid_rgb:ffffff/v1624462228/new-design/home-page/Images/capabilities_pmycpc.png'
             alt=''
           />
         </div>
@@ -247,7 +247,7 @@ const index = () => {
           {/* <img src={Engagement} alt='' /> */}
           <h3>Engagement Model</h3>
           <img
-            src='https://res.cloudinary.com/papu/image/upload/b_rgb:fffdfd/v1624462228/new-design/home-page/Images/engagementmodel_rervaz.png'
+            src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,bo_10px_solid_rgb:fefefe/v1624462228/new-design/home-page/Images/engagementmodel_rervaz.png'
             alt=''
           />
         </div>
