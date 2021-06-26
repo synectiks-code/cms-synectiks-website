@@ -3,6 +3,7 @@ import Layout from '../../components/Layout';
 import styled from 'styled-components';
 import Capabilities from '../../img/migration&modernization/capabilities.png';
 import Engagement from '../../img/migration&modernization/engagementmodel.png';
+import CasePage from '../../components/Forms/CaseSlider.js';
 
 const ModernizationWrapper = styled.div`
   .jumbotron {
@@ -504,6 +505,7 @@ const index = () => {
             alt=''
           />
         </div>
+        <CasePage />
       </Layout>
     </ModernizationWrapper>
   );
