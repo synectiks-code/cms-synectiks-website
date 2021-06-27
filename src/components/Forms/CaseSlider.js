@@ -105,42 +105,6 @@ export default class CasePage extends React.Component {
     return (
       <div className='home-container'>
         <div className='d-block py-5 background partners-container'>
-          {/* <h2 className='d-block text-center pb-5 pt-4'>Our Partners</h2> */}
-          {/* <div className='d-block mx-md-5 mx-3 mb-5 text-center partners'>
-            <div className='row align-items-center justify-content-center'>
-              <Carousel
-                wrapAround={true}
-                autoplayInterval={1000}
-                autoplay={autoPlayPartners}
-                slidesToShow={partnersToShow}
-                withoutControls={true}>
-                <div className='d-block text-center partners-logo'>
-                  <img
-                    src='https://via.placeholder.com/400/ffffff/c0392b/&text=slide1'
-                    alt=''
-                  />
-                </div>
-                <div className='d-block text-center partners-logo'>
-                  <img
-                    src='https://via.placeholder.com/400/ffffff/c0392b/&text=slide2'
-                    alt=''
-                  />
-                </div>
-                <div className='d-block text-center partners-logo'>
-                  <img
-                    src='https://via.placeholder.com/400/ffffff/c0392b/&text=slide3'
-                    alt=''
-                  />
-                </div>
-                <div className='d-block text-center partners-logo'>
-                  <img
-                    src='https://via.placeholder.com/400/ffffff/c0392b/&text=slide4'
-                    alt=''
-                  />
-                </div>
-              </Carousel>
-            </div>
-          </div> */}
           <div className='d-block mx-md-5 mx-3 py-md-5 partners-slider'>
             <div className='row align-items-center justify-content-center'>
               <div className='col-lg-3 col-12'>
