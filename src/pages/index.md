@@ -9,12 +9,16 @@ bannercontent:
   service:
     - img: https://res.cloudinary.com/papu/image/upload/v1620231221/new-design/home-page/Icons/Migration_and_Modernization_eiymro.svg
       name: Migration & Modernisation @ 50% Time & Efforts
+      link: https://determined-dijkstra-95a0e8.netlify.app/migration/
     - img: https://res.cloudinary.com/papu/image/upload/v1620231218/new-design/home-page/Icons/cloud_Native_Transformation_csek27.svg
       name: Cloud Native Transformation Appcentric Optimization
+      link: https://determined-dijkstra-95a0e8.netlify.app/login/
     - img: https://res.cloudinary.com/papu/image/upload/v1620231221/new-design/home-page/Icons/DevSecOps_Transformation_sjyqtp.svg
       name: DecSecOps Transformation Simplicity & Velocity
+      link: https://determined-dijkstra-95a0e8.netlify.app/policy/
     - img: https://res.cloudinary.com/papu/image/upload/v1620231217/new-design/home-page/Icons/Business_Insights_zkslhd.svg
       name: Business Insights Higher Data Revenue @ lower Cost
+      link: https://determined-dijkstra-95a0e8.netlify.app/contact/
 usecases:
   heading: One Platform Many Usecases
   cioimage: https://res.cloudinary.com/papu/image/upload/v1624456105/new-design/home-page/Images/MicrosoftTeams-image_1_fefz50.png
