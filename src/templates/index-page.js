@@ -481,6 +481,7 @@ export const pageQuery = graphql`
           title
           text
           service {
+            link
             img
             name
           }
