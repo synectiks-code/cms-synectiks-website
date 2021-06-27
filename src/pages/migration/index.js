@@ -204,7 +204,9 @@ export default class Index extends React.Component {
       numberOfSlides: 2,
       currentSlide: 0,
       totalSlides: 0,
-      partnersToShow: 4,
+      previousSlide: null,
+      nextSlide: null,
+      // partnersToShow: 4,
       autoPlayPartners: false,
       totalPartners: 0,
     };
@@ -220,11 +222,11 @@ export default class Index extends React.Component {
         totalSlides: this.props.successstories.length,
       });
     }
-    if (this.props.partners) {
-      this.setState({
-        autoPlayPartners: this.props.partners.length > 4,
-      });
-    }
+    // if (this.props.partners) {
+    //   this.setState({
+    //     autoPlayPartners: this.props.partners.length > 4,
+    //   });
+    // }
   }
 
   componentWillUnmount() {
@@ -612,7 +614,7 @@ export default class Index extends React.Component {
                       <a href='#'>View All Success Stories &#62;</a>
                     </div>
                     <div className='d-block mb-3 indicators'>
-                      <span>01</span>
+                      <span>{`${currentSlide}`}</span>
                       <span className='line'>
                         <span
                           style={{
@@ -656,7 +658,47 @@ export default class Index extends React.Component {
                           withoutControls={true}
                           scrollMode='remainder'
                           slidesToShow={numberOfSlides}
-                          slidesToScroll={1}>
+                          slidesToScroll={1}
+                          renderTopCenterControls={({ currentSlide }) => (
+                            <div
+                              style={{
+                                position: 'absolute',
+                                top: '0em !important',
+                                left: '-4em !important',
+                                width: '12em !important',
+                                height: '12em !important',
+                              }}>
+                              Slide: {currentSlide}
+                            </div>
+                          )}
+                          renderCenterLeftControls={({ previousSlide }) => (
+                            <button
+                              slidesToShow={numberOfSlides}
+                              style={{
+                                position: 'absolute',
+                                top: '0em !important',
+                                left: '-6em !important',
+                                width: '12em !important',
+                                height: '12em !important',
+                              }}
+                              onClick={previousSlide}>
+                              Previous
+                            </button>
+                          )}
+                          renderCenterRightControls={({ nextSlide }) => (
+                            <button
+                              slidesToShow={numberOfSlides}
+                              style={{
+                                position: 'absolute',
+                                top: '0em !important',
+                                left: '-8em !important',
+                                width: '12em !important',
+                                height: '12em !important',
+                              }}
+                              onClick={nextSlide}>
+                              Next
+                            </button>
+                          )}>
                           <div className='col-12'>
                             <div className='card'>
                               <img
@@ -818,3 +860,16 @@ export default class Index extends React.Component {
     );
   }
 }
+
+// import React from 'react';
+// import CaseSlider from '../../components/Forms/CaseSlider.js';
+
+// const index = () => {
+//   return (
+//     <div>
+//       <CaseSlider />
+//     </div>
+//   );
+// };
+
+// export default index;
