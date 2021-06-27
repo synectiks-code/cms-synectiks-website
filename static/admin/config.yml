@@ -183,7 +183,12 @@ collections:
                 widget: list,
                 fields:
                   [
-                    { label: Is Side Image?, name: issideimage, widget: boolean, default: true },
+                    {
+                      label: Is Side Image?,
+                      name: issideimage,
+                      widget: boolean,
+                      default: true,
+                    },
                     { label: Image, name: img, widget: string },
                     { label: Heading, name: heading, widget: string },
                     { label: Description, name: text, widget: markdown },
@@ -212,7 +217,12 @@ collections:
                   [
                     { label: Image, name: img, widget: text },
                     { label: Description, name: description, widget: markdown },
-                    { label: Header, name: heading, widget: text, required: false },
+                    {
+                      label: Header,
+                      name: heading,
+                      widget: text,
+                      required: false,
+                    },
                   ],
               },
               { label: Testimonial, name: testimonial, widget: string },
@@ -317,6 +327,7 @@ collections:
                     widget: 'list',
                     fields:
                       [
+                        { label: Link, name: link, widget: string },
                         { label: Image, name: img, widget: string },
                         { label: Description, name: name, widget: markdown },
                       ],

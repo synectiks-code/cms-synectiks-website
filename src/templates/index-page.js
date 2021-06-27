@@ -130,10 +130,12 @@ export class IndexPageTemplate extends React.Component {
                       <div className='d-block w-100 text-center service'>
                         <div className='d-inline-block rounded-circle image'>
                           <div className='d-flex align-items-center justify-content-center w-100 h-100'>
-                            <img
-                              className='auto-height-img'
-                              src={service.img}
-                            />
+                            <a href={service.link}>
+                              <img
+                                className='auto-height-img'
+                                src={service.img}
+                              />
+                            </a>
                           </div>
                         </div>
                         <div
