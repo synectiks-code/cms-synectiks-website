@@ -11,7 +11,7 @@ import Carousel from 'nuka-carousel';
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
-export class CasePageTemplate extends React.Component {
+export default class CasePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -63,7 +63,7 @@ export class CasePageTemplate extends React.Component {
     this.setState({
       numberOfSlides,
       partnersToShow,
-      autoPlayPartners: this.props.partners.length > partnersToShow,
+      // autoPlayPartners: this.props.partners.length > partnersToShow,
     });
   };
 
@@ -105,8 +105,8 @@ export class CasePageTemplate extends React.Component {
     return (
       <div className='home-container'>
         <div className='d-block py-5 background partners-container'>
-          <h2 className='d-block text-center pb-5 pt-4'>Our Partners</h2>
-          <div className='d-block mx-md-5 mx-3 mb-5 text-center partners'>
+          {/* <h2 className='d-block text-center pb-5 pt-4'>Our Partners</h2> */}
+          {/* <div className='d-block mx-md-5 mx-3 mb-5 text-center partners'>
             <div className='row align-items-center justify-content-center'>
               <Carousel
                 wrapAround={true}
@@ -114,17 +114,33 @@ export class CasePageTemplate extends React.Component {
                 autoplay={autoPlayPartners}
                 slidesToShow={partnersToShow}
                 withoutControls={true}>
-                {partners &&
-                  partners.map((partner) => (
-                    <div
-                      key={v4()}
-                      className='d-block text-center partners-logo'>
-                      <img src={partner.img} alt='' />
-                    </div>
-                  ))}
+                <div className='d-block text-center partners-logo'>
+                  <img
+                    src='https://via.placeholder.com/400/ffffff/c0392b/&text=slide1'
+                    alt=''
+                  />
+                </div>
+                <div className='d-block text-center partners-logo'>
+                  <img
+                    src='https://via.placeholder.com/400/ffffff/c0392b/&text=slide2'
+                    alt=''
+                  />
+                </div>
+                <div className='d-block text-center partners-logo'>
+                  <img
+                    src='https://via.placeholder.com/400/ffffff/c0392b/&text=slide3'
+                    alt=''
+                  />
+                </div>
+                <div className='d-block text-center partners-logo'>
+                  <img
+                    src='https://via.placeholder.com/400/ffffff/c0392b/&text=slide4'
+                    alt=''
+                  />
+                </div>
               </Carousel>
             </div>
-          </div>
+          </div> */}
           <div className='d-block mx-md-5 mx-3 py-md-5 partners-slider'>
             <div className='row align-items-center justify-content-center'>
               <div className='col-lg-3 col-12'>
@@ -179,26 +195,143 @@ export class CasePageTemplate extends React.Component {
                       scrollMode='remainder'
                       slidesToShow={numberOfSlides}
                       slidesToScroll={1}>
-                      {successstories &&
-                        successstories.map((story) => (
-                          <div className='col-12' key={v4()}>
-                            <div className='card'>
-                              <img src={story.img} alt='' />
-                              <div className='d-block px-3 py-4 caption'>
-                                <div className='heading'>
-                                  <h5>{story.heading}</h5>
-                                </div>
-                                <div className='description'>
-                                  <p>{story.description}</p>
-                                </div>
-                                <a target='_blank' href='' className='btn'>
-                                  Read More{' '}
-                                  <i className='fa fa-long-arrow-alt-right'></i>
-                                </a>
-                              </div>
+                      <div className='col-12'>
+                        <div className='card'>
+                          <img
+                            src='https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_SoftwareDefinedTransformation-03250f0e4ba38735d6e41abaa9d0fb54_s6lngd.jpg'
+                            alt=''
+                          />
+                          <div className='d-block px-3 py-4 caption'>
+                            <div className='heading'>
+                              <h5>Software Defined Transformation</h5>
                             </div>
+                            <div className='description'>
+                              <p>
+                                AWS Cloud migration for a large motor industry.
+                              </p>
+                            </div>
+                            <a target='_blank' href='' className='btn'>
+                              Read More
+                              <i className='fa fa-long-arrow-alt-right'></i>
+                            </a>
                           </div>
-                        ))}
+                        </div>
+                      </div>
+                      <div className='col-12'>
+                        <div className='card'>
+                          <img
+                            src='https://res.cloudinary.com/papu/image/upload/v1620305229/new-design/home-page/Images/CS_Realtime_Monitoring-a62dd5ec305368a459643e196697ffb4_iii8hi.jpg'
+                            alt=''
+                          />
+                          <div className='d-block px-3 py-4 caption'>
+                            <div className='heading'>
+                              <h5>Realtime Monitoring</h5>
+                            </div>
+                            <div className='description'>
+                              <p>
+                                Highly Scalable extremely customizable realtime
+                                monitoring platform.
+                              </p>
+                            </div>
+                            <a target='_blank' href='' className='btn'>
+                              Read More
+                              <i className='fa fa-long-arrow-alt-right'></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className='col-12'>
+                        <div className='card'>
+                          <img
+                            src='https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_Software_Migration-709c30afb47703d839efb79aeae490da_aqdslm.jpg'
+                            alt=''
+                          />
+                          <div className='d-block px-3 py-4 caption'>
+                            <div className='heading'>
+                              <h5>Software Migration</h5>
+                            </div>
+                            <div className='description'>
+                              <p>
+                                Petabytes of storage migration for a large
+                                financial company with zero down time.
+                              </p>
+                            </div>
+                            <a target='_blank' href='' className='btn'>
+                              Read More
+                              <i className='fa fa-long-arrow-alt-right'></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className='col-12'>
+                        <div className='card'>
+                          <img
+                            src='https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_NetworkDesign-6707341964238c8c2a188a6be01b676a_qla9mk.jpg'
+                            alt=''
+                          />
+                          <div className='d-block px-3 py-4 caption'>
+                            <div className='heading'>
+                              <h5>Network Design</h5>
+                            </div>
+                            <div className='description'>
+                              <p>
+                                Complete network Backbone design with highest
+                                security for retail.
+                              </p>
+                            </div>
+                            <a target='_blank' href='' className='btn'>
+                              Read More
+                              <i className='fa fa-long-arrow-alt-right'></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className='col-12'>
+                        <div className='card'>
+                          <img
+                            src='https://res.cloudinary.com/papu/image/upload/v1620305230/new-design/home-page/Images/CS_StorageTier-103b26051fde75aa4b9b9d5a8a303058_z5sl7u.jpg'
+                            alt=''
+                          />
+                          <div className='d-block px-3 py-4 caption'>
+                            <div className='heading'>
+                              <h5>Storage Tier</h5>
+                            </div>
+                            <div className='description'>
+                              <p>
+                                Moving Bigdata workloads to aggregated paltform
+                                for a loarge telco.
+                              </p>
+                            </div>
+                            <a target='_blank' href='' className='btn'>
+                              Read More
+                              <i className='fa fa-long-arrow-alt-right'></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className='col-12'>
+                        <div className='card'>
+                          <img
+                            src='https://res.cloudinary.com/papu/image/upload/v1620305229/new-design/home-page/Images/CS_DisasterRecovery-f0018cb2716204dce78323c6d403060b_z5fw5g.jpg'
+                            alt=''
+                          />
+                          <div className='d-block px-3 py-4 caption'>
+                            <div className='heading'>
+                              <h5>Disaster Recovery</h5>
+                            </div>
+                            <div className='description'>
+                              <p>
+                                Lightweight disaster recovery platform for
+                                indian defense.
+                              </p>
+                            </div>
+                            <a target='_blank' href='' className='btn'>
+                              Read More
+                              <i className='fa fa-long-arrow-alt-right'></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
                     </Carousel>
                   </div>
                 </div>
