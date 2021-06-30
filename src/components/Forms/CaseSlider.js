@@ -19,6 +19,8 @@ export default class CasePage extends React.Component {
       currentSlide: 0,
       totalSlides: 0,
       partnersToShow: 4,
+      previousSlide: undefined,
+      nextSlide: undefined,
       autoPlayPartners: false,
       totalPartners: 0,
     };
@@ -99,14 +101,16 @@ export default class CasePage extends React.Component {
       numberOfSlides,
       currentSlide,
       totalSlides,
+      previousSlide,
+      nextSlide,
       partnersToShow,
       autoPlayPartners,
     } = this.state;
     return (
       <div className='home-container'>
         <div className='d-block py-5 background partners-container'>
-          {/* <h2 className='d-block text-center pb-5 pt-4'>Our Partners</h2> */}
-          {/* <div className='d-block mx-md-5 mx-3 mb-5 text-center partners'>
+          <h2 className='d-block text-center pb-5 pt-4'>Our Partners</h2>
+          <div className='d-block mx-md-5 mx-3 mb-5 text-center partners'>
             <div className='row align-items-center justify-content-center'>
               <Carousel
                 wrapAround={true}
@@ -140,7 +144,7 @@ export default class CasePage extends React.Component {
                 </div>
               </Carousel>
             </div>
-          </div> */}
+          </div>
           <div className='d-block mx-md-5 mx-3 py-md-5 partners-slider'>
             <div className='row align-items-center justify-content-center'>
               <div className='col-lg-3 col-12'>

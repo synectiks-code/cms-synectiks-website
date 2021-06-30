@@ -8,7 +8,8 @@ import Carousel from 'nuka-carousel';
 const ModernizationWrapper = styled.div`
   .jumbotron {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr 1fr;
     grid-gap: 2em;
     .jumbo-left img {
       width: 100%;
@@ -29,7 +30,7 @@ const ModernizationWrapper = styled.div`
       align-items: center;
       color: #fff;
       h3 {
-        font-size: 48px;
+        font-size: 2.5rem;
         text-align: center;
         text-transform: uppercase;
         margin-top: 1em;
@@ -40,135 +41,154 @@ const ModernizationWrapper = styled.div`
       height: 150px;
     }
   }
-  .jumbo-bottom {
-    padding: 1em 1.5em 3em 1.5em;
-    color: #212529;
+  .jumbo-block-bottom {
+    padding: 1em 0.5em 3em 0.5em;
     background-color: #d2d4e0;
     text-align: center;
     margin: 3em 0em;
-    display: grid;
-    grid-gap: 0.4em;
-    h3 {
-      font-size: 38px;
-      margin: 0.2em 0em 1em 0em;
+    .jumbo-text-bottom {
+      color: #212529;
+      text-align: center;
     }
-    .app {
-      /* display: flex; */
+    .jumbo-bottom {
+      padding: 1em 0.5em 0em 0.5em;
+      color: #212529;
+      background-color: #d2d4e0;
+      text-align: center;
+      margin: 1em 0em;
       display: grid;
-      grid-template-columns: 100px 1fr;
-      color: #fff;
-      align-items: center;
-      grid-gap: 1em;
-      padding: 0.5em 0.5em;
-      background-color: #d62c37 !important;
-      .app-img img {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-gap: 0.4em;
+      h3 {
+        font-size: 38px;
+        margin: 0.2em 0em 1em 0em;
+      }
+      .app {
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: 1fr;
+        color: #fff;
+        align-items: center;
+        grid-gap: 1em;
+        padding: 0.5em 0.5em;
+        background-color: #d62c37 !important;
+        height: fit-content;
+        .app-img img {
+          width: 125px;
+          height: 125px;
+          border: none;
+          margin-bottom: -1em;
+          box-shadow: none;
+        }
+        .app-blocks {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(4, 1fr);
+          grid-gap: 1em;
+        }
+        .text-block {
+          height: 13vh;
+          padding: 0.5em 1em;
+          background-color: #fff;
+          color: #212529;
+          p {
+            margin-bottom: 0em;
+          }
+        }
+      }
+      .data {
+        background-color: #f58021 !important;
+        display: flex;
+        /* display: grid; */
+        /* grid-template-columns: repeat(4, 1fr); */
+        color: #fff;
+        align-items: center;
+        grid-gap: 1em;
+        padding: 0.5em 0.5em;
+        flex-direction: column;
+        height: fit-content;
+        .data-img img {
+          width: 185px;
+          height: 125px;
+          border: none;
+          box-shadow: none;
+          margin-bottom: -1em;
+        }
+        .text-block {
+          padding: 0.5em;
+          background-color: #fff;
+          color: #212529;
+          p {
+            margin-bottom: 0em;
+          }
+        }
+      }
+      .process {
+        display: flex;
+        /* display: grid; */
+        /* grid-template-columns: repeat(4, 1fr); */
+        color: #fff;
+        align-items: center;
+        grid-gap: 1em;
+        padding: 0em 0.5em;
+        background-color: #86c542 !important;
+        height: fit-content;
+        flex-direction: column;
+        .pro-img img {
+          width: 130px;
+          height: 125px;
+          border: none;
+          box-shadow: none;
+          margin-bottom: -1em;
+        }
+        .text-block {
+          padding: 0.5em;
+          background-color: #fff;
+          color: #212529;
+          p {
+            margin-bottom: 0em;
+          }
+        }
+      }
+      .capabilities {
+        display: flex;
+        /* display: grid; */
+        /* grid-template-columns: repeat(4, 1fr); */
+        background-color: #6c53a4;
+        color: #fff;
+        align-items: center;
+        grid-gap: 1em;
+        padding: 0em 0.5em;
+        flex-direction: column;
+        height: fit-content;
+      }
+      .infra-img img {
         width: 125px;
         height: 125px;
         border: none;
-        margin-bottom: -1em;
         box-shadow: none;
-      }
-      .app-blocks {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 1em;
+        margin-bottom: -1em;
       }
       .text-block {
-        height: 13vh;
-        padding: 0.5em 1em;
+        padding: 1em;
         background-color: #fff;
         color: #212529;
         p {
           margin-bottom: 0em;
         }
       }
-    }
-    .data {
-      background-color: #f58021 !important;
-      display: flex;
-      /* display: grid; */
-      /* grid-template-columns: repeat(4, 1fr); */
-      color: #fff;
-      align-items: center;
-      grid-gap: 1em;
-      padding: 0.5em 0.5em;
-      .data-img img {
-        width: 185px;
-        height: 125px;
-        border: none;
-        box-shadow: none;
-        margin-bottom: -1em;
+      img {
+        width: 100%;
+        border: 5px solid white;
+        box-shadow: 1px 1px 10px 2px black;
       }
-      .text-block {
-        padding: 0.5em;
-        background-color: #fff;
-        color: #212529;
-        p {
-          margin-bottom: 0em;
-        }
-      }
-    }
-    .process {
-      display: flex;
-      /* display: grid; */
-      /* grid-template-columns: repeat(4, 1fr); */
-      color: #fff;
-      align-items: center;
-      grid-gap: 1em;
-      padding: 0em 0.5em;
-      background-color: #86c542 !important;
-      .pro-img img {
-        width: 130px;
-        height: 125px;
-        border: none;
-        box-shadow: none;
-        margin-bottom: -1em;
-      }
-      .text-block {
-        padding: 0.5em;
-        background-color: #fff;
-        color: #212529;
-        p {
-          margin-bottom: 0em;
-        }
-      }
-    }
-    .capabilities {
-      display: flex;
-      /* display: grid; */
-      /* grid-template-columns: repeat(4, 1fr); */
-      background-color: #6c53a4;
-      color: #fff;
-      align-items: center;
-      grid-gap: 1em;
-      padding: 0em 0.5em;
-    }
-    .infra-img img {
-      width: 125px;
-      height: 125px;
-      border: none;
-      box-shadow: none;
-      margin-bottom: -1em;
-    }
-    .text-block {
-      padding: 1em;
-      background-color: #fff;
-      color: #212529;
-      p {
-        margin-bottom: 0em;
-      }
-    }
-    img {
-      width: 100%;
-      border: 5px solid white;
-      box-shadow: 1px 1px 10px 2px black;
     }
   }
-
   .icon-section {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     grid-gap: 3em;
     text-align: center;
     color: #fff;
@@ -183,7 +203,7 @@ const ModernizationWrapper = styled.div`
     }
   }
   .bottom {
-    padding: 1em 7em 3em 7em;
+    padding: 1em;
     text-align: center;
     background-color: #d2d4e0;
     color: #212529;
@@ -196,6 +216,204 @@ const ModernizationWrapper = styled.div`
       box-shadow: 1px 1px 10px 2px black;
     }
   }
+  @media (min-width: 768px) {
+    .jumbotron {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-gap: 2em;
+      .jumbo-left img {
+        width: 100%;
+      }
+      .jumbo-left-text {
+        padding: 1em;
+        margin: 0 2em;
+        background-color: #384cd8;
+        p {
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+      .jumbo-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        h3 {
+          font-size: 3rem;
+          text-align: center;
+          text-transform: uppercase;
+          margin-top: 1em;
+        }
+      }
+      .jumbo-right img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+    .jumbo-block-bottom {
+      padding: 1em 1.5em 3em 1.5em;
+      background-color: #d2d4e0;
+      text-align: center;
+      margin: 3em 0em;
+      .jumbo-text-bottom {
+        color: #212529;
+        text-align: center;
+      }
+      .jumbo-bottom {
+        color: #212529;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-gap: 0.4em;
+        h3 {
+          font-size: 38px;
+          margin: 0.2em 0em 1em 0em;
+        }
+        .app {
+          /* display: flex; */
+          display: grid;
+          grid-template-columns: 100px 1fr;
+          color: #fff;
+          align-items: center;
+          grid-gap: 1em;
+          padding: 0.5em 0.5em;
+          background-color: #d62c37 !important;
+          height: fit-content;
+          .app-img img {
+            width: 125px;
+            height: 125px;
+            border: none;
+            margin-bottom: -1em;
+            box-shadow: none;
+          }
+          .app-blocks {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 1fr;
+            grid-gap: 1em;
+          }
+          .text-block {
+            height: 13vh;
+            padding: 0.5em 1em;
+            background-color: #fff;
+            color: #212529;
+            p {
+              margin-bottom: 0em;
+            }
+          }
+        }
+        .data {
+          background-color: #f58021 !important;
+          display: flex;
+          /* display: grid; */
+          /* grid-template-columns: repeat(4, 1fr); */
+          color: #fff;
+          align-items: center;
+          grid-gap: 1em;
+          padding: 0.5em 0.5em;
+          height: fit-content;
+          flex-direction: row;
+          .data-img img {
+            width: 185px;
+            height: 125px;
+            border: none;
+            box-shadow: none;
+            margin-bottom: -1em;
+          }
+          .text-block {
+            padding: 0.5em 3em;
+            background-color: #fff;
+            color: #212529;
+            p {
+              margin-bottom: 0em;
+            }
+          }
+        }
+        .process {
+          display: flex;
+          /* display: grid; */
+          /* grid-template-columns: repeat(4, 1fr); */
+          color: #fff;
+          align-items: center;
+          grid-gap: 1em;
+          padding: 0em 0.5em;
+          background-color: #86c542 !important;
+          height: fit-content;
+          flex-direction: row;
+          .pro-img img {
+            width: 130px;
+            height: 125px;
+            border: none;
+            box-shadow: none;
+            margin-bottom: -1em;
+          }
+          .text-block {
+            padding: 0.5em;
+            background-color: #fff;
+            color: #212529;
+            p {
+              margin-bottom: 0em;
+            }
+          }
+        }
+        .capabilities {
+          display: flex;
+          /* display: grid; */
+          /* grid-template-columns: repeat(4, 1fr); */
+          background-color: #6c53a4;
+          color: #fff;
+          align-items: center;
+          grid-gap: 1em;
+          padding: 0em 0.5em;
+          flex-direction: row;
+          height: fit-content;
+        }
+        .infra-img img {
+          width: 125px;
+          height: 125px;
+          border: none;
+          box-shadow: none;
+          margin-bottom: -1em;
+        }
+        .text-block {
+          padding: 1em;
+          background-color: #fff;
+          color: #212529;
+          p {
+            margin-bottom: 0em;
+          }
+        }
+        img {
+          width: 100%;
+          border: 5px solid white;
+          box-shadow: 1px 1px 10px 2px black;
+        }
+      }
+    }
+    .icon-section {
+      display: grid;
+      /* grid-template-columns: repeat(3, 1fr); */
+      grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+      grid-gap: 3em;
+      text-align: center;
+      color: #fff;
+      padding: 1em 3em;
+    }
+    .bottom {
+      padding: 1em 7em 3em 7em;
+      text-align: center;
+      background-color: #d2d4e0;
+      color: #212529;
+      h3 {
+        font-size: 38px;
+        margin: 0em 0em 1em 0em;
+      }
+      img {
+        border: 5px solid white;
+        box-shadow: 1px 1px 10px 2px black;
+      }
+    }
+  }
 `;
 export default class Index extends React.Component {
   constructor(props) {
@@ -206,7 +424,7 @@ export default class Index extends React.Component {
       totalSlides: 0,
       previousSlide: null,
       nextSlide: null,
-      // partnersToShow: 4,
+      partnersToShow: 4,
       autoPlayPartners: false,
       totalPartners: 0,
     };
@@ -222,11 +440,11 @@ export default class Index extends React.Component {
         totalSlides: this.props.successstories.length,
       });
     }
-    // if (this.props.partners) {
-    //   this.setState({
-    //     autoPlayPartners: this.props.partners.length > 4,
-    //   });
-    // }
+    if (this.props.partners) {
+      this.setState({
+        autoPlayPartners: this.props.partners.length > 4,
+      });
+    }
   }
 
   componentWillUnmount() {
@@ -314,149 +532,153 @@ export default class Index extends React.Component {
               <h3>Migration and Modernization</h3>
             </div>
           </div>
-          <div className='jumbo-bottom'>
-            {/* <img src={Capabilities} alt='' /> */}
-            <h3>Capabilities</h3>
+          <div className='jumbo-block-bottom'>
+            <div className='jumbo-text-bottom'>
+              {/* <img src={Capabilities} alt='' /> */}
+              <h3>Capabilities</h3>
+            </div>
             {/* <img
             src='https://res.cloudinary.com/papu/image/upload/bo_10px_solid_rgb:fff/v1624539278/new-design/home-page/Images/capabilities_eh4vwk.jpg'
             alt=''
           /> */}
-
-            <div className='capabilities'>
-              <div className='infra-img'>
-                <img
-                  src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
-                  alt=''
-                />
-                <h4>Infra</h4>
-              </div>
-              <div>
-                <h6>Multi-Cloud Hybrid Adoption</h6>
-                <div className='text-block'>
-                  <p>Multi cloud Hybrid infra management and operations</p>
+            <div className='jumbo-bottom'>
+              <div className='capabilities'>
+                <div className='infra-img'>
+                  <img
+                    src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
+                    alt=''
+                  />
+                  <h4>Infra</h4>
                 </div>
-              </div>
-              <div>
-                <h6>Cloud-Migration</h6>
-                <div className='text-block'>
-                  <p>Migrate existing workloads to any cloud</p>
-                </div>
-              </div>
-              <div>
-                <h6>Software Defined Transformation</h6>
-                <div className='text-block'>
-                  <p>
-                    Make entire infrastructure provisioning software defined and
-                    automated
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='app'>
-              <div className='app-img'>
-                <img
-                  src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
-                  alt=''
-                />
-                <h4>App</h4>
-              </div>
-              <div className='app-blocks'>
                 <div>
-                  <h6>Rapid App Development</h6>
+                  <h6>Multi-Cloud Hybrid Adoption</h6>
                   <div className='text-block'>
-                    <p>
-                      Develop microservice based cloud native custom business
-                      App
-                    </p>
+                    <p>Multi cloud Hybrid infra management and operations</p>
                   </div>
                 </div>
                 <div>
-                  <h6>App Modernization</h6>
+                  <h6>Cloud-Migration</h6>
                   <div className='text-block'>
-                    <p>
-                      Api / Microservices / Container / DevSecOps Enablement
-                    </p>
+                    <p>Migrate existing workloads to any cloud</p>
                   </div>
                 </div>
                 <div>
-                  <h6>App Migration</h6>
+                  <h6>Software Defined Transformation</h6>
                   <div className='text-block'>
                     <p>
-                      Simplify, integrate and deliver applications on any
-                      platform
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <h6>Cloud Native Transformation</h6>
-                  <div className='text-block'>
-                    <p>
-                      Migrate existing outdated proprietary application to Open
-                      cloud native app
+                      Make entire infrastructure provisioning software defined
+                      and automated
                     </p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='data'>
-              <div className='data-img'>
-                <img
-                  src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
-                  alt=''
-                />
-                <h4>Data</h4>
-              </div>
-              <div>
-                <h6>Fast-Data Transform</h6>
-                <div className='text-block'>
-                  <p>
-                    Increase Data Revenue with Realtime contextual AI-enabled
-                    decision making system
-                  </p>
+              <div className='app'>
+                <div className='app-img'>
+                  <img
+                    src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
+                    alt=''
+                  />
+                  <h4>App</h4>
+                </div>
+                <div className='app-blocks'>
+                  <div>
+                    <h6>Rapid App Development</h6>
+                    <div className='text-block'>
+                      <p>
+                        Develop microservice based cloud native custom business
+                        App
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <h6>App Modernization</h6>
+                    <div className='text-block'>
+                      <p>
+                        Api / Microservices / Container / DevSecOps Enablement
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <h6>App Migration</h6>
+                    <div className='text-block'>
+                      <p>
+                        Simplify, integrate and deliver applications on any
+                        platform
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <h6>Cloud Native Transformation</h6>
+                    <div className='text-block'>
+                      <p>
+                        Migrate existing outdated proprietary application to
+                        Open cloud native app
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div>
-                <h6>Data Management</h6>
-                <div className='text-block'>
-                  <p>
-                    Simplify Data backbone and its lifecycle to a reduced
-                    Capex/Opex and higher business outcome
-                  </p>
+              <div className='data'>
+                <div className='data-img'>
+                  <img
+                    src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
+                    alt=''
+                  />
+                  <h4>Data</h4>
+                </div>
+                <div>
+                  <h6>Fast-Data Transform</h6>
+                  <div className='text-block'>
+                    <p>
+                      Increase Data Revenue with Realtime contextual AI-enabled
+                      decision making system
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <h6>Data Management</h6>
+                  <div className='text-block'>
+                    <p>
+                      Simplify Data backbone and its lifecycle to a reduced
+                      Capex/Opex and higher business outcome
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <h6>Data Migration</h6>
+                  <div className='text-block'>
+                    <p>
+                      Simplify and migrate data from any platform to any
+                      platform{' '}
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div>
-                <h6>Data Migration</h6>
-                <div className='text-block'>
-                  <p>
-                    Simplify and migrate data from any platform to any platform{' '}
-                  </p>
+              <div className='process'>
+                <div className='pro-img'>
+                  <img
+                    src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
+                    alt=''
+                  />
+                  <h4>Process</h4>
                 </div>
-              </div>
-            </div>
-            <div className='process'>
-              <div className='pro-img'>
-                <img
-                  src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
-                  alt=''
-                />
-                <h4>Process</h4>
-              </div>
-              <div>
-                <h6>DevSecOps Enablement</h6>
-                <div className='text-block'>
-                  <p>
-                    Improve operational efficiency and development velocity with
-                    DevSecOps adoption
-                  </p>
+                <div>
+                  <h6>DevSecOps Enablement</h6>
+                  <div className='text-block'>
+                    <p>
+                      Improve operational efficiency and development velocity
+                      with DevSecOps adoption
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <h6>Business Process Automation</h6>
-                <div className='text-block'>
-                  <p>
-                    Optimize business processes with observability and data
-                    driven Realtime decision making system
-                  </p>
+                <div>
+                  <h6>Business Process Automation</h6>
+                  <div className='text-block'>
+                    <p>
+                      Optimize business processes with observability and data
+                      driven Realtime decision making system
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -860,16 +1082,3 @@ export default class Index extends React.Component {
     );
   }
 }
-
-// import React from 'react';
-// import CaseSlider from '../../components/Forms/CaseSlider.js';
-
-// const index = () => {
-//   return (
-//     <div>
-//       <CaseSlider />
-//     </div>
-//   );
-// };
-
-// export default index;

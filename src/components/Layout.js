@@ -5,11 +5,22 @@ import Navbar from '../components/Navbar';
 import '../css/index.css';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
+import styled, { createGlobalStyle } from 'styled-components';
+const GlobalStyle = createGlobalStyle`
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
+    body {
+        font-family: 'Poppins';
+    }
+`;
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
     <>
+      <GlobalStyle />
       <div className='d-block w-100 position-absolute top-bg'></div>
       <div className='position-relative d-block w-100 px-lg-5 wrapper-view'>
         <div className='container-fluid'>
