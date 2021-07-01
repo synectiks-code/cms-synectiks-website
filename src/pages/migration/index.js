@@ -422,8 +422,8 @@ export default class Index extends React.Component {
       numberOfSlides: 2,
       currentSlide: 0,
       totalSlides: 0,
-      previousSlide: null,
-      nextSlide: null,
+      // previousSlide: null,
+      // nextSlide: null,
       partnersToShow: 4,
       autoPlayPartners: false,
       totalPartners: 0,
@@ -836,7 +836,7 @@ export default class Index extends React.Component {
                       <a href='#'>View All Success Stories &#62;</a>
                     </div>
                     <div className='d-block mb-3 indicators'>
-                      <span>{`${currentSlide}`}</span>
+                      <span>01</span>
                       <span className='line'>
                         <span
                           style={{
