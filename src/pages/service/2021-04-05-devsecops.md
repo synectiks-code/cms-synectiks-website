@@ -204,7 +204,7 @@ page:
       because they thought we had scrubbed fox imagery from our browser.
 aproach:
   showblock: true
-  img: https://res.cloudinary.com/papu/image/upload/v1625223827/new-design/hybrid-cloud/1_xeqan3.png
+  img: https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625223827/new-design/hybrid-cloud/1_xeqan3.png
   description: >-
     <!--StartFragment-->
 
@@ -215,7 +215,7 @@ aproach:
     <!--EndFragment-->
   actions:
     - issideimage: false
-      img: https://res.cloudinary.com/papu/image/upload/v1625223952/new-design/hybrid-cloud/2_dszzm9.png
+      img: https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625223952/new-design/hybrid-cloud/2_dszzm9.png
       heading: "SYNECTIKS MICROSERVICE / SOA PLATFORM "
       text: >-
         <!--StartFragment-->
