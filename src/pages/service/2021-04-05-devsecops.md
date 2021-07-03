@@ -12,7 +12,7 @@ bannericon: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/
 bannericonname: Synectiks hybrid cloud
 whyus:
   showblock: true
-  img: https://res.cloudinary.com/papu/image/upload/v1625150014/new-design/home-page/Images/Screenshot_3_nxrgqg.png
+  img: https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625227320/new-design/hybrid-cloud/8_bo0nl8.png
   description: >-
     <!--StartFragment-->
 
@@ -159,7 +159,7 @@ resources:
       heading: dummy
       description: dummy
       link: dummy
-    - img: https://res.cloudinary.com/papu/image/upload/v1625227829/new-design/hybrid-cloud/12_pwejz9.png
+    - img: https://res.cloudinary.com/papu/image/upload/c_scale,w_250/v1625227829/new-design/hybrid-cloud/12_pwejz9.png
       heading: "dummy "
       description: dummy
       link: dummy
