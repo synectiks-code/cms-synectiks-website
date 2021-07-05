@@ -88,7 +88,7 @@ const ModernizationWrapper = styled.div`
           grid-gap: 1em;
         }
         .text-block {
-          height: 13vh;
+          height: auto;
           padding: 0.5em 1em;
           background-color: #fff;
           color: #212529;
@@ -252,7 +252,7 @@ const ModernizationWrapper = styled.div`
       }
     }
     .jumbo-block-bottom {
-      padding: 1em 1.5em 3em 1.5em;
+      /* padding: 1em 1.5em 3em 1.5em; */
       background-color: #d2d4e0;
       text-align: center;
       margin: 3em 0em;
@@ -272,7 +272,7 @@ const ModernizationWrapper = styled.div`
         .app {
           /* display: flex; */
           display: grid;
-          grid-template-columns: 100px 1fr;
+          grid-template-columns: 6% 1fr;
           color: #fff;
           align-items: center;
           grid-gap: 1em;
@@ -293,7 +293,8 @@ const ModernizationWrapper = styled.div`
             grid-gap: 1em;
           }
           .text-block {
-            height: 13vh;
+            height: 75%;
+            /* height: 13vh; */
             padding: 0.5em 1em;
             background-color: #fff;
             color: #212529;
@@ -314,14 +315,14 @@ const ModernizationWrapper = styled.div`
           height: fit-content;
           flex-direction: row;
           .data-img img {
-            width: 185px;
+            width: 125px;
             height: 125px;
             border: none;
             box-shadow: none;
             margin-bottom: -1em;
           }
           .text-block {
-            padding: 0.5em 3em;
+            padding: 0.5em 1em;
             background-color: #fff;
             color: #212529;
             p {
@@ -341,7 +342,7 @@ const ModernizationWrapper = styled.div`
           height: fit-content;
           flex-direction: row;
           .pro-img img {
-            width: 130px;
+            width: 65px;
             height: 125px;
             border: none;
             box-shadow: none;
@@ -369,7 +370,7 @@ const ModernizationWrapper = styled.div`
           height: fit-content;
         }
         .infra-img img {
-          width: 125px;
+          width: 85px;
           height: 125px;
           border: none;
           box-shadow: none;
