@@ -100,9 +100,6 @@ const ModernizationWrapper = styled.div`
           margin-bottom: -1.4em;
           background-color: #fff;
           color: #212529;
-          p {
-            margin-bottom: 0em;
-          }
         }
             }
           }
@@ -117,7 +114,7 @@ const ModernizationWrapper = styled.div`
         color: #fff;
         align-items: center;
         grid-gap: 1em;
-        padding: 0.5em 0.5em;
+        padding: 0.5em 0em;
         flex-direction: column;
         height: fit-content;
         .data-img img {
@@ -126,14 +123,21 @@ const ModernizationWrapper = styled.div`
           box-shadow: none;
           margin-bottom: 1em;
         }
+        .data-text-block{
+          div{
+            border: 2px solid rgba(0, 0, 0, 0.4);
+            margin-bottom:1em;
+          }
         .text-block {
           padding: 0.5em;
           background-color: #fff;
+          margin-bottom:0em;
           color: #212529;
           p {
             margin-bottom: 0em;
           }
         }
+         }
       }
       .process {
         display: flex;
@@ -142,16 +146,21 @@ const ModernizationWrapper = styled.div`
         color: #fff;
         align-items: center;
         grid-gap: 1em;
-        padding: 1em 0.5em;
+        padding: 1em 0em;
         background-color: #86c542 !important;
         height: fit-content;
         flex-direction: column;
-        .pro-img img {
+        .pro-img{
+            img {
+          border: none;
           width: 70px;
           border: none;
           box-shadow: none;
           margin-bottom: 1em;
         }
+      }
+        .proc-text-block{
+          border: 2px solid rgba(0, 0, 0, 0.4);
         .text-block {
           padding: 0.5em;
           background-color: #fff;
@@ -159,6 +168,7 @@ const ModernizationWrapper = styled.div`
           p {
             margin-bottom: 0em;
           }
+         }
         }
       }
       .capabilities {
@@ -365,8 +375,10 @@ const ModernizationWrapper = styled.div`
           .data-text-block {
             display: flex;
             grid-gap: 1em;
-          }
-          .text-block {
+            div{
+              border: none;
+               .text-block {
+            border: none;
             padding: 0.5em 1em;
             background-color: #fff;
             color: #212529;
@@ -374,6 +386,9 @@ const ModernizationWrapper = styled.div`
               margin-bottom: 0em;
             }
           }
+            }
+          }
+
         }
         .process {
           /* display: flex; */
@@ -397,6 +412,8 @@ const ModernizationWrapper = styled.div`
               font-size: 1.2rem;
             }
           }
+          .proc-text-block{
+            border:none;
           .text-block {
             padding: 0.5em;
             background-color: #fff;
@@ -405,6 +422,7 @@ const ModernizationWrapper = styled.div`
               margin-bottom: 0em;
             }
           }
+           }
         }
         .capabilities {
           /* display: flex; */
@@ -730,7 +748,7 @@ export default class Index extends React.Component {
                   />
                   <h4>Process</h4>
                 </div>
-                <div>
+                <div className='proc-text-block'>
                   <h6>DevSecOps Enablement</h6>
                   <div className='text-block'>
                     <p>
@@ -739,7 +757,7 @@ export default class Index extends React.Component {
                     </p>
                   </div>
                 </div>
-                <div>
+                <div className='proc-text-block'>
                   <h6>Business Process Automation</h6>
                   <div className='text-block'>
                     <p>
