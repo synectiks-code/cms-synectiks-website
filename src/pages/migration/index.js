@@ -379,7 +379,7 @@ const ModernizationWrapper = styled.div`
               border: none;
                .text-block {
             border: none;
-            padding: 0.5em 1em;
+            padding: 0.5em 0.5em 0.3em 1em;
             background-color: #fff;
             color: #212529;
             p {
@@ -452,6 +452,7 @@ const ModernizationWrapper = styled.div`
         .cap-text-block {
           display: flex;
           grid-gap: 1em;
+          padding-right:0.8em;
           div {
             border: none;
             .text-block {
