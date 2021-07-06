@@ -378,7 +378,7 @@ const ModernizationWrapper = styled.div`
           color: #fff;
           align-items: center;
           grid-gap: 1em;
-          padding: 0em 0.5em;
+          padding: 0.5em 0.5em;
           flex-direction: row;
           height: fit-content;
         }
@@ -388,7 +388,7 @@ const ModernizationWrapper = styled.div`
             /* width: 80px; */
             border: none;
             box-shadow: none;
-            margin-bottom: 1em;
+            margin-bottom: 0.4em;
           }
           h4 {
             font-size: 1.2rem;
