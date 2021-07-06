@@ -16,11 +16,12 @@ const ModernizationWrapper = styled.div`
     }
     .jumbo-left-text {
       padding: 1em;
-      margin: 0 2em;
+      margin: 0 0em;
       background-color: #384cd8;
       p {
         color: #fff;
         font-size: 20px;
+        text-align: center;
       }
     }
     .jumbo-right {
@@ -76,9 +77,8 @@ const ModernizationWrapper = styled.div`
         height: fit-content;
         .app-img img {
           width: 125px;
-          height: 125px;
           border: none;
-          margin-bottom: -1em;
+          margin-bottom: 1em;
           box-shadow: none;
         }
         .app-blocks {
@@ -109,11 +109,10 @@ const ModernizationWrapper = styled.div`
         flex-direction: column;
         height: fit-content;
         .data-img img {
-          width: 185px;
-          height: 125px;
+          width: 100px;
           border: none;
           box-shadow: none;
-          margin-bottom: -1em;
+          margin-bottom: 1em;
         }
         .text-block {
           padding: 0.5em;
@@ -131,16 +130,15 @@ const ModernizationWrapper = styled.div`
         color: #fff;
         align-items: center;
         grid-gap: 1em;
-        padding: 0em 0.5em;
+        padding: 1em 0.5em;
         background-color: #86c542 !important;
         height: fit-content;
         flex-direction: column;
         .pro-img img {
-          width: 130px;
-          height: 125px;
+          width: 70px;
           border: none;
           box-shadow: none;
-          margin-bottom: -1em;
+          margin-bottom: 1em;
         }
         .text-block {
           padding: 0.5em;
@@ -159,16 +157,15 @@ const ModernizationWrapper = styled.div`
         color: #fff;
         align-items: center;
         grid-gap: 1em;
-        padding: 0em 0.5em;
+        padding: 1em 0.5em;
         flex-direction: column;
         height: fit-content;
       }
       .infra-img img {
-        width: 125px;
-        height: 125px;
+        width: 85px;
         border: none;
         box-shadow: none;
-        margin-bottom: -1em;
+        margin-bottom: 1em;
       }
       .text-block {
         padding: 1em;
@@ -272,19 +269,23 @@ const ModernizationWrapper = styled.div`
         .app {
           /* display: flex; */
           display: grid;
-          grid-template-columns: 6% 1fr;
+          grid-template-columns: 5% 1fr;
           color: #fff;
           align-items: center;
           grid-gap: 1em;
           padding: 0.5em 0.5em;
           background-color: #d62c37 !important;
           height: fit-content;
-          .app-img img {
-            width: 125px;
-            height: 125px;
-            border: none;
-            margin-bottom: -1em;
-            box-shadow: none;
+          .app-img {
+            img {
+              /* width: 125px; */
+              border: none;
+              margin-bottom: 0em;
+              box-shadow: none;
+            }
+            h4 {
+              font-size: 1.2rem;
+            }
           }
           .app-blocks {
             display: grid;
@@ -305,21 +306,29 @@ const ModernizationWrapper = styled.div`
         }
         .data {
           background-color: #f58021 !important;
-          display: flex;
-          /* display: grid; */
-          /* grid-template-columns: repeat(4, 1fr); */
+          /* display: flex; */
+          display: grid;
+          grid-template-columns: 5% 1fr;
           color: #fff;
           align-items: center;
           grid-gap: 1em;
           padding: 0.5em 0.5em;
           height: fit-content;
           flex-direction: row;
-          .data-img img {
-            width: 125px;
-            height: 125px;
-            border: none;
-            box-shadow: none;
-            margin-bottom: -1em;
+          .data-img {
+            img {
+              /* width: 100px; */
+              border: none;
+              box-shadow: none;
+              margin-bottom: 0em;
+            }
+            h4 {
+              font-size: 1.2rem;
+            }
+          }
+          .data-text-block {
+            display: flex;
+            grid-gap: 1em;
           }
           .text-block {
             padding: 0.5em 1em;
@@ -331,22 +340,26 @@ const ModernizationWrapper = styled.div`
           }
         }
         .process {
-          display: flex;
-          /* display: grid; */
-          /* grid-template-columns: repeat(4, 1fr); */
+          /* display: flex; */
+          display: grid;
+          grid-template-columns: 5% 1fr 1fr;
           color: #fff;
           align-items: center;
           grid-gap: 1em;
-          padding: 0em 0.5em;
+          padding: 0.5em;
           background-color: #86c542 !important;
           height: fit-content;
           flex-direction: row;
-          .pro-img img {
-            width: 65px;
-            height: 125px;
-            border: none;
-            box-shadow: none;
-            margin-bottom: -1em;
+          .pro-img {
+            img {
+              /* width: 70px; */
+              border: none;
+              box-shadow: none;
+              margin-bottom: -0.5em;
+            }
+            h4 {
+              font-size: 1.2rem;
+            }
           }
           .text-block {
             padding: 0.5em;
@@ -358,9 +371,9 @@ const ModernizationWrapper = styled.div`
           }
         }
         .capabilities {
-          display: flex;
-          /* display: grid; */
-          /* grid-template-columns: repeat(4, 1fr); */
+          /* display: flex; */
+          display: grid;
+          grid-template-columns: 5% 1fr;
           background-color: #6c53a4;
           color: #fff;
           align-items: center;
@@ -369,26 +382,36 @@ const ModernizationWrapper = styled.div`
           flex-direction: row;
           height: fit-content;
         }
-        .infra-img img {
-          width: 85px;
-          height: 125px;
-          border: none;
-          box-shadow: none;
-          margin-bottom: -1em;
-        }
-        .text-block {
-          padding: 1em;
-          background-color: #fff;
-          color: #212529;
-          p {
-            margin-bottom: 0em;
+        .infra-img {
+          padding-top: 1em;
+          img {
+            /* width: 80px; */
+            border: none;
+            box-shadow: none;
+            margin-bottom: 1em;
+          }
+          h4 {
+            font-size: 1.2rem;
           }
         }
-        img {
-          width: 100%;
-          border: 5px solid white;
-          box-shadow: 1px 1px 10px 2px black;
+
+        .cap-text-block {
+          display: flex;
+          grid-gap: 1em;
+          .text-block {
+            padding: 1em;
+            background-color: #fff;
+            color: #212529;
+            p {
+              margin-bottom: 0em;
+            }
+          }
         }
+      }
+      img {
+        width: 100%;
+        border: 5px solid white;
+        box-shadow: 1px 1px 10px 2px black;
       }
     }
     .icon-section {
@@ -546,37 +569,39 @@ export default class Index extends React.Component {
               <div className='capabilities'>
                 <div className='infra-img'>
                   <img
-                    src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
+                    src='https://res.cloudinary.com/papu/image/upload/v1625559852/Infra_jaomzl.svg'
                     alt=''
                   />
                   <h4>Infra</h4>
                 </div>
-                <div>
-                  <h6>Multi-Cloud Hybrid Adoption</h6>
-                  <div className='text-block'>
-                    <p>Multi cloud Hybrid infra management and operations</p>
+                <div className='cap-text-block'>
+                  <div>
+                    <h6>Multi-Cloud Hybrid Adoption</h6>
+                    <div className='text-block'>
+                      <p>Multi cloud Hybrid infra management and operations</p>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <h6>Cloud-Migration</h6>
-                  <div className='text-block'>
-                    <p>Migrate existing workloads to any cloud</p>
+                  <div>
+                    <h6>Cloud-Migration</h6>
+                    <div className='text-block'>
+                      <p>Migrate existing workloads to any cloud</p>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <h6>Software Defined Transformation</h6>
-                  <div className='text-block'>
-                    <p>
-                      Make entire infrastructure provisioning software defined
-                      and automated
-                    </p>
+                  <div>
+                    <h6>Software Defined Transformation</h6>
+                    <div className='text-block'>
+                      <p>
+                        Make entire infrastructure provisioning software defined
+                        and automated
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className='app'>
                 <div className='app-img'>
                   <img
-                    src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
+                    src='https://res.cloudinary.com/papu/image/upload/v1625559857/App_dfq0tc.svg'
                     alt=''
                   />
                   <h4>App</h4>
@@ -622,43 +647,45 @@ export default class Index extends React.Component {
               <div className='data'>
                 <div className='data-img'>
                   <img
-                    src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
+                    src='https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg'
                     alt=''
                   />
                   <h4>Data</h4>
                 </div>
-                <div>
-                  <h6>Fast-Data Transform</h6>
-                  <div className='text-block'>
-                    <p>
-                      Increase Data Revenue with Realtime contextual AI-enabled
-                      decision making system
-                    </p>
+                <div className='data-text-block'>
+                  <div>
+                    <h6>Fast-Data Transform</h6>
+                    <div className='text-block'>
+                      <p>
+                        Increase Data Revenue with Realtime contextual
+                        AI-enabled decision making system
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <h6>Data Management</h6>
-                  <div className='text-block'>
-                    <p>
-                      Simplify Data backbone and its lifecycle to a reduced
-                      Capex/Opex and higher business outcome
-                    </p>
+                  <div>
+                    <h6>Data Management</h6>
+                    <div className='text-block'>
+                      <p>
+                        Simplify Data backbone and its lifecycle to a reduced
+                        Capex/Opex and higher business outcome
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <h6>Data Migration</h6>
-                  <div className='text-block'>
-                    <p>
-                      Simplify and migrate data from any platform to any
-                      platform{' '}
-                    </p>
+                  <div>
+                    <h6>Data Migration</h6>
+                    <div className='text-block'>
+                      <p>
+                        Simplify and migrate data from any platform to any
+                        platform{' '}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className='process'>
                 <div className='pro-img'>
                   <img
-                    src='https://res.cloudinary.com/papu/image/upload/v1624527145/new-design/home-page/Images/migration_and_modernization_pekzxp.svg'
+                    src='https://res.cloudinary.com/papu/image/upload/v1625559859/Process_rxu7u8.svg'
                     alt=''
                   />
                   <h4>Process</h4>
