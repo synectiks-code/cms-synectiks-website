@@ -127,6 +127,7 @@ const ModernizationWrapper = styled.div`
           div{
             border: 2px solid rgba(0, 0, 0, 0.4);
             margin-bottom:1em;
+            padding-top: 0.4em;
           }
         .text-block {
           padding: 0.5em;
@@ -161,6 +162,7 @@ const ModernizationWrapper = styled.div`
       }
         .proc-text-block{
           border: 2px solid rgba(0, 0, 0, 0.4);
+          padding-top: 0.4em;
         .text-block {
           padding: 0.5em;
           background-color: #fff;
@@ -393,7 +395,7 @@ const ModernizationWrapper = styled.div`
         .process {
           /* display: flex; */
           display: grid;
-          grid-template-columns: 5% 1fr 1fr;
+          grid-template-columns: 7% 1fr 1fr;
           color: #fff;
           align-items: center;
           grid-gap: 1em;
