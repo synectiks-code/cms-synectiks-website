@@ -384,6 +384,7 @@ const ModernizationWrapper = styled.div`
             padding: 0.5em 0.5em 0.3em 1em;
             background-color: #fff;
             color: #212529;
+            margin-bottom: -1em;
             p {
               margin-bottom: 0em;
             }
