@@ -127,7 +127,7 @@ collections:
                 default: true,
                 required: false,
               },
-              { label: Image, name: img, widget: string },
+              { label: Image, name: img, widget: string, default: false, required: false },
               {
                 label: Is full image?,
                 name: fullimg,
@@ -135,7 +135,7 @@ collections:
                 required: false,
                 default: false,
               },
-              { label: Description, name: description, widget: markdown },
+              { label: Description, name: description, widget: markdown,default: false, required: false },
               {
                 label: Product Description,
                 name: productdescription,
