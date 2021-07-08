@@ -11,13 +11,10 @@ bannerdescription: >-
 bannericon: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
 bannericonname: Synectiks hybrid cloud
 whyus:
-  img: ""
+  img: https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625227320/new-design/hybrid-cloud/8_bo0nl8.png
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1625223827/new-design/hybrid-cloud/1_xeqan3.png
   productdescription: >-
-    <!--StartFragment--> 
-
-
-    <img src='https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625227320/new-design/hybrid-cloud/8_bo0nl8.png' />
+    <!--StartFragment-->  
 
 
     Our Open XFORMATION platform accelerates your DevSecOps transformation journey @50% time & cost. 
