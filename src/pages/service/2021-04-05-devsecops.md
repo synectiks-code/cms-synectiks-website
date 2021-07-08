@@ -52,14 +52,6 @@ whyus:
         Experience Team with a proven track record of CloudOps delivery enabled with DevSecOps Capabilities
 
 
-        <!--EndFragment--><!--StartFragment-->
-
-
-        Experience Team with a proven track record of CloudOps delivery enabled with DevSecOps Capabilities.
-
-
-
-
         <!--EndFragment-->
     - img: https://synectiks.com/static/Experience-9e0b6e10a6196c9a641b0ea5b6600121.png
       text: Experience
