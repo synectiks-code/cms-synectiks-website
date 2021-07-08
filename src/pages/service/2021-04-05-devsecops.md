@@ -11,18 +11,13 @@ bannerdescription: >-
 bannericon: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
 bannericonname: Synectiks hybrid cloud
 whyus:
-  showblock: true
   img: https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625227320/new-design/hybrid-cloud/8_bo0nl8.png
-  description: >-
-    <!--StartFragment-->
+  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1625223827/new-design/hybrid-cloud/1_xeqan3.png
+  productdescription: >-
+    <!--StartFragment--> 
 
 
     Our Open XFORMATION platform accelerates your DevSecOps transformation journey @50% time & cost. 
-
-
-    <!--EndFragment-->
-  productdescription: >-
-    <!--StartFragment-->
 
 
     NEED 
@@ -47,10 +42,6 @@ whyus:
 
 
     <!--EndFragment-->
-  reasonstext: |-2
-     
-
-    Top 8 Reasons to select Synectiks as your DevSecOps Partner:
   reasons:
     - img: https://synectiks.com/static/Expertise-c6a2afd7994c016d1fedab7d8c1adac5.png
       text: Expertise
@@ -142,6 +133,13 @@ whyus:
 
 
         <!--EndFragment-->
+  showblock: true
+  fullimg: true
+  reasonstext: |-2
+     
+
+    Top 8 Reasons to select Synectiks as your DevSecOps Partner:
+  description: "  ."
   conclusion: >-
     <!--StartFragment-->
 
@@ -150,7 +148,6 @@ whyus:
 
 
     <!--EndFragment-->
-  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1625223827/new-design/hybrid-cloud/1_xeqan3.png
 resources:
   showblock: true
   blogs: []
