@@ -43,7 +43,7 @@ whyus:
 
     <!--EndFragment-->
   reasons:
-    - img: https://synectiks.com/static/Expertise-c6a2afd7994c016d1fedab7d8c1adac5.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1623250228/MicroServices/Expertise_kxl3vj.svg
       text: Expertise
       description: >-
         <!--StartFragment-->
@@ -53,7 +53,7 @@ whyus:
 
 
         <!--EndFragment-->
-    - img: https://synectiks.com/static/Experience-9e0b6e10a6196c9a641b0ea5b6600121.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1623248816/MicroServices/Experience_n2pent.svg
       text: Experience
       description: >-
         <!--StartFragment-->
@@ -77,7 +77,7 @@ whyus:
 
         <!--EndFragment-->
       text: Contribution
-    - img: https://synectiks.com/static/Engagement%20Model-1ccd48abd3d9a0d272889e2a6958c49b.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1622708129/MicroServices/Engagement_wc4iez.svg
       description: |-
         <!--StartFragment-->
 
@@ -85,7 +85,7 @@ whyus:
 
         <!--EndFragment-->
       text: " Engagement Model"
-    - img: https://synectiks.com/static/Public%20Cloud%20Partnership-42d786337771ddc6ad8847c26af3ac41.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1623252370/MicroServices/Public_Cloud_Partnership_ml6h6j.svg
       description: >-
         <!--StartFragment-->
 
@@ -95,7 +95,7 @@ whyus:
 
         <!--EndFragment-->
       text: " Public Cloud Partnership"
-    - img: https://synectiks.com/static/Long%20Term%20Retention-020cbb0ea253029648e0f061fb98f661.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1623252771/MicroServices/Long_Term_Retention_kc6iwq.svg
       text: Long Term Retention
       description: |-
         <!--StartFragment-->
@@ -105,7 +105,7 @@ whyus:
 
 
         <!--EndFragment-->
-    - img: https://synectiks.com/static/E2E%20Solution-e841934e9446251588874f6a68700635.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1623250713/MicroServices/E2E_Solution_t2jjnp.svg
       text: E2E Solution
       description: >-
         <!--StartFragment-->
@@ -115,7 +115,7 @@ whyus:
 
 
         <!--EndFragment-->
-    - img: https://synectiks.com/static/Extreme%20Automation-5424d1a43786e2240bb58483f3bd5f87.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1623252268/MicroServices/Extreme_Automaton_qaim19.svg
       text: Extreme Automation
       description: >-
         <!--StartFragment-->
