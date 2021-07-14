@@ -11,7 +11,7 @@ bannerdescription: >-
 bannericon: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
 bannericonname: DevSecops
 whyus:
-  img: https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625227320/new-design/hybrid-cloud/8_bo0nl8.png
+  img: https://res.cloudinary.com/papu/image/upload/c_crop,y_0/v1626269527/synectiks-website/Microservice_9_a3rkgj.png
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1625223827/new-design/hybrid-cloud/1_xeqan3.png
   productdescription: >-
     <!--StartFragment-->  
@@ -204,7 +204,7 @@ aproach:
     <!--EndFragment-->
   actions:
     - issideimage: false
-      img: https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625223952/new-design/hybrid-cloud/2_dszzm9.png
+      img: https://res.cloudinary.com/papu/image/upload/v1626268995/synectiks-website/enterprise-soa_iyw5eh.jpg
       heading: "SYNECTIKS MICROSERVICE / SOA PLATFORM "
       text: >-
         <!--StartFragment-->
@@ -224,7 +224,7 @@ aproach:
 
         <!--EndFragment-->
     - issideimage: false
-      img: https://res.cloudinary.com/papu/image/upload/v1625224306/new-design/hybrid-cloud/3_exsug5.png
+      img: https://res.cloudinary.com/papu/image/upload/v1626269025/synectiks-website/Monolith_to_Microservices_jjavpp.jpg
       heading: "SYNECTIKS ENTERPRISE SOA SERVICES "
       text: >-
         <!--StartFragment-->
@@ -236,7 +236,9 @@ aproach:
         <!--EndFragment-->
     - issideimage: false
       heading: "Legacy Application Migration "
-      img: https://res.cloudinary.com/papu/image/upload/v1625224380/new-design/hybrid-cloud/4_bm8ixi.png
+      img: "
+        https://res.cloudinary.com/papu/image/upload/v1626266865/synectiks-websit\
+        e/0_dr5w6f.png"
       text: >-
         <!--StartFragment-->
 
@@ -253,7 +255,9 @@ aproach:
         <!--EndFragment-->
     - issideimage: false
       heading: Accelerated SOA Adoption
-      img: https://res.cloudinary.com/papu/image/upload/v1620215087/new-design/hybrid-cloud/our-approach-img_vqrjlg.jpg
+      img: "
+        https://res.cloudinary.com/papu/image/upload/v1626268295/synectiks-websit\
+        e/Foundation-Subpage_ofzayw.png"
       text: >-
         <!--StartFragment-->
 
@@ -274,7 +278,9 @@ aproach:
 
         <!--EndFragment-->
     - issideimage: false
-      img: https://res.cloudinary.com/papu/image/upload/v1625225937/new-design/hybrid-cloud/6_oykcoe.png
+      img: "
+        https://res.cloudinary.com/papu/image/upload/v1626270808/synectiks-websit\
+        e/Enterprise-Platform_xoyovb.jpg"
       heading: "Redevelopment – Microservices App Development "
       text: >-
         <!--StartFragment-->
@@ -302,7 +308,7 @@ description: The Coffee Taster’s Flavor Wheel, the official resource used by
 gettingstarted:
   showblock: true
   actions:
-    - img: https://res.cloudinary.com/papu/image/upload/v1625227320/new-design/hybrid-cloud/8_bo0nl8.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1626269527/synectiks-website/Microservice_9_a3rkgj.png
       description: >-
         <!--StartFragment-->
 
