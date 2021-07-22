@@ -104,7 +104,7 @@ export const XformationPageTemplate = ({ scenarios, slider }) => {
               <div className='banner-text'>
                 {/* <h4>Get comprehensive control and visibility</h4> */}
                 <p>
-                  SIMPLIFIED PROCUREMENT PROCESS WITH IMPROVED USER EXPERIENCE!
+                  XFORMATION SIMPLIFIED PROCUREMENT PROCESS WITH IMPROVED USER EXPERIENCE!
                 </p>
                 <h6>
                   Transform your end-to-end procurement operations, personalized

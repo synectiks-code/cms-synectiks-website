@@ -223,7 +223,7 @@ class Navbar extends React.Component {
 							<Link to="/scenario/1">Scenario</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="/scenario/2/">Xformation</Link>
+							<Link to="/xformation/xformation/">Xformation</Link>
 						</li>
 					</ul>
 				</div>
@@ -274,6 +274,9 @@ class Navbar extends React.Component {
 							<li className="navbar-item">
 								<Link to="/scenario/1" className="navbar-link">Scenario</Link>
 							</li>
+							<li className="nav-item">
+							<Link to="/xformation/xformation/">Xformation</Link>
+						</li>
 						</ul>
 					</div>
 				</nav>
