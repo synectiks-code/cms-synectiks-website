@@ -92,7 +92,7 @@ collections:
               },
             ],
         }
-        - name: 'xformation'
+  - name: 'xformation'
     label: 'Xformation'
     folder: 'src/pages/xformation'
     create: true
