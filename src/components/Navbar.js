@@ -222,6 +222,9 @@ class Navbar extends React.Component {
 						<li className="nav-item">
 							<Link to="/scenario/1">Scenario</Link>
 						</li>
+						<li className="nav-item">
+							<Link to="/xformation/">Xformation</Link>
+						</li>
 					</ul>
 				</div>
 				<div className="nav-search">
