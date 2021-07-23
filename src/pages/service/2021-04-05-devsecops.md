@@ -193,7 +193,7 @@ page:
       because they thought we had scrubbed fox imagery from our browser.
 aproach:
   showblock: true
-  img: https://res.cloudinary.com/papu/image/upload/c_scale,w_450/v1625223827/new-design/hybrid-cloud/1_xeqan3.png
+  img: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
   description: >-
     <!--StartFragment-->
 
