@@ -67,7 +67,7 @@ whyus:
 
 
         <!--EndFragment-->
-    - img: https://synectiks.com/static/Contribution-d10e27fbaa04357cbeec7eb8a11ed27f.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
       description: >-
         <!--StartFragment-->
 
