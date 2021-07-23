@@ -2,17 +2,17 @@
 templateKey: service-post
 title: DevSecOps
 date: 2021-04-05T17:13:46.269Z
-bannerimage: https://res.cloudinary.com/papu/image/upload/v1624456455/new-design/home-page/Images/modernization_epx6qy.jpg
+bannerimage: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
 bannerdescription: >-
   Our open product based solutioning model, help you innovate and transform
   with 
 
   speed and quality
-bannericon: https://res.cloudinary.com/papu/image/upload/v1620120986/new-design/hybrid-cloud/hybrid-cloud-image_grzavr.jpg
+bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: DevSecops
 whyus:
   img: https://res.cloudinary.com/papu/image/upload/c_crop,y_0/v1626269527/synectiks-website/Microservice_9_a3rkgj.png
-  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1625223827/new-design/hybrid-cloud/1_xeqan3.png
+  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
   productdescription: >-
     <!--StartFragment-->  
 
