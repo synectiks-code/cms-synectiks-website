@@ -268,7 +268,7 @@ aproach:
         <!--EndFragment-->
     - issideimage: false
       heading: "Automated Application Delivery  "
-      img: https://res.cloudinary.com/papu/image/upload/v1625225791/new-design/hybrid-cloud/5_qwvskn.png
+      img: https://res.cloudinary.com/papu/image/upload/v1627046246/new-design/hybrid-cloud/MicrosoftTeams-image_1_adait3.jpg
       text: >-
         <!--StartFragment-->
 
