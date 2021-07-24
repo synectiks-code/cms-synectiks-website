@@ -145,13 +145,13 @@ resources:
   blogs: []
   whitepapers:
     - img: https://res.cloudinary.com/papu/image/upload/v1625227752/new-design/hybrid-cloud/11_g06vrx.png
-      heading: dummy
-      description: dummy
-      link: dummy
-    - img: https://res.cloudinary.com/papu/image/upload/c_scale,w_250/v1625227829/new-design/hybrid-cloud/12_pwejz9.png
-      heading: "dummy "
-      description: dummy
-      link: dummy
+      heading: Synectiks
+      description: So perhaps, you've generated some fancy text
+      link: So perhaps, you've generated some fancy text
+    - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_221,w_621/v1625227829/new-design/hybrid-cloud/12_pwejz9.png
+      heading: Synectiks
+      description: So perhaps, you've generated some fancy text
+      link: So perhaps, you've generated some fancy text
 featuredimage: /img/apple-touch-icon.png
 featuredpost: true
 page:
