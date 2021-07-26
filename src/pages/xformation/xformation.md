@@ -6,14 +6,14 @@ scenarios:
     img: https://res.cloudinary.com/papu/image/upload/v1619520544/hybrid-cloud/Public_Cloud_Partnership_sn3buf.png
     subItems:
       - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
-        name: Aws
+        name: Add Environment - Aws
         useCaseSlider: []
       - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
-        name: Kubernetes
+        name: Add Environment - Kubernetes
       - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
-        name: GCP
+        name: Add Environment - GCP
       - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
-        name: Azure
+        name: Add Environment - Azure
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520488/hybrid-cloud/Compliance_Security_rng4yo.png
