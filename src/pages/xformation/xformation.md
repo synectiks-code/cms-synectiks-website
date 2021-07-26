@@ -1,21 +1,13 @@
 ---
 templateKey: xformation-post
-title: Xformation
+title: Asset Management
 scenarios:
-  - img: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg.svg
-    name: Xformation
-    subItems:
-      - img: https://res.cloudinary.com/papu/image/upload/v1618827131/icrisat/1PSDSAdmin/PSDS_Admin_h2rcrg.svg
-        name: Xformation
-        useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826808/icrisat/1PSDSAdmin/1Admin-Portal/9Manage_Requisitions_vcks6t.jpg
-            name: Xformation 1
-            text: Transform one your end-to-end procurement operations, personalized
-              approvals, budget controls, and real-time information with our
-              intuitive and easy-to-use solution.
-          - img: https://res.cloudinary.com/papu/image/upload/v1618826808/icrisat/1PSDSAdmin/1Admin-Portal/9Manage_Requisitions_vcks6t.jpg
-            name: Xformation 2
-            text: Transform your end-to-end procurement operations, personalized approvals,
-              budget controls, and real-time information with our intuitive and
-              easy-to-use solution.
+  - name: AWS
+    img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
+  - img: https://res.cloudinary.com/papu/image/upload/v1625559859/Process_rxu7u8.svg
+    name: Kubernetes
+  - img: https://res.cloudinary.com/papu/image/upload/v1625559857/App_dfq0tc.svg
+    name: Gcp
+  - img: https://res.cloudinary.com/papu/image/upload/v1625559852/Infra_jaomzl.svg
+    name: Azure
 ---
