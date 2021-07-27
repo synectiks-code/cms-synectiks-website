@@ -71,11 +71,11 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1627302206/cms-xformation/Asset-Management/aws/Enable-Performance-Monitoring-AWS/Node_performance_management_wizard_8_cuwkgv.jpg
             name: Enable-Performance-Monitoring-AWS
             text: Enable-Performance-Monitoring-AWS
-      - img: Enable Performance Monitoring - Kubernetes
+      - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
         name: Enable Performance Monitoring - Kubernetes
-      - img: Enable Performance Monitoring - GCP
+      - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
         name: Enable Performance Monitoring - GCP
-      - img: Enable Performance Monitoring - Azure
+      - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
         name: Enable Performance Monitoring - Azure
       - useCaseSlider:
           - img: https://res.cloudinary.com/papu/image/upload/v1627303292/cms-xformation/Asset-Management/aws/Explorer-AWS/AWS_Account_xtjjmy.jpg
@@ -111,14 +111,14 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1627303364/cms-xformation/Asset-Management/aws/Explorer-AWS/Node_Main_tab_2_xrqknt.jpg
             text: Explorer-AWS
             name: Explorer-AWS
-        name: Explorer-AWS
-        img: Explorer-AWS
-      - img: Explorer-Kubernetes
-        name: Explorer-Kubernetes
-      - img: Kubernetes -  GCP
+        name: Explorer - AWS
+        img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
+      - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
+        name: Explorer - Kubernetes
+      - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
         name: Kubernetes -  GCP
-      - img: Kubernetes -  Azure
-        name: Kubernetes -  Azure
+      - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
+        name: Kubernetes - Azure
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520488/hybrid-cloud/Compliance_Security_rng4yo.png
