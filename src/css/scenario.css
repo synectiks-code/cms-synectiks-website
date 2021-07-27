@@ -370,6 +370,16 @@ body {
   flex-wrap: wrap;
   text-align: center;
 }
+.scenario-select-container .select-scenario-left ul li .card  {
+
+    background-color:rgba(3,64,173,.5);
+    padding: 1.2rem 1rem;
+    margin-right: 0.8rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 4px 5px grey;
+
+}
 
 .scenario-select-container .select-scenario-left ul li {
   width: 100%;
