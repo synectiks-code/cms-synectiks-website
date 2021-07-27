@@ -71,6 +71,12 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1627302206/cms-xformation/Asset-Management/aws/Enable-Performance-Monitoring-AWS/Node_performance_management_wizard_8_cuwkgv.jpg
             name: Enable-Performance-Monitoring-AWS
             text: Enable-Performance-Monitoring-AWS
+      - img: Enable Performance Monitoring - Kubernetes
+        name: Enable Performance Monitoring - Kubernetes
+      - img: Enable Performance Monitoring - GCP
+        name: Enable Performance Monitoring - GCP
+      - img: Enable Performance Monitoring - Azure
+        name: Enable Performance Monitoring - Azure
       - useCaseSlider:
           - img: https://res.cloudinary.com/papu/image/upload/v1627303292/cms-xformation/Asset-Management/aws/Explorer-AWS/AWS_Account_xtjjmy.jpg
             name: Explorer-AWS
@@ -107,12 +113,6 @@ scenarios:
             name: Explorer-AWS
         name: Explorer-AWS
         img: Explorer-AWS
-      - img: Enable Performance Monitoring - Kubernetes
-        name: Enable Performance Monitoring - Kubernetes
-      - img: Enable Performance Monitoring - GCP
-        name: Enable Performance Monitoring - GCP
-      - img: Enable Performance Monitoring - Azure
-        name: Enable Performance Monitoring - Azure
       - img: Explorer-Kubernetes
         name: Explorer-Kubernetes
       - img: Kubernetes -  GCP
