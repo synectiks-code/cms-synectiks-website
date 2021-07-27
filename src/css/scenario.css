@@ -372,12 +372,11 @@ body {
 }
 .scenario-select-container .select-scenario-left ul li .card  {
 
-    background-color:rgba(3,64,173,.5);
+    background-color:rgb(51,102,204);
     padding: 1.2rem 1rem;
     margin-right: 0.8rem;
     border-radius: 20px;
     border: none;
-    box-shadow: 3px 4px 5px grey;
 
 }
 
@@ -426,6 +425,15 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 600;
+}
+
+.scenario-select-container .select-scenario-left ul li .card-name {
+  display: block;
+  width: 100%;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 .scenario-select-container .sub-scenario-container {

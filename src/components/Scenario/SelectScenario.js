@@ -63,7 +63,7 @@ const SelectScenario = ({ scenarios, onClickUseCase, onClickCloseScenario }) => 
                           height="60"
                         />
                       </div>
-                      <div className="name">{item.name}</div>
+                      <div className="name card-name">{item.name}</div>
                     </div>
                   </li>
                 )}
