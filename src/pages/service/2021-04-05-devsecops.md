@@ -67,7 +67,7 @@ whyus:
 
 
         <!--EndFragment-->
-    - img: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
+    - img: https://res.cloudinary.com/papu/image/upload/v1627371576/hybrid-cloud/icon_tvrnxh.png
       description: >-
         <!--StartFragment-->
 
@@ -291,7 +291,7 @@ aproach:
 
         <!--EndFragment-->
     - issideimage: true
-      img: https://res.cloudinary.com/papu/image/upload/v1625227220/new-design/hybrid-cloud/7_mk4agk.png
+      img: https://res.cloudinary.com/papu/image/upload/v1627371577/hybrid-cloud/bi-report_yusp1b.jpg
       heading: "Fast Data / Big Data Analytics "
       text: >-
         <!--StartFragment-->
