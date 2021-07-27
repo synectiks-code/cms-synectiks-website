@@ -107,6 +107,18 @@ scenarios:
             name: Explorer-AWS
         name: Explorer-AWS
         img: Explorer-AWS
+      - img: Enable Performance Monitoring - Kubernetes
+        name: Enable Performance Monitoring - Kubernetes
+      - img: Enable Performance Monitoring - GCP
+        name: Enable Performance Monitoring - GCP
+      - img: Enable Performance Monitoring - Azure
+        name: Enable Performance Monitoring - Azure
+      - img: Explorer-Kubernetes
+        name: Explorer-Kubernetes
+      - img: Kubernetes -  GCP
+        name: Kubernetes -  GCP
+      - img: Kubernetes -  Azure
+        name: Kubernetes -  Azure
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520488/hybrid-cloud/Compliance_Security_rng4yo.png
