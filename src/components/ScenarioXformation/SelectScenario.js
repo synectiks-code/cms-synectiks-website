@@ -53,7 +53,7 @@ const SelectScenario = ({ scenarios, onClickUseCase, onClickCloseScenario }) => 
               <ul>
                 {selectedScenario.subItems.map((item) =>
                   <li key={v4()}>
-                    <div className="item" onClick={() => { onClickUseCase(item) }}>
+                    <div className="item card" onClick={() => { onClickUseCase(item) }}>
                       <div className="image">
                         <img
                           src={item.img}
@@ -63,7 +63,7 @@ const SelectScenario = ({ scenarios, onClickUseCase, onClickCloseScenario }) => 
                           height="60"
                         />
                       </div>
-                      <div className="name">{item.name}</div>
+                      <div className="name card-name">{item.name}</div>
                     </div>
                   </li>
                 )}

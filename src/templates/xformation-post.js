@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import ScenarioSlider from '../components/Scenario/ScenarioSlider';
-import SelectScenario from '../components/Scenario/SelectScenario';
+import ScenarioSlider from '../components/ScenarioXformation/ScenarioSlider';
+import SelectScenario from '../components/ScenarioXformation/SelectScenario';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import '../css/scenario.css';
 import Microsoft from '../img/scenario/homepage/microsoft.png';

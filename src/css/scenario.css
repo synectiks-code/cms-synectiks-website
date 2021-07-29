@@ -377,7 +377,8 @@ body {
     margin-right: 0.8rem;
     border-radius: 20px;
     border: none;
-
+    height: 35vh;
+    width: 18vw;
 }
 
 .scenario-select-container .select-scenario-left ul li {
