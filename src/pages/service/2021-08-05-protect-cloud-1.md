@@ -33,20 +33,11 @@ whyus:
     ##### Editions: Feature Comparison
 
 
-    ![Example](https://res.cloudinary.com/papu/image/upload/b_rgb:ececec/v1626951869/synectiks-website/Protect_Cloud_1_bp66ra_wu3pgq.jpg)
-
-
-
-
     <!--EndFragment-->
   reasonstext: >-
-    <!--StartFragment-->
-
+    
 
     Contact us for a Quick Demo and check out all Protect Cloud rich security features and how to manage all end-devices in an environment using SaaS based readily available web-console.
-
-
-    <!--EndFragment-->
   conclusion: >-
     <!--StartFragment-->
 
