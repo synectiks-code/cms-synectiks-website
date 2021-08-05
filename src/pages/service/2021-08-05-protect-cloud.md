@@ -9,8 +9,8 @@ bannericonname: Protect cloud
 whyus:
   showblock: true
   img: false
-  fullimg: false
-  description: ""
+  fullimg: true
+  description: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
   productdescription: >-
     <!--StartFragment-->
 
@@ -46,7 +46,7 @@ aproach:
   img: .
 gettingstarted:
   showblock: false
-  testimonial: .
+  testimonial: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
 resources:
   showblock: false
 category:
