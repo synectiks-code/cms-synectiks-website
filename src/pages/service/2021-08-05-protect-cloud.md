@@ -41,14 +41,14 @@ whyus:
     SaaS based readily available web-console.
   conclusionimg: https://res.cloudinary.com/papu/image/upload/b_rgb:e8e8e8/v1626951869/synectiks-website/Protect_Cloud_1_bp66ra_wu3pgq.jpg
 aproach:
-  showblock: false
+  showblock: true
   actions: []
-  img: .
+  img: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
 gettingstarted:
-  showblock: false
+  showblock: true
   testimonial: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
 resources:
-  showblock: false
+  showblock: true
 category:
   - services
   - Business Continuity
