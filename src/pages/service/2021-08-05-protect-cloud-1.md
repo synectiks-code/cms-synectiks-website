@@ -2,13 +2,13 @@
 templateKey: service-post
 title: Protect Cloud
 date: 2021-08-05T13:07:13.713Z
-bannerimage: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
+bannerimage: https://res.cloudinary.com/papu/image/upload/b_rgb:e8e8e8/v1626951869/synectiks-website/Protect_Cloud_1_bp66ra_wu3pgq.jpg
 bannerdescription: Protect Cloud
-bannericon: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
+bannericon: https://res.cloudinary.com/papu/image/upload/v1625559859/Process_rxu7u8.svg
 bannericonname: Protect Cloud
 whyus:
   showblock: true
-  img: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
+  img: https://res.cloudinary.com/papu/image/upload/v1625559857/App_dfq0tc.svg
   fullimg: false
   description: >-
     <!--StartFragment-->
@@ -46,15 +46,22 @@ whyus:
 
 
     <!--EndFragment-->
-  conclusionimg: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
+  conclusionimg: https://res.cloudinary.com/papu/image/upload/v1617966646/ContactPage_clfbxf.png
 aproach:
   showblock: false
   actions: []
-  img: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
-  description: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
+  img: https://res.cloudinary.com/papu/image/upload/v1617964296/test-image_kza5ja.jpg
+  description: >-
+    <!--StartFragment-->
+
+
+    protection and management to protect endpoints, systems and data. Integration and automation provide unmatched protection, making it simple to manage all the devices in your environment.
+
+
+    <!--EndFragment-->
 gettingstarted:
   showblock: false
-  testimonial: https://www.synectiks.com/static/Prrotect_Cloud_Updated-966caa1a6a1fda77bb8e614f35bf9aea.jpg
+  testimonial: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
 resources:
   showblock: false
 category:
