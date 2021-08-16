@@ -7,7 +7,7 @@ import '../css/home.css';
 import remark from 'remark';
 import remarkHTML from 'remark-html';
 import Carousel from 'nuka-carousel';
-
+// import Migration from '../pages/migration/index'
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
@@ -151,6 +151,8 @@ export class IndexPageTemplate extends React.Component {
             </div>
           </div>
         </div>
+        {/* <Migration/> */}
+
         <div className='d-block py-5 background platform-container'>
           <h2 className='d-block text-center pb-5'>{usecases.heading}</h2>
           <div className='d-block px-md-5 px-3 pb-5 mb-lg-5'>

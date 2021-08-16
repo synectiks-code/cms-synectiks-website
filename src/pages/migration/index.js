@@ -5,6 +5,7 @@ import Capabilities from '../../img/migration&modernization/capabilities.png';
 import Engagement from '../../img/migration&modernization/engagementmodel.png';
 import CasePage from '../../components/Forms/CaseSlider.js';
 import Carousel from 'nuka-carousel';
+
 const ModernizationWrapper = styled.div`
   .jumbotron {
     display: grid;
@@ -223,7 +224,7 @@ const ModernizationWrapper = styled.div`
         box-shadow: 1px 1px 10px 2px black;
       }
     }
-  }
+
   .icon-section {
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
@@ -501,7 +502,8 @@ const ModernizationWrapper = styled.div`
     }
   }
 `;
-export default class Index extends React.Component {
+export default class Migration extends React.Component {
+// export default class Index extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -618,6 +620,7 @@ export default class Index extends React.Component {
               <h3>Migration and Modernization</h3>
             </div>
           </div>
+
           <div className='jumbo-block-bottom'>
             <div className='jumbo-text-bottom'>
               {/* <img src={Capabilities} alt='' /> */}
@@ -906,15 +909,17 @@ export default class Index extends React.Component {
               </div>
             </div>
           </div>
-          <div className='bottom'>
+
+          {/* <div className='bottom'>
             {/* <img src={Engagement} alt='' /> */}
-            <h3>Engagement Model</h3>
+            {/* <h3>Engagement Model</h3>
             <img
               src='https://res.cloudinary.com/papu/image/upload/v1624540148/new-design/home-page/Images/engagementmodel_sbylsq.jpg'
               alt=''
-            />
-          </div>
-          <div className='home-container'>
+            /> */}
+          {/* </div> */}
+
+          {/* <div className='home-container'>
             <div className='d-block py-5 background partners-container'>
               <div className='d-block mx-md-5 mx-3 py-md-5 partners-slider'>
                 <div className='row align-items-center justify-content-center'>
@@ -1167,6 +1172,7 @@ export default class Index extends React.Component {
               </div>
             </div>
           </div>
+        */}
         </Layout>
       </ModernizationWrapper>
     );
