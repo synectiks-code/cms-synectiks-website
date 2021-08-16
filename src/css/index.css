@@ -4,7 +4,7 @@ body {
 }
 
 .top-bg {
-    background-color: #384cd8;
+    background-color: #384cd8 !important;
     height: 385px;
     top: 0;
 }
@@ -53,7 +53,7 @@ body {
     .nav-search{
         padding-right: 0rem;
         padding-left: 15px;
-    } 
+    }
 }
 .nav-search i{
     font-size: 12px;
@@ -130,7 +130,7 @@ body {
     padding: .5rem 1rem;
     margin-bottom: .5rem;
     text-decoration: none;
-    
+
 }
 .header .nav .nav-item .default-active>li.active>a,
 .header .nav .nav-item .default-active>li>a:hover{
@@ -152,7 +152,7 @@ body {
 .header .nav .nav-item .navbar-link {
     color: #212529;
     padding-right: .75rem;
-    
+
 }
 
 .header .nav .main-sub-menu .sub-menu {
@@ -191,7 +191,7 @@ body {
 @media (max-width: 992px) {
     .nav-search{
         padding: 0 15px;
-    } 
+    }
     .nav-search i{
         font-size: 18px;
         line-height: 24px;
@@ -256,7 +256,7 @@ body {
         z-index: 1;
         position: absolute;
         text-align: right;
-        
+
     }
     .mobile-menu .navbar-collapse .navbar-nav .navbar-item span::before {
         background-color: #384cd8;
