@@ -1,9 +1,9 @@
 import React from 'react';
-// import Layout from '../../components/Layout';
+// import Layout from './Layout';
 import styled from 'styled-components';
-import Capabilities from '../../img/migration&modernization/capabilities.png';
-import Engagement from '../../img/migration&modernization/engagementmodel.png';
-import CasePage from '../../components/Forms/CaseSlider.js';
+// import Capabilities from '../../img/migration&modernization/capabilities.png';
+// import Engagement from '../../img/migration&modernization/engagementmodel.png';
+import CasePage from './Forms/CaseSlider.js';
 import Carousel from 'nuka-carousel';
 
 const ModernizationWrapper = styled.div`
@@ -598,7 +598,7 @@ export default class Migration extends React.Component {
     } = this.state;
     return (
       <ModernizationWrapper>
-        <div>
+        <>
           <div className='jumbotron'>
             <div className='jumbo-left'>
               <img
@@ -1173,7 +1173,7 @@ export default class Migration extends React.Component {
             </div>
           </div>
         */}
-        </div>
+        </>
       </ModernizationWrapper>
     );
   }
