@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components'
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { v4 } from 'uuid';
@@ -9,6 +10,23 @@ import remarkHTML from 'remark-html';
 import Carousel from 'nuka-carousel';
 import Migration from '../pages/migration'
 // import Migration from '../components/Migration'
+
+const TextContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:  white;
+  position: relative;
+  span::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+  }
+`;
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
@@ -124,7 +142,7 @@ export class IndexPageTemplate extends React.Component {
           </div>
           <div className='d-inline-block text-center banner-right'>
             <div className='d-block pt-lg-4 pb-lg-0 pb-3 banner-services'>
-              <div className='row'>
+              {/* <div className='row'>
                 {bannercontent.service &&
                   bannercontent.service.map((service) => (
                     <div key={v4()} className='col-md-6 col-sm-6 col-12'>
@@ -148,7 +166,30 @@ export class IndexPageTemplate extends React.Component {
                       </div>
                     </div>
                   ))}
+              </div> */}
+              <div className='number-section'>
+                <div className='count-section mb-3'>
+                 <span></span>
+                <div>
+                <h5>Single Control Plane to manage all</h5>
+                <p>Xformation addresses the operational and security challenges of managing:</p>
+                <ul>
+                  <li>Multiple Clouds/Products/Environments/Cloud Native Services</li>
+                  <li>
+                  Multiple Kubernetes clusters across any infrastructure.
+                  </li>
+                </ul>
+                  </div>
+                </div>
+
+                <div className='count-section'>
+                  <span></span>
+                <div>
+                <h5>DevSecOps ToolChain</h5>
+                <p>It provides DevSecOps teams with integrated tools for running containerized/serverless workloads.</p>
+                </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
@@ -246,7 +287,7 @@ export class IndexPageTemplate extends React.Component {
           </div>
         </div>
         <div className='d-block py-5 dark-background solutions-container'>
-          <h2 className='d-block text-center py-5'>Solutions</h2>
+          <h2 className='d-block text-center py-5'>Technology Approach</h2>
           <div className='d-block px-md-5 px-3'>
             <div className='row'>
               {solutions &&

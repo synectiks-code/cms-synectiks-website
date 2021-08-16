@@ -599,7 +599,7 @@ export default class Migration extends React.Component {
     return (
       <ModernizationWrapper>
         <>
-          <div className='jumbotron'>
+          {/* <div className='jumbotron'>
             <div className='jumbo-left'>
               <img
                 src='https://res.cloudinary.com/papu/image/upload/b_rgb:ffffff,/v1624456455/new-design/home-page/Images/modernization_epx6qy.jpg'
@@ -619,7 +619,7 @@ export default class Migration extends React.Component {
               />
               <h3>Migration and Modernization</h3>
             </div>
-          </div>
+          </div> */}
 
           <div className='jumbo-block-bottom'>
             <div className='jumbo-text-bottom'>
