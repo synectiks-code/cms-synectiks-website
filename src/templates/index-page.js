@@ -10,10 +10,7 @@ import remarkHTML from 'remark-html';
 import Carousel from 'nuka-carousel';
 import Migration from '../pages/migration'
 // import Migration from '../components/Migration'
-const UlContainer = styled.ul`
 
-
-`;
 const TextContainer = styled.div`
   display: flex;
   flex-direction: row;

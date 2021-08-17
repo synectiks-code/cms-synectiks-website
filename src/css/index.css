@@ -452,11 +452,11 @@ body {
 }
 .number-section span::before {
     content:"0" counter(myCount);
-    border-top: 3px solid #4A5A6F;
+    border-top: 3px solid #5c9ce6;
     counter-increment: myCount 01;
     font-size: 3rem;
     margin: 0 1em;
-    color: #4A5A6F;
+    color: #5c9ce6;
 }
 .count-section{
     display: flex;
@@ -472,7 +472,7 @@ div#ulContainer ul {
   div#ulContainer ul li::before {
     /* \2022 is the CSS Code/unicode for a disc */
     content: "\2022";
-    color: #4A5A6F;
+    color: #5c9ce6;
     display: inline-block;
     width: 1em;
     margin-left: -0.9em;
