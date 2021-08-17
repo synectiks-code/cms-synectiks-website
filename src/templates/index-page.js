@@ -10,7 +10,10 @@ import remarkHTML from 'remark-html';
 import Carousel from 'nuka-carousel';
 import Migration from '../pages/migration'
 // import Migration from '../components/Migration'
+const UlContainer = styled.ul`
 
+
+`;
 const TextContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -173,12 +176,14 @@ export class IndexPageTemplate extends React.Component {
                 <div>
                 <h5>Single Control Plane to manage all</h5>
                 <p>Xformation addresses the operational and security challenges of managing:</p>
+                <div id='ulContainer'>
                 <ul>
                   <li>Multiple Clouds/Products/Environments/Cloud Native Services</li>
                   <li>
                   Multiple Kubernetes clusters across any infrastructure.
                   </li>
                 </ul>
+                </div>
                   </div>
                 </div>
 
