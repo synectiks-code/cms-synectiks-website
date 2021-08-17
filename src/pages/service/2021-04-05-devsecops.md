@@ -11,7 +11,7 @@ bannerdescription: >-
 bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: DevSecops
 whyus:
-  img: https://res.cloudinary.com/papu/image/upload/c_crop,y_0/v1626269527/synectiks-website/Microservice_9_a3rkgj.png
+  img: https://res.cloudinary.com/papu/image/upload/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.svg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
   productdescription: >-
     <!--StartFragment-->  
