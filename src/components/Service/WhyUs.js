@@ -28,6 +28,26 @@ const WhyUs = ({ data }) => {
     }
     return null;
   }
+  function renderConclusions(conclusions) {
+    if (conclusions && conclusions.length > 0) {
+      return conclusions.map((conclusion) => {
+        return (
+          <div key={v4()} className="col-md-4 col-sm-6 col-12 reason-box">
+            <div className="pb-5">
+              <div className="d-block py-3 reason-name">{conclusion.heading}</div>
+              <div className="d-block reason-image">
+                <img src={conclusion.img} alt={conclusion.text} />
+              </div>
+              <div className="d-block reason-description">
+                <HTMLContent content={toHTML(conclusion.description)} />
+              </div>
+            </div>
+          </div>
+        );
+      });
+    }
+    return null;
+  }
   return (
     data ?
       <>
@@ -51,6 +71,9 @@ const WhyUs = ({ data }) => {
                   </div>
                 </div>
                 <div className="col-md-6 col-sm-12">
+                  <HTMLContent className="d-block w-100 content" content={toHTML(data.table)} />
+                </div>
+                 <div className="col-md-6 col-sm-12">
                   <HTMLContent className="d-block w-100 content" content={toHTML(data.description)} />
                 </div>
               </>)}

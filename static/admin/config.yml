@@ -215,6 +215,7 @@ collections:
                 default: false,
               },
               { label: Description, name: description, widget: markdown,default: false, required: false },
+              { label: Table, name: table, widget: markdown,default: false, required: false },
               {
                 label: Product Description,
                 name: productdescription,
@@ -232,6 +233,18 @@ collections:
                     { label: Description, name: description, widget: markdown },
                   ],
               },
+              {
+                label: Conclusions,
+                name: conclusions,
+                widget: list,
+                fields:
+                  [
+                    { label: Image, name: img, widget: string },
+                    { label: Heading, name: heading, widget: string },
+                    { label: Description, name: description, widget: markdown },
+                  ],
+              },
+
               { label: Conclusion, name: conclusion, widget: markdown },
               { label: Conclusion Image, name: conclusionimg, widget: string },
             ],
