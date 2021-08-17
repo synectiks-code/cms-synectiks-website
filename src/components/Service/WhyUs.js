@@ -95,6 +95,16 @@ const WhyUs = ({ data }) => {
             </div>
           </div>
         </div>
+        <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
+          <div className="d-block w-100 px-lg-5 px-2">
+            <h2 className="d-block pt-4 pb-5 reason-header">
+              {data.conclusionstext}
+            </h2>
+            <div className="row">
+              {renderReasons(data.conclusions)}
+            </div>
+          </div>
+        </div>
         <div className="d-block w-100 py-5 px-lg-5 px-3 tab-background finally-help-container">
           <div className="d-block w-100 py-4 px-lg-5 px-2">
             <div className="row align-items-center justify-content-between">
