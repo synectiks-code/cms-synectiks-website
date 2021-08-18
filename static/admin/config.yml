@@ -234,13 +234,13 @@ collections:
                   ],
               },
               {
-                label: Conclusions,
-                name: conclusions,
+                label: Conclusiondivs,
+                name: conclusiondivs,
                 widget: list,
                 fields:
                   [
-                    { label: Image, name: img, widget: string },
                     { label: Heading, name: heading, widget: string },
+                    { label: Image, name: img, widget: string },
                     { label: Description, name: description, widget: markdown },
                   ],
               },

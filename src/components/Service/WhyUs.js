@@ -28,18 +28,18 @@ const WhyUs = ({ data }) => {
     }
     return null;
   }
-  function renderConclusions(conclusions) {
-    if (conclusions && conclusions.length > 0) {
-      return conclusions.map((conclusion) => {
+  function renderConclusions(conclusiondivs) {
+    if (conclusiondivs && conclusiondivs.length > 0) {
+      return conclusiondivs.map((conclusiondiv) => {
         return (
           <div key={v4()} className="col-md-6 col-sm-6 col-12 reason-box">
             <div className="pb-5">
-              <div className="d-block py-3 reason-name">{conclusion.heading}</div>
+              <div className="d-block py-3 reason-name">{conclusiondiv.heading}</div>
               <div className="d-block reason-image">
-                <img src={conclusion.img} alt={conclusion.heading} />
+                <img src={conclusiondiv.img} alt={conclusiondiv.heading} />
               </div>
               <div className="d-block reason-description">
-                <HTMLContent content={toHTML(conclusion.description)} />
+                <HTMLContent content={toHTML(conclusiondiv.description)} />
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const WhyUs = ({ data }) => {
         <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
           <div className="d-block w-100 px-lg-5 px-2">
             <div className="row">
-              {renderReasons(data.conclusions)}
+              {renderReasons(data.conclusiondivs)}
             </div>
           </div>
         </div>

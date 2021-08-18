@@ -232,7 +232,7 @@ export const pageQuery = graphql`
             text
             description
           }
-          conclusions {
+          conclusiondivs {
             heading
             img
             description
