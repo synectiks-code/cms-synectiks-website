@@ -130,6 +130,9 @@ whyus:
     - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
       heading: Heading Onw
       description: On pluas  ohones night olor hy his ovladeri diii
+    - img: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
+      heading: Heading Two
+      description: This is conclusion part two let it run on local environment.
   fullimg: true
   reasonstext: |-2
      
