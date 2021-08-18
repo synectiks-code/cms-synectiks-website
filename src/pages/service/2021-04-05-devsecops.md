@@ -3,10 +3,8 @@ templateKey: service-post
 title: DevSecOps
 date: 2021-04-05T17:13:46.269Z
 bannerimage: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
-bannerdescription: >-
-  Our open product based solutioning model, help you innovate and transform
-  with
-
+bannerdescription: |-
+  Our open product based solutioning model, help you innovate and transform with
   speed and quality
 bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: DevSecops
@@ -42,6 +40,7 @@ whyus:
 
 
     <!--EndFragment-->
+  table: This is table option
   reasons:
     - img: https://res.cloudinary.com/papu/image/upload/v1623250228/MicroServices/Expertise_kxl3vj.svg
       text: Expertise
@@ -128,14 +127,14 @@ whyus:
   showblock: true
   conclusions:
     - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
-      heading: Heading Onw
+      heading: Heading One
       description: On pluas  ohones night olor hy his ovladeri diii
     - img: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
       heading: Heading Two
       description: This is conclusion part two let it run on local environment.
   fullimg: true
-  reasonstext: |-2
-
+  reasonstext: |-
+    
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
   description: ""
