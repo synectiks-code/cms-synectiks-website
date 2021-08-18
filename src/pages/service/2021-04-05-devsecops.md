@@ -5,7 +5,7 @@ date: 2021-04-05T17:13:46.269Z
 bannerimage: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
 bannerdescription: >-
   Our open product based solutioning model, help you innovate and transform
-  with 
+  with
 
   speed and quality
 bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
@@ -14,7 +14,7 @@ whyus:
   img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
   productdescription: >-
-    <!--StartFragment-->  
+    <!--StartFragment-->
 
 
     Our Open XFORMATION platform accelerates your DevSecOps transformation journey @50% time & cost. 
@@ -132,7 +132,7 @@ whyus:
       description: On pluas  ohones night olor hy his ovladeri diii
   fullimg: true
   reasonstext: |-2
-     
+
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
   description: ""
