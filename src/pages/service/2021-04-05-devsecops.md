@@ -126,11 +126,11 @@ whyus:
         <!--EndFragment-->
   showblock: true
   conclusiondivs:
-    - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
-      text: Heading One
+    - text: Heading One
+      img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
       description: On pluas  ohones night olor hy his ovladeri diii
-    - img: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
-      text: Heading Two
+    - text: Heading Two
+      img: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
       description: This is conclusion part two let it run on local environment.
   fullimg: true
   reasonstext: |-
