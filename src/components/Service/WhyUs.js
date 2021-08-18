@@ -32,7 +32,7 @@ const WhyUs = ({ data }) => {
     if (conclusions && conclusions.length > 0) {
       return conclusions.map((conclusion) => {
         return (
-          <div key={v4()} className="col-md-4 col-sm-6 col-12 reason-box">
+          <div key={v4()} className="col-md-6 col-sm-6 col-12 reason-box">
             <div className="pb-5">
               <div className="d-block py-3 reason-name">{conclusion.text}</div>
               <div className="d-block reason-image">
