@@ -234,7 +234,7 @@ export const pageQuery = graphql`
             description
           }
           conclusiondivs {
-            heading
+            text
             img
             description
           }
