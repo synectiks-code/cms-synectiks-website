@@ -233,7 +233,6 @@ collections:
                     { label: Description, name: description, widget: markdown },
                   ],
               },
-              { label: Conclusions Header, name: conclusionstext, widget: markdown },
               {
                 label: Conclusions,
                 name: conclusions,

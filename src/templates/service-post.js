@@ -232,7 +232,6 @@ export const pageQuery = graphql`
             text
             description
           }
-          conclusionstext
           conclusions {
             text
             img
