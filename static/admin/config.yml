@@ -233,6 +233,7 @@ collections:
                     { label: Description, name: description, widget: markdown },
                   ],
               },
+                { label: Conclusions Header, name: conclusionstext, widget: markdown },
               {
                 label: Conclusions,
                 name: conclusions,
@@ -240,7 +241,7 @@ collections:
                 fields:
                   [
                     { label: Image, name: img, widget: string },
-                    { label: Heading, name: heading, widget: string },
+                    { label: text, name: text, widget: string },
                     { label: Description, name: description, widget: markdown },
                   ],
               },
