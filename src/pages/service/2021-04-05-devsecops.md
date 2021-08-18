@@ -126,6 +126,10 @@ whyus:
 
         <!--EndFragment-->
   showblock: true
+  conclusions:
+    - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
+      heading: Heading Onw
+      description: On pluas  ohones night olor hy his ovladeri diii
   fullimg: true
   reasonstext: |-2
      
