@@ -9,19 +9,7 @@ bannerdescription: |-
 bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: DevSecops
 whyus:
-  conclusiondivs:
-    - text: Heading One
-      img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
-      description: On pluas  ohones night olor hy his ovladeri diii
-      heading: Heading  One
-    - text: Heading Two
-      img: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
-      description: This is conclusion part two let it run on local environment.
-      heading: Heading Two
-    - heading: Heading Three
-      img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
-      description: Theird Option for Conclusion Div
-      text: Heading Three
+  conclusiondivs: []
   img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
   productdescription: >-
