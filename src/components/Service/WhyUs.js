@@ -15,7 +15,7 @@ const WhyUs = ({ data }) => {
           <div key={v4()} className="col-md-6 col-sm-6 col-12 reason-box">
             <div className="pb-5">
               <div className="d-block py-3 reason-name">{conclusiondiv.text}</div>
-              <div className="d-block reason-image">
+              <div className="d-block">
                 <img src={conclusiondiv.img} alt={conclusiondiv.text} />
               </div>
               <div className="d-block reason-description">
