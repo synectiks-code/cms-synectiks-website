@@ -10,8 +10,8 @@ bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServic
 bannericonname: DevSecops
 whyus:
   conclusiondivs:
-    - img: https://res.cloudinary.com/papu/image/upload/v1623252268/MicroServices/Extreme_Automaton_qaim19.svg
-      text: Heading One
+    - text: Heading One
+      img: https://res.cloudinary.com/papu/image/upload/v1623252268/MicroServices/Extreme_Automaton_qaim19.svg
       description: Heading One Paragraph
   img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
@@ -139,7 +139,7 @@ whyus:
     <!--EndFragment-->
   fullimg: true
   reasonstext: |-
-    
+
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
   description: ""

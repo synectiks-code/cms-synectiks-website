@@ -8,26 +8,6 @@ const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
 const WhyUs = ({ data }) => {
-  function renderReasons(reasons) {
-    if (reasons && reasons.length > 0) {
-      return reasons.map((reason) => {
-        return (
-          <div key={v4()} className="col-md-4 col-sm-6 col-12 reason-box">
-            <div className="pb-5">
-              <div className="d-block reason-image">
-                <img src={reason.img} alt={reason.text} />
-              </div>
-              <div className="d-block py-3 reason-name">{reason.text}</div>
-              <div className="d-block reason-description">
-                <HTMLContent content={toHTML(reason.description)} />
-              </div>
-            </div>
-          </div>
-        );
-      });
-    }
-    return null;
-  }
   function renderConclusions(conclusiondivs) {
     if (conclusiondivs && conclusiondivs.length > 0) {
       return conclusiondivs.map((conclusiondiv) => {
@@ -48,6 +28,27 @@ const WhyUs = ({ data }) => {
     }
     return null;
   }
+  function renderReasons(reasons) {
+    if (reasons && reasons.length > 0) {
+      return reasons.map((reason) => {
+        return (
+          <div key={v4()} className="col-md-4 col-sm-6 col-12 reason-box">
+            <div className="pb-5">
+              <div className="d-block reason-image">
+                <img src={reason.img} alt={reason.text} />
+              </div>
+              <div className="d-block py-3 reason-name">{reason.text}</div>
+              <div className="d-block reason-description">
+                <HTMLContent content={toHTML(reason.description)} />
+              </div>
+            </div>
+          </div>
+        );
+      });
+    }
+    return null;
+  }
+
   return (
     data ?
       <>
@@ -98,7 +99,7 @@ const WhyUs = ({ data }) => {
         <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
           <div className="d-block w-100 px-lg-5 px-2">
             <div className="row">
-              {renderReasons(data.conclusiondivs)}
+              {renderConclusions(data.conclusiondivs)}
             </div>
           </div>
         </div>
