@@ -233,17 +233,17 @@ collections:
                     { label: Description, name: description, widget: markdown },
                   ],
               },
-              # {
-              #   label: Conclusiondivs,
-              #   name: conclusiondivs,
-              #   widget: list,
-              #   fields:
-              #     [
-              #       { label: Text, name: text, widget: string },
-              #       { label: Image, name: img, widget: string },
-              #       { label: Description, name: description, widget: markdown },
-              #     ],
-              # },
+              {
+                label: Conclusiondivs,
+                name: conclusiondivs,
+                widget: list,
+                fields:
+                  [
+                    { label: Text, name: text, widget: string },
+                    { label: Image, name: img, widget: string },
+                    { label: Description, name: description, widget: markdown },
+                  ],
+              },
               { label: Conclusion, name: conclusion, widget: markdown },
               { label: Conclusion Image, name: conclusionimg, widget: string },
             ],
