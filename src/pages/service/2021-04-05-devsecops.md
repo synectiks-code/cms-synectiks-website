@@ -5,14 +5,32 @@ date: 2021-04-05T17:13:46.269Z
 bannerimage: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
 bannerdescription: |-
   Our open product based solutioning model, help you innovate and transform with
-  speed and quality
+  speed and quality df
 bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: DevSecops
 whyus:
   listdivs:
     - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
-      text: List Ui ibe
-      description: List Ui ibe description
+      text: NEED
+      description: >-
+        <!--StartFragment-->
+
+
+        * Right Technology+People+Process to adopt DevSecOps Strategy for Business Agility, Security, Reliability and Resilience at optimal economics.
+
+
+        <!--EndFragment-->
+    - description: >-
+        <!--StartFragment-->
+
+
+        * Synectiks open DevSecOps platform deliver one stop solutions for DevSecOps Tooling.
+
+        * Open product coupled with experience and expertise optimize DevSecOps enablement.
+
+
+        <!--EndFragment-->
+      text: SOLUTION
   conclusiondivs:
     - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
       text: Heading One
@@ -25,32 +43,10 @@ whyus:
       description: Heading Three Paragraph
   img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
-  productdescription: >-
-    <!--StartFragment-->
+  productdescription: >-2
+     <!--StartFragment-->
 
-
-    Our Open XFORMATION platform accelerates your DevSecOps transformation journey @50% time & cost. 
-
-
-    NEED 
-
-
-    Right Technology / People / Process to implement DevSecOps Strategy that help to operate faster and offers maximum Security. Innovation Speed at Optimal economics. 
-
-
-    SOLUTION 
-
-
-    Synectiks open platform and specialized resources accelerate technology and cultural transformation for DevSecOps adoption. Whether it is a new business application or transformation of legacy applications, our open platform coupled with our experience and expertise accelerate the project execution @50% time & cost.
-
-
-    <!--EndFragment-->
-
-
-    <!--StartFragment-->
-
-
-    To maintain the competitive edge in a highly dynamic market, business need to re-imagine the customer experience in lower economics. Enterprises looking for adopting DevSecOps and operate in more fast and competitive way, can use the Synectiks open platform and specialized resources to bring the technology and cultural transformation and gain agility needed for today’s business. Synectiks build the most powerful open product that helps customers to provision resources across clouds in complete software defined way and deliver modern container and FAAS driven workloads on it. The platform takes care of continuous delivery, test automation, continuous security and continuous compliance and does continuous automation to make sure the workload runs seamlessly with highest security, performance, scalability, and availability. 
+    To maintain the competitive edge in a highly dynamic market, business need to re-imagine the customer experience in lower economics. Enterprises looking for adopting DevSecOps strategy to operate in more fast and competitive way, can use the Synectiks open platform and specialized resources to bring the technology and cultural transformation and gain agility needed for today’s business.Synectiks build the most powerful open product that helps customers to provision resources across clouds in complete software defined way and deliver modern container and FAAS driven workloads on it. The platform takes care of cloud native rapid application development, Continuous delivery, Continous automation, continuous security and continuous compliance to make sure the workload runs seamlessly with highest security, performance, scalability, and availability and resilience.
 
 
     <!--EndFragment-->
@@ -152,10 +148,17 @@ whyus:
       description: text description
   fullimg: true
   reasonstext: |-
-
+    
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
-  description: ""
+  description: >-
+    <!--StartFragment-->
+
+
+    Synectiks Open XFORMATION platform helps your DevSecOps enablement @50% time & cost.
+
+
+    <!--EndFragment-->
   conclusion: This is Conclusion
 resources:
   showblock: true
