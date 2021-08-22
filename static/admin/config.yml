@@ -244,6 +244,7 @@ collections:
                     { label: Description, name: description, widget: markdown },
                   ],
               },
+              { label: Conclusiondivs Text, name: conclusiondivstext, widget: markdown},
               {
                 label: Conclusiondivs,
                 name: conclusiondivs,
