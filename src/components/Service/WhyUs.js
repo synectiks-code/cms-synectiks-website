@@ -27,16 +27,19 @@ const WhyUs = ({ data }) => {
       });
     }
     return null;
-  }function renderProductPoints(productPoints) {
-    if (productPoints && productPoints.length > 0) {
-      return productPoints.map((productPoint) => {
+  }
+  function renderList(listdivs) {
+    if (listdivs && listdivs.length > 0) {
+      return listdivs.map((listdiv) => {
         return (
           <div key={v4()} className="col-md-6 col-sm-6 col-12 reason-box">
             <div className="pb-5">
-              <div className="d-block py-3 reason-name">{productPoints.heading}</div>
-              <div className="d-block py-3 reason-name">{productPoints.text}</div>
+              <div className="d-block py-3 reason-name">{listdivs.text}</div>
+              <div className="d-block">
+                <img src={listdivs.img} alt={listdivs.text} />
+              </div>
               <div className="d-block reason-description">
-                <HTMLContent content={toHTML(productPoints.description)} />
+                <HTMLContent content={toHTML(listdivs.description)} />
               </div>
             </div>
           </div>

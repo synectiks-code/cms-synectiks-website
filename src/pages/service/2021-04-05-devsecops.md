@@ -9,6 +9,8 @@ bannerdescription: |-
 bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: DevSecops
 whyus:
+  productPoints:
+
   conclusiondivs:
     - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
       text: Heading One
@@ -148,7 +150,7 @@ whyus:
       description: text description
   fullimg: true
   reasonstext: |-
-    
+
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
   description: ""

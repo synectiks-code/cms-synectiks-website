@@ -226,8 +226,8 @@ export const pageQuery = graphql`
           fullimg
           description
           productdescription
-          productPoints {
-            heading
+          listdivs {
+            img
             text
             description
           }
