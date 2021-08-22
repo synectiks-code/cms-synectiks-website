@@ -34,12 +34,9 @@ const WhyUs = ({ data }) => {
         return (
           <div key={v4()} className="col-md-6 col-sm-6 col-12 reason-box">
             <div className="pb-5">
-              <div className="d-block py-3 reason-name">{listdivs.text}</div>
-              <div className="d-block">
-                <img src={listdivs.img} alt={listdivs.text} />
-              </div>
+              <div className="d-block py-3 reason-name">{listdiv.text}</div>
               <div className="d-block reason-description">
-                <HTMLContent content={toHTML(listdivs.description)} />
+                <HTMLContent content={toHTML(listdiv.description)} />
               </div>
             </div>
           </div>
@@ -91,13 +88,17 @@ const WhyUs = ({ data }) => {
                     <img src={data.img} alt="" />
                   </div>
                 </div>
-                <div className="col-md-6 col-sm-12">
-                  <HTMLContent className="d-block w-100 content" content={toHTML(data.table)} />
-                </div>
                  <div className="col-md-6 col-sm-12">
                   <HTMLContent className="d-block w-100 content" content={toHTML(data.description)} />
                 </div>
               </>)}
+              <div className="d-block w-100 py-5 px-lg-5 px-3">
+          <div className="d-block w-100 px-lg-5 px-2">
+            <div className="row">
+              {renderList(data.listdivs)}
+            </div>
+          </div>
+        </div>
             </div>
           </div>
         </div>
@@ -106,14 +107,7 @@ const WhyUs = ({ data }) => {
             <HTMLContent content={toHTML(data.productdescription)} />
           </div>
         </div>
-        <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
-          <div className="d-block w-100 px-lg-5 px-2">
-
-            <div className="row">
-              {renderList(data.listdivs)}
-            </div>
-          </div>
-        </div>     <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
+           <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
           <div className="d-block w-100 px-lg-5 px-2">
             <h2 className="d-block pt-4 pb-5 reason-header">
               {data.reasonstext}
