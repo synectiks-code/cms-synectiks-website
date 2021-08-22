@@ -32,11 +32,13 @@ const WhyUs = ({ data }) => {
     if (listdivs && listdivs.length > 0) {
       return listdivs.map((listdiv) => {
         return (
-          <div key={v4()} className="col-md-6 col-sm-6 col-12 reason-box">
-            <div className="pb-5">
-              <div className="d-block py-3 reason-name">{listdiv.text}</div>
-              <div className="d-block reason-description">
+          <div key={v4()} className="">
+            <div className="list-box">
+              <div className="d-block py-3 list-box-name">{listdiv.text}</div>
+              <div className="d-block">
+                <div>
                 <HTMLContent content={toHTML(listdiv.description)} />
+                </div>
               </div>
             </div>
           </div>
@@ -92,18 +94,17 @@ const WhyUs = ({ data }) => {
                   <HTMLContent className="d-block w-100 content" content={toHTML(data.description)} />
                 </div>
               </>)}
-              <div className="d-block w-100 py-5 px-lg-5 px-3">
-          <div className="d-block w-100 px-lg-5 px-2">
-            <div className="row">
+
+          <div className="d-list-grid">
               {renderList(data.listdivs)}
+        </div>
+
             </div>
           </div>
         </div>
-            </div>
-          </div>
-        </div>
-        <div className="d-block w-100 py-4 px-lg-5 px-3 tab-background solutioning-container">
+        <div className="d-block w-100 py-4 px-lg-5 px-3 teal-background">
           <div className="d-block w-100 px-lg-5 px-2">
+          <span className='up-sym'>&#9650;</span>
             <HTMLContent content={toHTML(data.productdescription)} />
           </div>
         </div>
