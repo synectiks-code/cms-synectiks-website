@@ -50,8 +50,6 @@ whyus:
 
 
     <!--EndFragment-->
-
-  # table: This is table option
   reasons:
     - img: https://res.cloudinary.com/papu/image/upload/v1623250228/MicroServices/Expertise_kxl3vj.svg
       text: Expertise
@@ -144,9 +142,13 @@ whyus:
 
 
     <!--EndFragment-->
+  productpoints:
+    - heading: heading
+      text: text
+      description: text description
   fullimg: true
   reasonstext: |-
-
+    
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
   description: ""
