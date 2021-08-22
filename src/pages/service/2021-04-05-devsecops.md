@@ -143,6 +143,10 @@ whyus:
 
 
     <!--EndFragment-->
+  productpoints:
+    - heading: heading one
+      text: test one
+      description: list product
   fullimg: true
   reasonstext: |-
     
