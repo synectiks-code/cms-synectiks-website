@@ -232,7 +232,6 @@ export const pageQuery = graphql`
             description
           }
           reasonstext
-
           reasons {
             img
             text

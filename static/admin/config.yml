@@ -215,14 +215,13 @@ collections:
                 default: false,
               },
               { label: Description, name: description, widget: markdown,default: false, required: false },
-
             {
                 label: ProductPoints,
                 name: productpoints,
                 widget: list,
                 fields:
                   [
-                    { label: Heading, name: heading, widget: string,required: false },
+                    { label: Heading, name: heading, widget: string},
                     { label: Text, name: text, widget: string },
                     { label: Description, name: description, widget: markdown },
                   ],
