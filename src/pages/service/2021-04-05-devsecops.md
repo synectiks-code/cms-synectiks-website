@@ -5,7 +5,7 @@ date: 2021-04-05T17:13:46.269Z
 bannerimage: https://res.cloudinary.com/papu/image/upload/v1620120944/new-design/hybrid-cloud/banner-img_zhctqv.jpg
 bannerdescription: |-
   Our open product based solutioning model, help you innovate and transform with
-  speed and quality
+  speed and quality df
 bannericon: https://res.cloudinary.com/papu/image/upload/v1621495879/MicroServices/Microservices_Icon_kzd66o.svg
 bannericonname: DevSecops
 whyus:
@@ -152,7 +152,7 @@ whyus:
       description: text description
   fullimg: true
   reasonstext: |-
-
+    
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
   description: ""
