@@ -110,7 +110,7 @@ const WhyUs = ({ data }) => {
           <div className="d-block w-100 px-lg-5 px-2">
 
             <div className="row">
-              {renderProductPoints(data.productPoints)}
+              {renderList(data.listdivs)}
             </div>
           </div>
         </div>     <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
