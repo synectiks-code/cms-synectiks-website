@@ -215,7 +215,18 @@ collections:
                 default: false,
               },
               { label: Description, name: description, widget: markdown,default: false, required: false },
-              { label: Table, name: table, widget: markdown,default: false, required: false },
+
+            {
+                label: ProductPoints,
+                name: productpoints,
+                widget: list,
+                fields:
+                  [
+                    { label: Heading, name: heading, widget: string,required: false },
+                    { label: Text, name: text, widget: string },
+                    { label: Description, name: description, widget: markdown },
+                  ],
+              },
               {
                 label: Product Description,
                 name: productdescription,

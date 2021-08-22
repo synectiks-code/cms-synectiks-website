@@ -226,8 +226,13 @@ export const pageQuery = graphql`
           fullimg
           description
           productdescription
-          table
+          productPoints {
+            heading
+            text
+            description
+          }
           reasonstext
+
           reasons {
             img
             text

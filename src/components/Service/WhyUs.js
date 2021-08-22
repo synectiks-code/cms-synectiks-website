@@ -27,6 +27,23 @@ const WhyUs = ({ data }) => {
       });
     }
     return null;
+  }function renderProductPoints(productPoints) {
+    if (productPoints && productPoints.length > 0) {
+      return productPoints.map((productPoint) => {
+        return (
+          <div key={v4()} className="col-md-6 col-sm-6 col-12 reason-box">
+            <div className="pb-5">
+              <div className="d-block py-3 reason-name">{productPoints.heading}</div>
+              <div className="d-block py-3 reason-name">{productPoints.text}</div>
+              <div className="d-block reason-description">
+                <HTMLContent content={toHTML(productPoints.description)} />
+              </div>
+            </div>
+          </div>
+        );
+      });
+    }
+    return null;
   }
   function renderReasons(reasons) {
     if (reasons && reasons.length > 0) {
@@ -87,6 +104,15 @@ const WhyUs = ({ data }) => {
           </div>
         </div>
         <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
+          <div className="d-block w-100 px-lg-5 px-2">
+            <h2 className="d-block pt-4 pb-5 reason-header">
+              {data.reasonstext}
+            </h2>
+            <div className="row">
+              {renderProductPoints(data.productPoints)}
+            </div>
+          </div>
+        </div>     <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
           <div className="d-block w-100 px-lg-5 px-2">
             <h2 className="d-block pt-4 pb-5 reason-header">
               {data.reasonstext}
