@@ -42,7 +42,7 @@ whyus:
 
 
         <!--EndFragment-->
-    - img: https://res.cloudinary.com/papu/image/upload/v1629700901/hybrid-cloud/whyus/DevSecOps_image1_mjwu3n.svg
+    - img: https://res.cloudinary.com/papu/image/upload/v1629715505/hybrid-cloud/whyus/MicrosoftTeams-image_6_fn52ba.jpg
       text: Cultural Transformation
       description: >-
         <!--StartFragment-->
@@ -52,7 +52,7 @@ whyus:
 
 
         <!--EndFragment-->
-  img: https://res.cloudinary.com/papu/image/upload/v1629700901/hybrid-cloud/whyus/DevSecOps_MainBG_dglws4.jpg
+  img: https://res.cloudinary.com/papu/image/upload/v1629715400/hybrid-cloud/whyus/DevSecOps_MainBG_fukas7.png
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
   productdescription: >-2
      <!--StartFragment-->
