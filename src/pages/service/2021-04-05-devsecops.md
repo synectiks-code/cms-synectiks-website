@@ -52,7 +52,7 @@ whyus:
 
 
         <!--EndFragment-->
-  img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
+  img: https://res.cloudinary.com/papu/image/upload/v1629700901/hybrid-cloud/whyus/DevSecOps_MainBG_dglws4.svg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
   productdescription: >-2
      <!--StartFragment-->
