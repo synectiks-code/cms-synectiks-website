@@ -380,7 +380,7 @@ gettingstarted:
 
 
         <!--EndFragment-->
-    - img: https://res.cloudinary.com/papu/image/upload/v1625227683/new-design/hybrid-cloud/10_tgw1ih.png
+    - img: https://res.cloudinary.com/papu/image/upload/v1629703171/hybrid-cloud/whyus/MicrosoftTeams-image_5_nmiczm.jpg
       description: >-
         <!--StartFragment-->
 
