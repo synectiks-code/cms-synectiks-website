@@ -32,10 +32,11 @@ whyus:
         <!--EndFragment-->
       text: SOLUTION
   conclusiondivs:
-    - img: https://res.cloudinary.com/papu/image/upload/v1629700901/hybrid-cloud/whyus/DevSecOps_image1_mjwu3n.svg
+    - img: https://res.cloudinary.com/papu/image/upload/v1629710175/hybrid-cloud/whyus/Technology_Shift_nzlzmd.jpg
       text: Technology Transformation
       description: >-
-        <!--StartFragment-->\
+        <!--StartFragment-->
+
 
         Small services delivered in an extreme agile manner and run in multi cloud hybrid ecosystem in lowest Capex & Opex with the highest security.
 
