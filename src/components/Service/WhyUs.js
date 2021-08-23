@@ -14,11 +14,11 @@ const WhyUs = ({ data }) => {
         return (
           <div key={v4()} className="col-md-6 col-sm-6 col-12 reason-box">
             <div className="pb-5">
-              <div className="d-block py-3 reason-name">{conclusiondiv.text}</div>
+              <div className="d-block py-3 reason-name teal">{conclusiondiv.text}</div>
               <div className="d-block">
                 <img src={conclusiondiv.img} alt={conclusiondiv.text} />
               </div>
-              <div className="d-block reason-description">
+              <div className="d-block reason-description text-black">
                 <HTMLContent content={toHTML(conclusiondiv.description)} />
               </div>
             </div>
@@ -118,7 +118,7 @@ const WhyUs = ({ data }) => {
             </div>
           </div>
         </div>
-        <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
+        <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-background">
           <div className="d-block w-100 px-lg-5 px-2">
             <div className="row">
               {renderConclusions(data.conclusiondivs)}
@@ -142,7 +142,7 @@ const WhyUs = ({ data }) => {
           </div>
         </div>
       </> :
-      <div>No data</div>
+      <div>No data </div>
   );
 };
 
