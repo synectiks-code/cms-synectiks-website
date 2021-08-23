@@ -75,39 +75,44 @@ const WhyUs = ({ data }) => {
           <div className="d-block w-100 px-lg-5 px-2">
             <div className="row align-items-center justify-content-between">
               {data.fullimg &&(<>
-                <div className="col-md-12 col-sm-12">
-                  <div className="d-inline-block bg-white hybrid-cloud-image">
+                <div className="col-md-12 col-sm-12 p-0">
+                  <div className="d-inline-block bg-white hybrid-cloud-image m-0">
                     <img src={data.img} alt="" />
                   </div>
                 </div>
-                <div className="col-md-12 col-sm-12">
+                {/* <div className="col-md-12 col-sm-12">
                   <HTMLContent className="d-block w-100 content" content={toHTML(data.description)} />
-                </div>
+                </div> */}
               </>)}
               {!data.fullimg &&(<>
-                <div className="col-md-6 col-sm-12">
-                  <div className="d-inline-block bg-white hybrid-cloud-image">
+                <div className="col-md-12 col-sm-12 p-0 ">
+                  <div className="d-inline-block bg-white hybrid-cloud-image m-0">
                     <img src={data.img} alt="" />
                   </div>
                 </div>
-                 <div className="col-md-6 col-sm-12">
+              </>)}
+              <div className='listdiv p-0'>
+                <div className='p-0 p-md-5'>
+
+              <div className="col-md-12 col-sm-12">
                   <HTMLContent className="d-block w-100 content" content={toHTML(data.description)} />
                 </div>
-              </>)}
-
-          <div className="d-list-grid">
-              {renderList(data.listdivs)}
-        </div>
-
-            </div>
-          </div>
-        </div>
-        <div className="d-block w-100 py-4 px-lg-5 px-3 teal-background">
+                <div className="d-list-grid my-3 my-md-5">
+                  {renderList(data.listdivs)}
+                </div>
+              </div>
+      <div className="d-block w-100 py-4 px-lg-5 px-3 teal-background">
           <div className="d-block w-100 px-lg-5 px-2">
           <span className='up-sym'>&#9650;</span>
             <HTMLContent content={toHTML(data.productdescription)} />
           </div>
         </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
            <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-dark-background">
           <div className="d-block w-100 px-lg-5 px-2">
             <h2 className="d-block pt-4 pb-5 reason-header">
