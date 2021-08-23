@@ -45,10 +45,7 @@ whyus:
     - img: https://res.cloudinary.com/papu/image/upload/v1629700901/hybrid-cloud/whyus/DevSecOps_image1_mjwu3n.svg
       text: Cultural Transformation
       description: >-
-        <!--StartFragment-->
-
-
-        \
+        <!--StartFragment-->\
 
         A culture with less roles, much E2E responsibilities, which innovates fast accepting high speed feedback and respond with super-fast delivery coupled with stringent security and lower economics.
 
