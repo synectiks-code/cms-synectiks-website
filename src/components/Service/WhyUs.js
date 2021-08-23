@@ -32,14 +32,14 @@ const WhyUs = ({ data }) => {
     if (listdivs && listdivs.length > 0) {
       return listdivs.map((listdiv) => {
         return (
-          <div key={v4()} className="">
-            <div className="list-box">
+          <div key={v4()} className="list-box">
+
               <div className="d-block py-3 list-box-name">{listdiv.text}</div>
               <div className="d-block">
                 <div>
                 <HTMLContent content={toHTML(listdiv.description)} />
                 </div>
-              </div>
+
             </div>
           </div>
         );
