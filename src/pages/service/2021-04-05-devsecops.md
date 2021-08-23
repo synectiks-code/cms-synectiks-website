@@ -33,14 +33,23 @@ whyus:
       text: SOLUTION
   conclusiondivs:
     - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
-      text: Heading One
-      description: Heading One Paragraph
+      text: Technology Transformation
+      description: >-
+        <!--StartFragment-->\
+
+        Small services delivered in an extreme agile manner and run in multi cloud hybrid ecosystem in lowest Capex & Opex with the highest security.
+
+
+        <!--EndFragment-->
     - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
-      text: Heading Two
-      description: Heading Two Paragraph
-    - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
-      text: Heading Three
-      description: Heading Three Paragraph
+      text: Cultural Transformation
+      description: >-
+        <!--StartFragment-->\
+
+        A culture with less roles, much E2E responsibilities, which innovates fast accepting high speed feedback and respond with super-fast delivery coupled with stringent security and lower economics.
+
+
+        <!--EndFragment-->
   img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
   productdescription: >-2
