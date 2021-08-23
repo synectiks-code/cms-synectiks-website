@@ -41,7 +41,7 @@ whyus:
 
 
         <!--EndFragment-->
-    - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
+    - img: https://res.cloudinary.com/papu/image/upload/v1629700901/hybrid-cloud/whyus/DevSecOps_image1_mjwu3n.svg
       text: Cultural Transformation
       description: >-
         <!--StartFragment-->\
