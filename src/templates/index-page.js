@@ -167,7 +167,8 @@ export class IndexPageTemplate extends React.Component {
                     </div>
                   ))}
               </div> */}
-              <div className='number-section'>
+
+              {/* <div className='number-section'>
                 <div className='count-section mb-3'>
                  <span></span>
                 <div>
@@ -191,6 +192,9 @@ export class IndexPageTemplate extends React.Component {
                 <p>It provides DevSecOps teams with integrated tools for running containerized/serverless workloads.</p>
                 </div>
               </div>
+            </div> */}
+            <div className='pl-3'>
+              <img src='https://res.cloudinary.com/papu/image/upload/v1629812443/hybrid-cloud/whyus/MicrosoftTeams-image_8_joonlo.jpg'/>
             </div>
             </div>
           </div>
