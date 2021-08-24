@@ -460,6 +460,13 @@ img {
     text-align: center;
     top: -0.69em;
   }
+  .down-sym {
+    font-size: 4rem;
+    color: teal;
+    position: absolute;
+    text-align: center;
+    bottom: -0.69em;
+  }
 .list-box-name {
     color: white;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#008080+97,ffffff+97 */

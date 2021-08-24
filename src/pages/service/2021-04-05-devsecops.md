@@ -167,7 +167,7 @@ whyus:
       description: text description
   fullimg: true
   reasonstext: |-
-    
+
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
   description: >-

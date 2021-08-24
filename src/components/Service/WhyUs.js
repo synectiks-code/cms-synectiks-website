@@ -4,7 +4,7 @@ import { v4 } from 'uuid';
 import remark from 'remark';
 import remarkHTML from 'remark-html';
 import { HTMLContent } from '../Content';
-import { GoTriangleUp } from "react-icons/go";
+import { GoTriangleUp,GoTriangleDown } from "react-icons/go";
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
@@ -127,6 +127,9 @@ const WhyUs = ({ data }) => {
         </div>
         <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-background">
           <div className="d-block w-100 px-lg-5 px-2">
+          <div className="d-block pt-4 pb-5 teal-background">
+             <div className="d-flex flex-column justify-content-center align-items-center px-lg-5 px-2">
+          <GoTriangleDown className='down-sym'/> {data.conclusiondivstext}</div></div>
             <div className="row">
               {renderConclusions(data.conclusiondivs)}
             </div>
