@@ -4,6 +4,7 @@ import { v4 } from 'uuid';
 import remark from 'remark';
 import remarkHTML from 'remark-html';
 import { HTMLContent } from '../Content';
+import { GoTriangleUp } from "react-icons/go";
 const toHTML = (value) =>
   remark().use(remarkHTML).processSync(value).toString();
 
@@ -18,7 +19,7 @@ const WhyUs = ({ data }) => {
               <div className="d-block">
                 <img src={conclusiondiv.img} alt={conclusiondiv.text} />
               </div>
-              <div className="d-block reason-description text-black">
+              <div className="d-block reason-description text-black my-3">
                 <HTMLContent content={toHTML(conclusiondiv.description)} />
               </div>
             </div>
@@ -97,13 +98,14 @@ const WhyUs = ({ data }) => {
               <div className="col-md-12 col-sm-12">
                   <HTMLContent className="d-block w-100 content" content={toHTML(data.description)} />
                 </div>
-                <div className="d-list-grid my-3 my-md-5">
+                <div className="d-list-grid my-3">
                   {renderList(data.listdivs)}
                 </div>
               </div>
       <div className="d-block w-100 py-4 px-lg-5 px-3 teal-background">
-          <div className="d-block w-100 px-lg-5 px-2">
-          <span className='up-sym'>&#9650;</span>
+          <div className="d-flex flex-column justify-content-center align-items-center px-lg-5 px-2">
+          <GoTriangleUp className='up-sym'/>
+          {/* <span className='up-sym'>&#9650;</span> */}
             <HTMLContent content={toHTML(data.productdescription)} />
           </div>
         </div>
