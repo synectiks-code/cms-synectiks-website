@@ -61,14 +61,11 @@ whyus:
 
 
     <!--EndFragment-->
-  conclusiondivstext: >-
-    <!--StartFragment-->
-
-
-    Finally, we help you to do Technology/Cultural transformation at a speed and lower cost using CloudOps delivery enabled with DevSecOps capabilities. Xformation Platform allows to quickly build and deliver and orchestrate cross cloud services, at-scale, repeatable offerings and solutions that help to drive your DevSecOps journey @50% time & cost.
-
-
-    <!--EndFragment-->
+  conclusiondivstext: Finally, we help you to do Technology/Cultural
+    transformation at a speed and lower cost using CloudOps delivery enabled
+    with DevSecOps capabilities. Xformation Platform allows to quickly build and
+    deliver and orchestrate cross cloud services, at-scale, repeatable offerings
+    and solutions that help to drive your DevSecOps journey @50% time & cost.
   reasons:
     - img: https://res.cloudinary.com/papu/image/upload/v1623250228/MicroServices/Expertise_kxl3vj.svg
       text: Expertise
