@@ -37,10 +37,7 @@ const WhyUs = ({ data }) => {
 
               <div className="d-block py-3 list-box-name">{listdiv.text}</div>
               <div className="d-block">
-                <div>
-                <HTMLContent content={toHTML(listdiv.description)} />
-                </div>
-
+                <HTMLContent  className='listdiv-paragraph py-3 px-2' content={toHTML(listdiv.description)} />
             </div>
           </div>
         );
@@ -106,7 +103,9 @@ const WhyUs = ({ data }) => {
           <div className="d-flex flex-column justify-content-center align-items-center px-lg-5 px-2">
           <GoTriangleUp className='up-sym'/>
           {/* <span className='up-sym'>&#9650;</span> */}
+          <div className='list-div-product'>
             <HTMLContent content={toHTML(data.productdescription)} />
+          </div>
           </div>
         </div>
               </div>
@@ -125,11 +124,13 @@ const WhyUs = ({ data }) => {
             </div>
           </div>
         </div>
-        <div className="d-block w-100 py-5 px-lg-5 px-3 text-center tab-background">
+        <div className="d-block w-100 pb-5 text-center tab-background">
+          <div className="d-block py-5 teal-background">
+             <div className="d-flex flex-column justify-content-center align-items-center px-lg-5 px-2 text-justify">
+          <GoTriangleDown className='down-sym'/> {data.conclusiondivstext}
+          </div>
+          </div>
           <div className="d-block w-100 px-lg-5 px-2">
-          <div className="d-block pt-4 pb-5 teal-background">
-             <div className="d-flex flex-column justify-content-center align-items-center px-lg-5 px-2">
-          <GoTriangleDown className='down-sym'/> {data.conclusiondivstext}</div></div>
             <div className="row">
               {renderConclusions(data.conclusiondivs)}
             </div>

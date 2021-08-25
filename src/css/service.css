@@ -445,6 +445,9 @@ img {
 .listdiv{
     border: 3px solid black;
 }
+.list-box p{
+    font-size: 16px;
+}
 .list-box {
     border: 3px solid teal;
 }
@@ -482,6 +485,51 @@ img {
     line-height: 24px;
     font-weight: 400;
     text-align: justify;
+}
+.listdiv-paragraph ul li {
+    color: #3c3c3c;
+    /* set color of list item text */
+
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 16px 1.1225em;
+    /* Give the bullet room on the left hand side */
+
+    padding: 0;
+    position: relative;
+  }
+
+  .listdiv-paragraph ul li::before {
+    color: #006b6e;
+    /* color of bullet or square */
+
+    content: "\2022";
+    /* Unicode of character to precede the list item */
+
+    display: inline-block;
+    font-size: 2em;
+    /* use em or % */
+
+    left: -1.1225em;
+    /* use em, line up bullet flush with left hand side */
+
+    position: absolute;
+    /* Set the bullet positioned absolutely top left */
+
+    top: -0.5em;
+    /* use em or % */
+
+  }
+
+.list-div-product p {
+    color: white;
+    font-size: 16px !important;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: justify;
+}
+.text-justify{
+    text-align: justify !important;
 }
 
 @media (max-width: 1280px) {
