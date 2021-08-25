@@ -130,7 +130,7 @@ const WhyUs = ({ data }) => {
           <GoTriangleDown className='down-sym'/> {data.conclusiondivstext}
           </div>
           </div>
-          <div className="d-block w-100 px-lg-5 px-2">
+          <div className="d-block w-100 px-lg-5 px-2 my-5">
             <div className="row">
               {renderConclusions(data.conclusiondivs)}
             </div>
