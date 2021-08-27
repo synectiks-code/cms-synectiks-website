@@ -64,10 +64,12 @@
 }
 
 .home-container .banner-container .banner-right {
-  width: 55%;
+  width: 57%;
   /* width: 47%; */
 }
-
+.pl{
+  padding-left: 2rem !important;
+}
 .home-container .banner-services .service {
   margin-bottom: 25px;
 }

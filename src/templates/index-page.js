@@ -123,7 +123,7 @@ export class IndexPageTemplate extends React.Component {
     } = this.state;
     return (
       <div className='home-container'>
-        <div className='d-flex w-100 flex-wrap align-items-center justify-content-between px-md-5 px-3 py-lg-4 dark-background banner-container'>
+        <div className='d-flex w-100 flex-wrap align-items-center justify-content-between pl py-lg-4 dark-background banner-container'>
           <div className='d-inline-block banner-left'>
             <div className='d-block py-5 banner-content'>
               <h2>{bannercontent.title}</h2>
