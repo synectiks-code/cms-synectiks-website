@@ -14,15 +14,15 @@
 }
 
 .home-container .banner-container .banner-left {
-  width: 53%;
+  width: 40%;
 }
 
 .home-container .banner-container .banner-content h2 {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 24px;
+  line-height: 36px;
   margin-bottom: 20px;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .home-container .banner-container .banner-right {
-  width: 45%;
+  width: 55%;
   /* width: 47%; */
 }
 
