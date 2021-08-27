@@ -12,55 +12,40 @@ whyus:
   listdivs:
     - img: https://res.cloudinary.com/papu/image/upload/c_scale,h_746,w_1159/v1629193688/new-design/hybrid-cloud/DevSecOps_MainBG_y6iqtc.jpg
       text: NEED
-      description: >-
-        <!--StartFragment-->
-
-
-        * Right Technology+People+Process to adopt DevSecOps Strategy for Business Agility, Security, Reliability and Resilience at optimal economics.
-
-
-        <!--EndFragment-->
+      description: "* Right Technology+People+Process to adopt DevSecOps Strategy for
+        Business Agility, Security, Reliability and Resilience at optimal
+        economics."
     - description: >-
-        <!--StartFragment-->
-
-
-        * Synectiks open DevSecOps platform deliver one stop solutions for DevSecOps Tooling.
+        * Synectiks open DevSecOps platform deliver one stop solutions for
+        DevSecOps Tooling.
 
         * Open product coupled with experience and expertise optimize DevSecOps enablement.
-
-
-        <!--EndFragment-->
       text: SOLUTION
   conclusiondivs:
     - img: https://res.cloudinary.com/papu/image/upload/v1629710175/hybrid-cloud/whyus/Technology_Shift_nzlzmd.jpg
       text: Technology Transformation
-      description: >-
-        <!--StartFragment-->
-
-
-        Small services delivered in an extreme agile manner and run in multi cloud hybrid ecosystem in lowest Capex & Opex with the highest security.
-
-
-        <!--EndFragment-->
+      description: Small services delivered in an extreme agile manner and run in
+        multi cloud hybrid ecosystem in lowest Capex & Opex with the highest
+        security.
     - img: https://res.cloudinary.com/papu/image/upload/v1629715505/hybrid-cloud/whyus/MicrosoftTeams-image_6_fn52ba.jpg
       text: Cultural Transformation
-      description: >-
-        <!--StartFragment-->
-
-
-        A culture with less roles, much E2E responsibilities, which innovates fast accepting high speed feedback and respond with super-fast delivery coupled with stringent security and lower economics.
-
-
-        <!--EndFragment-->
+      description: A culture with less roles, much E2E responsibilities, which
+        innovates fast accepting high speed feedback and respond with super-fast
+        delivery coupled with stringent security and lower economics.
   img: https://res.cloudinary.com/papu/image/upload/v1629715400/hybrid-cloud/whyus/DevSecOps_MainBG_fukas7.png
   conclusionimg: https://res.cloudinary.com/papu/image/upload/v1627044913/synectiks-website/microservices-migration_tlzip4.jpg
-  productdescription: >-2
-     <!--StartFragment-->
-
-    To maintain the competitive edge in a highly dynamic market, business need to re-imagine the customer experience in lower economics. Enterprises looking for adopting DevSecOps strategy to operate in more fast and competitive way, can use the Synectiks open platform and specialized resources to bring the technology and cultural transformation and gain agility needed for today’s business.Synectiks build the most powerful open product that helps customers to provision resources across clouds in complete software defined way and deliver modern container and FAAS driven workloads on it. The platform takes care of cloud native rapid application development, Continuous delivery, Continous automation, continuous security and continuous compliance to make sure the workload runs seamlessly with highest security, performance, scalability, and availability and resilience.
-
-
-    <!--EndFragment-->
+  productdescription: To maintain the competitive edge in a highly dynamic market,
+    business need to re-imagine the customer experience in lower economics.
+    Enterprises looking for adopting DevSecOps strategy to operate in more fast
+    and competitive way, can use the Synectiks open platform and specialized
+    resources to bring the technology and cultural transformation and gain
+    agility needed for today’s business.Synectiks build the most powerful open
+    product that helps customers to provision resources across clouds in
+    complete software defined way and deliver modern container and FAAS driven
+    workloads on it. The platform takes care of cloud native rapid application
+    development, Continuous delivery, Continous automation, continuous security
+    and continuous compliance to make sure the workload runs seamlessly with
+    highest security, performance, scalability, and availability and resilience.
   conclusiondivstext: Finally, we help you to do Technology/Cultural
     transformation at a speed and lower cost using CloudOps delivery enabled
     with DevSecOps capabilities. Xformation Platform allows to quickly build and
@@ -164,17 +149,11 @@ whyus:
       description: text description
   fullimg: true
   reasonstext: |-
-
+    
 
     Top 8 Reasons to select Synectiks as your DevSecOps Partner:
-  description: >-
-    <!--StartFragment-->
-
-
-    Synectiks Open XFORMATION platform helps your DevSecOps enablement @50% time & cost.
-
-
-    <!--EndFragment-->
+  description: Synectiks Open XFORMATION platform helps your DevSecOps enablement
+    @50% time & cost.
   conclusion: This is Conclusion
 resources:
   showblock: true
