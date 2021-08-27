@@ -194,7 +194,7 @@ export class IndexPageTemplate extends React.Component {
               </div>
             </div> */}
             <div className='pl-3'>
-              <img src='https://res.cloudinary.com/papu/image/upload/v1629812443/hybrid-cloud/whyus/MicrosoftTeams-image_8_joonlo.jpg'/>
+              <img src='https://res.cloudinary.com/papu/image/upload/v1630067450/hybrid-cloud/whyus/MicrosoftTeams-image_9_bm58wj.png'/>
             </div>
             </div>
           </div>
