@@ -127,7 +127,7 @@ export class IndexPageTemplate extends React.Component {
           <div className='d-inline-block banner-left'>
             <div className='d-block py-5 banner-content'>
               <h2>{bannercontent.title}</h2>
-              <div
+              <div className='text-justify'
                 dangerouslySetInnerHTML={{ __html: toHTML(bannercontent.text) }}
               />
               <div className='d-flex banner-btns'>
