@@ -108,6 +108,12 @@ collections:
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
+        label: Modules List,
+        name: modules,
+        widget: list,
+        fields:
+          [
+            - {
           label: Actors List,
           name: scenarios,
           widget: list,
@@ -138,6 +144,11 @@ collections:
               },
             ],
         }
+
+          ]
+        }
+
+
       - {
           label: Slider,
           name: slider,
