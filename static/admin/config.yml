@@ -113,12 +113,12 @@ collections:
         widget: list,
         fields:
           [
-            - {
-          label: Actors List,
-          name: scenarios,
-          widget: list,
-          fields:
-            [
+            {
+             label: Actors List,
+             name: scenarios,
+             widget: list,
+             fields:
+             [
               { label: Image, name: img, widget: text },
               { label: Name, name: name, widget: text },
               {
