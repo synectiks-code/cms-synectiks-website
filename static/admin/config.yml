@@ -113,6 +113,7 @@ collections:
         widget: list,
         fields:
           [
+            {label: Module Name, name: modulename, widget: text}
             {
              label: Actors List,
              name: scenarios,
