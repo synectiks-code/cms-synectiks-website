@@ -5,6 +5,7 @@ import Capabilities from '../../img/migration&modernization/capabilities.png';
 import Engagement from '../../img/migration&modernization/engagementmodel.png';
 import CasePage from '../../components/Forms/CaseSlider.js';
 import Carousel from 'nuka-carousel';
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const ModernizationWrapper = styled.div`
   .jumbotron {
@@ -45,17 +46,19 @@ const ModernizationWrapper = styled.div`
   }
   .jumbo-block-bottom {
     padding: 1em 0.5em 3em 0.5em;
-    background-color: #d2d4e0;
+    background-color: #F6F1F1;
     text-align: center;
     margin: 3em 0em;
     .jumbo-text-bottom {
+      background-color: #ECE3E3;
       color: #212529;
       text-align: center;
+      margin-bottom: .5rem;
     }
     .jumbo-bottom {
       padding: 1em 0.5em 0em 0.5em;
       color: #212529;
-      background-color: #d2d4e0;
+      background-color: #F6F1F1;
       text-align: center;
       margin: 1em 0em;
       display: grid;
@@ -64,6 +67,7 @@ const ModernizationWrapper = styled.div`
       grid-gap: 0.4em;
       h3 {
         font-size: 38px;
+        background-color: #ECE3E3 !important;
         margin: 0.2em 0em 1em 0em;
       }
       .app {
@@ -256,6 +260,36 @@ const ModernizationWrapper = styled.div`
       box-shadow: 1px 1px 10px 2px black;
     }
   }
+  #home-Tabs{
+    background-color: #F6F1F1;
+  }
+
+  .firtlist ul li, .secondlist ul li, .thirdlist ul li {
+    background-color: #3E4798;
+    margin-bottom: 1rem;
+    padding: 05px 10px;
+    border-radius: 10px;
+    list-style: none;
+    text-decoration: none;
+    a {
+      color: #f5f5f5;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+  }
+  .nav-tabs .nav-link.active {
+    color: #495057;
+    border-top: 3px solid #8B6239;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+    border-bottom: 2px solid transparent;
+    background-color: transparent;
+  }
+  .nav-tabs .nav-link:hover {
+    /* border-color: transparent; */
+    border-top: 3px solid #8B6239;
+    isolation: isolate;
+  }
   @media (min-width: 768px) {
     .jumbotron {
       grid-template-columns: repeat(2, 1fr);
@@ -293,7 +327,7 @@ const ModernizationWrapper = styled.div`
     }
     .jumbo-block-bottom {
       /* padding: 1em 1.5em 3em 1.5em; */
-      background-color: #d2d4e0;
+      background-color: #F6F1F1;
       text-align: center;
       margin: 3em 0em;
       .jumbo-text-bottom {
@@ -307,6 +341,7 @@ const ModernizationWrapper = styled.div`
         grid-gap: 0.4em;
         h3 {
           font-size: 38px;
+          background-color: #ECE3E3 !important;
           margin: 0.2em 0em 1em 0em;
         }
         .app {
@@ -624,13 +659,25 @@ export default class Migration extends React.Component {
           <div className='jumbo-block-bottom'>
             <div className='jumbo-text-bottom'>
               {/* <img src={Capabilities} alt='' /> */}
-              <h3>Capabilities</h3>
-            </div>
-            {/* <img
-            src='https://res.cloudinary.com/papu/image/upload/bo_10px_solid_rgb:fff/v1624539278/new-design/home-page/Images/capabilities_eh4vwk.jpg'
-            alt=''
-          /> */}
-            <div className='jumbo-bottom'>
+              <h3 className='mb-3'>Solutions</h3>
+            <div id="home-Tabs">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Migration & Modernization</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">DevSecops</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Cloud Computing</button>
+  </li>  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business" type="button" role="tab" aria-controls="contact" aria-selected="false">Business  Apps</button>
+  </li>  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="industry-tab" data-bs-toggle="tab" data-bs-target="#industry" type="button" role="tab" aria-controls="contact" aria-selected="false">Industry Wise</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"> <div className='jumbo-bottom'>
               <div className='capabilities'>
                 <div className='infra-img'>
                   <img
@@ -774,7 +821,71 @@ export default class Migration extends React.Component {
                   </div>
                 </div>
               </div>
+            </div></div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Tab Two...
+          <div className="list-icons" style={{display: 'flex'}}>
+            <div className="firtlist">
+             <ul>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Raid Tools for Microservices</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Workflow Editor</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">WF Engine</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Static Site Editor</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">SDK/Libraries</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">App/Catalogue</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">GitOps</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">CI/CD</a></li>
+
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Continues Test</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Container Management</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Kubernetes Operators</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Code Quality</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Vulnerability</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Environments Management</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Serverless</a></li>
+              </ul>
             </div>
+            <div className="secondlist">
+            <ul>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">RBAC/Multitenancy</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud Environment Security</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Infra Security</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Container Security</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Kubernetes Security</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Code Security - SAST/DAST</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Secrets Vaults</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">App Security</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Data Security</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud Compliance</a></li>
+              </ul>
+            </div>
+             <div className="thirdlist">
+            <ul>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Infra As Code</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Kubernetes Management</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Performance Monitoring</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Log Monitoring</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Tracing</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Toolchain/Workflows</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">ChatOps</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">AI-ops</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud Analytics</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud optimizer</a></li>
+              <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Self Service Provisioning</a></li>
+             </ul>
+            </div>
+          </div>
+  </div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Tab Three...</div>
+  <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">Tab Three...</div>
+  <div class="tab-pane fade" id="industry" role="tabpanel" aria-labelledby="industry-tab">Tab Three...</div>
+</div>
+</div>
+              </div>
+            {/* <img
+            src='https://res.cloudinary.com/papu/image/upload/bo_10px_solid_rgb:fff/v1624539278/new-design/home-page/Images/capabilities_eh4vwk.jpg'
+            alt=''
+          /> */}
+
           </div>
 
           <div className='icons'>

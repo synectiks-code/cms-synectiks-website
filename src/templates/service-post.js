@@ -153,7 +153,7 @@ export const ServicePostTemplate = ({
         </div>
       </div>
       <ScrollTop showAbove={150} />
-      <ScrollBottom showBelow={50} />
+      <ScrollBottom showBelow={150} />
     </React.Fragment>
   );
 };
