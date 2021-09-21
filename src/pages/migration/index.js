@@ -283,10 +283,11 @@ const ModernizationWrapper = styled.div`
     border-left: 2px solid darkgray;
     border-right: 2px solid darkgray;
     border-bottom: 2px solid transparent;
-    background-color: transparent;
+    background-color: #F6F1F1;
   }
   .nav-tabs .nav-link:hover {
     /* border-color: transparent; */
+    background-color: #F6F1F1;
     border-top: 3px solid #8B6239;
     isolation: isolate;
   }
