@@ -264,24 +264,31 @@ const ModernizationWrapper = styled.div`
     background-color: #F6F1F1;
   }
 
-  .firtlist ul li, .secondlist ul li, .thirdlist ul li {
+  .firstlist, .secondlist, .thirdlist{
+    display: flex;
+  }
+  .firstlist ul li, .secondlist ul li, .thirdlist ul li {
     background-color: #3E4798;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     padding: 05px 10px;
     border-radius: 10px;
     list-style: none;
     text-decoration: none;
+    margin-left: 0rem;
+    display: flex;
     a {
       color: #f5f5f5;
       margin-left: 10px;
       text-decoration: none;
+      font-size: 0.7rem;
     }
   }
   .nav-tabs .nav-link.active {
     color: #495057;
     border-top: 3px solid #8B6239;
-    border-left: 2px solid darkgray;
-    border-right: 2px solid darkgray;
+    border-left: 2px solid #dee2e6;
+    border-right: 2px solid #dee2e6;
     border-bottom: 2px solid transparent;
     background-color: #F6F1F1;
   }
@@ -823,9 +830,9 @@ export default class Migration extends React.Component {
                 </div>
               </div>
             </div></div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Tab Two...
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
           <div className="list-icons" style={{display: 'flex'}}>
-            <div className="firtlist">
+            <div className="firstlist">
              <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Raid Tools for Microservices</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Workflow Editor</a></li>
@@ -835,7 +842,10 @@ export default class Migration extends React.Component {
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">App/Catalogue</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">GitOps</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">CI/CD</a></li>
+              </ul>
 
+
+              <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Continues Test</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Container Management</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Kubernetes Operators</a></li>
@@ -855,6 +865,8 @@ export default class Migration extends React.Component {
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Code Security - SAST/DAST</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Secrets Vaults</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">App Security</a></li>
+              </ul>
+              <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Data Security</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud Compliance</a></li>
               </ul>
@@ -869,6 +881,8 @@ export default class Migration extends React.Component {
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Toolchain/Workflows</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">ChatOps</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">AI-ops</a></li>
+              </ul>
+              <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud Analytics</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud optimizer</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Self Service Provisioning</a></li>
