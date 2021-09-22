@@ -263,16 +263,30 @@ const ModernizationWrapper = styled.div`
   #home-Tabs{
     background-color: #F6F1F1;
   }
-
+.dgrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.2rem;
+  margin-top: 1rem;
+}
+  .firstlist img, .secondlist img, .thirdlist img{
+    width: 10% !important;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px !important;
+  }
   .firstlist, .secondlist, .thirdlist{
+    padding: 0.2rem;
     display: flex;
+    flex-direction: column;
+  }
+  .firstlist ul, .secondlist ul, .thirdlist ul{
+    padding-left: 0.3rem;
   }
   .firstlist ul li, .secondlist ul li, .thirdlist ul li {
     background-color: #3E4798;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    padding: 05px 10px;
-    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
     list-style: none;
     text-decoration: none;
     margin-left: 0rem;
@@ -283,6 +297,14 @@ const ModernizationWrapper = styled.div`
       text-decoration: none;
       font-size: 0.7rem;
     }
+  }
+  .listgroup{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid #d2d4e0;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 10px;
   }
   .nav-tabs .nav-link.active {
     color: #495057;
@@ -297,6 +319,19 @@ const ModernizationWrapper = styled.div`
     background-color: #F6F1F1;
     border-top: 3px solid #8B6239;
     isolation: isolate;
+  }
+  .dev-image{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      width: 15vw !important;
+      box-shadow: none !important;
+      border: none !important;
+    }
+
   }
   @media (min-width: 768px) {
     .jumbotron {
@@ -831,8 +866,13 @@ export default class Migration extends React.Component {
               </div>
             </div></div>
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-          <div className="list-icons" style={{display: 'flex'}}>
+    <div className='dev-image'><img src="https://res.cloudinary.com/papu/image/upload/v1632237249/cms-xformation/index-page/DevSecOps_icon_lkqelq.svg" alt="" />
+    <h4>DevSecOps</h4>
+    </div>
+          <div className="list-icons dgrid">
             <div className="firstlist">
+              <div><img src="https://res.cloudinary.com/papu/image/upload/v1632237248/cms-xformation/index-page/Dev_icon_jaeabg.svg" alt="" /></div>
+<div className='listgroup'>
              <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Raid Tools for Microservices</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Workflow Editor</a></li>
@@ -843,8 +883,6 @@ export default class Migration extends React.Component {
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">GitOps</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">CI/CD</a></li>
               </ul>
-
-
               <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Continues Test</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Container Management</a></li>
@@ -854,8 +892,11 @@ export default class Migration extends React.Component {
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Environments Management</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Serverless</a></li>
               </ul>
+              </div>
             </div>
             <div className="secondlist">
+              <div><img src="https://res.cloudinary.com/papu/image/upload/v1632237249/cms-xformation/index-page/Sec_icon_srr88l.svg" alt="" /></div>
+              <div className='listgroup'>
             <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">RBAC/Multitenancy</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud Environment Security</a></li>
@@ -870,8 +911,11 @@ export default class Migration extends React.Component {
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Data Security</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud Compliance</a></li>
               </ul>
+              </div>
             </div>
              <div className="thirdlist">
+               <div><img src="https://res.cloudinary.com/papu/image/upload/v1632237248/cms-xformation/index-page/Ops-icon_wh79ng.svg" alt="" /></div>
+               <div className='listgroup'>
             <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Infra As Code</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Kubernetes Management</a></li>
@@ -887,6 +931,7 @@ export default class Migration extends React.Component {
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud optimizer</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Self Service Provisioning</a></li>
              </ul>
+             </div>
             </div>
           </div>
   </div>
