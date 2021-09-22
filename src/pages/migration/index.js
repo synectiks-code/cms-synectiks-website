@@ -260,6 +260,55 @@ const ModernizationWrapper = styled.div`
       box-shadow: 1px 1px 10px 2px black;
     }
   }
+  .thirdimgone{
+    background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_13_oohxmd.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fff;
+
+  }
+  .microservice-heading{
+  background-color: #588057;
+  padding: 0.9rem;
+  color: white;
+  border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .thirdimgtwo{
+    background-color: #fff;
+    background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_14_aux3ed.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .thirdimgthree{
+    background-color: #fff;
+    background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318116/cms-xformation/index-page/Container_hieted.svg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .microservices ul {
+  background-color: white;
+  padding: 0 2rem;
+    margin-top: 1rem;
+    height: 15vh;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .ThirdTab{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    }
+     .microservices img{
+        border: none !important;
+        box-shadow: none !important;
+      }
   #home-Tabs{
     background-color: #F6F1F1;
   }
@@ -275,9 +324,85 @@ const ModernizationWrapper = styled.div`
     box-shadow: 0px 0px 5px !important;
   }
   .firstlist, .secondlist, .thirdlist{
+    position: relative;
     padding: 0.2rem;
     display: flex;
     flex-direction: column;
+  }
+  .firstImage h6, .secondImage h6, .thirdImage h6{
+    color: #384cd8;
+  }
+  .thirdimg{
+  background-color: #fff;
+  }
+  .thirdimg img::nth-child(2){
+  margin: 3.89rem 0;
+  }
+  .firstImage:before{
+    content: '';
+    position: absolute;
+    top: -2.25rem;
+    width: 2px;
+    height: 5vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .firstImage:after{
+    content: '';
+    margin: 0 auto;
+    position: absolute;
+    top: 13%;
+    width: 2px;
+    height: 3.5vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+  }
+  .secondImage:before{
+    content: '';
+    position: absolute;
+    top: -1.5rem;
+    width: 2px;
+    height: 4vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .secondImage:after{
+    content: '';
+    margin: 0 auto;
+    position: absolute;
+    top: 3.8rem;
+    width: 2px;
+    height: 4vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+  }
+  .thirdImage:before{
+    content: '';
+    position: absolute;
+    top: -2.25rem;
+    width: 2px;
+    height: 5vh;
+    background-color: #dee2e6;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  .thirdImage:after{
+    content: '';
+    margin: 0 auto;
+    position: absolute;
+    top: 3.8rem;
+    width: 2px;
+    height: 4vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
   }
   .firstlist ul, .secondlist ul, .thirdlist ul{
     padding-left: 0.3rem;
@@ -330,6 +455,33 @@ const ModernizationWrapper = styled.div`
       width: 15vw !important;
       box-shadow: none !important;
       border: none !important;
+    }
+    h4{
+      color: #3E4798;
+      position: relative;
+      &:before{
+        content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #dee2e6;
+    width: 24vw;
+    height: 2px;
+    top: 1rem;
+    z-index: 26;
+    right: -14.4em;
+      }
+      &:after{
+        content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #dee2e6;
+    width: 24vw;
+    height: 2px;
+    top: 1rem;
+    z-index: 26;
+    left: -14.4em;
+    }
+
     }
 
   }
@@ -702,7 +854,7 @@ export default class Migration extends React.Component {
           <div className='jumbo-block-bottom'>
             <div className='jumbo-text-bottom'>
               {/* <img src={Capabilities} alt='' /> */}
-              <h3 className='mb-3'>Solutions</h3>
+              <h3 className='mb-3 pt-3'>Solutions</h3>
             <div id="home-Tabs">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
@@ -871,7 +1023,9 @@ export default class Migration extends React.Component {
     </div>
           <div className="list-icons dgrid">
             <div className="firstlist">
-              <div><img src="https://res.cloudinary.com/papu/image/upload/v1632237248/cms-xformation/index-page/Dev_icon_jaeabg.svg" alt="" /></div>
+              <div className='firstImage'><img src="https://res.cloudinary.com/papu/image/upload/v1632299884/cms-xformation/index-page/Dev_icon_k10ntk.svg" alt="" />
+              <h6>DEV</h6>
+              </div>
 <div className='listgroup'>
              <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Raid Tools for Microservices</a></li>
@@ -895,7 +1049,9 @@ export default class Migration extends React.Component {
               </div>
             </div>
             <div className="secondlist">
-              <div><img src="https://res.cloudinary.com/papu/image/upload/v1632237249/cms-xformation/index-page/Sec_icon_srr88l.svg" alt="" /></div>
+              <div className='secondImage'> <img src="https://res.cloudinary.com/papu/image/upload/v1632299885/cms-xformation/index-page/Sec_icon_fyxypv.svg" alt="" />
+              <h6>SEC</h6>
+              </div>
               <div className='listgroup'>
             <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">RBAC/Multitenancy</a></li>
@@ -914,7 +1070,9 @@ export default class Migration extends React.Component {
               </div>
             </div>
              <div className="thirdlist">
-               <div><img src="https://res.cloudinary.com/papu/image/upload/v1632237248/cms-xformation/index-page/Ops-icon_wh79ng.svg" alt="" /></div>
+               <div className='thirdImage'><img src="https://res.cloudinary.com/papu/image/upload/v1632299885/cms-xformation/index-page/Ops-icon_krljdv.svg" alt="" />
+               <h6>OPS</h6>
+               </div>
                <div className='listgroup'>
             <ul>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Infra As Code</a></li>
@@ -935,7 +1093,46 @@ export default class Migration extends React.Component {
             </div>
           </div>
   </div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Tab Three...</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+  <div className="ThirdTab pt-3">
+          <div className="microservices">
+              <div className='microservice-heading'>
+              <h4>Microservices</h4>
+              </div>
+              <div className="thirdimgone">
+               {/* <img src="https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_13_oohxmd.jpg" alt="" /> */}
+               </div>
+           <ul>
+              <li>Develop Microservice based cloud native app</li>
+              <li>Refactor existing monolith App to microservices</li>
+            </ul>
+          </div>
+           <div className="microservices">
+              <div className='microservice-heading'>
+              <h4>Hybrid Cloud</h4>
+              </div>
+              <div className="thirdimgtwo">
+              {/* <br /> */}
+               {/* <img src="https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_14_aux3ed.jpg" alt="" /> */}
+              </div>
+           <ul>
+              <li>Transform, Integrate, Orchestrate, and Automate Hybrid Platform</li>
+            </ul>
+          </div>
+          <div className="microservices">
+              <div className='microservice-heading'>
+              <h4>Container</h4>
+              </div>
+              <div className="thirdimgthree">
+               {/* <img src="https://res.cloudinary.com/papu/image/upload/v1632318116/cms-xformation/index-page/Container_hieted.svg" alt="" /> */}
+           </div>
+           <ul>
+              <li>Manage Kubernetes cluster across any cloud</li>
+              <li>integrated toolset to run containerized workloads</li>
+            </ul>
+          </div>
+  </div>
+  </div>
   <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">Tab Three...</div>
   <div class="tab-pane fade" id="industry" role="tabpanel" aria-labelledby="industry-tab">Tab Three...</div>
 </div>
