@@ -8,6 +8,9 @@ import Carousel from 'nuka-carousel';
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const ModernizationWrapper = styled.div`
+.solu-h3{
+  background-color: rgb(236, 227, 227);
+}
   .jumbotron {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -262,7 +265,7 @@ const ModernizationWrapper = styled.div`
   }
   .thirdimgone{
     background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_13_oohxmd.jpg');
-    height: 70vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -279,7 +282,7 @@ const ModernizationWrapper = styled.div`
   .thirdimgtwo{
     background-color: #fff;
     background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_14_aux3ed.jpg');
-    height: 70vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -287,7 +290,7 @@ const ModernizationWrapper = styled.div`
   .thirdimgthree{
     background-color: #fff;
     background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318116/cms-xformation/index-page/Container_hieted.svg');
-    height: 70vh;
+    height: 55vh;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -303,7 +306,7 @@ const ModernizationWrapper = styled.div`
   .ThirdTab{
   display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
+    grid-gap: 5em;
     }
      .microservices img{
         border: none !important;
@@ -468,7 +471,7 @@ const ModernizationWrapper = styled.div`
     height: 2px;
     top: 1rem;
     z-index: 26;
-    right: -14.4em;
+    right: 114%;
       }
       &:after{
         content: '';
@@ -479,13 +482,53 @@ const ModernizationWrapper = styled.div`
     height: 2px;
     top: 1rem;
     z-index: 26;
-    left: -14.4em;
+    left: 114%;
     }
 
     }
 
   }
   @media (min-width: 768px) {
+    .dev-image{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      width: 15vw !important;
+      box-shadow: none !important;
+      border: none !important;
+    }
+    h4{
+      color: #3E4798;
+      position: relative;
+      &:before{
+        content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #dee2e6;
+    width: 25.8vw;
+    height: 2px;
+    top: 1rem;
+    z-index: 26;
+    right: 114%;
+      }
+      &:after{
+        content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #dee2e6;
+    width: 25.8vw;
+    height: 2px;
+    top: 1rem;
+    z-index: 26;
+    left: 114%;
+    }
+
+    }
+
+  }
     .jumbotron {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
@@ -534,6 +577,7 @@ const ModernizationWrapper = styled.div`
         display: grid;
         grid-template-rows: 1fr;
         grid-gap: 0.4em;
+        padding: 2em 2em 0em 2em;
         h3 {
           font-size: 38px;
           background-color: #ECE3E3 !important;
@@ -852,11 +896,11 @@ export default class Migration extends React.Component {
           </div> */}
 
           <div className='jumbo-block-bottom'>
+              <h3 className='mb-3 py-3 solu-h3'>Solutions</h3>
             <div className='jumbo-text-bottom'>
               {/* <img src={Capabilities} alt='' /> */}
-              <h3 className='mb-3 pt-3'>Solutions</h3>
             <div id="home-Tabs">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <ul class="nav nav-tabs justify-content-around" id="myTab" role="tablist">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Migration & Modernization</button>
   </li>
@@ -1094,7 +1138,7 @@ export default class Migration extends React.Component {
           </div>
   </div>
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-  <div className="ThirdTab pt-3">
+  <div className="ThirdTab pt-4 px-5">
           <div className="microservices">
               <div className='microservice-heading'>
               <h4>Microservices</h4>
