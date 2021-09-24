@@ -263,6 +263,7 @@ const ModernizationWrapper = styled.div`
       box-shadow: 1px 1px 10px 2px black;
     }
   }
+
   .thirdimgone{
     background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_13_oohxmd.jpg');
     height: 55vh;
@@ -299,7 +300,235 @@ const ModernizationWrapper = styled.div`
   background-color: white;
   padding: 0 2rem;
     margin-top: 1rem;
-    height: 15vh;
+    height: auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .ThirdTab{
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    }
+     .microservices img{
+        border: none !important;
+        box-shadow: none !important;
+      }
+  #home-Tabs{
+    background-color: #F6F1F1;
+  }
+.dgrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.2rem;
+  margin-top: 1rem;
+}
+  .firstlist img, .secondlist img, .thirdlist img{
+    width: 35% !important;
+    margin-top: 1em;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px !important;
+  }
+  .firstlist, .secondlist, .thirdlist{
+    position: relative;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .firstImage h6, .secondImage h6, .thirdImage h6{
+    color: #384cd8;
+  }
+  .thirdimg{
+  background-color: #fff;
+  }
+  .thirdimg img::nth-child(2){
+  margin: 3.89rem 0;
+  }
+  /* .firstImage:before{
+    content: '';
+    position: absolute;
+    top: -2.25rem;
+    width: 2px;
+    height: 5vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  } */
+  .firstImage:after{
+    content: '';
+    margin: 0 auto;
+    position: absolute;
+    top: 16.4%;
+    width: 2px;
+    height: 3.5vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+  }
+  /* .secondImage:before{
+    content: '';
+    position: absolute;
+    top: -1.5rem;
+    width: 2px;
+    height: 4vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  } */
+  .secondImage:after{
+    content: '';
+    margin: 0 auto;
+    position: absolute;
+    top: 22%;
+    width: 2px;
+    height: 4vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+  }
+  /* .thirdImage:before{
+    content: '';
+    position: absolute;
+    top: -2.25rem;
+    width: 2px;
+    height: 5vh;
+    background-color: #dee2e6;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  } */
+  .thirdImage:after{
+    content: '';
+    margin: 0 auto;
+    position: absolute;
+    top: 20.2%;
+    width: 2px;
+    height: 4vh;
+    background-color: #dee2e6;
+    left: 0;
+    right: 0;
+  }
+  .firstlist ul, .secondlist ul, .thirdlist ul{
+    padding-left: 0.3rem;
+  }
+  .firstlist ul li, .secondlist ul li, .thirdlist ul li {
+    background-color: #3E4798;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 0rem;
+    display: flex;
+    a {
+      color: #f5f5f5;
+      margin-left: 10px;
+      text-decoration: none;
+      font-size: 0.7rem;
+    }
+  }
+  .listgroup{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #d2d4e0;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 10px;
+  }
+  .nav-tabs .nav-link.active {
+    color: #495057;
+    border-top: 3px solid #8B6239;
+    border-left: 2px solid #dee2e6;
+    border-right: 2px solid #dee2e6;
+    border-bottom: 2px solid transparent;
+    background-color: #F6F1F1;
+  }
+  .nav-tabs .nav-link:hover {
+    /* border-color: transparent; */
+    background-color: #F6F1F1;
+    border-top: 3px solid #8B6239;
+    isolation: isolate;
+  }
+  .dev-image{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+      width: 15vw !important;
+      box-shadow: none !important;
+      border: none !important;
+    }
+    h4{
+      color: #3E4798;
+      position: relative;
+      &:before{
+        content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #dee2e6;
+    width: 24vw;
+    height: 2px;
+    top: 1rem;
+    z-index: 26;
+    right: 114%;
+      }
+      &:after{
+        content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #dee2e6;
+    width: 24vw;
+    height: 2px;
+    top: 1rem;
+    z-index: 26;
+    left: 114%;
+    }
+
+    }
+
+  }
+  @media (min-width: 768px) {
+
+  .thirdimgone{
+    background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_13_oohxmd.jpg');
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #fff;
+
+  }
+  .microservice-heading{
+  background-color: #588057;
+  padding: 0.9rem;
+  color: white;
+  border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .thirdimgtwo{
+    background-color: #fff;
+    background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_14_aux3ed.jpg');
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .thirdimgthree{
+    background-color: #fff;
+    background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318116/cms-xformation/index-page/Container_hieted.svg');
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .microservices ul {
+  background-color: white;
+  padding: 0 2rem;
+    margin-top: 1rem;
+    height: 10vh;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
   }
@@ -467,47 +696,6 @@ const ModernizationWrapper = styled.div`
     display: inline-block;
     position: absolute;
     background-color: #dee2e6;
-    width: 24vw;
-    height: 2px;
-    top: 1rem;
-    z-index: 26;
-    right: 114%;
-      }
-      &:after{
-        content: '';
-    display: inline-block;
-    position: absolute;
-    background-color: #dee2e6;
-    width: 24vw;
-    height: 2px;
-    top: 1rem;
-    z-index: 26;
-    left: 114%;
-    }
-
-    }
-
-  }
-  @media (min-width: 768px) {
-    .dev-image{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    img{
-      width: 15vw !important;
-      box-shadow: none !important;
-      border: none !important;
-    }
-    h4{
-      color: #3E4798;
-      position: relative;
-      &:before{
-        content: '';
-    display: inline-block;
-    position: absolute;
-    background-color: #dee2e6;
     width: 25.8vw;
     height: 2px;
     top: 1rem;
@@ -529,6 +717,7 @@ const ModernizationWrapper = styled.div`
     }
 
   }
+
     .jumbotron {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
@@ -1071,7 +1260,7 @@ export default class Migration extends React.Component {
               <h6>DEV</h6>
               </div>
 <div className='listgroup'>
-             <ul>
+             <ul className='mb-0'>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Raid Tools for Microservices</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Workflow Editor</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">WF Engine</a></li>
@@ -1097,7 +1286,7 @@ export default class Migration extends React.Component {
               <h6>SEC</h6>
               </div>
               <div className='listgroup'>
-            <ul>
+            <ul className='mb-0'>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">RBAC/Multitenancy</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Cloud Environment Security</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Infra Security</a></li>
@@ -1118,7 +1307,7 @@ export default class Migration extends React.Component {
                <h6>OPS</h6>
                </div>
                <div className='listgroup'>
-            <ul>
+            <ul className='mb-0'>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Infra As Code</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Kubernetes Management</a></li>
               <li><IoIosArrowDroprightCircle style={{fill: '#f5f5f5', fontSize:'1.5rem'}}/><a href="">Performance Monitoring</a></li>
@@ -1138,7 +1327,7 @@ export default class Migration extends React.Component {
           </div>
   </div>
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-  <div className="ThirdTab pt-4 px-5">
+  <div className="ThirdTab pt-4 px-2 px-md-5">
           <div className="microservices">
               <div className='microservice-heading'>
               <h4>Microservices</h4>
