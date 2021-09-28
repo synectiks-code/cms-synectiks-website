@@ -108,6 +108,12 @@ collections:
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
+        label: Module List,
+        name: modules,
+        widget: list,
+        fields:
+          [
+      {
           label: Actors List,
           name: scenarios,
           widget: list,
@@ -137,8 +143,8 @@ collections:
                   ],
               },
             ],
-        }
-      - {
+      },
+     {
           label: Slider,
           name: slider,
           widget: list,
@@ -173,6 +179,9 @@ collections:
               },
             ],
         }
+          ]
+      }
+
   - name: 'service'
     label: 'Service'
     folder: 'src/pages/service'

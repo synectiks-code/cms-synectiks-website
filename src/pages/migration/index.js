@@ -491,7 +491,16 @@ const ModernizationWrapper = styled.div`
 
   }
   @media (min-width: 768px) {
-
+    /* .line-top-section{
+      position: relative;
+    }
+    .line-section{
+      position: absolute;
+      top: 1em;
+      width: calc(100% - 45vw);
+      height: 2px;
+      background-color: #000;
+    } */
   .thirdimgone{
     background-image: url('https://res.cloudinary.com/papu/image/upload/v1632318117/cms-xformation/index-page/MicrosoftTeams-image_13_oohxmd.jpg');
     height: 55vh;
@@ -654,6 +663,13 @@ const ModernizationWrapper = styled.div`
       text-decoration: none;
       font-size: 0.7rem;
     }
+  }
+  .listgroup::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 4vh;
+    display: block;
   }
   .listgroup{
     display: grid;
@@ -1251,8 +1267,17 @@ export default class Migration extends React.Component {
               </div>
             </div></div>
   <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-    <div className='dev-image'><img src="https://res.cloudinary.com/papu/image/upload/v1632237249/cms-xformation/index-page/DevSecOps_icon_lkqelq.svg" alt="" />
+    <div className='dev-image'>
+       <img src="https://res.cloudinary.com/papu/image/upload/v1632237249/cms-xformation/index-page/DevSecOps_icon_lkqelq.svg" alt="" />
+
+
+       <div className='line-top-section'>
+    <div className="line-section"></div>
     <h4>DevSecOps</h4>
+    <div className="line-section"></div>
+    </div>
+
+
     </div>
           <div className="list-icons dgrid">
             <div className="firstlist">
