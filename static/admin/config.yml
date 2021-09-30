@@ -9,8 +9,6 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-# publish_mode: editorial_workflow
-
 media_folder: static/img
 public_folder: /img
 
@@ -108,12 +106,12 @@ collections:
         }
       - { label: 'Title', name: 'title', widget: 'string' }
       - {
-        label: Module List,
-        name: modules,
-        widget: list,
-        fields:
+          label: Modules List,
+          name: modules,
+          widget: list,
+          fields:
           [
-      {
+            {
           label: Actors List,
           name: scenarios,
           widget: list,
@@ -143,8 +141,10 @@ collections:
                   ],
               },
             ],
-      },
-     {
+        }
+          ]
+        }
+      - {
           label: Slider,
           name: slider,
           widget: list,
@@ -179,9 +179,6 @@ collections:
               },
             ],
         }
-          ]
-      }
-
   - name: 'service'
     label: 'Service'
     folder: 'src/pages/service'
@@ -227,11 +224,12 @@ collections:
               },
               { label: Description, name: description, widget: markdown,default: false, required: false },
             {
-                label: List Divs,
-                name: listdivs,
+                label: ProductPoints,
+                name: productpoints,
                 widget: list,
                 fields:
                   [
+                    { label: Heading, name: heading, widget: string},
                     { label: Text, name: text, widget: string },
                     { label: Description, name: description, widget: markdown },
                   ],
@@ -253,7 +251,6 @@ collections:
                     { label: Description, name: description, widget: markdown },
                   ],
               },
-              { label: Conclusiondivs Text, name: conclusiondivstext, widget: markdown},
               {
                 label: Conclusiondivs,
                 name: conclusiondivs,
