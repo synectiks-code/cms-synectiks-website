@@ -22,12 +22,21 @@ import {
   TiSocialYoutube,
 } from 'react-icons/ti';
 
-export const XformationPageTemplate = ({ scenarios, slider }) => {
+export const XformationPageTemplate = ({ modules,scenarios, slider }) => {
+  const [showSelectModule, setShowSelectModule] = useState(false);
   const [showSelectScenario, setShowSelectScenario] = useState(false);
   const [showUseCase, setShowUseCase] = useState(false);
   const [useCase, setUseCase] = useState(null);
   const [showForm, setShowForm] = useState(false);
   const [showReg, setShowReg] = useState(false);
+
+  function onClickSelectSModule() {
+    setShowSelectModule(true);
+  }
+
+  function onClickSelectModuleClose() {
+    setShowSelectModule(false);
+  }
 
   function onClickSelectScenario() {
     setShowSelectScenario(true);
@@ -118,7 +127,8 @@ export const XformationPageTemplate = ({ scenarios, slider }) => {
                     className={`scenario-select-container ${
                       showSelectScenario === true ? 'active' : ''
                     } ${showUseCase === true ? 'active-usecase' : ''}`}>
-                    <button className='select' onClick={onClickSelectScenario}>
+                    <button className='select' onClick={onClickSelectSModule}>
+                    {/* <button className='select' onClick={onClickSelectScenario}> */}
                       SELECT SCENARIO
                     </button>
                     <SelectScenario
@@ -277,6 +287,7 @@ export const XformationPageTemplate = ({ scenarios, slider }) => {
 };
 
 XformationPageTemplate.propTypes = {
+  modules: PropTypes.array,
   scenarios: PropTypes.array,
   slider: PropTypes.array,
 };
@@ -285,6 +296,7 @@ const XformationPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
   return (
     <XformationPageTemplate
+      modules={frontmatter.modules}
       scenarios={frontmatter.scenarios}
       slider={frontmatter.slider}
     />
@@ -305,6 +317,7 @@ export const xformationPageQuery = graphql`
   query XformationPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
+      modules{
         scenarios {
           img
           name
@@ -318,6 +331,7 @@ export const xformationPageQuery = graphql`
             }
           }
         }
+      }
         slider {
           img
           name

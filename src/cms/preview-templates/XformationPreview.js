@@ -7,10 +7,13 @@ const XformationPagePreview = ({ entry }) => {
   const slider = entrySlider ? entrySlider.toJS() : []
   const entryScenarios = entry.getIn(['data', 'scenarios']);
   const scenarios = entryScenarios ? entryScenarios.toJS() : []
+  const entryModules = entry.getIn(['data', 'modules']);
+  const modules = entryModules ? entryModules.toJS() : []
   return (
     <XformationPageTemplate
       slider={slider}
       scenarios={scenarios}
+      modules={modules}
     />
   )
 }
