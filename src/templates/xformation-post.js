@@ -60,6 +60,7 @@ export const XformationPageTemplate = ({ modules,scenarios, slider }) => {
     <section id='scenario-bg'>
       <div
         className={`scenario-slider-container ${
+          showSelectModule === true ? 'select-scenario' : '',
           showSelectScenario === true ? 'select-scenario' : ''
         } ${showUseCase === true ? 'select-usecase' : ''}`}>
         {/* <ScenarioHome /> */}
@@ -129,9 +130,11 @@ export const XformationPageTemplate = ({ modules,scenarios, slider }) => {
                     } ${showUseCase === true ? 'active-usecase' : ''}`}>
                     <button className='select' onClick={onClickSelectSModule}>
                     {/* <button className='select' onClick={onClickSelectScenario}> */}
-                      SELECT SCENARIO
+                      SELECT MODULE
+                      {/* SELECT SCENARIO */}
                     </button>
                     <SelectScenario
+                      modules={modules}
                       scenarios={scenarios}
                       onClickUseCase={onClickUseCase}
                       onClickCloseScenario={onClickSelectScenarioClose}
