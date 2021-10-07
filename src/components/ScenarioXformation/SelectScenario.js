@@ -4,20 +4,13 @@ import { v4 } from 'uuid'
 import { Scrollbars } from 'react-custom-scrollbars';
 import { AiFillCloseCircle } from "react-icons/ai";
 
-const SelectScenario = ({ modules, onClickCloseModule, scenarios, onClickUseCase, onClickCloseScenario }) => {
-  const [selectedModule, setSelectedModule] = useState(null);
+const SelectScenario = ({ scenarios, onClickUseCase, onClickCloseScenario }) => {
   const [selectedScenario, setSelectedScenario] = useState(null);
 
 
-  function onClickSelectModule(module) {
-    setSelectedModule(modules);
+  function onClickSubSelectScenario(scenario) {
+    setSelectedScenario(scenario);
   }
-
-  function onClickSelectModuleClose() {
-    setSelectedModule(null);
-    onClickCloseModule();
-  }
-
   function onClickSubSelectScenario(scenario) {
     setSelectedScenario(scenario);
   }
@@ -36,29 +29,6 @@ const SelectScenario = ({ modules, onClickCloseModule, scenarios, onClickUseCase
         <Scrollbars
           className="scenarioleft-scrollbars"
         >
-          {
-            modules &&
-            <ul>
-              {
-                modules.map((module) => (
-                  <li key={v4()}>
-                      <div className={`item ${selectedModule === module ? 'active' : ''}`} onClick={() => onClickSelectModule(module)}>
-                    <div className="image">
-                      <img
-                        src={module.img}
-                        alt={module.name}
-                        title={module.name}
-                        width="60"
-                        height="60"
-                      />
-                    </div>
-                    <div className="name">{module.name}</div>
-                  </div>
-                  </li>
-                ))
-              }
-            </ul>
-          }
           {
             scenarios &&
             <ul>
@@ -110,28 +80,27 @@ const SelectScenario = ({ modules, onClickCloseModule, scenarios, onClickUseCase
   );
 };
 
-SelectModules.propTypes = {
-  SelectScenario:propTypes = {
-    scenarios: PropTypes.arrayOf(
-      PropTypes.shape({
-        img: PropTypes.string,
-        name: PropTypes.string,
-        subItems: PropTypes.arrayOf(
-          PropTypes.shape({
-            img: PropTypes.string,
-            name: PropTypes.string,
-            useCaseSlider: PropTypes.arrayOf(
-              PropTypes.shape({
-                img: PropTypes.string,
-                name: PropTypes.string,
-                text: PropTypes.string,
-              })
-              )
+SelectScenario.propTypes = {
+  scenarios: PropTypes.arrayOf(
+    PropTypes.shape({
+      img: PropTypes.string,
+      name: PropTypes.string,
+      subItems: PropTypes.arrayOf(
+        PropTypes.shape({
+          img: PropTypes.string,
+          name: PropTypes.string,
+          useCaseSlider: PropTypes.arrayOf(
+            PropTypes.shape({
+              img: PropTypes.string,
+              name: PropTypes.string,
+              text: PropTypes.string,
             })
-            )
-          })
-          ),
-        }
+          )
+        })
+      )
+    })
+  ),
+
 }
 
 export default SelectScenario

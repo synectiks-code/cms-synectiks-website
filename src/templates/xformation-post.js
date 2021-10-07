@@ -22,21 +22,21 @@ import {
   TiSocialYoutube,
 } from 'react-icons/ti';
 
-export const XformationPageTemplate = ({ modules,scenarios, slider }) => {
-  const [showSelectModule, setShowSelectModule] = useState(false);
+export const XformationPageTemplate = ({scenarios, slider }) => {
+  // const [showSelectModule, setShowSelectModule] = useState(false);
   const [showSelectScenario, setShowSelectScenario] = useState(false);
   const [showUseCase, setShowUseCase] = useState(false);
   const [useCase, setUseCase] = useState(null);
   const [showForm, setShowForm] = useState(false);
   const [showReg, setShowReg] = useState(false);
 
-  function onClickSelectSModule() {
-    setShowSelectModule(true);
-  }
+  // function onClickSelectSModule() {
+  //   setShowSelectModule(true);
+  // }
 
-  function onClickSelectModuleClose() {
-    setShowSelectModule(false);
-  }
+  // function onClickSelectModuleClose() {
+  //   setShowSelectModule(false);
+  // }
 
   function onClickSelectScenario() {
     setShowSelectScenario(true);
@@ -60,7 +60,7 @@ export const XformationPageTemplate = ({ modules,scenarios, slider }) => {
     <section id='scenario-bg'>
       <div
         className={`scenario-slider-container ${
-          showSelectModule === true ? 'select-scenario' : '',
+          // showSelectModule === true ? 'select-scenario' : '',
           showSelectScenario === true ? 'select-scenario' : ''
         } ${showUseCase === true ? 'select-usecase' : ''}`}>
         {/* <ScenarioHome /> */}
@@ -128,13 +128,12 @@ export const XformationPageTemplate = ({ modules,scenarios, slider }) => {
                     className={`scenario-select-container ${
                       showSelectScenario === true ? 'active' : ''
                     } ${showUseCase === true ? 'active-usecase' : ''}`}>
-                    <button className='select' onClick={onClickSelectSModule}>
-                    {/* <button className='select' onClick={onClickSelectScenario}> */}
-                      SELECT MODULE
-                      {/* SELECT SCENARIO */}
+                    {/* <button className='select' onClick={onClickSelectSModule}> */}
+                    <button className='select' onClick={onClickSelectScenario}>
+                      {/* SELECT MODULE */}
+                      SELECT SCENARIO
                     </button>
                     <SelectScenario
-                      modules={modules}
                       scenarios={scenarios}
                       onClickUseCase={onClickUseCase}
                       onClickCloseScenario={onClickSelectScenarioClose}
@@ -290,7 +289,6 @@ export const XformationPageTemplate = ({ modules,scenarios, slider }) => {
 };
 
 XformationPageTemplate.propTypes = {
-  modules: PropTypes.array,
   scenarios: PropTypes.array,
   slider: PropTypes.array,
 };
@@ -299,7 +297,6 @@ const XformationPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
   return (
     <XformationPageTemplate
-      modules={frontmatter.modules}
       scenarios={frontmatter.scenarios}
       slider={frontmatter.slider}
     />
@@ -320,7 +317,6 @@ export const xformationPageQuery = graphql`
   query XformationPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
-      modules{
         scenarios {
           img
           name
@@ -334,7 +330,7 @@ export const xformationPageQuery = graphql`
             }
           }
         }
-      }
+
         slider {
           img
           name
