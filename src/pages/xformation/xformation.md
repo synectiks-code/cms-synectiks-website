@@ -175,6 +175,46 @@ scenarios:
             text: View Manage view
   - img: https://res.cloudinary.com/papu/image/upload/v1619520488/hybrid-cloud/Compliance_Security_rng4yo.png
     name: Alert Management
+    subItems:
+      - img: https://res.cloudinary.com/papu/image/upload/v1633934549/xformation-website/Alert%20Management/Manage_Alert_Rule_jgjzyk.jpg
+        name: Alert Rule Builder
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934548/xformation-website/Alert%20Management/Alert%20Rule%20builder/Script_Editor_ndab8g.jpg
+            name: Script Editor
+            text: Script Editor
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934548/xformation-website/Alert%20Management/Alert%20Rule%20builder/QueryOK_q4riz6.jpg
+            name: Query
+            text: Query
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934548/xformation-website/Alert%20Management/Alert%20Rule%20builder/Message_rufmot.jpg
+            name: Message
+            text: Message
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934548/xformation-website/Alert%20Management/Alert%20Rule%20builder/Db1_Selected_fvbd6d.jpg
+            name: DB Selected
+            text: DB Selected
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934548/xformation-website/Alert%20Management/Alert%20Rule%20builder/Cq_Selected_eltuan.jpg
+            name: CQ Selected
+            text: CQ Selected
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934548/xformation-website/Alert%20Management/Alert%20Rule%20builder/QueryFail_qzsyum.jpg
+            name: Query Fail
+            text: Query Fail
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934548/xformation-website/Alert%20Management/Alert%20Rule%20builder/Condition_Queryok_jloyzw.jpg
+            name: Condition Query
+            text: Condition Query
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934547/xformation-website/Alert%20Management/Alert%20Rule%20builder/Condition_QueryFail_hzzz5s.jpg
+            name: Condition Query Fail
+            text: Condition Query Fail
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934547/xformation-website/Alert%20Management/Alert%20Rule%20builder/Alert_Handlers_btzdav.jpg
+            name: Alert Handlers
+            text: Alert Handlers
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934547/xformation-website/Alert%20Management/Alert%20Rule%20builder/Condition_u19pdo.jpg
+            name: Condition
+            text: Condition
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934547/xformation-website/Alert%20Management/Alert%20Rule%20builder/Alert_Rule_Builder_ufmf7t.jpg
+            name: Alert Rule Builder
+            text: Alert Rule Builder
+          - img: https://res.cloudinary.com/papu/image/upload/v1633934547/xformation-website/Alert%20Management/Alert%20Rule%20builder/Alert_Type_h5bx4t.jpg
+            name: Alert Type
+            text: Alert Type
   - img: https://res.cloudinary.com/papu/image/upload/v1619520443/hybrid-cloud/Single_Control_plane_iznjg0.png
     name: Performance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
