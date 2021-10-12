@@ -296,6 +296,69 @@ scenarios:
           - name: " New Discovery Select Data Source"
             img: https://res.cloudinary.com/papu/image/upload/v1633692827/xformation-website/Performance%20management/New%20Discovery/New_Discovery_-_Select_Data_source_tio7s5.jpg
             text: " New Discovery Select Data Source"
+      - img: https://res.cloudinary.com/papu/image/upload/v1633692833/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Catalog_screen_1_rw9rpl.jpg
+        name: Performance Management Catalogue Management
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692833/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Catalog_screen_1_rw9rpl.jpg
+            name: Performance Management Catalogue Management
+            text: Performance Management Catalogue Management
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692833/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/View_Dashboard_3_qy8vzs.jpg
+            name: View Dashboard
+            text: View Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692832/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Catalog_Screen_Collector_dashboard_details_f969ao.jpg
+            name: Catalog Screen Collector dashboard details
+            text: Catalog Screen Collector dashboard details
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692832/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Performance_Management_DB_rxnmo8.jpg
+            name: Performance Management DB
+            text: Performance Management DB
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692832/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/View_Dashboard_2_jga0fi.jpg
+            name: View Dashboard
+            text: View Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692832/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Catalog_Screen_Collector_Details_pbi6br.jpg
+            name: Catalog Screen Collector Details
+            text: Catalog Screen Collector Details
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692832/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/View_Dashboard_1_nuly3k.jpg
+            name: View Dashboard
+            text: View Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692831/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Home__1_fxh7qp.jpg
+            name: Management Home
+            text: Management Home
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692831/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Library_collector_content_rqkelh.jpg
+            name: Library_collector_content
+            text: Library_collector_content
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692830/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Library_Folder_content_vkn4rn.jpg
+            name: Library_Folder_content
+            text: Library_Folder_content
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692829/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Collection_View_Resources_mnlodn.jpg
+            name: Collection_View_Resources
+            text: Collection_View_Resources
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692828/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Library_izhwsj.jpg
+            name: Library
+            text: Library
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692828/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Collection_Screen_1_yxpltn.jpg
+            name: Collection Screen
+            text: Collection Screen
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692828/xformation-website/Performance%20management/Perf%20Mgmt%20Catalogue%20Management/Add_to_library_Popup_q78vwb.jpg
+            name: Add to Library Popup
+            text: Add to Library Popup
+      - name: Playlist
+        img: https://res.cloudinary.com/papu/image/upload/v1633692833/xformation-website/Performance%20management/Playlist/Playlist_1_etuvhw.png
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692833/xformation-website/Performance%20management/Playlist/Playlist_1_etuvhw.png
+            name: Playlist
+            text: Playlist
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692833/xformation-website/Performance%20management/Playlist/Create_new_playlist_-1_pb640v.png
+            name: Create New Playlist
+            text: Create New Playlist
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692831/xformation-website/Performance%20management/Playlist/Create_new_Playlist_-_New_Tab_f9tqv2.png
+            name: Create_new_Playlist_-_New_Tab
+            text: Create_new_Playlist_-_New_Tab
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692831/xformation-website/Performance%20management/Playlist/Create_New_playlist_-_2_1_uobnr5.png
+            name: " Create_New_playlist "
+            text: "Create_New_playlist "
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692831/xformation-website/Performance%20management/Playlist/Create_New_playlist_-_2_mcgyas.png
+            name: Create_New_playlist
+            text: Create_New_playlist
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
