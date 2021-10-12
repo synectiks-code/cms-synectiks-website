@@ -217,6 +217,67 @@ scenarios:
             text: Alert Type
   - img: https://res.cloudinary.com/papu/image/upload/v1619520443/hybrid-cloud/Single_Control_plane_iznjg0.png
     name: Performance Management
+    subItems:
+      - img: https://res.cloudinary.com/papu/image/upload/v1633692830/xformation-website/Performance%20management/Create%20Dashboard/Create_Dashboard_Add_Panel_2_kbxpdc.jpg
+        name: Create Dashboard
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692830/xformation-website/Performance%20management/Create%20Dashboard/Create_Dashboard_Add_Panel_2_kbxpdc.jpg
+            name: Create Dashboard Add Panel
+            text: Create Dashboard Add Panel
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692829/xformation-website/Performance%20management/Create%20Dashboard/Create_Dashboard_Add_Panel_nl8xhr.jpg
+            name: Create Dashboard Add Panel
+            text: Create Dashboard Add Panel
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692826/xformation-website/Performance%20management/Create%20Dashboard/Dashboard_Homepage_fprh4a.jpg
+            name: Dashboard Homepage
+            text: Dashboard Homepage
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692826/xformation-website/Performance%20management/Create%20Dashboard/Create_Dashboard_Mainpage_su8tvo.jpg
+            name: Create Dashboard Main page
+            text: Create Dashboard Main page
+      - img: https://res.cloudinary.com/papu/image/upload/v1633692835/xformation-website/Performance%20management/Discovery/Perf_Mgmt_Discovery_Filter_mb29vn.jpg
+        name: Discovery
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692835/xformation-website/Performance%20management/Discovery/Perf_Mgmt_Discovery_Filter_mb29vn.jpg
+            name: Performance Management Discovery Filter
+            text: Performance Management Discovery Filter
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692826/xformation-website/Performance%20management/Discovery/Perf_Mgmt_Discovery_dropdown_lkk8bo.jpg
+            name: Performance Management Discovery Dropdown
+            text: Performance Management Discovery Dropdown
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692826/xformation-website/Performance%20management/Discovery/Perf_Mgmt_Discovery_Homepage_wsp0an.jpg
+            name: Performance Management Discovery Homepage
+            text: Performance Management Discovery Homepage
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692826/xformation-website/Performance%20management/Discovery/Perf_Mgmt_Discovery_Add_Environment_Dropdown_fyknm0.jpg
+            name: Performance Discovery Add Environment Dropdown
+            text: Performance Discovery Add Environment Dropdown
+      - img: https://res.cloudinary.com/papu/image/upload/v1633692831/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Select_Dashboard_w9co4a.jpg
+        name: Import Dashboard
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692831/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Select_Dashboard_w9co4a.jpg
+            name: Import Dashboard
+            text: Import Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692830/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Select_Catalog_y4ve6j.jpg
+            name: Import Dashboard Wizard Select Catalogue
+            text: Import Dashboard Wizard Select Catalogue
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692830/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Import_Folder_Path_rcyby1.jpg
+            name: Import Dashboard Wizard Import Folder Path
+            text: Import Dashboard Wizard Import Folder Path
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692830/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Import_Folder_Tree_w5dewj.jpg
+            name: Import Dashboard Wizard Import Folder Tree
+            text: Import Dashboard Wizard Import Folder Tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692829/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Edit_Source_ael8zi.jpg
+            name: Import Dashboard Wizard Edit Source
+            text: Import Dashboard Wizard Edit Source
+          - name: Import Dashboard Wizard Import Folder Location
+            img: https://res.cloudinary.com/papu/image/upload/v1633692829/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Import_Folder_Location_si6sha.jpg
+            text: Import Dashboard Wizard Import Folder Location
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692828/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Import_q4mpdk.jpg
+            name: Import Dashboard Wizard Import
+            text: Import Dashboard Wizard Import
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692827/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard__Preview_khuiaz.jpg
+            name: Import Dashboard Wizard Preview
+            text: Import Dashboard Wizard Preview
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692826/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Edit_Source_1_qm3v1b.jpg
+            name: Import Dashboard Wizard Edit Source
+            text: Import Dashboard Wizard Edit Source
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
