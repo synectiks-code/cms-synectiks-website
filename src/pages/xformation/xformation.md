@@ -278,6 +278,24 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633692826/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Edit_Source_1_qm3v1b.jpg
             name: Import Dashboard Wizard Edit Source
             text: Import Dashboard Wizard Edit Source
+      - img: https://res.cloudinary.com/papu/image/upload/v1633692828/xformation-website/Performance%20management/New%20Discovery/New_Discovery_rixqjz.jpg
+        name: New Discovery
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692828/xformation-website/Performance%20management/New%20Discovery/New_Discovery_rixqjz.jpg
+            name: New Discovery
+            text: New Discovery
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692828/xformation-website/Performance%20management/New%20Discovery/New_Discovery__AWS_Data_source_uytoit.jpg
+            name: New Discovery AWS Data Source
+            text: New Discovery AWS Data Source
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692827/xformation-website/Performance%20management/New%20Discovery/Perf_Mgmt_Discovery_Adding_Data_source_xzrfdn.jpg
+            name: Performance Management Discovery Adding Data Source
+            text: Performance Management Discovery Adding Data Source
+          - img: https://res.cloudinary.com/papu/image/upload/v1633692827/xformation-website/Performance%20management/New%20Discovery/Perf_Mgmt_Discovery_Select_Data_source_l6bprv.jpg
+            name: Performance Management Discovery Select Data Source
+            text: Performance Management Discovery Select Data Source
+          - name: " New Discovery Select Data Source"
+            img: https://res.cloudinary.com/papu/image/upload/v1633692827/xformation-website/Performance%20management/New%20Discovery/New_Discovery_-_Select_Data_source_tio7s5.jpg
+            text: " New Discovery Select Data Source"
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
