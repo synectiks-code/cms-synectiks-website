@@ -119,8 +119,60 @@ scenarios:
         name: Kubernetes -  GCP
       - img: https://res.cloudinary.com/papu/image/upload/v1625559854/data_j7mjvr.svg
         name: Kubernetes - Azure
+      - img: https://res.cloudinary.com/papu/image/upload/v1633684830/xformation-website/Asset%20Management%20/Kubernetes/Kubernetes_-_Overview_zwkqoo.jpg
+        name: Account Info
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684829/xformation-website/Asset%20Management%20/Kubernetes/account%20info/Kuber_Account_asset_info_gotw8e.jpg
+            name: Kubernetes Account Asset
+            text: Kubernetes Account Asset
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684829/xformation-website/Asset%20Management%20/Kubernetes/account%20info/Kuber_Account_asset_info_2_x7d07p.jpg
+            name: Kubernetes Account Info
+            text: Kubernetes Account Info
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684828/xformation-website/Asset%20Management%20/Kubernetes/account%20info/Kuber_Account_asset_info_1_xwaai4.jpg
+            name: Kuber_Account_asset_info
+            text: Kuber_Account_asset_info
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
+    subItems:
+      - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/View_List_Page_well0v.jpg
+        name: Create New
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686431/xformation-website/View%20Management/Create%20New/New_View_Dashboard_preview_jsryx8.jpg
+            name: New View Dashboard
+            text: New View Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686427/xformation-website/View%20Management/Create%20New/View_Create_new_view_xgkibb.jpg
+            name: View Create New View
+            text: View Create New View
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Create%20New/New_View_Add_Dashboard_ix8tws.jpg
+            name: New View Add Dashboard
+            text: New View Add Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Create%20New/New_View_Add_Dashboard_New_tab_qe30pz.jpg
+            name: New View Dashboard New Tab
+            text: New View Dashboard New Tab
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Create%20New/New_View_Add_Dashboard_New_tab_menu_lcpcdj.jpg
+            name: New View Add Dashboard New Tab Menu
+            text: New View Add Dashboard New Tab Menu
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Create%20New/New_View_Select_Dashboard_axklm5.jpg
+            name: New View Select Dashboard
+            text: New View Select Dashboard
+      - img: https://res.cloudinary.com/papu/image/upload/v1633686432/xformation-website/View%20Management/Manage%20View/View_Manage_view_Tab_xc722k.jpg
+        name: Manage View
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686432/xformation-website/View%20Management/Manage%20View/View_Manage_view_Tab_xc722k.jpg
+            name: View Manage View Tab
+            text: View Manage View Tab
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686432/xformation-website/View%20Management/Manage%20View/View_Manage_view_Dashbaord_Menu_qu0ueu.jpg
+            name: View Manage View Dashboard Menu
+            text: View Manage View Dashboard Menu
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686427/xformation-website/View%20Management/Manage%20View/View_Manage_view_View_dashboard_eo87xi.jpg
+            name: View Manage View Dashboard
+            text: View Manage View Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686427/xformation-website/View%20Management/Manage%20View/View_Manage_view_Delete_Warning_lgjdrb.jpg
+            name: View Manage view Delete Warning
+            text: View Manage view Delete Warning
+          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Manage%20View/View_Manage_view_dbyt1d.jpg
+            name: View Manage view
+            text: View Manage view
   - img: https://res.cloudinary.com/papu/image/upload/v1619520488/hybrid-cloud/Compliance_Security_rng4yo.png
     name: Alert Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520443/hybrid-cloud/Single_Control_plane_iznjg0.png
