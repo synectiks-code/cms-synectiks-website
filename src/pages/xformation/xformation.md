@@ -416,4 +416,70 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Condition_1_njw8xq.jpg
             name: Alerts_Create_Alert_and_Event_Condition
             text: Alerts_Create_Alert_and_Event_Condition
+      - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Manager_-_Discovery_-_Details_of_data_source_qn42fj.jpg
+        name: Discovery of Data Source
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Manager_-_Discovery_-_Details_of_data_source_qn42fj.jpg
+            name: Log_Manager_-_Discovery_-_Details_of_data_source
+            text: Log_Manager_-_Discovery_-_Details_of_data_source
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_4_f7okuf.jpg
+            name: Log_Management_-_Inputs_Received_message
+            text: Log_Management_-_Inputs_Received_message
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_gwmztu.jpg
+            name: Log_Management_-_Inputs_Received_message
+            text: Log_Management_-_Inputs_Received_message
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Manager_-_New_Discovery_1_fsubic.jpg
+            name: Log_Manager_-_New_Discovery
+            text: Log_Manager_-_New_Discovery
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_st0yap.jpg
+            name: Log_Management_-_Inputs
+            text: Log_Management_-_Inputs
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_3_l4brua.jpg
+            name: Log_Management_-_Inputs_Received_message
+            text: Log_Management_-_Inputs_Received_message
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_2_wt0fyb.jpg
+            name: Log_Management_-_Inputs_Received_message
+            text: Log_Management_-_Inputs_Received_message
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_1_b3pdaf.jpg
+            name: Log_Management_-_Inputs_Received_message
+            text: Log_Management_-_Inputs_Received_message
+      - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_wv3st5.jpg
+        name: Streams
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_wv3st5.jpg
+            name: Streams_More_Actions_Manage_Output
+            text: Streams_More_Actions_Manage_Output
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Rules_dot2mc.jpg
+            name: Streams_More_Actions_Manage_Rules
+            text: Streams_More_Actions_Manage_Rules
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_obamw8.jpg
+            name: Streams_More_Actions
+            text: Streams_More_Actions
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Rules_3_cgokpa.jpg
+            name: Streams_More_Actions_Manage_Rules
+            text: Streams_More_Actions_Manage_Rules
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Edit_yz50u8.jpg
+            name: Streams_More_Actions_Edit
+            text: Streams_More_Actions_Edit
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Rules_2_m2ip4s.jpg
+            name: Streams_More_Actions_Manage_Rules
+            text: Streams_More_Actions_Manage_Rules
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Rules_1_ux9wfz.jpg
+            name: Streams_More_Actions_Manage_Rules
+            text: Streams_More_Actions_Manage_Rules
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_2_hgxxxn.jpg
+            name: Streams_More_Actions_Manage_Output
+            text: Streams_More_Actions_Manage_Output
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_1_rzsbtw.jpg
+            name: Streams_More_Actions_Manage_Output
+            text: Streams_More_Actions_Manage_Output
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_1_gmad2n.jpg
+            name: Streams_More_Actions
+            text: Streams_More_Actions
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Streams/Streams_Add_Stream_uuxdk7.jpg
+            name: Streams_Add_Stream
+            text: Streams_Add_Stream
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Streams/Log_Management_-_Streams_jfults.jpg
+            name: Log_Management_-_Streams
+            text: Log_Management_-_Streams
 ---
