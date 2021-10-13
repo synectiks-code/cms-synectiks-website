@@ -224,6 +224,45 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633687799/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_12_vsyy5c.jpg
             name: AWS_Account_-_Asset_tree
             text: AWS_Account_-_Asset_tree
+      - img: https://res.cloudinary.com/papu/image/upload/v1633685285/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_8_l4ekin.jpg
+        name: AWS Enable Performance management Wizard
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685285/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_8_l4ekin.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685283/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_5_lsoxsq.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685283/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_5.2_chljbx.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685283/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_6_hkuqrj.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685283/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_7_op79fs.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685283/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_5.4_upswgr.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685283/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_4_oqlhyi.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685282/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_5.3_v1t5mc.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685282/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_5.1_izddhj.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685282/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_3_tnxbyi.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685281/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_2_jrnolz.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633685281/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_1_toupwc.jpg
+            name: AWS Enable Performance management Wizard
+            text: AWS Enable Performance management Wizard
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
     subItems:
