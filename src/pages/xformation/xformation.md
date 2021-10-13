@@ -263,6 +263,45 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633685281/xformation-website/Asset%20Management%20/AWS/AWS%20Enable%20Perf%20mgmt%20Wizard/Node_performance_management_wizard_1_toupwc.jpg
             name: AWS Enable Performance management Wizard
             text: AWS Enable Performance management Wizard
+      - img: https://res.cloudinary.com/papu/image/upload/v1633684753/xformation-website/Asset%20Management%20/AWS/AWS%20Filters/Apply_filter_3_mxyybi.jpg
+        name: Aws Filter
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684753/xformation-website/Asset%20Management%20/AWS/AWS%20Filters/Apply_filter_3_mxyybi.jpg
+            name: Apply filter
+            text: Apply filter
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684752/xformation-website/Asset%20Management%20/AWS/AWS%20Filters/Apply_filter_2_dkdpw4.jpg
+            name: Apply filter
+            text: Apply filter
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684751/xformation-website/Asset%20Management%20/AWS/AWS%20Filters/Apply_filter_n5boji.jpg
+            name: Apply filter
+            text: Apply filter
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684751/xformation-website/Asset%20Management%20/AWS/AWS%20Filters/Filter_1_a7nzgl.jpg
+            name: Apply filter
+            text: Apply filter
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684751/xformation-website/Asset%20Management%20/AWS/AWS%20Filters/Apply_filter_1_ql1qua.jpg
+            name: Apply filter
+            text: Apply filter
+      - img: https://res.cloudinary.com/papu/image/upload/v1633684757/xformation-website/Asset%20Management%20/AWS/New%20Env%20wizard/New_Env_wizard_4_kvw59h.jpg
+        name: New Environment Wizard
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684755/xformation-website/Asset%20Management%20/AWS/New%20Env%20wizard/New_Env_wizard_1_evh7xf.jpg
+            name: New Environment Wizard
+            text: New Environment Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684755/xformation-website/Asset%20Management%20/AWS/New%20Env%20wizard/New_Env_wizard_2_jarh9q.jpg
+            name: New Environment Wizard
+            text: New Environment Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684755/xformation-website/Asset%20Management%20/AWS/New%20Env%20wizard/New_Env_wizard_3_ffjozq.jpg
+            name: New Environment Wizard
+            text: New Environment Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684757/xformation-website/Asset%20Management%20/AWS/New%20Env%20wizard/New_Env_wizard_4_kvw59h.jpg
+            name: New Environment Wizard
+            text: New Environment Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684756/xformation-website/Asset%20Management%20/AWS/New%20Env%20wizard/New_Env_wizard_5_cqtw9l.jpg
+            name: New Environment Wizard
+            text: New Environment Wizard
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684757/xformation-website/Asset%20Management%20/AWS/New%20Env%20wizard/New_Env_wizard_6_pzftvu.jpg
+            name: New Environment Wizard
+            text: New Environment Wizard
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
     subItems:
