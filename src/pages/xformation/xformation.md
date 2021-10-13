@@ -302,6 +302,52 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633684757/xformation-website/Asset%20Management%20/AWS/New%20Env%20wizard/New_Env_wizard_6_pzftvu.jpg
             name: New Environment Wizard
             text: New Environment Wizard
+      - img: https://res.cloudinary.com/papu/image/upload/v1633684829/xformation-website/Asset%20Management%20/Kubernetes/account%20info/Kuber_Account_asset_info_gotw8e.jpg
+        name: Account Info
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684829/xformation-website/Asset%20Management%20/Kubernetes/account%20info/Kuber_Account_asset_info_gotw8e.jpg
+            name: Kuber_Account_asset_info_got
+            text: Kuber_Account_asset_info_got
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684828/xformation-website/Asset%20Management%20/Kubernetes/account%20info/Kuber_Account_asset_info_1_xwaai4.jpg
+            name: Kuber_Account_asset_info
+            text: Kuber_Account_asset_info
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684829/xformation-website/Asset%20Management%20/Kubernetes/account%20info/Kuber_Account_asset_info_2_x7d07p.jpg
+            name: Kuber_Account_asset_info
+            text: Kuber_Account_asset_info
+      - img: https://res.cloudinary.com/papu/image/upload/v1633684830/xformation-website/Asset%20Management%20/Kubernetes/Account%20tree/Kuber_Account_Tree_3_gjmfbx.jpg
+        name: Kubernetes Account Tree
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684827/xformation-website/Asset%20Management%20/Kubernetes/Account%20tree/Kuber_Account_sonkoj.jpg
+            name: |-
+              
+              Kubernetes Account Tree
+            text: |-
+              
+              Kubernetes Account Tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684830/xformation-website/Asset%20Management%20/Kubernetes/Account%20tree/Kuber_Account_Tree_2_i602z9.jpg
+            name: Kubernetes Account Tree
+            text: Kubernetes Account Tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684830/xformation-website/Asset%20Management%20/Kubernetes/Account%20tree/Kuber_Account_Tree_3_gjmfbx.jpg
+            name: Kubernetes Account Tree
+            text: Kubernetes Account Tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684828/xformation-website/Asset%20Management%20/Kubernetes/Account%20tree/Kuber_Account_Tree_5_hjgcgj.jpg
+            text: Kubernetes Account Tree
+            name: Kubernetes Account Tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684828/xformation-website/Asset%20Management%20/Kubernetes/Account%20tree/Kuber_Account_Tree_6_rsiqrb.jpg
+            name: Kubernetes Account Tree
+            text: Kubernetes Account Tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684827/xformation-website/Asset%20Management%20/Kubernetes/Account%20tree/Kuber_Account_Tree_4_ty8pvl.jpg
+            name: Kubernetes Account Tree
+            text: Kubernetes Account Tree
+      - img: https://res.cloudinary.com/papu/image/upload/v1633684829/xformation-website/Asset%20Management%20/Kubernetes/explorer/Kuber_Account_Explorer_tfg00l.jpg
+        name: Kubernetes Explorer
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684829/xformation-website/Asset%20Management%20/Kubernetes/explorer/Kuber_Account_Explorer_tfg00l.jpg
+            name: Kuernetes Explorer
+            text: Kuernetes Explorer
+          - img: https://res.cloudinary.com/papu/image/upload/v1633684829/xformation-website/Asset%20Management%20/Kubernetes/explorer/Kuber_Account_Explorer_expanded_uyegfo.jpg
+            name: Kubernetes Explorer
+            text: Kubernetes Explorer
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
     subItems:
