@@ -176,6 +176,54 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633687305/xformation-website/Asset%20Management%20/AWS/AWS%20Account_App%20Tab%20details/AWS_Account_-_Asset_tree_14_iafc7d.jpg
             name: /AWS_Account_-_Asset_tree
             text: /AWS_Account_-_Asset_tree
+      - img: https://res.cloudinary.com/papu/image/upload/v1633687802/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_tmxjo3.jpg
+        name: AWS Account Asset tree
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687802/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_tmxjo3.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687801/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_7_pvsvap.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687801/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_9_sy2pt6.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687801/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_8_ugivxe.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687801/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_6_fgg67l.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687801/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_14_dhivjt.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687800/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_5_fipkwl.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687800/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_17_b4xzlh.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687800/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_18_m6c3ju.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687800/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_16_w1d9kk.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687799/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_1_2_ckwehf.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687799/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_10_k2kd8q.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687799/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_11_rxuzuj.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687799/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_13_dhn5od.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1633687799/xformation-website/Asset%20Management%20/AWS/AWS%20Account_Asset%20tree/AWS_Account_-_Asset_tree_2_12_vsyy5c.jpg
+            name: AWS_Account_-_Asset_tree
+            text: AWS_Account_-_Asset_tree
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
     subItems:
