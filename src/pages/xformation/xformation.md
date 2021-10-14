@@ -660,43 +660,43 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634207970/xformation-website/Log%20Management/Discovery%20of%20Data%20source/8_Log_Management_-_Inputs_Received_message_4_fh0exw.jpg
             name: Log_Management_-_Inputs_Received_message
             text: Log_Management_-_Inputs_Received_message
-      - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_wv3st5.jpg
+      - img: https://res.cloudinary.com/papu/image/upload/v1634207971/xformation-website/Log%20Management/Streams/1Log_Management_-_Streams_klyhwv.jpg
         name: Streams
         useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_wv3st5.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207971/xformation-website/Log%20Management/Streams/1Log_Management_-_Streams_klyhwv.jpg
             name: Streams_More_Actions_Manage_Output
             text: Streams_More_Actions_Manage_Output
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Rules_dot2mc.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207971/xformation-website/Log%20Management/Streams/2Streams_Add_Stream_xessdx.jpg
             name: Streams_More_Actions_Manage_Rules
             text: Streams_More_Actions_Manage_Rules
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_obamw8.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207971/xformation-website/Log%20Management/Streams/3Streams_More_Actions_dgpwxi.jpg
             name: Streams_More_Actions
             text: Streams_More_Actions
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Rules_3_cgokpa.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207971/xformation-website/Log%20Management/Streams/4Streams_More_Actions_1_clxvoq.jpg
             name: Streams_More_Actions_Manage_Rules
             text: Streams_More_Actions_Manage_Rules
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Edit_yz50u8.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207972/xformation-website/Log%20Management/Streams/5Streams_More_Actions_Manage_Rules_kas4wg.jpg
             name: Streams_More_Actions_Edit
             text: Streams_More_Actions_Edit
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Rules_2_m2ip4s.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207973/xformation-website/Log%20Management/Streams/6Streams_More_Actions_Manage_Rules_1_dr9gqb.jpg
             name: Streams_More_Actions_Manage_Rules
             text: Streams_More_Actions_Manage_Rules
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Rules_1_ux9wfz.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207972/xformation-website/Log%20Management/Streams/7Streams_More_Actions_Manage_Rules_2_xstrln.jpg
             name: Streams_More_Actions_Manage_Rules
             text: Streams_More_Actions_Manage_Rules
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_2_hgxxxn.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207973/xformation-website/Log%20Management/Streams/8Streams_More_Actions_Manage_Rules_3_b2ijy9.jpg
             name: Streams_More_Actions_Manage_Output
             text: Streams_More_Actions_Manage_Output
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_1_rzsbtw.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207972/xformation-website/Log%20Management/Streams/9Streams_More_Actions_Manage_Output_kaius5.jpg
             name: Streams_More_Actions_Manage_Output
             text: Streams_More_Actions_Manage_Output
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Streams/Streams_More_Actions_1_gmad2n.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207970/xformation-website/Log%20Management/Streams/10Streams_More_Actions_Manage_Output_1_lh2gwd.jpg
             name: Streams_More_Actions
             text: Streams_More_Actions
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Streams/Streams_Add_Stream_uuxdk7.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207971/xformation-website/Log%20Management/Streams/11Streams_More_Actions_Manage_Output_2_fpowx1.jpg
             name: Streams_Add_Stream
             text: Streams_Add_Stream
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Streams/Log_Management_-_Streams_jfults.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207972/xformation-website/Log%20Management/Streams/12Streams_More_Actions_Edit_ltqopw.jpg
             name: Log_Management_-_Streams
             text: Log_Management_-_Streams
 ---
