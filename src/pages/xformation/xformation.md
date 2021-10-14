@@ -615,22 +615,22 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634207969/xformation-website/Log%20Management/Alert%20and%20event/9_Alerts_Create_Alert_and_Event_Notifications_oolnxx.jpg
             name: Alerts_Create_Alert_and_Event_Notifications
             text: Alerts_Create_Alert_and_Event_Notifications
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933558/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Notifications_4_cvjlyv.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207968/xformation-website/Log%20Management/Alert%20and%20event/10_Alerts_Create_Alert_and_Event_Notifications_1_tiz6kl.jpg
             name: Alerts_Create_Alert_and_Event_Notifications
             text: Alerts_Create_Alert_and_Event_Notifications
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933558/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Notifications_5_w4hwgp.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207968/xformation-website/Log%20Management/Alert%20and%20event/11_Alerts_Create_Alert_and_Event_Notifications_2_lbdd8x.jpg
             name: Alerts_Create_Alert_and_Event_Notifications
             text: Alerts_Create_Alert_and_Event_Notifications
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933558/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Notifications_2_deozfr.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207967/xformation-website/Log%20Management/Alert%20and%20event/12_Alerts_Create_Alert_and_Event_Notifications_3_bu2w6v.jpg
             name: Alerts_Create_Alert_and_Event_Notifications
             text: Alerts_Create_Alert_and_Event_Notifications
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Notifications_1_egfuca.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207967/xformation-website/Log%20Management/Alert%20and%20event/13_Alerts_Create_Alert_and_Event_Notifications_4_bbefnk.jpg
             name: Alerts_Create_Alert_and_Event_Notifications
             text: Alerts_Create_Alert_and_Event_Notifications
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Fields_c0zxbm.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207966/xformation-website/Log%20Management/Alert%20and%20event/14_Alerts_Create_Alert_and_Event_Notifications_5_ndsqpf.jpg
             name: Alerts_Create_Alert_and_Event_Fields
             text: Alerts_Create_Alert_and_Event_Fields
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Fields_1_wdyac2.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207967/xformation-website/Log%20Management/Alert%20and%20event/15_Alerts_Create_Alert_and_Event_Summary_u0usql.jpg
             name: " Alerts_Create_Alert_and_Event_Fields"
             text: " Alerts_Create_Alert_and_Event_Fields"
       - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Manager_-_Discovery_-_Details_of_data_source_qn42fj.jpg
