@@ -591,12 +591,21 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
             name: Log Management
             text: Log Management
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933558/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Notifications_uwhlbv.jpg
-            name: Alerts_Create_Alert_and_Event_Notifications
-            text: Alerts_Create_Alert_and_Event_Notifications
           - img: https://res.cloudinary.com/papu/image/upload/v1633933558/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_lit9wp.jpg
             name: Alerts_Create_Alert_and_Event
             text: Alerts_Create_Alert_and_Event
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Event_Details_vm4lwz.jpg
+            name: Alerts_Create_Alert_and_Event_Event_Details
+            text: Alerts_Create_Alert_and_Event_Event_Details
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Condition_uvtm88.jpg
+            name: Alerts_Create_Alert_and_Event_Condition
+            text: Alerts_Create_Alert_and_Event_Condition
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Condition_1_njw8xq.jpg
+            name: Alerts_Create_Alert_and_Event_Condition
+            text: Alerts_Create_Alert_and_Event_Condition
+          - img: https://res.cloudinary.com/papu/image/upload/v1633933558/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Notifications_uwhlbv.jpg
+            name: Alerts_Create_Alert_and_Event_Notifications
+            text: Alerts_Create_Alert_and_Event_Notifications
           - img: https://res.cloudinary.com/papu/image/upload/v1633933558/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Summary_ux6y5f.jpg
             name: Alerts_Create_Alert_and_Event_Summary
             text: Alerts_Create_Alert_and_Event_Summary
@@ -621,18 +630,9 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Fields_c0zxbm.jpg
             name: Alerts_Create_Alert_and_Event_Fields
             text: Alerts_Create_Alert_and_Event_Fields
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Event_Details_vm4lwz.jpg
-            name: Alerts_Create_Alert_and_Event_Event_Details
-            text: Alerts_Create_Alert_and_Event_Event_Details
           - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Fields_1_wdyac2.jpg
             name: " Alerts_Create_Alert_and_Event_Fields"
             text: " Alerts_Create_Alert_and_Event_Fields"
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Condition_uvtm88.jpg
-            name: Alerts_Create_Alert_and_Event_Condition
-            text: Alerts_Create_Alert_and_Event_Condition
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933557/xformation-website/Log%20Management/Alert%20and%20event/Alerts_Create_Alert_and_Event_Condition_1_njw8xq.jpg
-            name: Alerts_Create_Alert_and_Event_Condition
-            text: Alerts_Create_Alert_and_Event_Condition
       - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Manager_-_Discovery_-_Details_of_data_source_qn42fj.jpg
         name: Discovery of Data Source
         useCaseSlider:
