@@ -585,7 +585,7 @@ scenarios:
   - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
     name: Log Management
     subItems:
-      - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
+      - img: https://res.cloudinary.com/papu/image/upload/v1634207969/xformation-website/Log%20Management/Discovery%20of%20Data%20source/1_Log_Management_-_Inputs_brrsdw.jpg
         name: Alert And Event
         useCaseSlider:
           - img: https://res.cloudinary.com/papu/image/upload/v1634207968/xformation-website/Log%20Management/Alert%20and%20event/1_Log_Management_-_Alerts_tritvf.jpg
@@ -633,31 +633,31 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634207967/xformation-website/Log%20Management/Alert%20and%20event/15_Alerts_Create_Alert_and_Event_Summary_u0usql.jpg
             name: " Alerts_Create_Alert_and_Event_Fields"
             text: " Alerts_Create_Alert_and_Event_Fields"
-      - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Manager_-_Discovery_-_Details_of_data_source_qn42fj.jpg
+      - img: https://res.cloudinary.com/papu/image/upload/v1634207969/xformation-website/Log%20Management/Discovery%20of%20Data%20source/1_Log_Management_-_Inputs_brrsdw.jpg
         name: Discovery of Data Source
         useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Manager_-_Discovery_-_Details_of_data_source_qn42fj.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207969/xformation-website/Log%20Management/Discovery%20of%20Data%20source/1_Log_Management_-_Inputs_brrsdw.jpg
             name: Log_Manager_-_Discovery_-_Details_of_data_source
             text: Log_Manager_-_Discovery_-_Details_of_data_source
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933560/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_4_f7okuf.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207969/xformation-website/Log%20Management/Discovery%20of%20Data%20source/2_Log_Manager_-_New_Discovery_1_jn6kmd.jpg
             name: Log_Management_-_Inputs_Received_message
             text: Log_Management_-_Inputs_Received_message
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_gwmztu.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207969/xformation-website/Log%20Management/Discovery%20of%20Data%20source/3_Log_Manager_-_Discovery_-_Details_of_data_source_tbwvbz.jpg
             name: Log_Management_-_Inputs_Received_message
             text: Log_Management_-_Inputs_Received_message
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Manager_-_New_Discovery_1_fsubic.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207969/xformation-website/Log%20Management/Discovery%20of%20Data%20source/4_Log_Management_-_Inputs_Received_message_w2w36v.jpg
             name: Log_Manager_-_New_Discovery
             text: Log_Manager_-_New_Discovery
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_st0yap.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207970/xformation-website/Log%20Management/Discovery%20of%20Data%20source/5_Log_Management_-_Inputs_Received_message_1_v3audg.jpg
             name: Log_Management_-_Inputs
             text: Log_Management_-_Inputs
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_3_l4brua.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207971/xformation-website/Log%20Management/Discovery%20of%20Data%20source/6_Log_Management_-_Inputs_Received_message_2_byz9dw.jpg
             name: Log_Management_-_Inputs_Received_message
             text: Log_Management_-_Inputs_Received_message
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_2_wt0fyb.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207971/xformation-website/Log%20Management/Discovery%20of%20Data%20source/7_Log_Management_-_Inputs_Received_message_3_zrhymt.jpg
             name: Log_Management_-_Inputs_Received_message
             text: Log_Management_-_Inputs_Received_message
-          - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Discovery%20of%20Data%20source/Log_Management_-_Inputs_Received_message_1_b3pdaf.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634207970/xformation-website/Log%20Management/Discovery%20of%20Data%20source/8_Log_Management_-_Inputs_Received_message_4_fh0exw.jpg
             name: Log_Management_-_Inputs_Received_message
             text: Log_Management_-_Inputs_Received_message
       - img: https://res.cloudinary.com/papu/image/upload/v1633933561/xformation-website/Log%20Management/Streams/Streams_More_Actions_Manage_Output_wv3st5.jpg
