@@ -378,21 +378,24 @@ scenarios:
       - img: https://res.cloudinary.com/papu/image/upload/v1633686432/xformation-website/View%20Management/Manage%20View/View_Manage_view_Tab_xc722k.jpg
         name: Manage View
         useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686432/xformation-website/View%20Management/Manage%20View/View_Manage_view_Tab_xc722k.jpg
-            name: View Manage View Tab
-            text: View Manage View Tab
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686432/xformation-website/View%20Management/Manage%20View/View_Manage_view_Dashbaord_Menu_qu0ueu.jpg
-            name: View Manage View Dashboard Menu
-            text: View Manage View Dashboard Menu
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686427/xformation-website/View%20Management/Manage%20View/View_Manage_view_View_dashboard_eo87xi.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219145/xformation-website/View%20Management/Manage%20View/1View_List_Page_ykklpl.jpg
+            name: View_List_Page
+            text: View_List_Page
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219146/xformation-website/View%20Management/Manage%20View/2View_Manage_view_rdorgk.jpg
+            name: View_Manage_view
+            text: View_Manage_view
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219146/xformation-website/View%20Management/Manage%20View/3View_Manage_view_View_dashboard_hh9mwa.jpg
             name: View Manage View Dashboard
             text: View Manage View Dashboard
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686427/xformation-website/View%20Management/Manage%20View/View_Manage_view_Delete_Warning_lgjdrb.jpg
-            name: View Manage view Delete Warning
-            text: View Manage view Delete Warning
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Manage%20View/View_Manage_view_dbyt1d.jpg
-            name: View Manage view
-            text: View Manage view
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219147/xformation-website/View%20Management/Manage%20View/4View_Manage_view_Tab_hgdwu2.jpg
+            name: View_Manage_view_Tab
+            text: View_Manage_view_Tab
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219146/xformation-website/View%20Management/Manage%20View/5View_Manage_view_Dashbaord_Menu_cnyjxf.jpg
+            name: View Manage view Dashbaord_Menu
+            text: View Manage view Dashbaord_Menu
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219146/xformation-website/View%20Management/Manage%20View/6View_Manage_view_Delete_Warning_z9gi4t.jpg
+            name: View_Manage_view_Delete_Warning
+            text: View_Manage_view_Delete_Warning
   - img: https://res.cloudinary.com/papu/image/upload/v1634218315/xformation-website/Alert%20Management/Alert/1Alert_HS_Dashboard_tuurkl.jpg
     name: Alert Management
     subItems:
