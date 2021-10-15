@@ -351,27 +351,30 @@ scenarios:
   - img: https://res.cloudinary.com/papu/image/upload/v1619520513/hybrid-cloud/Extreme_Automation_ewfqaf.png
     name: View Management
     subItems:
-      - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/View_List_Page_well0v.jpg
+      - img: https://res.cloudinary.com/papu/image/upload/v1634219146/xformation-website/View%20Management/Create%20New/3New_View_Add_Dashboard_xo6mxr.jpg
         name: Create New
         useCaseSlider:
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686431/xformation-website/View%20Management/Create%20New/New_View_Dashboard_preview_jsryx8.jpg
-            name: New View Dashboard
-            text: New View Dashboard
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686427/xformation-website/View%20Management/Create%20New/View_Create_new_view_xgkibb.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219145/xformation-website/View%20Management/Create%20New/1View_List_Page_pxhypm.jpg
+            name: View List Page
+            text: View List Page
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219145/xformation-website/View%20Management/Create%20New/2View_Create_new_view_y751y2.jpg
             name: View Create New View
             text: View Create New View
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Create%20New/New_View_Add_Dashboard_ix8tws.jpg
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219146/xformation-website/View%20Management/Create%20New/3New_View_Add_Dashboard_xo6mxr.jpg
             name: New View Add Dashboard
             text: New View Add Dashboard
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Create%20New/New_View_Add_Dashboard_New_tab_qe30pz.jpg
-            name: New View Dashboard New Tab
-            text: New View Dashboard New Tab
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Create%20New/New_View_Add_Dashboard_New_tab_menu_lcpcdj.jpg
-            name: New View Add Dashboard New Tab Menu
-            text: New View Add Dashboard New Tab Menu
-          - img: https://res.cloudinary.com/papu/image/upload/v1633686426/xformation-website/View%20Management/Create%20New/New_View_Select_Dashboard_axklm5.jpg
-            name: New View Select Dashboard
-            text: New View Select Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219145/xformation-website/View%20Management/Create%20New/4New_View_Select_Dashboard_ecozaf.jpg
+            name: "New View Select Dashboard "
+            text: "New View Select Dashboard "
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219146/xformation-website/View%20Management/Create%20New/5New_View_Dashboard_preview_ewuyz9.jpg
+            name: New View Dashboard Preview
+            text: New View Dashboard Preview
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219145/xformation-website/View%20Management/Create%20New/6New_View_Add_Dashboard_New_tab_jepr8x.jpg
+            name: New_View_Add_Dashboard_New_tab
+            text: New_View_Add_Dashboard_New_tab
+          - img: https://res.cloudinary.com/papu/image/upload/v1634219145/xformation-website/View%20Management/Create%20New/7New_View_Add_Dashboard_New_tab_menu_hfhlwx.jpg
+            name: New_View_Add_Dashboard_New_tab_menu
+            text: New_View_Add_Dashboard_New_tab_menu
       - img: https://res.cloudinary.com/papu/image/upload/v1633686432/xformation-website/View%20Management/Manage%20View/View_Manage_view_Tab_xc722k.jpg
         name: Manage View
         useCaseSlider:
