@@ -519,6 +519,9 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633692826/xformation-website/Performance%20management/Import%20Dashbboard/Import_Dashboard_Wizard_Edit_Source_1_qm3v1b.jpg
             name: Import Dashboard Wizard Edit Source
             text: Import Dashboard Wizard Edit Source
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217758/xformation-website/Performance%20management/5%20Import%20Dashbboard/2Import_Dashboard_Wizard_Select_Dashboard_izxj23.jpg
+            name: Import_Dashboard_Wizard_Select_Dashboard
+            text: Import_Dashboard_Wizard_Select_Dashboard
       - img: https://res.cloudinary.com/papu/image/upload/v1633692828/xformation-website/Performance%20management/New%20Discovery/New_Discovery_rixqjz.jpg
         name: New Discovery
         useCaseSlider:
