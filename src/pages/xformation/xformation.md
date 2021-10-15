@@ -657,6 +657,15 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634217760/xformation-website/Performance%20management/4%20Create%20Dashboard/4Create_Dashboard_Add_Panel_2_roiwnq.jpg
             name: Create_Dashboard_Add_Panel
             text: Create_Dashboard_Add_Panel
+      - img: https://res.cloudinary.com/papu/image/upload/v1634217758/xformation-website/Performance%20management/5%20Import%20Dashbboard/1Import_Dashboard_Wizard_Select_Catalog_nwaapr.jpg
+        name: Import Dashboard
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217758/xformation-website/Performance%20management/5%20Import%20Dashbboard/1Import_Dashboard_Wizard_Select_Catalog_nwaapr.jpg
+            name: Import_Dashboard_Wizard_Select_Catalog
+            text: Import_Dashboard_Wizard_Select_Catalog
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217758/xformation-website/Performance%20management/5%20Import%20Dashbboard/2Import_Dashboard_Wizard_Select_Dashboard_izxj23.jpg
+            name: Import_Dashboard_Wizard_Select_Dashboard
+            text: Import_Dashboard_Wizard_Select_Dashboard
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
