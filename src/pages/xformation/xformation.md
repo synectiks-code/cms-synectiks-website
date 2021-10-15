@@ -642,6 +642,21 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634217757/xformation-website/Performance%20management/3%20Catalogue%20Management/12Collection_View_Resources_nnwld5.jpg
             name: Collection_View_Resources
             text: Collection_View_Resources
+      - img: https://res.cloudinary.com/papu/image/upload/v1634217754/xformation-website/Performance%20management/4%20Create%20Dashboard/1Dashboard_Homepage_s59naa.jpg
+        name: Create Dashboard
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217754/xformation-website/Performance%20management/4%20Create%20Dashboard/1Dashboard_Homepage_s59naa.jpg
+            name: Dashboard_Homepage
+            text: Dashboard_Homepage
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217755/xformation-website/Performance%20management/4%20Create%20Dashboard/2Create_Dashboard_Mainpage_h7phoi.jpg
+            name: Create_Dashboard_Mainpage
+            text: Create_Dashboard_Mainpage
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217755/xformation-website/Performance%20management/4%20Create%20Dashboard/3Create_Dashboard_Add_Panel_rlgnsj.jpg
+            name: Create_Dashboard_Add_Panel
+            text: Create_Dashboard_Add_Panel
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217760/xformation-website/Performance%20management/4%20Create%20Dashboard/4Create_Dashboard_Add_Panel_2_roiwnq.jpg
+            name: Create_Dashboard_Add_Panel
+            text: Create_Dashboard_Add_Panel
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
