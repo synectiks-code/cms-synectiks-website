@@ -600,6 +600,48 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1633692831/xformation-website/Performance%20management/Playlist/Create_New_playlist_-_2_mcgyas.png
             name: Create_New_playlist
             text: Create_New_playlist
+      - name: Catalogue Management
+        img: https://res.cloudinary.com/papu/image/upload/v1634217755/xformation-website/Performance%20management/3%20Catalogue%20Management/Home__1_nyzcox.jpg
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217755/xformation-website/Performance%20management/3%20Catalogue%20Management/Home__1_nyzcox.jpg
+            name: Management Home
+            text: Management Home
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217753/xformation-website/Performance%20management/3%20Catalogue%20Management/1Catalog_screen_1_mssjef.jpg
+            name: Catalog_screen
+            text: Catalog_screen
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217753/xformation-website/Performance%20management/3%20Catalogue%20Management/2Catalog_Screen_Collector_Details_jnltbv.jpg
+            name: Catalog_Screen_Collector_Details
+            text: Catalog_Screen_Collector_Details
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217757/xformation-website/Performance%20management/3%20Catalogue%20Management/3Catalog_Screen_Collector_dashboard_details_lhmda4.jpg
+            name: Catalog_Screen_Collector_dashboard_details
+            text: Catalog_Screen_Collector_dashboard_details
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217754/xformation-website/Performance%20management/3%20Catalogue%20Management/4Add_to_library_Popup_vclaqt.jpg
+            name: Add_to_library_Popup
+            text: Add_to_library_Popup
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217756/xformation-website/Performance%20management/3%20Catalogue%20Management/5Library_zhgozv.jpg
+            name: Library
+            text: Library
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217756/xformation-website/Performance%20management/3%20Catalogue%20Management/6Library_Folder_content_t2ex8d.jpg
+            name: Library_Folder_content
+            text: Library_Folder_content
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217760/xformation-website/Performance%20management/3%20Catalogue%20Management/7Library_collector_content_fviet8.jpg
+            name: Library_collector_content
+            text: Library_collector_content
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217759/xformation-website/Performance%20management/3%20Catalogue%20Management/8View_Dashboard_1_zgkgsr.jpg
+            name: View_Dashboard
+            text: View_Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217760/xformation-website/Performance%20management/3%20Catalogue%20Management/9View_Dashboard_2_peleqi.jpg
+            name: View_Dashboard
+            text: View_Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217765/xformation-website/Performance%20management/3%20Catalogue%20Management/10View_Dashboard_3_x9vvwc.jpg
+            name: View_Dashboard
+            text: View_Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217752/xformation-website/Performance%20management/3%20Catalogue%20Management/11Collection_Screen_1_vsi597.jpg
+            name: Collection_Screen
+            text: Collection_Screen
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217757/xformation-website/Performance%20management/3%20Catalogue%20Management/12Collection_View_Resources_nnwld5.jpg
+            name: Collection_View_Resources
+            text: Collection_View_Resources
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
