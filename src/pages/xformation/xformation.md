@@ -687,6 +687,21 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634217759/xformation-website/Performance%20management/5%20Import%20Dashbboard/6Import_Dashboard_Wizard_Import_oq7k3b.jpg
             name: Import_Dashboard_Wizard_Import
             text: Import_Dashboard_Wizard_Import
+      - img: https://res.cloudinary.com/papu/image/upload/v1634217759/xformation-website/Performance%20management/6%20Discovery/1Perf_Mgmt_Discovery_Homepage_utyyvg.jpg
+        name: Discovery
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217759/xformation-website/Performance%20management/6%20Discovery/1Perf_Mgmt_Discovery_Homepage_utyyvg.jpg
+            name: Perf_Mgmt_Discovery_Homepage
+            text: Perf_Mgmt_Discovery_Homepage
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217760/xformation-website/Performance%20management/6%20Discovery/2Perf_Mgmt_Discovery_Filter_jcr6kd.jpg
+            name: Perf_Mgmt_Discovery_Filter
+            text: Perf_Mgmt_Discovery_Filter
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217760/xformation-website/Performance%20management/6%20Discovery/3Perf_Mgmt_Discovery_Add_Environment_Dropdown_qbvnmv.jpg
+            name: Perf_Mgmt_Discovery_Add_Environment_Dropdown
+            text: Perf_Mgmt_Discovery_Add_Environment_Dropdown
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217762/xformation-website/Performance%20management/6%20Discovery/4Perf_Mgmt_Discovery_dropdown_i0w1sv.jpg
+            name: Perf_Mgmt_Discovery_dropdown
+            text: Perf_Mgmt_Discovery_dropdown
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
