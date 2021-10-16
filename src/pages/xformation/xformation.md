@@ -669,6 +669,24 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634217758/xformation-website/Performance%20management/5%20Import%20Dashbboard/2Import_Dashboard_Wizard_Select_Dashboard_izxj23.jpg
             name: Import_Dashboard_Wizard_Select_Dashboard
             text: Import_Dashboard_Wizard_Select_Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217757/xformation-website/Performance%20management/5%20Import%20Dashbboard/3Import_Dashboard_Wizard_Edit_Source_gujxk0.jpg
+            name: Import_Dashboard_Wizard_Edit
+            text: Import_Dashboard_Wizard_Edit
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217756/xformation-website/Performance%20management/5%20Import%20Dashbboard/5Import_Dashboard_Wizard__Preview_aru8pb.jpg
+            name: Import_Dashboard_Wizard__Preview
+            text: Import_Dashboard_Wizard__Preview
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217762/xformation-website/Performance%20management/5%20Import%20Dashbboard/9Import_Dashboard_Wizard_Import_Folder_Path_ykozy6.jpg
+            name: Import_Dashboard_Wizard_Import
+            text: Import_Dashboard_Wizard_Import
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217758/xformation-website/Performance%20management/5%20Import%20Dashbboard/4Import_Dashboard_Wizard_Edit_Source_1_p8sz9s.jpg
+            name: Import_Dashboard_Wizard_Edit_Source
+            text: Import_Dashboard_Wizard_Edit_Source
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217761/xformation-website/Performance%20management/5%20Import%20Dashbboard/8Import_Dashboard_Wizard_Import_Folder_Tree_ebydku.jpg
+            name: Import_Dashboard_Wizard_Import_Folder_Tree
+            text: Import_Dashboard_Wizard_Import_Folder_Tree
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217759/xformation-website/Performance%20management/5%20Import%20Dashbboard/6Import_Dashboard_Wizard_Import_oq7k3b.jpg
+            name: Import_Dashboard_Wizard_Import
+            text: Import_Dashboard_Wizard_Import
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
