@@ -702,6 +702,24 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634217762/xformation-website/Performance%20management/6%20Discovery/4Perf_Mgmt_Discovery_dropdown_i0w1sv.jpg
             name: Perf_Mgmt_Discovery_dropdown
             text: Perf_Mgmt_Discovery_dropdown
+      - img: https://res.cloudinary.com/papu/image/upload/v1634217761/xformation-website/Performance%20management/7%20Playlist/1Playlist_1_x56pc9.png
+        name: Play List
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217761/xformation-website/Performance%20management/7%20Playlist/1Playlist_1_x56pc9.png
+            name: Playlist_1_
+            text: Playlist_1_
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217763/xformation-website/Performance%20management/7%20Playlist/2Create_new_playlist_-1_ivyr3d.png
+            name: Create_new_playlist_-1
+            text: Create_new_playlist_-1
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217761/xformation-website/Performance%20management/7%20Playlist/3Create_New_playlist_-_2_zhh0jk.png
+            name: Create_New_playlist_-_2
+            text: Create_New_playlist_-_2
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217761/xformation-website/Performance%20management/7%20Playlist/4Create_New_playlist_-_2_1_tqhgyo.png
+            name: Create_New_playlist_-_2_1
+            text: Create_New_playlist_-_2_1
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217762/xformation-website/Performance%20management/7%20Playlist/5Create_new_Playlist_-_New_Tab_onaefl.png
+            name: Create_new_Playlist_-_New_Tab
+            text: Create_new_Playlist_-_New_Tab
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
