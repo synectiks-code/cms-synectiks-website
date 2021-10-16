@@ -720,6 +720,24 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634217762/xformation-website/Performance%20management/7%20Playlist/5Create_new_Playlist_-_New_Tab_onaefl.png
             name: Create_new_Playlist_-_New_Tab
             text: Create_new_Playlist_-_New_Tab
+      - img: https://res.cloudinary.com/papu/image/upload/v1634217764/xformation-website/Performance%20management/8%20New%20Discovery/1New_Discovery_hjdx66.jpg
+        name: New Discovery
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217764/xformation-website/Performance%20management/8%20New%20Discovery/1New_Discovery_hjdx66.jpg
+            name: New_Discovery
+            text: New_Discovery
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217763/xformation-website/Performance%20management/8%20New%20Discovery/2New_Discovery_-_Select_Data_source_njofyo.jpg
+            name: New_Discovery_-_Select_Data_source
+            text: New_Discovery_-_Select_Data_source
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217763/xformation-website/Performance%20management/8%20New%20Discovery/3New_Discovery__AWS_Data_source_gtd8ws.jpg
+            name: New_Discovery__AWS_Data_source
+            text: New_Discovery__AWS_Data_source
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217763/xformation-website/Performance%20management/8%20New%20Discovery/4Perf_Mgmt_Discovery_Select_Data_source_ndqqoh.jpg
+            name: Perf_Mgmt_Discovery_Select_Data_source
+            text: Perf_Mgmt_Discovery_Select_Data_source
+          - img: https://res.cloudinary.com/papu/image/upload/v1634217763/xformation-website/Performance%20management/8%20New%20Discovery/5Perf_Mgmt_Discovery_Adding_Data_source_vhfci0.jpg
+            name: Perf_Mgmt_Discovery_Adding_Data_source
+            text: Perf_Mgmt_Discovery_Adding_Data_source
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
