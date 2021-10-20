@@ -858,6 +858,30 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/02_Tickets/09_Ticket_Page-Merge_gooenl.png
             name: Ticket_Page-Merge
             text: Ticket_Page-Merge
+      - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/03_Contacts/12_Contacts_rjy8g2.png
+        name: Contacts
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/03_Contacts/12_Contacts_rjy8g2.png
+            name: Contacts
+            text: Contacts
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/03_Contacts/13_New_Contact_Popup_qju71k.png
+            name: New_Contact_Popup
+            text: New_Contact_Popup
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/03_Contacts/14_Contact_details_l5rsca.png
+            name: Contact_details
+            text: Contact_details
+      - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/04_Companies/15_Companies_ksp81d.png
+        name: Companies
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/04_Companies/15_Companies_ksp81d.png
+            name: Companies
+            text: Companies
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/04_Companies/16_New_Company_-_Popup_feiewe.png
+            name: New_Company_-_Popup
+            text: New_Company_-_Popup
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/04_Companies/17_Company_details_msoejw.png
+            name: Company_details
+            text: Company_details
   - img: https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png
     name: Service Desk Management
   - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
