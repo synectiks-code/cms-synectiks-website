@@ -834,6 +834,30 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/02_Tickets/01_Tickets_g9jcal.png
             name: Tickets
             text: Tickets
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/02_Tickets/02_Ticket_Page_ndwcjy.png
+            name: Ticket_Page
+            text: Ticket_Page
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/02_Tickets/03_New_Ticket_svbxrm.png
+            name: New_Ticket
+            text: New_Ticket
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/02_Tickets/04_New_Email_kzabl3.png
+            name: New Email
+            text: New Email
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/02_Tickets/05_Ticket_Page-Reply_vbcahr.png
+            name: Ticket_Page-Reply
+            text: Ticket_Page-Reply
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/02_Tickets/06_Ticket_Page-Forward_kg1jsc.png
+            name: Ticket_Page-Forward
+            text: Ticket_Page-Forward
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/02_Tickets/07_Ticket_Page-Notes_yghaeg.png
+            name: Ticket_Page-Notes
+            text: Ticket_Page-Notes
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/02_Tickets/08_Ticket_Page-Delete_kbgmb0.png
+            name: Ticket_Page-Delete
+            text: Ticket_Page-Delete
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/02_Tickets/09_Ticket_Page-Merge_gooenl.png
+            name: Ticket_Page-Merge
+            text: Ticket_Page-Merge
   - img: https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png
     name: Service Desk Management
   - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
