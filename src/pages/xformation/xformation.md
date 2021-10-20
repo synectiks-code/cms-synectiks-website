@@ -912,6 +912,27 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/01_Reports_lmheyt.png
             name: Reports_Ticket_Volume
             text: Reports_Ticket_Volume
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/02_Ticket_Volume_Trends_her22i.png
+            name: Ticket_Volume_Trends
+            text: Ticket_Volume_Trends
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/03_Ticket_Volume_Trends-Generate_report_qlbcje.png
+            name: Ticket_Volume_Trends-Generate
+            text: Ticket_Volume_Trends-Generate
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715588/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/04_Open_Tickets_wfv9oz.png
+            name: Open_Tickets
+            text: Open_Tickets
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/05_Due_Today_ql0gey.png
+            name: Due_Today
+            text: Due_Today
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/06_Unassigned_xjg05w.png
+            name: Unassigned
+            text: Unassigned
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/07_Unresolved_qbsfgm.png
+            name: Unresolved
+            text: Unresolved
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715585/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/08_Overdue_t8eery.png
+            name: Overdue
+            text: Overdue
   - img: https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png
     name: Service Desk Management
   - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
