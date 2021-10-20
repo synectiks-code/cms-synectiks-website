@@ -882,6 +882,36 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634715582/xformation-website/Ticketing%20Tool/04_Companies/17_Company_details_msoejw.png
             name: Company_details
             text: Company_details
+      - img: https://res.cloudinary.com/papu/image/upload/v1634715583/xformation-website/Ticketing%20Tool/05_Reports_HelpdeskInDepth/01_Reports_u1ole6.png
+        name: Reports_HelpdeskInDepth
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715583/xformation-website/Ticketing%20Tool/05_Reports_HelpdeskInDepth/01_Reports_u1ole6.png
+            name: Reports
+            text: Reports
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715583/xformation-website/Ticketing%20Tool/05_Reports_HelpdeskInDepth/02_Helpdesk_In_Depth_hnleqs.png
+            name: Helpdesk_In_Depth
+            text: Helpdesk_In_Depth
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715583/xformation-website/Ticketing%20Tool/05_Reports_HelpdeskInDepth/03_Schedule_Reports_joimvt.png
+            name: Schedule_Reports
+            text: Schedule_Reports
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715583/xformation-website/Ticketing%20Tool/05_Reports_HelpdeskInDepth/04_Created_Tickets_Dashboard_ddz8rw.png
+            name: Created_Tickets_Dashboard
+            text: Created_Tickets_Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715583/xformation-website/Ticketing%20Tool/05_Reports_HelpdeskInDepth/05_Resolved_Tickets_Dashboard_tamu1c.png
+            name: Resolved_Tickets_Dashboard
+            text: Resolved_Tickets_Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/05_Reports_HelpdeskInDepth/06_Unresolved_Tickets_Dashboard_lyz4ah.png
+            name: Unresolved_Tickets_Dashboard
+            text: Unresolved_Tickets_Dashboard
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/05_Reports_HelpdeskInDepth/07_Reopened_Tickets_Dashboard_m4ok7s.png
+            name: Reopened_Tickets_Dashboard
+            text: Reopened_Tickets_Dashboard
+      - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/01_Reports_lmheyt.png
+        name: Reports_Ticket_Volume_Trend
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715584/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/01_Reports_lmheyt.png
+            name: Reports_Ticket_Volume
+            text: Reports_Ticket_Volume
   - img: https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png
     name: Service Desk Management
   - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
