@@ -740,6 +740,22 @@ scenarios:
             text: Perf_Mgmt_Discovery_Adding_Data_source
   - img: https://res.cloudinary.com/papu/image/upload/v1619520419/hybrid-cloud/E2E_Solution_cjkjsr.png
     name: Compliance Management
+    subItems:
+      - img: https://res.cloudinary.com/papu/image/upload/v1634559938/xformation-website/Compliance/01_Compliance_Dashboard/01_Compliance_Dashboard_r7mi1x.png
+        name: Compliance Dashboard
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559938/xformation-website/Compliance/01_Compliance_Dashboard/01_Compliance_Dashboard_r7mi1x.png
+            name: Compliance
+            text: Compliance
+      - img: https://res.cloudinary.com/papu/image/upload/v1634557655/xformation-website/Compliance/02_Run_Assessment/02_Run_Assesment_2_zsnxfc.png
+        name: Run Assessment
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634557651/xformation-website/Compliance/02_Run_Assessment/02_Run_Assesment_1_omf5l2.png
+            name: Run Assessment
+            text: Run Assessment
+          - img: https://res.cloudinary.com/papu/image/upload/v1634557655/xformation-website/Compliance/02_Run_Assessment/02_Run_Assesment_2_zsnxfc.png
+            name: Run Assessment
+            text: Run Assessment
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
     name: Element Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png
