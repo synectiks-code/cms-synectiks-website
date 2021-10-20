@@ -801,8 +801,39 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634559766/xformation-website/Compliance/06_Assessment_History/02_Assessment_History_Dashboard_c8bjdb.png
             name: Assessment_History_Dashboard
             text: Assessment_History_Dashboard
+      - img: https://res.cloudinary.com/papu/image/upload/v1634559897/xformation-website/Compliance/07_Compliance_Policy/01_Compliance_Policy_bucvo9.png
+        name: Compliance Policy
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559897/xformation-website/Compliance/07_Compliance_Policy/01_Compliance_Policy_bucvo9.png
+            name: Compliance_Policy
+            text: Compliance_Policy
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559899/xformation-website/Compliance/07_Compliance_Policy/02_Compliance_Policy_Create_New_Policy-Accounts_oe7rqq.png
+            name: Compliance_Policy_Create_New_Policy-Accounts
+            text: Compliance_Policy_Create_New_Policy-Accounts
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559896/xformation-website/Compliance/07_Compliance_Policy/03_Compliance_Policy_Create_New_Policy-Notification_bdbgje.png
+            name: Compliance_Policy_Create_New_Policy-Notification
+            text: Compliance_Policy_Create_New_Policy-Notification
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559896/xformation-website/Compliance/07_Compliance_Policy/04_Compliance_Policy_Create_New_Policy-Rulesets_otnwxm.png
+            name: Compliance_Policy_Create_New_Policy-Rulesets
+            text: Compliance_Policy_Create_New_Policy-Rulesets
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-    name: Element Management
+    name: Ticketing Tool
+    subItems:
+      - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/01_Preferences_Dashboard/01_Preferences_d4iz3m.png
+        name: Preferences Dashboard
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/01_Preferences_Dashboard/01_Preferences_d4iz3m.png
+            name: Preferences
+            text: Preferences
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/01_Preferences_Dashboard/02_Dashboard_k8txlz.png
+            name: Dashboard
+            text: Dashboard
+      - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/02_Tickets/01_Tickets_g9jcal.png
+        name: Ticket
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/02_Tickets/01_Tickets_g9jcal.png
+            name: Tickets
+            text: Tickets
   - img: https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png
     name: Service Desk Management
   - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
