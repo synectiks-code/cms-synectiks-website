@@ -756,6 +756,51 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634557655/xformation-website/Compliance/02_Run_Assessment/02_Run_Assesment_2_zsnxfc.png
             name: Run Assessment
             text: Run Assessment
+      - img: https://res.cloudinary.com/papu/image/upload/v1634557888/xformation-website/Compliance/03_Compliance_Ruleset/05_Compliance_Rulesets_Create_Ruleset_tj95qy.png
+        name: Compliance Ruleset
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634557886/xformation-website/Compliance/03_Compliance_Ruleset/04_Compliance_Rulesets_pgegb9.png
+            name: Compliance Ruleset
+            text: Compliance Ruleset
+          - img: https://res.cloudinary.com/papu/image/upload/v1634557888/xformation-website/Compliance/03_Compliance_Ruleset/05_Compliance_Rulesets_Create_Ruleset_tj95qy.png
+            name: Compliance_Rulesets_Create_Ruleset
+            text: Compliance_Rulesets_Create_Ruleset
+          - img: https://res.cloudinary.com/papu/image/upload/v1634557886/xformation-website/Compliance/03_Compliance_Ruleset/06_Compliance_Rulesets_Run_Assessment_evmnix.png
+            name: Compliance_Rulesets_Run_Assessment
+            text: Compliance_Rulesets_Run_Assessment
+      - img: https://res.cloudinary.com/papu/image/upload/v1634557977/xformation-website/Compliance/04_Exclusions/07_Exclusions_cq8q9a.png
+        name: Exclusion
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634557977/xformation-website/Compliance/04_Exclusions/07_Exclusions_cq8q9a.png
+            name: Exclusion
+            text: Exclusion
+          - img: https://res.cloudinary.com/papu/image/upload/v1634557973/xformation-website/Compliance/04_Exclusions/08_Exclusions_Create_Exclusion_gl0t0e.png
+            name: Exclusions_Create_Exclusion
+            text: Exclusions_Create_Exclusion
+          - img: https://res.cloudinary.com/papu/image/upload/v1634557974/xformation-website/Compliance/04_Exclusions/09_Exclusions_Delete_Exclusion_ttuxi0.png
+            name: Exclusions_Delete_Exclusion
+            text: Exclusions_Delete_Exclusion
+      - img: https://res.cloudinary.com/papu/image/upload/v1634559684/xformation-website/Compliance/05_Remediation/01_Remediation_kj0mti.png
+        name: Remediation
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559684/xformation-website/Compliance/05_Remediation/01_Remediation_kj0mti.png
+            name: Remediation
+            text: Remediation
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559684/xformation-website/Compliance/05_Remediation/02_Remediation_Delete_Remediation_1_hvhqnh.png
+            name: Remediation_Delete_Remediation
+            text: Remediation_Delete_Remediation
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559685/xformation-website/Compliance/05_Remediation/02_Remediation_Delete_Remediation_2_zey35w.png
+            name: Remediation_Delete_Remediation
+            text: Remediation_Delete_Remediation
+      - img: https://res.cloudinary.com/papu/image/upload/v1634559773/xformation-website/Compliance/06_Assessment_History/01_Assessment_History_Home_yxrfht.png
+        name: Assessment_History
+        useCaseSlider:
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559773/xformation-website/Compliance/06_Assessment_History/01_Assessment_History_Home_yxrfht.png
+            name: Assessment History Home
+            text: Assessment History Home
+          - img: https://res.cloudinary.com/papu/image/upload/v1634559766/xformation-website/Compliance/06_Assessment_History/02_Assessment_History_Dashboard_c8bjdb.png
+            name: Assessment_History_Dashboard
+            text: Assessment_History_Dashboard
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
     name: Element Management
   - img: https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png
