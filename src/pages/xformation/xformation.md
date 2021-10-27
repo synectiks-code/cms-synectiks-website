@@ -817,7 +817,7 @@ scenarios:
             name: Compliance_Policy_Create_New_Policy-Rulesets
             text: Compliance_Policy_Create_New_Policy-Rulesets
   - img: https://res.cloudinary.com/papu/image/upload/v1619520345/hybrid-cloud/Experience_iege6d.png
-    name: Ticketing Tool
+    name: Service Desk Management
     subItems:
       - img: https://res.cloudinary.com/papu/image/upload/v1634715581/xformation-website/Ticketing%20Tool/01_Preferences_Dashboard/01_Preferences_d4iz3m.png
         name: Preferences Dashboard
@@ -933,8 +933,6 @@ scenarios:
           - img: https://res.cloudinary.com/papu/image/upload/v1634715585/xformation-website/Ticketing%20Tool/06_Reports_Ticket_Volume_Trend/08_Overdue_t8eery.png
             name: Overdue
             text: Overdue
-  - img: https://res.cloudinary.com/papu/image/upload/v1619520383/hybrid-cloud/Expertise_cobi7k.png
-    name: Service Desk Management
   - img: https://res.cloudinary.com/papu/image/upload/v1633933559/xformation-website/Log%20Management/Alert%20and%20event/Log_Management_-_Alerts_gslxbf.jpg
     name: Log Management
     subItems:
