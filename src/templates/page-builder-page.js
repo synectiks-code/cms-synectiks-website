@@ -8,9 +8,7 @@ export const PageBuilderTemplate = () => {
     return (
         <section className="section">
             <div className="container content">
-                <div className="">
-                    <PageEditor />
-                </div>
+                <PageEditor />
             </div>
         </section>
     )

@@ -91,6 +91,7 @@ img {
     width: calc(100% - 0px);
     height: 650px;
     overflow: hidden;
+    background-color: #ffffff;
 }
 
 .editor-container .heading {
