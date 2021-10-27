@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RichTextEditor from 'react-rte';
+// import RichTextEditor from 'react-rte';
 
 export class Heading extends Component {
     titleRef = null;
@@ -16,7 +16,7 @@ export class Heading extends Component {
                 padding_top: ''
             },
 
-            value: RichTextEditor.createEmptyValue(),
+            // value: RichTextEditor.createEmptyValue(),
         }
     };
 
