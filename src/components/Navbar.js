@@ -197,7 +197,7 @@ class Navbar extends React.Component {
 								<ul className="default-active">
 									{this.renderCategoriesDesktop("product", posts)}
 								</ul>
-								<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
+					 			<button className="btn btn-close" onClick={() => this.setMainMenuActive(-1)}>
 									<BsChevronUp className='sub-icon' />
 								</button>
 							</div>
@@ -213,6 +213,10 @@ class Navbar extends React.Component {
 								</button>
 							</div>
 						</li>
+						<li className="nav-item">
+							<Link to="/faq">faq</Link>
+						</li>
+
 						<li className="nav-item">
 							<Link to="/workflowpost">Workflow</Link>
 						</li>
